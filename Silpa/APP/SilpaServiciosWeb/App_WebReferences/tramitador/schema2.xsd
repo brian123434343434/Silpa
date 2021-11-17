@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.gobiernoenlinea.gov.co/wspdi" elementFormDefault="qualified" targetNamespace="http://www.gobiernoenlinea.gov.co/wspdi" id="schema2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="HeaderCredenciales" type="tns:HeaderCredenciales" />
+  <xs:complexType name="HeaderCredenciales">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Clave" type="xs:string" />
+    </xs:sequence>
+    <xs:anyAttribute />
+  </xs:complexType>
+</xs:schema>

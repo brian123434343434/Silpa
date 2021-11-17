@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:ns0="http://www.ideam.gov.co/snif/registraraprovechamiento/" targetNamespace="http://www.ideam.gov.co/snif/registraraprovechamiento/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Auditoria" type="ns0:Auditoria" />
+  <xsd:element name="AprovechamientoRequest" type="ns0:AprovechamientoRequest" />
+  <xsd:element name="AprovechamientoResponse" type="ns0:AprovechamientoResponse" />
+  <xsd:complexType name="Auditoria">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="SistemaSolicitud" type="xsd:string" />
+      <xsd:element minOccurs="0" name="AutoridadAmbiental" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoNumeroTransaccion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Dependencia" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Usuario" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="AprovechamientoRequest">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="InfoGralAA" type="ns0:InfoGralAA" />
+      <xsd:element minOccurs="0" name="InfoUsuarioRecurso" type="ns0:InfoUsuarioRecurso" />
+      <xsd:element minOccurs="0" name="InfoGralTramite" type="ns0:InfoGralTramite" />
+      <xsd:element minOccurs="0" name="InfoLugarAprovechamiento" type="ns0:InfoLugarAprovechamiento" />
+      <xsd:element minOccurs="0" name="Poligono" type="ns0:Poligono" />
+      <xsd:element minOccurs="0" name="InfoEspecieAprovechada" type="ns0:InfoEspecieAprovechada" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoGralAA">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CodigoAutoridad" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Dependencia" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Funcionario" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Correo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Telefono" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoUsuarioRecurso">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CodigoTipoPersona" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoTipoIdentificacion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Identificacion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="RazonSocial" type="xsd:string" />
+      <xsd:element minOccurs="0" name="PrimerNombre" type="xsd:string" />
+      <xsd:element minOccurs="0" name="SegundoNombre" type="xsd:string" />
+      <xsd:element minOccurs="0" name="PrimerApellido" type="xsd:string" />
+      <xsd:element minOccurs="0" name="SegundoApellido" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CorreoElectronico" type="xsd:string" />
+      <xsd:element minOccurs="0" name="TelefonoFijo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Celular" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Direccion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoDepartamento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoMunicipio" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoGralTramite">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="NumeroActoAdministrativoAprovechamiento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="FechaExpedicionActoAdministrativo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="FechaFinalizacionActoAdministrativo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoClaseAprovechamiento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoUbicacionArbolAislado" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoFormaOtorgaAprovechamiento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="AreaTotalOtorgada" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoLugarAprovechamiento">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="NombrePredio" type="xsd:string" />
+      <xsd:element minOccurs="0" name="DireccionPredio" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Vereda" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Corregimiento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoDepartamento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoMunicipio" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Poligono">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="Vertices" nillable="true" type="ns0:Vertice" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Vertice">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Latitud" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Longitud" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoEspecieAprovechada">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="EspeciesAprovechadas" nillable="true" type="ns0:Especie" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Especie">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CodigoNombreCientifico" type="xsd:string" />
+      <xsd:element minOccurs="0" name="NombreComun" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoClaseRecurso" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoTipoProducto" type="xsd:string" />
+      <xsd:element minOccurs="0" name="VolumenBrutoOtorgadoMaderable" type="xsd:string" />
+      <xsd:element minOccurs="0" name="VolumenBrutoOtorgadoNoMaderable" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoUnidadMedida" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Observaciones" type="xsd:string" />
+      <xsd:element minOccurs="0" name="DiametroAlturaPecho" type="xsd:string" />
+      <xsd:element minOccurs="0" name="AlturaComercial" type="xsd:string" />
+      <xsd:element minOccurs="0" name="TratamientoSilviculturaAsignado" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="AprovechamientoResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Exitoso" type="xsd:boolean" />
+      <xsd:element minOccurs="0" name="CodigoError" type="xsd:string" />
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="MensajeError" nillable="true" type="xsd:string" />
+      <xsd:element minOccurs="0" name="IdentificadorCargue" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

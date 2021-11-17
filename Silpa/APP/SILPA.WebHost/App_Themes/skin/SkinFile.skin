@@ -1,0 +1,119 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:Label runat="server" cssClass="Label"/>
+<asp:Label SkinID="normal" runat="server" cssClass="normalText"/>
+<asp:Label SkinID="text" runat="server" cssClass="text"/>
+<asp:Label SkinID="TitApp" runat="server" cssClass="tituloApp"/>
+<asp:Label SkinID="txt_complemento" runat="server" cssClass="txt_complemento"/>
+<asp:Label SkinID="textInputReadOnly" runat="server" cssClass="textInputReadOnly"/>
+
+<%-- validadores--%>
+<asp:Label SkinID="info" runat="server" cssClass="info"/>
+<asp:Label SkinID="validador" runat="server" cssClass="validador"/>
+<asp:Label SkinID="summary" runat="server" cssClass="summary"/>
+
+<%--<ajaxToolkit:ValidatorCalloutExtender  runat="server" cssClass="required"/> -------------------------------------------  --%>
+
+<%-- Standard Controls--%>
+<asp:TextBox runat="server" cssClass="textInput"></asp:TextBox>
+<asp:DropDownList runat="server" cssClass="comboBox"/>
+<asp:ListBox runat="server" cssClass="comboBox"/>
+<asp:RadioButtonList runat="server" cssClass="radioButton"/>
+
+<asp:Button runat="server" cssClass="button"/>
+<asp:Button runat="server" cssClass="backButtonMenu" SkinID="volverMenu"/>
+<asp:Button runat="server" cssClass="moveLeftButton" SkinID="mLeftBtn"/>
+<asp:Button runat="server" cssClass="moveRightButton" SkinID="mRightBtn"/>
+
+<asp:Button runat="server" cssClass="buttonSalir" SkinID="salirBtn"/>
+
+<asp:Button runat="server" cssClass="buttonInit" SkinID="inicioBtn"/>
+
+<asp:CheckBox  runat="server" cssClass="checkBox"/>
+<asp:CheckBoxList runat="server" cssClass="checkBoxList"/>
+
+
+
+<%--
+<<asp:Menu runat="server" >
+    <StaticMenuItemStyle cssClass="Menu_css"/>
+    <DynamicHoverStyle cssClass="SubMenuOver_css"/>
+    <DynamicMenuStyle cssClass="SubMenu_css"/>
+    <StaticSelectedStyle cssClass=""/>
+    <DynamicSelectedStyle cssClass="SubMenu_css"/>
+    <DynamicMenuItemStyle cssClass="SubMenu_css"/>  
+    <StaticHoverStyle cssClass="SubMenuOver_css"/> 
+    <LevelMenuItemStyles>
+       <asp:MenuItemStyle CssClass="SubMenu0_css" />
+       <asp:MenuItemStyle CssClass="SubMenu1_css" />
+       <asp:MenuItemStyle CssClass="SubMenu2_css" />
+       <asp:MenuItemStyle CssClass="SubMenu3_css" />
+       <asp:MenuItemStyle CssClass="SubMenu4_css" />
+       <asp:MenuItemStyle CssClass="SubMenu5_css" />
+  </LevelMenuItemStyles>      
+
+</asp:Menu>
+--%>
+<asp:SiteMapPath runat="server">
+            <RootNodeStyle CssClass="mdp_principal" />
+            <PathSeparatorStyle CssClass="mdp_principal" />
+            <CurrentNodeStyle CssClass="mdp__actual" />
+            <NodeStyle CssClass="miga_de_pan" />
+</asp:SiteMapPath>
+
+<asp:Menu runat="server" CssClass="FirstLevel">
+    <DynamicHoverStyle CssClass="DynamicHover_css" />
+    <DynamicMenuStyle CssClass="DynamicMenu_css" />
+    <StaticHoverStyle CssClass="StaticHover"/>
+    <StaticMenuItemStyle CssClass="StaticMenuItem"/>
+    <StaticMenuStyle CssClass="StaticMenuStyle" />
+    <DynamicMenuItemStyle  CssClass="DynamicMenuItemStyle_css" /><%----%>
+</asp:Menu>
+
+
+<asp:GridView runat="server" CssClass="gridView_css">
+    <HeaderStyle cssClass='gridViewHeader_css' />
+    <RowStyle CssClass="rowStyle_css" />
+    <PagerStyle CssClass="rowStyle_css" />
+    <SelectedRowStyle CssClass="selectedRowStyle_css" />
+    <AlternatingRowStyle CssClass="alternatingRowStyle_css" />  
+</asp:GridView>
+
+<asp:DetailsView runat="server" CssClass="gridView_css">
+    <HeaderStyle cssClass='gridViewHeader_css' />
+    <FooterStyle CssClass="alternatingRowStyle_css" />
+    <RowStyle CssClass="rowStyle_css" />
+    <PagerStyle CssClass="rowStyle_css" />
+    <AlternatingRowStyle CssClass="alternatingRowStyle_css" /> 
+
+</asp:DetailsView>
+
+<asp:DetailsView runat="server" SkinID="clean" CssClass="gridView_css"/>
+
+
+<asp:TreeView runat="server" CssClass="Tree"  CollapseImageUrl="~/Images/iconos/collapse.gif" ExpandImageUrl="~/Images/iconos/expand.gif">
+   <SelectedNodeStyle CssClass="selected_Nodo" />
+        <NodeStyle CssClass="nodo" />
+</asp:TreeView>
+
+<asp:LinkButton runat="server" SkinID="tipoBoton" CssClass="linkButton"/>
+
+<asp:Image SkinId="procesando" runat="server" ImageUrl="~/App_Themes/img/Procesando.gif" AlternateText="Procesando..." Title="Procesando..." />
+<asp:Image SkinId="cabezote" runat="server" Width="100%" ImageUrl="~/App_Themes/img/iconos/pcabezote.jpg" />
+<asp:Image SkinId="PiePagina" runat="server" Width="100%" ImageUrl="~/App_Themes/Img/iconos/footer.jpg" />
+<asp:Image SkinId="fondoizquierda" runat="server" Width="100%" ImageUrl="~/App_Themes/Img/iconos/pizquierda.jpg" />
+<asp:Image SkinId="fondoderecha" runat="server" Width="100%" ImageUrl="~/App_Themes/Img/iconos/pderecha.jpg" />

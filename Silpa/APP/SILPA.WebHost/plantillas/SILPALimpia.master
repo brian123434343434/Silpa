@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SILPALimpia.master.cs" Inherits="plantillas_SILPALimpia" %>
+
+<!DOCTYPE html">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventanilla Ambiental</title>
+    <link href="../jquery/EstiloGris/jquery-ui.css" rel="stylesheet" />
+
+    <style>
+        .ContentPlaceHolder_Master {
+            width:100%;
+            border: 2px solid #86847F;
+            padding-top:10px;
+            padding-bottom:10px;
+            background-color: #FFFFFF;
+            border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;
+            position: relative;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="sitewrapper">
+        <div id="topHeader" style="color: gainsboro !important; padding: 0px !important; margin: 0px !important;">
+            <div class="container" style="padding-top: 15px !important; padding-bottom: 15px !important; vertical-align: middle; font-size: 8.5pt!important; font-family: Arial, sans-serif, Tahoma, Verdana;">
+                <div class="col-md-12">
+                    <div class="col-md-2 text-left">
+                        <a href='<%= this.URL_TESTSILPA %>' title="Regresar a la página principal" style="text-decoration: none; cursor: pointer;">
+                            <img src="../App_Themes/Img/home.png" alt="" width="27" style="max-width: 27px; max-height: 23px;" />
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-left">
+                        <asp:Label ID="lblFecha"  runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                    </div>
+                    <div class="col-md-4 text-center"></div>
+                    <div class="col-md-3 text-right"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ContentPlaceHolder_Master col-md-12">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="col-md-12">
+                <asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+            </div>
+        </div>
+        <footer role="contentinfo">
+            <div class="footer-below" style="border-top: 10px solid #151515;">
+                <div class="container">
+                    <div class="dnnpane">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject" style="color: #d2d2d2 !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important;">Copyright &copy; <%= DateTime.Now.Year %> Autoridad Nacional de Licencias Ambientales - ANLA</span>
+                            </div>
+                            <div class="terms-priv">
+                                <a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="javascript:;">Términos de uso</a>
+                                |
+					            <a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="javascript:;">Política de privacidad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <%--<script src='<%= ResolveClientUrl("~/jquery/jquery.js") %>' type="text/javascript"></script>--%>
+    <%--<script src='<%= ResolveClientUrl("~/jquery/EstiloGris/jquery-ui.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/jquery/jquery.numeric.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/jquery/jquery.datetimepicker.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/App_Themes/skin/Xcillion/Bootstrap/js/bootstrap.min.js?cdv=51") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/js/Xcillion/Js/jquery.smartmenus.js?cdv=51") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/js/Xcillion/Js/jquery.smartmenus.bootstrap.js?cdv=51") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/js/Xcillion/Js/scripts.js?cdv=51") %>' type="text/javascript"></script>
+    <script src="../js/VitalInicial.js" type="text/javascript"></script>--%>
+    </form>
+</body>
+</html>

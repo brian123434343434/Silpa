@@ -1,0 +1,23 @@
+﻿<root>
+  <tools>
+    <tool name="InsertTable" />
+    <tool name="ImageManager" />
+    <tool name="InsertImage" />
+    <tool name="LinkManager" />
+    <tool name="InsertLink" />
+    <tool name="Unlink" />
+  </tools>
+  <tools>
+    <tool name="Bold" />
+    <tool name="Italic" />
+    <tool name="Underline"  />
+    <tool name="FontName"/>
+    <tool name="FontSize" />
+    <tool name="ForeColor" />
+    <tool name="BackColor"  />
+    <tool name="JustifyLeft"/>
+    <tool name="JustifyCenter" />
+    <tool name="JustifyRight" />
+    <tool name="JustifyFull" />
+  </tools>
+</root>

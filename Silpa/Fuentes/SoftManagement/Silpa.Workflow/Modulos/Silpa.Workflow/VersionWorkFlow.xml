@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+<proyecto nombre ="Workflow" version ="1.0.0.0" actualizado= "29/06/2010 15:25" autor ="HAVA" descripcion="Se cambia la clase ServicioWorkflow.cs en su método Finalizar Tarea.  Se crea el archivo de versionamiento para el proyecto WorkFlow"/>
+<proyecto nombre ="Workflow" version ="1.0.0.1" actualizado= "30/09/2010 11:50" autor ="MIRM" descripcion="Adicion de la funcionalidad de direccionamiento ws"/>
+<proyecto nombre ="Workflow" version ="1.0.0.2" actualizado= "04/10/2010 06:40" autor ="MIRM" descripcion="cambi de llave en el direccionamiento de la WS"/>
+</version>  

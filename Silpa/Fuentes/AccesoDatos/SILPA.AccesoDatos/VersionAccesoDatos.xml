@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.1" actualizado= "18/12/2009 16:25" autor ="hava" descripcion="Se crea el archivo de versionamiento"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.2" actualizado= "18/12/2009 16:53" autor ="LACH" descripcion="Se agregaron las clases que permiten el listado la ubicacion y autoridades ambientales"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.3" actualizado= "19/12/2009 14:30" autor ="hava" descripcion="Se agregan las clases DocumentoIdentity, NotificacionIdentity, PersonaIdentity, TipoPersona, EntidadPublicaIdentity"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.4" actualizado= "30/12/2009 13:40" autor ="hava" descripcion="Se agregan las clases Proceso"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.5" actualizado= "04/01/2010 11:25" autor ="MIRM" descripcion="Creacion del espacio de lista de servicios"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.6" actualizado= "06/01/2010 05:00" autor ="YATC" descripcion="Cambios en la clase PublicacionDalc.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.7" actualizado= "07/01/2010 10:41" autor ="MIRM" descripcion="Cambios en la clase ProcesoDalc.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.8" actualizado= "07/01/2010 10:41" autor ="JDG" descripcion="Cambios en Clases que utiliza solicitud de DAA para el funcionamiento de estados"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.9" actualizado= "12/01/2010 9:27" autor ="YATC" descripcion="Creacion de las clases ComentarioDalc.cs, ComentarioIdentiy.cs, y PublicacionIdentity.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.10" actualizado= "12/01/2010 9:27" autor ="YATC" descripcion="Cambios en la clase PublicacionDalc.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.11" actualizado= "12/01/2010 22:30" autor ="MIRM" descripcion="Creacion de las Clases de ActividadProceso"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.12" actualizado= "12/01/2010 10:30" autor ="MIRM" descripcion="Creacion de las Clases de TokenUsuario"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.13" actualizado= "13/01/2010 10:45" autor ="LACH" descripcion="Modificaciones en las clases FomularioDalc y RadicacionDocumentoDalc para el funcionamiento de la actualizaciòn de la radicaciòn"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.14" actualizado= "13/01/2010 10:48" autor ="YATC" descripcion="Cambios en la clase PublicacionDalc.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.15" actualizado= "18/01/2010 18:51" autor ="YATC" descripcion="Creacion de clases para las operaciones con los campos y validaciones de FormBuilder"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.16" actualizado= "19/01/2010 18:15" autor ="YATC" descripcion="Cambios en las clases ValidacionCampoDalc.cs y ValidacionCampoIdentity.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.17" actualizado= "20/01/2010 12:20" autor ="YATC" descripcion="Cambios en las clases PersonaDalc.cs y PersonaIdentity.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.18" actualizado= "21/01/2010 17:59" autor ="YATC" descripcion="Creacion de los Dalc y los Identity para Opcionsancion, TipoFalta y TipoSancion"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.19" actualizado= "22/01/2010 17:59" autor ="LACH" descripcion="Cambios para la radicacion tanto manual como automatica"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.20" actualizado= "25/01/2010 11:00" autor ="YATC" descripcion="Creacion de las clases SAncionIdentity y SancionDalc"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.21" actualizado= "25/01/2010 14:01" autor ="YATC" descripcion="Cambios en la clase SancionDalc.cs y creacion de las clases RelacionSAncionIdentity y RelacionSancionDalc"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.22" actualizado= "25/01/2010 16:53" autor ="YATC" descripcion="Cambios en la clase SancionDalc.cs y creacion de las clases JurisdiccionIdentity y JurisdiccionDalc"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.23" actualizado= "26/01/2010 14:44" autor ="YATC" descripcion="Cambios en la clase RelacionSancionDalc.cs y SancionDalc.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.24" actualizado= "28/01/2010 08:47" autor ="LACH" descripcion="Cambios para almacenar en el filetrafic los archivos subidos al bpm"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.25" actualizado= "28/01/2010 05:07" autor ="LACH" descripcion="Clase que se encarga del acceso a datos de los parametros del bpm en silpa"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.26" actualizado= "28/01/2010 18:14" autor ="YATC" descripcion="Cambios en la clase TipoUbicacionDalc.cs y creacion de la clase RecursoDalc.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.27" actualizado= "29/01/2010 17:37" autor ="YATC" descripcion="Creacion de las clases CoordenadaIdentity.cs, PersonaQuejaDalc.cs, PersonaQuejaIdentity.cs, QuejaDalc.cs, QuejaIdentity.cs y QuejaRecursoIdentity.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.28" actualizado= "01/02/2010 10:35" autor ="MIRM" descripcion="Adicion de los atributos de Numero silpa y tipo de proceso a las clases de solicitud daa"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.29" actualizado= "01/02/2010 12:17" autor ="HAVA" descripcion="Modificación de las clase CorrespondenciaDalc"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.30" actualizado= "01/02/2010 12:20" autor ="AEGB" descripcion="Creacion de carpeta parametrizacion y clase proceso para la tabla generica del proceso"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.31" actualizado= "01/02/2010 12:27" autor ="LACH" descripcion="Modificación de la clase ProcesoDalc, para definir cual es la condición que va a finalizar la actividad actual"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.32" actualizado= "02/02/2010 11:21" autor ="YATC" descripcion="Cambios en las clases AutoridadAmbientalDalc.cs, QuejaDalc.cs y QuejaIdentity.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.33" actualizado= "02/02/2010 11:21" autor ="MIRM" descripcion="Modificacion del atributo de Numero silpa en las clases de solicitud daa y su Identidad"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.34" actualizado= "01/02/2010 12:17" autor ="HAVA" descripcion="Modificación de la clase PublicacionIdentity"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.35" actualizado= "09/02/2010 16:18" autor ="HAVA" descripcion="Agregada al calse Publicacion/DetalleDocumentoIdentity para listar los documentos asociados a una publicación"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.36" actualizado= "12/02/2010 08:04" autor ="AEGB" descripcion="Creacion de carpeta comunicacion y clase ComunicacionVisitaIdentity para envio de comunicacion de visita, modificaicon de la case personadalc se agrego consulta de la lista de personas del numero silpa"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.36" actualizado= "12/02/2010 15:56" autor ="YATC" descripcion="Se crean las clases EspecimenIdentity, Especimendalc, SalvoconductoIdentity y SalvoconductoDalc"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.37" actualizado= "15/02/2010 18:00" autor ="JDGB" descripcion="Creación de Entidades para crear proceso de notificación y manejo de estados, y se agrega el tipo XSD para comunicación de servicio de notificación."/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.38" actualizado= "28/02/2010 18:00" autor ="JDGB" descripcion="Creación de Entidades Para manejo de Actividades Radicables en BPM"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.39" actualizado= "03/03/2010 18:00" autor ="LACH" descripcion="Cambios en correspondencia para que trasmita el numero silpa compuesto"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.40" actualizado= "16/03/2010 18:00" autor ="MIRM" descripcion="Adicion de la funcionalidad de cesion de derechos"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.41" actualizado= "19/03/2010 18:00" autor ="MIRM" descripcion="Adicion en la funcionalidad de cesion de derechos con la opcion de numero de quien esta en el Numero SILPA"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.42" actualizado= "29/03/2010 15:00" autor ="DGUT" descripcion="Se agrega el metodo ObtenerPersonasByAutoridadAmbiental en personaDalc y se agrega la propiedad EnProceso en PersonaIdentity"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.43" actualizado= "06/04/2010 15:00" autor ="MIRM" descripcion="Modificacion de la clase PersonaDalc.ObtenerPersonasByAutoridadAmbiental"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.44" actualizado= "06/04/2010 15:00" autor ="MIRM" descripcion="Modificacion de la clase Cesion de derechos"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.45" actualizado= "19/04/2010 14:43" autor ="HAVA" descripcion="Modificación de la unidad RadicaciónDocumentoDalc.cs"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.46" actualizado= "21/04/2010 14:43" autor ="HAVA" descripcion="Se crea la unidad RUIAIdentity.cs por omar mesa,  y se modifica la clase PublicacionDalc.InsertarPublicacion"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.47" actualizado= "28/04/2010 2243" autor ="LACH" descripcion="se creo la consulta en solicitudDAAEIADalc para traer los datos necesarios en el reporte de tramites"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.48" actualizado= "28/04/2010 22:43" autor ="LACH" descripcion="se creo la consulta en DocumentacionSolicitudDalc para traer los datos necesarios en el Detalle de reporte de tramites"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.49" actualizado= "28/04/2010 22:43" autor ="LACH" descripcion="se creo la consulta en QuejaDalc y PersonaQuejaDalc para traer los datos necesarios en el Detalle de reporte de tramites"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.50" actualizado= "26/05/2010 22:43" autor ="MIRM" descripcion="Implementación de Seguridad en los WS"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.51" actualizado= "28/05/2010 11:32" autor ="HAVA" descripcion="Ajustes a los clases relacionadas con la funcionalidad de registro de usuarios"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.52" actualizado= "31/05/2010 11:32" autor ="MIRM" descripcion="Creacion de las Clases de cuencas en Generico"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.53" actualizado= "31/05/2010 11:32" autor ="MIRM" descripcion="Adicion del metodo sobrecargado ListarSecgtor en Generico.SectorDalc"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.54" actualizado= "31/05/2010 04:39" autor ="JDGB" descripcion="Actualización de todas las Entidades y DALC de Notificación y Recurso de Reposición para Integración con Notificación Electrónica"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.55" actualizado= "05/06/2010 11:32" autor ="MIRM" descripcion="Modificacion de la clase SolicitudDAAEIADalc.cs para consulta de mis tramites"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.56" actualizado= "11/06/2010 11:32" autor ="MIRM" descripcion="Creacion de los Dalc de Monitoreo"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.58" actualizado= "26/06/2010 11:32" autor ="MIRM" descripcion="Adicion a la funcionalidad de Impresion FUS"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.59" actualizado= "26/06/2010 11:32" autor ="HAVA" descripcion="Se resuelve la incidencia 2058"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.60" actualizado= "05/07/2010 11:32" autor ="MIRM" descripcion="Adicion del metodo NumeroInstancia en la clase Generico/NumeroSilpaDalc.cs; Incidencia 1995"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.61" actualizado= "07/09/2010 15:13" autor ="HAVA" descripcion="Modificacion de la clase QuejasDalc"/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.62" actualizado= "13/09/2010 15:13" autor ="RFRP" descripcion="Nuevos Objetos en la carpeta Generico para activacion de enrolamiento "/>
+<proyecto nombre ="AccesoDatos" version ="1.0.0.63" actualizado= "04/10/2010 11:56" autor ="HAVA" descripcion="Se agrega funcionalidad para formulario.cs, útil para la cesión de derechos.. "/>
+</version>

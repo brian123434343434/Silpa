@@ -1,0 +1,138 @@
+﻿.div-titulo {
+    text-align: right;
+    vertical-align: middle;
+    line-height: 4em;
+    margin-right: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-titulo2 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4em;
+    width: 500px;
+    height: 50px;
+    background-image: url(../img/iconos/titulo2.bmp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-contenido {
+    margin-left: 40px !important;
+    margin-top: 20px;
+    width: 100%;
+   
+}
+
+.div-contenido2 {
+    margin-bottom: 50px;
+    width: 700px;
+    margin-left: 120px;
+    margin-right: 20px;
+    margin-top: 1px;
+    text-align: left;
+}
+
+.stiles {
+    padding: 5px 5px 140px 60px;
+    background: url("../Img/Dibujo2.JPG") repeat-x scroll 0 0 #D8E0E8;
+    border: 1px solid #000000;
+    font-size: 300%;
+    margin-bottom: 50px;
+    width: 650px;
+    height: 300px;
+    margin-left: 120px;
+    margin-right: 20px;
+    margin-top: 1px;
+    text-align: left;
+}
+
+
+
+.modal-fondo {
+    background-color: #707070;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.RegistroVisor {
+    border: 1px solid #848484;
+}
+
+    .RegistroVisor .td1 {
+        background-color: #5078B3;
+        color: #DAE3EB;
+        font-family: "Arial";
+        vertical-align: central;
+        font-weight: bold;
+    }
+
+.bodyCometario {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    font-family: Aerial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.ArchivosSolicitud {
+    float: right;
+    text-align: right;
+}
+
+.NombreProyecto {
+    float: left;
+    text-align: left;
+}
+
+.validador {
+    font-family: Tahoma;
+    color: red;
+}
+
+.ContentPlaceHolder {
+    width: 100%;
+    border: 2px solid #86847F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFF;
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+footer h2 {
+    font-family: 'Oswald-Light', Sans-Serif;
+    border-bottom: 1px solid #CCC;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #CCCCCC;
+    padding-top: 2px;
+}
+
+.container {
+    padding: 15px;
+}
+
+.site-footer, .footer:after {
+    margin-top: 15px;
+}
+
+@media (min-height: 768px) {
+    .fondo {
+        min-height: 60%;
+    }
+}
+
+.ui-datepicker-week-end {
+    width: 30px !important;
+}

@@ -1,0 +1,56 @@
+
+.ajax__tab_xp .ajax__tab_tab {
+    height: auto;
+    padding: 4px;
+    margin: 0px;
+    background: none;
+    background-color: #fff;
+    color: #004880;
+    border: 1px solid #D8E1EF !important;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom: 3px solid #004880 !important;
+}
+
+.ajax__tab_xp .ajax__tab_outer {
+    padding-right: 4px;
+    background: none;
+    height: auto;
+}
+
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_tab {
+    cursor: pointer;
+    background: none;
+    background-color: #D8E1EF;
+}
+
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_inner {
+    cursor: pointer;
+    background: none;
+}
+
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_outer {
+    cursor: pointer;
+    background: none;
+}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_tab {
+    background: none;
+    background-color: #004880;
+    color: #fff;
+}
+
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner {
+    background: none;
+}
+.ajax__tab_xp .ajax__tab_inner {
+    background: none;
+}
+
+.ajax__tab_xp .ajax__tab_active .ajax__tab_outer {
+    background: none;
+}
+
+
+.ajax__tab_xp .ajax__tab_body {
+    border: 0;
+}

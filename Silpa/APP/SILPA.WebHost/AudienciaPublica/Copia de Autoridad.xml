@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<autoridad>
+<autoridad_ambiental AUT_ID="0" AUT_NOMBRE="Seleccione..." />
+<autoridad_ambiental AUT_ID="2" AUT_NOMBRE="CORPONARIÑO" />
+<autoridad_ambiental AUT_ID="3" AUT_NOMBRE="MAVDT" />
+<autoridad_ambiental AUT_ID="5" AUT_NOMBRE="CRQ" />
+<autoridad_ambiental AUT_ID="11" AUT_NOMBRE="CORANTIOQUIA" />
+<autoridad_ambiental AUT_ID="6" AUT_NOMBRE="CORPONOR" />
+</autoridad>

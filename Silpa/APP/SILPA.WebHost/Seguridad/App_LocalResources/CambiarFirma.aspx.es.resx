@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdAceptarResource1.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="cmdAceptarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fluFirmaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fluLogoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFirmaResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFirmaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgLogoResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgLogoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMensajeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMensajeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNombreResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNombreResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloResource1.Text" xml:space="preserve">
+    <value>CAMBIAR FIRMA</value>
+  </data>
+  <data name="lblTituloResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Ventanilla Ambiental</value>
+  </data>
+  <data name="rexFirmaResource1.ErrorMessage" xml:space="preserve">
+    <value>Solo se permite imagenes en formato .bmp, .jpg, .jpeg y .png</value>
+  </data>
+  <data name="rexFirmaResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rexFirmaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rexLogoResource1.ErrorMessage" xml:space="preserve">
+    <value>Solo se permite imagenes para el logo en formato .bmp, .gif, .jpg, .jpeg y .png</value>
+  </data>
+  <data name="rexLogoResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rexLogoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvCargoResource1.ErrorMessage" xml:space="preserve">
+    <value>Debe ingresar el cargo de la persona autorizada</value>
+  </data>
+  <data name="rfvCargoResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvCargoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvContrasenaResource1.ErrorMessage" xml:space="preserve">
+    <value>Debe ingresar la segunda contraseña</value>
+  </data>
+  <data name="rfvContrasenaResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvContrasenaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvFirmaResource1.ErrorMessage" xml:space="preserve">
+    <value>Debe seleccionar un archivo de Imagen para la firma autorizada</value>
+  </data>
+  <data name="rfvFirmaResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvFirmaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvLogoResource1.ErrorMessage" xml:space="preserve">
+    <value>Debe seleccionar el logo a utilizar en los documentos</value>
+  </data>
+  <data name="rfvLogoResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvLogoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvNombreResource1.ErrorMessage" xml:space="preserve">
+    <value>Debe ingresar el nombre de la persona autorizada</value>
+  </data>
+  <data name="rfvNombreResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvNombreResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCargoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCargoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContrasenaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContrasenaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNombreResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNombreResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valFirmaResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valFirmaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLogoResource1.InnerHtml" xml:space="preserve">
+    <value>Logo Documentos</value>
+  </data>
+  <data name="lblSegundaContrasenaResource1.InnerHtml" xml:space="preserve">
+    <value>Segunda Contraseña</value>
+  </data>
+  <data name="lblTituloCargoResource1.InnerHtml" xml:space="preserve">
+    <value>Cargo Persona Autorizada</value>
+  </data>
+  <data name="lblTituloFirmaResource1.InnerHtml" xml:space="preserve">
+    <value>Imagen Firma Autorizada</value>
+  </data>
+  <data name="lblTituloNombreResource1.InnerHtml" xml:space="preserve">
+    <value>Nombre Persona Autorizada</value>
+  </data>
+  <data name="spnCargoResource1.title" xml:space="preserve">
+    <value>Ingrese el cargo de la persona a la cual se encuentra referenciada la firma y que se encuentra autorizada para la firma de documentos.</value>
+  </data>
+  <data name="spnFirmaResource1.title" xml:space="preserve">
+    <value>Seleccione la imagen de la firma que utilizará en los documentos. Esta imagen deberá encontrarse en formatos .bmp, .gif, .jpg, jpeg o png, y tener un tamaño de 300 x 60 pixeles.</value>
+  </data>
+  <data name="spnLogoResource1.title" xml:space="preserve">
+    <value>Seleccione el logo que desee utilizar en los documentos. Esta imagen deberá encontrarse en formatos .bmp, .gif, .jpg, jpeg o png, y tener un tamaño de 255 x 57 pixeles.</value>
+  </data>
+  <data name="spnNombreResource1.title" xml:space="preserve">
+    <value>Ingrese el nombre de la persona a la cual se encuentra referenciada la firma y que se encuentra autorizada para la firma de documentos.</value>
+  </data>
+  <data name="ltlCerrarContrasenaResource1.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="ltlLimpiarContrasenaResource1.Text" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="btnFirmaResource1.value" xml:space="preserve">
+    <value>Seleccionar Archivo</value>
+  </data>
+  <data name="btnLogoResource1.value" xml:space="preserve">
+    <value>Seleccionar Archivo</value>
+  </data>
+</root>

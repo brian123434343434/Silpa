@@ -1,0 +1,166 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SILPAIdioma.master.cs" Inherits="plantillas_SilpaIdioma" %>
+
+<%@ Register Src="~/controles/User.ascx" TagName="User" TagPrefix="uc4" %>
+
+<%--<%@ Register Src="~/controles/Cabezote.ascx" TagName="Cabezote" TagPrefix="uc1" %>
+<%@ Register Src="~/controles/MenuPrincipal.ascx" TagName="MenuPrincipal" TagPrefix="uc2" %>
+<%@ Register Src="~/controles/PiePagina.ascx" TagName="PiePagina" TagPrefix="uc3" %>
+<%@ Register Src="~/controles/FondoIzquierda.ascx" TagName="FondoIzq" TagPrefix="uc5" %>
+<%@ Register Src="~/controles/FondoDerecha.ascx" TagName="FondoDer" TagPrefix="uc6" %>--%>
+
+<!DOCTYPE html">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventanilla Ambiental</title>
+    <link href="../jquery/EstiloGris/jquery-ui.css" rel="stylesheet" />
+
+    <style>
+        .ContentPlaceHolder_Master {
+            width:100%;
+            border: 2px solid #86847F;
+            padding-top:10px;
+            padding-bottom:10px;
+            background-color: #FFFFFF;
+            border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;
+            position: relative;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }        
+    </style>
+
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="sitewrapper">
+        <div id="topHeader" style="color: gainsboro !important; padding: 0px !important; margin: 0px !important;">
+            <div class="container" style="padding-top: 15px !important; padding-bottom: 15px !important; vertical-align: middle; font-size: 8.5pt!important; font-family: Arial, sans-serif, Tahoma, Verdana;">
+                <div class="col-md-12">
+                    <div class="col-md-2 text-left">
+                        <a runat="server" id="lnkVolverHome" title="Regresar a la página principal" style="text-decoration: none; cursor: pointer;">
+                            <img src='<%= ResolveClientUrl("~/App_Themes/Img/home.png") %>' alt="" width="27" style="max-width: 27px; max-height: 23px;" />
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-left">
+                        <asp:Label ID="lblFecha"  runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <asp:Label ID="lblInfoImpers" runat="server" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                        <asp:LinkButton ID="lnkFinalizarImpersonalizacion" runat="server" Visible="False" 
+                            Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"
+                            Font-Bold="true" Font-Underline="true" 
+                            OnClick="lnkFinalizarImpersonalizacion_Click" >Finalizar Modo Funcionario</asp:LinkButton>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <uc4:User ID="ucUserData" runat="server" />
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-2 text-left"></div>
+                    <div class="col-md-3 text-left"></div>
+                    <div class="col-md-4 text-center"></div>
+                    <div class="col-md-3 text-right" style="font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important; padding: 2px !important; vertical-align: middle !important;">
+                        <asp:Label ID="lblIdioma" runat="server" Text="Idioma / Language: " Font-Size="9pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label> 
+                        <asp:DropDownList ID="cboIdioma" runat="server" OnSelectedIndexChanged="cboIdioma_SelectedIndexChanged" AutoPostBack="true" style="height: 25px !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 8.5pt !important; padding: 2px !important;"></asp:DropDownList>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ContentPlaceHolder_Master col-md-12">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="col-md-12">
+                <asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+            </div>
+        </div>
+        <footer role="contentinfo">
+            <div class="footer-below" style="border-top: 10px solid #151515;">
+                <div class="container">
+                    <div class="dnnpane">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject" style="color: #d2d2d2 !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important;">Copyright &copy; <%= DateTime.Now.Year %> Autoridad Nacional de Licencias Ambientales - ANLA</span>
+                            </div>
+                            <div class="terms-priv">
+                                <a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="javascript:;">Términos de uso</a>
+                                |
+					            <a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="javascript:;">Política de privacidad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>        
+    </form>
+
+
+    <%--<form id="form1" runat="server">    
+    <div id="sitewrapper" style="background-color: #FFFFFF !important;">
+        <div id="topHeader" style="color: gainsboro !important; padding: 0px !important; margin: 0px !important;">
+            <div class="container" style="padding-top: 15px !important; padding-bottom: 15px !important; vertical-align: middle; font-size: 8.5pt!important; font-family: Arial, sans-serif, Tahoma, Verdana;">
+                <div class="col-md-12">
+                    <div class="col-md-4 text-left">
+                        <asp:Label ID="lblFecha"  runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <asp:Label ID="lblInfoImpers" runat="server" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                        <asp:LinkButton ID="lnkFinalizarImpersonalizacion" runat="server" Visible="False" 
+                            Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"
+                            Font-Bold="true" Font-Underline="true" 
+                            OnClick="lnkFinalizarImpersonalizacion_Click" >Finalizar Modo Funcionario</asp:LinkButton>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <uc4:User ID="ucUserData" runat="server" />
+                    </div>
+                </div>
+            <div class="col-md-12">
+                <div class="col-md-3 text-right"></div>
+                <div class="col-md-3 text-right"></div>
+                <div class="col-md-3 text-right" style="font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important; padding: 2px !important; vertical-align: middle !important;">
+                    <asp:Label ID="lblIdioma" runat="server" Text="Idioma / Language: " Font-Size="9pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label> 
+                </div>
+                <div class="col-md-3 text-right">
+                    <asp:DropDownList ID="cboIdioma" runat="server" OnSelectedIndexChanged="cboIdioma_SelectedIndexChanged" AutoPostBack="true" style="height: 25px !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 8.5pt !important; padding: 2px !important;"></asp:DropDownList>
+                </div>
+            </div>
+            </div>
+        </div>        
+        <div class="container" style="background-color: #FFFFFF !important;">
+            <div class="ContentPlaceHolder_Master col-md-12">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="col-md-12">
+                <asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+            </div>
+        </div>
+        <footer role="contentinfo">
+            <div class="footer-below" style="border-top: 10px solid #151515;">
+                <div class="container">
+                    <div class="dnnpane">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject" style="color: #d2d2d2 !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important;">Copyright &copy; <%= DateTime.Now.Year %> Autoridad Nacional de Licencias Ambientales - ANLA</span>
+                            </div>
+                            <div class="terms-priv">
+                                <a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="javascript:;">Términos de uso</a>
+                                |
+					            <a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="javascript:;">Política de privacidad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </form>--%>
+</body>
+</html>

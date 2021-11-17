@@ -1,0 +1,305 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SILPASinMenuFlash.master.cs" Inherits="plantillas_SILPASinMenuFlash" %>
+
+<%@ Register Src="~/controles/User.ascx" TagName="User" TagPrefix="uc4" %>
+
+<!DOCTYPE html">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventanilla Ambiental</title>
+    <link href="../jquery/EstiloGris/jquery-ui.css" rel="stylesheet" />
+	
+	<!-- Nuevos estilos -->
+<link noborrar="no" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<link noborrar="no" rel="stylesheet" type="text/css" href="fontawesome.min.css">
+<link noborrar="no" rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link noborrar="no" rel="stylesheet" type="text/css" href="styles-vital.css"> 
+<link noborrar="no" rel="stylesheet" type="text/css" href="tabs-nuevas.css"> 
+<style>
+footer[role="contentinfo"]{
+    display: none;
+}
+input[type=submit] {
+    max-width: 200px !important;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+</style>
+<!-- Fin estilos -->
+
+
+<!-- Inicio header -->
+<header class="he_header"><div class="container"><div class="row"><div class="col-md-12 he_logo"><a target="_blank" href="https://www.gov.co"><img src="/SILPA/eformbuilder/public/img/logo_header.png" alt="logo"></a></div></div></div></header>
+
+<div class="container logos-h"><div class="row"><div class="col-md-8 text-left"><div><a href="/"><img src="/SILPA/eformbuilder/public/img/Logo-Vital.png" alt="logo vital"></a></div></div><div class="col-md-4 text-right"><div><a href="/"><img src="/SILPA/eformbuilder/public/img/Logo-MADS.png" alt="logo mads"></a></div></div></div></div>
+
+    <style>
+        .ContentPlaceHolder_Master {
+            width:100%;
+            border: 2px solid #86847F;
+            padding-top:10px;
+            padding-bottom:10px;
+            background-color: #FFFFFF;
+            border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;
+            position: relative;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="sitewrapper" style="background-color: #FFFFFF !important;">
+        <div id="topHeader" style="color: gainsboro !important; padding: 0px !important; margin: 0px !important;">
+            <div class="container" style="padding-top: 15px !important; padding-bottom: 15px !important; vertical-align: middle; font-size: 8.5pt!important; font-family: Arial, sans-serif, Tahoma, Verdana;">
+                <div class="col-md-12">
+                    <div class="col-md-2 text-left">
+                        <a href='<%= this.URL_TESTSILPA %>' title="Regresar a la página principal" style="text-decoration: none; cursor: pointer;">
+                            <img src="../App_Themes/Img/home.png" alt="" width="27" style="max-width: 27px; max-height: 23px;" />
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-left">
+                        <asp:Label ID="lblFecha"  runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <asp:Label ID="lblInfoImpers" runat="server" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                        <asp:LinkButton ID="lnkFinalizarImpersonalizacion" runat="server" Visible="False" 
+                            Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"
+                            Font-Bold="true" Font-Underline="true" 
+                            OnClick="lnkFinalizarImpersonalizacion_Click" >Finalizar Modo Funcionario</asp:LinkButton>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <uc4:User ID="ucUserData" runat="server" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="background-color: #FFFFFF !important;">
+            <div class="ContentPlaceHolder_Master col-md-12">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="col-md-12">
+                <asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+            </div>
+        </div>
+        <footer role="contentinfo">
+            <div class="footer-below" style="border-top: 10px solid #151515;">
+                <div class="container">
+                    <div class="dnnpane">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject" style="color: #d2d2d2 !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important;">Copyright &copy; <%= DateTime.Now.Year %> Autoridad Nacional de Licencias Ambientales - ANLA</span>
+                            </div>
+                            <div class="terms-priv">
+                                <a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="javascript:;">Términos de uso</a>
+                                |
+					            <a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="javascript:;">Política de privacidad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <%--<script src='<%= ResolveClientUrl("~/jquery/jquery.js") %>' type="text/javascript"></script>--%>
+    <%--<script src='<%= ResolveClientUrl("~/jquery/EstiloGris/jquery-ui.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/jquery/jquery.numeric.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/jquery/jquery.datetimepicker.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/App_Themes/skin/Xcillion/Bootstrap/js/bootstrap.min.js?cdv=51") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/js/Xcillion/Js/jquery.smartmenus.js?cdv=51") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/js/Xcillion/Js/jquery.smartmenus.bootstrap.js?cdv=51") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/js/Xcillion/Js/scripts.js?cdv=51") %>' type="text/javascript"></script>
+    <script src="../js/VitalInicial.js" type="text/javascript"></script>--%>
+    </form>
+</body>
+<footer class="he_footer"><div class="container"><div class="row"><div class="col-xl-2 col-lg-3 split screen-lg logos"><div class="logo"><a target="_blank" href="https://www.gov.co/"><img src="/SILPA/eformbuilder/public/img/logo_footer.png"></a></div><div class="logo_co"><a target="_blank" href="https://www.gov.co/"><img src="/SILPA/eformbuilder/public/img/logo_co_footer.png"></a></div></div><div class="col-xl-6 col-lg-5 split"><h4>Ventanilla Integral del Trámite Ambiental</h4><p>Dirección: Calle 37 No. 8-40 Bogotá D.C.<br>Horario de atención: Lunes a Viernes de 8:00 a.m. a 4:30 p.m.</p><ul class="he_footer_redes text-center"><a target="_blank" href="https://twitter.com/insor_colombia"><li><i class="fab fa-twitter fa-circulo"></i><div class="fa_text">@MINAMBIENTE</div></li></a><a target="_blank" href="#"><li><i class="fab fa-instagram fa-circulo"></i><div class="fa_text">@MINAMBIENTE</div></li></a><a target="_blank" href="#"><li><i class="fab fa-facebook-f fa-circulo"></i><div class="fa_text">@MINAMBIENTE</div></li></a></ul></div><div class="col-lg-4 no-split"><h4><i class="fa fa-phone" aria-hidden="true"></i> Contacto</h4><p>Teléfono conmutador: (57-1) 3323400<br>Línea gratuita nacional: 01 8000 919 301<br>Whatsapp empresarial: +57 310-221 3891<br>Correo: servicioalciudadano@minambiente.gov.co</p></div><div class="col-lg-2 no-split split-top screen-md-sm logos_movil"><div class="logo"><a target="_blank" href="https://www.gov.co/"><img src="img/logo_footer.png"></a></div><div class="logo_co"><a target="_blank" href="https://www.gov.co/"><img src="img/logo_co_footer.png"></a></div></div></div></div></footer>
+
+<!-- Accesibilidad agregar este html abajo en el body-->
+<div class="block block--gov-accessibility">
+<div class="block-options">
+<a class="contrast-ref" rel="noopener">
+<span class="govco-icon govco-icon-contrast-n"></span>
+<label> Contraste </label>
+</a>
+<a class="min-fontsize" rel="noopener">
+<span class="govco-icon govco-icon-less-size-n">
+</span>
+<label class="align-middle"> Reducir letra </label>
+</a>
+<a class="max-fontsize" rel="noopener">
+<span class="govco-icon govco-icon-more-size-n">
+</span>
+<label class="align-middle"> Aumentar letra </label>
+</a>
+<a class="centro-relevo" href="https://centroderelevo.gov.co/632/w3-channel.html" target="_blank">
+<span class="govco-icon govco-icon-relief-n">
+</span>
+<label class="align-middle"> Centro de relevo </label>
+</a>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script>
+
+jQuery(document).ready(function () {
+//Limpiar estructura y css
+
+   $('link[rel=stylesheet][href="App_Themes/skin/AyudaStyle.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/base.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/DetalleSalvoconducto.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/EstiloMenuAdminSUNL.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/EstiloMenuSINTRAB.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/estilos.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Menu.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/PG.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/PG2.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/SkinRequiredFieldValidator.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/SmokeAndGlass.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/StyleAutoliquidacion.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/StyleControls.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/StyleMenu.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/StyleNotificacion.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/StylePDV.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/StyleREDDS.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/StyleRID.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/StyleSeguridad.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/styleTree.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Xcillion/Bootstrap/css/bootstrap.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Xcillion/Bootstrap/css/bootstrap.min.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Xcillion/Css/font-awesome.min.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Xcillion/Css/jquery.smartmenus.bootstrap.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Xcillion/home.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Xcillion/Menus/MainMenu/MainMenu.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Xcillion/portal.css"]').remove();
+   $('link[rel=stylesheet][href="App_Themes/skin/Xcillion/skin.css"]').remove();
+
+    $('input[type="submit"]').removeClass('form-control');
+    $('input[type="submit"]').addClass('btn-high btn-gov-mads');
+
+
+    $('#topHeader .col-md-12').attr('id','nuevafila');
+    $('#topHeader #nuevafila').removeClass('col-md-12');
+    $('#topHeader #nuevafila').addClass('row');
+
+    $('#topHeader #nuevafila > div:nth-child(1)').css('display','none');
+    $('#topHeader #nuevafila > div:nth-child(3)').removeClass('col-md-4');
+    $('#topHeader #nuevafila > div:nth-child(4)').removeClass('col-md-3');
+
+    $('#topHeader #nuevafila > div:nth-child(3)').addClass('col-md-4');
+    $('#topHeader #nuevafila > div:nth-child(4)').addClass('col-md-3');
+
+    $('.cssBgLeft').next('td tbody tr').each(function(i, obj) {
+        var $id = $( this ).attr('id');
+        $( this ).replaceWith( '<div id="'+$id+'">' + $( this ).html() + '</div>' );
+    });
+
+    $('.cssBgLeft').next('td tbody td').each(function(i, obj) {
+        var $id = $( this ).attr('id');
+        $( this ).replaceWith( '<div id="'+$id+'">' + $( this ).html() + '</div>' );
+    });
+
+    $('.cssBgLeft').next('td').each(function(i, obj) {
+        var $id = $( this ).attr('id');
+        $(this).attr('style','');
+        $( this ).replaceWith( '<div id="'+$id+'">' + $( this ).html() + '</div>' );
+    });
+
+
+    $('input:not(#ctl00_ContentPlaceHolder1_cmdResultadoDatosPersonaHide)').each(function(){
+        $(this).attr('style','');
+        $(this).addClass('form-control');
+    });
+
+    $('select').each(function(){
+        $(this).attr('style','');
+        $(this).addClass('form-control');
+    });
+
+    $('textarea').each(function(){
+        $(this).attr('style','');
+        $(this).addClass('form-control');
+    });
+
+
+});
+
+//Contraste descargar contrast.css y agregarlo en producción
+var isContrast = false;
+jQuery(document).ready(function () {
+
+
+
+    jQuery('.contrast-ref').click(function (event) {
+        event.preventDefault();
+
+        if (isContrast == false) {
+            jQuery('head').append('<link rel="stylesheet" href="contrast.css" type="text/css" />');
+            isContrast = true;
+        }
+        else {
+
+            jQuery("LINK[href*='contrast.css']").remove();
+            isContrast = false;
+        }
+    });
+
+
+    jQuery('.min-fontsize').click(function (event) {
+        event.preventDefault();
+
+        var size = parseInt(jQuery('html').css('font-size'));
+
+        if (size > 8) {
+
+            var currentSize = parseFloat(size) * 0.8;
+            jQuery('div').css('font-size', currentSize);
+            jQuery('html').css('font-size', currentSize);
+
+        }
+    });
+
+    jQuery('.max-fontsize').click(function (event) {
+        event.preventDefault();
+
+        var size = parseInt(jQuery('html').css('font-size'));
+
+        if (size < 30) {
+            var currentSize = parseFloat(size) * 1.2;
+            jQuery('div').css('font-size', currentSize);
+            jQuery('html').css('font-size', currentSize);
+
+        }
+
+    });
+
+    jQuery('.normal-fontsize').click(function (event) {
+        event.preventDefault();
+
+        var size = parseInt(jQuery('html').css('font-size'));
+
+        if (size !== 16) {
+            var currentSize = 16;
+            jQuery('div').css('font-size', currentSize);
+            jQuery('html').css('font-size', currentSize);
+
+        }
+
+    });
+
+    // }
+    // }
+});
+
+</script>
+<!-- Fin footer -->
+</html>

@@ -1,0 +1,141 @@
+﻿div.burbujaAyuda {
+    position: absolute;
+    top: -1000px;
+    z-index: 1000;
+    display: none;
+}
+
+div.burbujaAyuda div.body {
+    border: 1px solid #646464;
+    background: #eeeeee;
+    padding: 7px 20px;
+    margin: 0 8px;
+    max-width: 450px;
+    font-size: 0.857em;
+    line-height: 18px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+
+div.burbujaAyuda div.pointer {
+    width: 15px !important;
+    height: 8px !important;
+    position: absolute !important;
+    bottom: -7px !important;
+    left: 18px !important;
+    font: normal 1px/1px monospace !important;
+    background: url("../Img/Ayuda/icon-burbuja-ayuda.png") no-repeat bottom left !important;
+}
+
+div.burbujaAyuda div.close {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    
+    right: 8px;
+    background: url("../Img/Ayuda/icon-burbuja-ayuda.png") no-repeat top right;
+    cursor: pointer;
+}
+
+span.botonAyuda {
+    display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: top;
+    background: url("../Img/Ayuda/icon-ayuda.png") no-repeat 0px 0px;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+/* Estilos para update panels */
+
+div.burbujaAyudaUP {
+    position: absolute;
+    top: -1000px;
+    z-index: 1000;
+    display: none;
+}
+
+div.burbujaAyudaUP div.body {
+    border: 1px solid #646464;
+    background: #eeeeee;
+    padding: 7px 20px;
+    margin: 0 8px;
+    max-width: 300px;
+    font-size: 0.857em;
+    line-height: 18px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+
+div.burbujaAyudaUP div.pointer {
+    width: 15px;
+    height: 8px;
+    position: absolute;
+    bottom: -7px;
+    left: 18px;
+    font: normal 1px/1px monospace;
+    background: url("../Img/Ayuda/icon-burbuja-ayuda.png") no-repeat bottom left;
+}
+
+div.burbujaAyudaUP div.closeUP {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    top: -6px;
+    right: 2px;
+    background: url("../Img/Ayuda/icon-burbuja-ayuda.png") no-repeat top right;
+    cursor: pointer;
+}
+
+span.botonAyudaUP {
+    display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: top;
+    background: url("../Img/Ayuda/icon-ayuda.png") no-repeat 0px 0px;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.linkAyuda {
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #25627B !important;
+    text-decoration: underline;
+}
+
+.linkAyuda:hover{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #25627B !important;
+    text-decoration: underline;
+}
+
+.linkAyuda:visited{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #25627B !important;
+    text-decoration: underline;
+}
+
+
+/* Estilos para update panels */
+img.botonAyudaUP {
+    display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}

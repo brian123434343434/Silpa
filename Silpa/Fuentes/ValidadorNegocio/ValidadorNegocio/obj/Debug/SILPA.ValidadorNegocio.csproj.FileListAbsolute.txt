@@ -1,0 +1,17 @@
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.ValidadorNegocio.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.ValidadorNegocio.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.Validador.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.Validador.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\SILPA.ValidadorNegocio.csprojResolveAssemblyReference.cache
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\SILPA.ValidadorNegocio.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\SILPA.ValidadorNegocio.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.ValidadorNegocio.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.ValidadorNegocio.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.Validador.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.Validador.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\SILPA.ValidadorNegocio.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\SILPA.ValidadorNegocio.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\SILPA.ValidadorNegocio.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\Microsoft.Practices.ObjectBuilder.dll

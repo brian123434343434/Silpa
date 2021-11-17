@@ -1,0 +1,89 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ConsultaPublicaSILPA.master.cs" Inherits="plantillas_Silpa" %>
+
+<%@ Register Src="~/controles/User.ascx" TagName="User" TagPrefix="uc4" %>
+<!DOCTYPE html">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VITAL - <%: Page.Title %></title>
+
+    <link href="ResourcesCP/CSS/bootstrap.min.css" rel="stylesheet" />
+    <script src="ResourcesCP/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="ResourcesCP/JS/bootstrap.min.js"></script>
+    <link href="../jquery/jquery-ui.css" rel="stylesheet" />
+
+    <style>
+         .ContentPlaceHolder_Master {
+            width:100%;
+            border: 2px solid #86847F;
+            padding-top:10px;
+            padding-bottom:10px;
+            background-color: #FFFFFF;
+            border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;
+            position: relative;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body id="body" style="background-color: #FFFFFF !important;">
+    <form id="form1" runat="server">
+        <div id="sitewrapper" style="background-color: #FFFFFF !important;">
+            <div id="topHeader" style="color: gainsboro !important; padding: 0px !important; margin: 0px !important;">
+                <div class="container" style="padding-top: 15px !important; padding-bottom: 15px !important; vertical-align: middle; font-size: 8.5pt!important; font-family: Arial, sans-serif, Tahoma, Verdana;">
+                    <div class="col-md-12">
+                        <div class="col-md-3 text-left">
+                            <asp:Label ID="lblFecha" runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <asp:Label ID="lblInfoImpers" runat="server" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                            <asp:LinkButton ID="lnkFinalizarImpersonalizacion" runat="server" Visible="False"
+                                Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"
+                                Font-Bold="true" Font-Underline="true"
+                                OnClick="lnkFinalizarImpersonalizacion_Click">Finalizar Modo Funcionario</asp:LinkButton>
+                        </div>
+                        <div class="col-md-3 text-right">
+                            <uc4:User ID="ucUserData" runat="server" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="background-color: #FFFFFF !important;">
+                <div class="ContentPlaceHolder_Master col-md-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="col-md-12">
+                    <asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+                </div>
+            </div>
+            <footer role="contentinfo">
+                <div class="footer-below" style="border-top: 10px solid #151515;">
+                    <div class="container">
+                        <div class="dnnpane">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject" style="color: #d2d2d2 !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important;">Copyright &copy; <%= DateTime.Now.Year %> Autoridad Nacional de Licencias Ambientales - ANLA</span>
+                                </div>
+                                <div class="terms-priv">
+                                    <a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="javascript:;">Términos de uso</a>
+                                    |
+					            <a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="javascript:;">Política de privacidad</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

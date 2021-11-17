@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:i0="http://PDI.GOBIERNOENLINEA.GOV/WSPDI" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.gobiernoenlinea.gov.co/wspdi" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.gobiernoenlinea.gov.co/wspdi" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://PDI.GOBIERNOENLINEA.GOV/WSPDI" location="http://www.tramitador.gov.co/WebServicePDI/WebServicePDI.asmx?wsdl=wsdl1" />
+  <wsdl:types>
+    <s:schema targetNamespace="http://www.gobiernoenlinea.gov.co/wspdi">
+      <s:import schemaLocation="http://www.tramitador.gov.co/WebServicePDI/WebServicePDI.asmx?schema=schema1" namespace="http://PDI.GOBIERNOENLINEA.GOV/WSPDI" />
+      <s:include schemaLocation="http://www.tramitador.gov.co/WebServicePDI/WebServicePDI.asmx?schema=schema2" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:service name="WebServicePDI">
+    <wsdl:port name="WSPDI" binding="i0:WSPDI">
+      <soap:address location="http://www.tramitador.gov.co/WebServicePDI/WebServicePDI.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSPDI1" binding="i0:WSPDI1">
+      <soap12:address location="http://www.tramitador.gov.co/WebServicePDI/WebServicePDI.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="Inicio" TextField="Inicio" NavigateUrlField="http//vital.anla.gov.co/Silpa_ut_pre/Default.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="AdministracionNot " TextField="Administración Actos Administrativos" NavigateUrlField="http://vital.anla.gov.co/silpa_UT_PRE/NotificacionElectronica/ConsultaNotificaciones.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="_blank" ToolTipField="" />
+  <MenuItem ValueField="ConsultaNot" TextField="Consulta Actos Administrativos" NavigateUrlField="http://vital.anla.gov.co/silpa_UT_PRE/NotificacionElectronica/ReporteNotificaciones.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="_blank" ToolTipField="" />
+  <MenuItem ValueField="Salir" TextField="Salir" NavigateUrlField="http://vital.anla.gov.co/SILPA_UT_PRE/Salir.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+</menu>

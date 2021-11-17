@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSActividadRadicable" targetNamespace="http://tempuri.org/DSActividadRadicable.xsd" xmlns:mstns="http://tempuri.org/DSActividadRadicable.xsd" xmlns="http://tempuri.org/DSActividadRadicable.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSActividadRadicable" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSActividadRadicable" msprop:Generator_DataSetName="DSActividadRadicable" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FORMULARIO" msprop:Generator_UserTableName="FORMULARIO" msprop:Generator_RowDeletedName="FORMULARIORowDeleted" msprop:Generator_RowChangedName="FORMULARIORowChanged" msprop:Generator_RowClassName="FORMULARIORow" msprop:Generator_RowChangingName="FORMULARIORowChanging" msprop:Generator_RowEvArgName="FORMULARIORowChangeEvent" msprop:Generator_RowEvHandlerName="FORMULARIORowChangeEventHandler" msprop:Generator_TableClassName="FORMULARIODataTable" msprop:Generator_TableVarName="tableFORMULARIO" msprop:Generator_RowDeletingName="FORMULARIORowDeleting" msprop:Generator_TablePropName="FORMULARIO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUMERO_VITAL" msprop:Generator_UserColumnName="NUMERO_VITAL" msprop:Generator_ColumnVarNameInTable="columnNUMERO_VITAL" msprop:Generator_ColumnPropNameInRow="NUMERO_VITAL" msprop:Generator_ColumnPropNameInTable="NUMERO_VITALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_FORMULARIO" msprop:Generator_UserColumnName="NOMBRE_FORMULARIO" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_FORMULARIO" msprop:Generator_ColumnPropNameInRow="NOMBRE_FORMULARIO" msprop:Generator_ColumnPropNameInTable="NOMBRE_FORMULARIOColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DETALLES" msprop:Generator_UserTableName="DETALLES" msprop:Generator_RowDeletedName="DETALLESRowDeleted" msprop:Generator_TableClassName="DETALLESDataTable" msprop:Generator_RowChangedName="DETALLESRowChanged" msprop:Generator_RowClassName="DETALLESRow" msprop:Generator_RowChangingName="DETALLESRowChanging" msprop:Generator_RowEvArgName="DETALLESRowChangeEvent" msprop:Generator_RowEvHandlerName="DETALLESRowChangeEventHandler" msprop:Generator_TablePropName="DETALLES" msprop:Generator_TableVarName="tableDETALLES" msprop:Generator_RowDeletingName="DETALLESRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CAMPO" msprop:Generator_UserColumnName="CAMPO" msprop:Generator_ColumnPropNameInRow="CAMPO" msprop:Generator_ColumnVarNameInTable="columnCAMPO" msprop:Generator_ColumnPropNameInTable="CAMPOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VALOR" msprop:Generator_UserColumnName="VALOR" msprop:Generator_ColumnPropNameInRow="VALOR" msprop:Generator_ColumnVarNameInTable="columnVALOR" msprop:Generator_ColumnPropNameInTable="VALORColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,8 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Auditoria\Auditoria\bin\Release\Auditoria.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Auditoria\Auditoria\bin\Release\Auditoria.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Auditoria\Auditoria\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Auditoria\Auditoria\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Auditoria\Auditoria\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Auditoria\Auditoria\obj\Release\Auditoria.csprojResolveAssemblyReference.cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Auditoria\Auditoria\obj\Release\Auditoria.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Auditoria\Auditoria\obj\Release\Auditoria.pdb

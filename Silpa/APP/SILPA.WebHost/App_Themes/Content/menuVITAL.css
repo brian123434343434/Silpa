@@ -1,0 +1,17 @@
+.registerGroup span {
+    height: 34px;
+    min-width: 12px;
+    padding: 7px 15px 0;
+    color: #fff;
+    font-size: 11px;
+    vertical-align: middle;
+}
+.registerGroup .text-right {
+    margin-top:5px;
+}
+
+.registerGroup .text-left {
+    margin-top:5px;    
+}
+
+

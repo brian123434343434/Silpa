@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9203ac4b-2ec6-40dc-a4d9-a54aa216715f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://129.150.71.162:9073//WS_SIAC_SNIF_RegistrarMovilizacionesV2.0/proxy/RegistrarMovilizacionesProxyService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RegistrarMovilizaciones.wsdl" MetadataType="Wsdl" ID="879b15e1-2498-425b-8885-e1fbb8878b7b" SourceId="1" SourceUrl="http://129.150.71.162:9073//WS_SIAC_SNIF_RegistrarMovilizacionesV2.0/proxy/RegistrarMovilizacionesProxyService?wsdl" />
+    <MetadataFile FileName="RegistrarMovilizacionesProxyService1.xsd" MetadataType="Schema" ID="f5a782a6-7e07-42b9-87a3-ec120aee86ba" SourceId="1" SourceUrl="http://129.150.71.162:9073/WS_SIAC_SNIF_RegistrarMovilizacionesV2.0/proxy/RegistrarMovilizacionesProxyService?SCHEMA%2FWS_SIAC_SNIF_RegistrarMovilizacionesV2.0%2Fproxy%2Fwsdl%2Fschema%2FRegistrarMovilizaciones" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,193 @@
+﻿.TableLiquidacion
+{    
+    display: table;
+    width: 96%;
+    margin-left: 2%;
+    padding: 5px 5px 5px 5px;
+}  
+  
+.TableLiquidacionDatos
+{    
+    display: table;
+    width: 96%;
+    margin-left: 2%;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #333333;
+}  
+
+.TituloSeccionesLiquidacion  
+{  
+  
+    display: table-cell;  
+    border-width: thin;  
+    padding: 8px 8px 8px 8px;
+    color: #333333;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 15px; 
+    margin-top: 3px;  
+    float: left; 
+    font-weight: bold;  
+    width: 100%;
+    text-decoration: underline;
+}  
+
+.CellMensajeLiquidacion  
+{  
+    display: table-cell;  
+    border-width: thin;  
+    padding-left: 5px;  
+    padding-right: 5px; 
+    color: #333333;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    margin-top: 3px;  
+    float: left; 
+    font-weight: normal;  
+    width: 100%;
+    text-align: left;
+}
+
+.CellAnotacionLiquidacion  
+{  
+    display: table-cell;  
+    border-width: thin;  
+    padding-left: 5px;  
+    padding-right: 5px; 
+    color: #333333;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    margin-top: 3px;  
+    float: left; 
+    font-weight: bold;  
+    width: 100%;
+    text-align: left;
+    font-style: italic;
+}
+
+.CellAnotacionRojoLiquidacion  
+{  
+    display: table-cell;  
+    border-width: thin;  
+    padding-left: 5px;  
+    padding-right: 5px; 
+    color: #891111;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    margin-top: 3px;  
+    float: left; 
+    font-weight: bold;  
+    width: 100%;
+    text-align: left;
+    font-style: italic;
+}
+
+.CellTituloLiquidacionDatos {
+    display: table-cell;  
+    color: #222222;
+    text-align: center;
+    background-color: #DDDDDD;
+    font-weight: bold;
+    border: 1px solid #FFFFFF;
+}
+
+.CellContenidoLiquidacionDatos {
+    display: table-cell;  
+    color: #333333;
+    border: 1px solid #FFFFFF;
+    background-color: #F7F6F3;
+}
+
+.CellContenidoLiquidacionDatosCentrado {
+    display: table-cell;  
+    color: #333333;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    background-color: #F7F6F3;
+}
+
+.CellContenidoLiquidacionGridViewDatosCentrado {
+    display: table-cell;  
+    color: #333333;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+
+.CellPagoServicio {
+    padding: 15px 15px 15px 15px;
+    margin-left: 2%;
+    color: #333333;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.CellBotonPagoServicio {
+    padding-left: 20px;
+    margin-left: 2%;
+}
+
+.CellBotonesLiquidacionInferior {
+    text-align: right;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.CellFormularioTituloPagoDatos {
+    display: table-cell;  
+    color: #333333;
+    border: 1px solid #FFFFFF;
+    background-color: #DDDDDD;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+}
+
+.CellFormularioPagoDatos {
+    display: table-cell;  
+    color: #333333;
+    border: 1px solid #FFFFFF;
+    background-color: #F7F6F3;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    text-indent: 5px;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.CellFormularioPagoDatosError {
+    display: table-cell;  
+    color: #891111;
+    border: 1px solid #FFFFFF;
+    background-color: #F7F6F3;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    text-indent: 5px;
+    font-size: 13px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.CellFormularioBotonPagoDatos {
+    display: table-cell;  
+    color: #333333;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.CellFormularioBotonPagoDatos input[type="submit"] {
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 25px;
+}
+
+.BotonPago input[type="submit"]{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 35px;
+    width: 300px;
+    border: 1px solid #000000;
+}

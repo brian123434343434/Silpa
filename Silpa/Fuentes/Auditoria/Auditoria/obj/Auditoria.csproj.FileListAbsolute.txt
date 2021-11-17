@@ -1,0 +1,26 @@
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\bin\Debug\Auditoria.dll
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\bin\Debug\Auditoria.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\obj\Debug\Auditoria.dll
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\obj\Debug\Auditoria.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Eduardo\Documents\Visual Studio 2005\Projects\pruebaAuditoria\Auditoria\bin\Debug\Microsoft.Practices.ObjectBuilder.xml
+C:\inetpub\pruebaAuditoria\Bin\Auditoria.dll
+C:\inetpub\pruebaAuditoria\Bin\Auditoria.pdb
+C:\inetpub\wwwroot\pruebaAuditoria\LogicaNegocios\Auditoria\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\pruebaAuditoria\LogicaNegocios\Auditoria\obj\Debug\Auditoria.dll
+C:\inetpub\wwwroot\pruebaAuditoria\LogicaNegocios\Auditoria\obj\Debug\Auditoria.pdb
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Bin\Auditoria.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Bin\Auditoria.pdb
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\Auditoria.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\Auditoria.pdb
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Bin\Auditoria.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Bin\Auditoria.pdb
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\Auditoria.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\Auditoria.pdb

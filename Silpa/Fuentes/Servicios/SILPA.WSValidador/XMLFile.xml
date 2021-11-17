@@ -1,0 +1,21 @@
+﻿<Message>
+  <inputCommand>
+    <message>
+      <request>
+        <operation>
+          <code>5</code>
+          <name>ValicacionTelefono</name>
+          <sessionid></sessionid>
+          <corelationId />
+        </operation>
+        <params>
+          <C03>75094309</C03>
+          <C04>6158253</C04>
+          <Client>SM</Client>
+          <user>test</user>
+        </params>
+      </request>
+    </message>
+  </inputCommand>
+</Message>
+

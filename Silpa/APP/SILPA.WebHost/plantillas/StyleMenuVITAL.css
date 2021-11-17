@@ -1,0 +1,119 @@
+﻿/* Control de Menú */
+
+.cssMenuStaticMenuStyle
+{
+	/* border-left: 1px solid #999; */
+	margin-right: 15px;
+	
+}
+.cssMenuStaticMenuItemStyle {
+	font-size: 12px !important;
+	/* font-weight: Bold !important; */
+	color: #3f3f3f !important;
+	padding:15px !important;
+	/* border-right: 1px solid #999; */
+	cursor:pointer;
+	text-decoration:none;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.cssBgMenuTop #ctl00_mMenu td{
+	width:0px !important;
+	padding: 15px !important;
+}
+
+.cssMenuStaticMenuItemStyle img{
+	width:9px !important;
+	height:9px;
+}
+
+.cssMenuDynamicHoverStyle {
+	color:#FFFFFF !important;
+	text-decoration:none !important;
+	
+	
+}
+.cssMenuDynamicMenuStyle {
+	position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+	font-size: 12px !important;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175) !important;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175) !important;
+	}
+.cssMenuDynamicMenuItemStyle{ /* jacosta */
+	
+    /* top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left; */
+    
+    
+   /*   -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);  */
+	
+}
+.cssMenuDynamicMenuItemStyle a{
+	color: #3f3f3f !important;
+/* 	font-weight: bold !important; */
+}
+.cssMenuDynamicMenuItemStyle td{
+	padding: 5px 10px 5px !important;
+}
+.cssMenuDynamicMenuItemStyle tr:hover{
+	color: #FFFFFF !important;
+	background-color:#7ca0c0;
+	-webkit-transition:all .3s ease 0s;
+	-moz-transition:all .3s ease 0s;
+	-o-transition:all .3s ease 0s;
+	transition:all .3s ease 0s;
+}
+.cssMenuDynamicMenuItemStyle tr:hover a{
+	color: #FFFFFF !important;
+	-webkit-transition:all .3s ease 0s;
+	-moz-transition:all .3s ease 0s;
+	-o-transition:all .3s ease 0s;
+	transition:all .3s ease 0s;
+}
+
+.cssMenuStaticSelectedStyle{
+	color: #3f3f3f !important;
+	text-decoration:none !important;
+	/* font-weight: Bold !important;  */
+}
+.cssMenuDynamicSelectedStyle {
+
+}
+.cssMenuStaticHoverStyle {  /* jacosta */
+	/* background: url(Images/Template/BgRowOver.jpg) top left repeat-x #fff; */
+	color:#979797 !important;
+	cursor:pointer;
+	text-decoration:none !important;
+	
+}
+
+.cssMenuStaticHoverStyle a{
+	color:#979797;
+	/* font-weight: bold !important; */
+}
+
+.cssTitleCategory {
+	font-size: 17px;
+	text-align:center;
+	color:#fff;
+	font-family: Arial;
+	font-weight: bold;
+	padding:35px 0 60px 20px;
+	background: url(Images/Template/soft/topInterna.jpg) no-repeat 0px 30px;
+}

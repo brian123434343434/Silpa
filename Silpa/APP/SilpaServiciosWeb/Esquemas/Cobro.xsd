@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Cobro" targetNamespace="http://tempuri.org/Cobro.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Cobro.xsd" xmlns:mstns="http://tempuri.org/Cobro.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Cobro" type="CobroType">
+  </xs:element>
+  <xs:complexType name="ArchivoType">
+    <xs:sequence>
+      <xs:element name="archivo" maxOccurs="unbounded" type="xs:unsignedByte" />
+      <xs:element name="nombreArchivo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CobroType">
+    <xs:sequence>
+      <!--Número SILPA-->
+      <xs:element name="numSILPA" type="xs:string" />
+      <!--Número de Expediente-->
+      <xs:element name="numExpediente" type="xs:string" />
+      <!--Codigo de la Autoridad Ambiental-->
+      <xs:element name="idAutoridad" type="xs:int" />
+      <!--Número Formulario de Cobro (Referencia)-->
+      <xs:element name="numFormulario" type="xs:string" />
+      <!--Fecha de Expedición-->
+      <xs:element name="fechaExpedicion" type="xs:string" nillable="true" />
+      <!--Fecha de Vencimiento-->
+      <xs:element name="fechaVencimiento" type="xs:string" />
+      <!--Municipio - Concepto-->
+      <xs:element name="concepto" type="xs:int" />
+      <!--Concepto del Cobro-->
+      <xs:sequence minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="conceptoCobro" type="DetalleCobroType" />
+      </xs:sequence>
+      <!--Tipo de trámite-->
+      <xs:element name="indicadorProceso" type="xs:string" />
+      <!-- Cedula o Nit del solicitante-->
+      <xs:element name="numDocumento" type="xs:string" />
+      <!--Datos para el código de barras (Si Aplica)-->
+      <xs:element name="codigoBarras" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <!--Archivo Adjunto (Si Aplica)-->
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="archivos" type="ArchivoType" />
+      </xs:sequence>
+      <xs:element name="ppe_certificate_sub" type="xs:string" />
+      <xs:element name="ppe_url" type="xs:string" />
+      <xs:element name="ppe_code" type="xs:string" />
+      <xs:element name="razon_social" type="xs:string" />
+      <xs:element name="estadoCobro" type="xs:int" />
+      <xs:element name="transaccion" type="xs:int" />
+      <xs:element name="fechaTransaccion" type="xs:string" />
+      <xs:element name="banco" type="xs:string" />
+      <xs:element name="fechaRecordacion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DetalleCobroType">
+    <xs:sequence>
+      <!--Descripción-->
+      <xs:element name="descripcion" type="xs:string" />
+      <!--Valor del Cobro en números-->
+      <xs:element name="valorCobro" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

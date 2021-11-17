@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\hava\VITAL\", ".", "{1AC2A335-33DB-4583-9390-37E3363F2CEB}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "Svn"
+		SccAuxPath = "Svn"
+		SccLocalPath = "Svn"
+		SccProvider = "SubversionScc"
+		Debug.AspNetCompiler.VirtualPath = "/Silpa"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Proyectos\Silpa\Fuentes\VITAL\Fuentes\Silpa\Solucion\Silpa\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Silpa\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Silpa"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Proyectos\Silpa\Fuentes\VITAL\Fuentes\Silpa\Solucion\Silpa\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Silpa\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4547"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AC2A335-33DB-4583-9390-37E3363F2CEB}.Debug|.NET.ActiveCfg = Debug|.NET
+		{1AC2A335-33DB-4583-9390-37E3363F2CEB}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+  <proyecto nombre ="WebHost" version ="1.0.0.0" actualizado= "16/12/2009 16:00" autor ="hava" descripcion="Se crea el archivo de versionamiento"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.1" actualizado= "18/12/2009 16:25" autor ="hava" descripcion="Se crea el archivo de versionamiento"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.2" actualizado= "17/12/2009 18:00" autor ="ytibaquira" descripcion="Se crea el archivo de Competencias.aspx en la carpeta LicenciasAmbientales"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.3" actualizado= "19/12/2009 12:00" autor ="ytibaquira" descripcion="Creacion Archivo Apoderado.aspx y funcionalidad de Multiregistro"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.4" actualizado= "19/12/2009 14:00" autor ="ytibaquira" descripcion="Carga dinamica de los combos de la pestaña Datos Persona Natural"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.5" actualizado= "19/12/2009 14:00" autor ="ytibaquira" descripcion="Carga dinamica y funcionamiento de los combos de los formularios web de Representante Legal y Apoderado"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.6" actualizado= "22/12/2009 16:00" autor ="ytibaquira" descripcion="Cambio Web Form DocumentosPruebas.aspx por FormularioPago.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.7" actualizado= "23/12/2009 11:00" autor ="ytibaquira" descripcion="Se agregan controles de validación al WebForm de Registro de Credenciales"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.8" actualizado= "23/12/2009 18:00" autor ="ytibaquira" descripcion="Creación del WebForm QuejasDenuncias.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.9" actualizado= "28/12/2009 15:00" autor ="ytibaquira" descripcion="Cambios en el diseño del Web Form Publicaciones.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.10" actualizado= "13/01/2010 14:20" autor ="ytibaquira" descripcion="Creacion e implementacion de a funcion ValidacionToken en la forma Competencias.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.11" actualizado= "13/01/2010 17:20" autor ="MIRM" descripcion="Creacion e implementacion de a funcion ValidacionToken en la forma Competencias.aspx II"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.12" actualizado= "14/01/2010 14:08" autor ="YATC" descripcion="Cambios en diseño y funcionalidad de DatosPersonales.aspx, Apoderado.aspx y RepresentanteLegal.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.13" actualizado= "19/01/2010 18:19" autor ="YATC" descripcion="Creacion de los Web Forms para la parametrizacion de las validaciones"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.14" actualizado= "20/01/2010 17:46" autor ="YATC" descripcion="Creacion del WebForm RegistrarSancion.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.15" actualizado= "21/01/2010 16:28" autor ="YATC" descripcion="Creación del WebForm ConsultarSancion.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.16" actualizado= "25/01/2010 14:09" autor ="YATC" descripcion="Cambios en el WebForm RegistrarSancion.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.17" actualizado= "26/01/2010 14:48" autor ="YATC" descripcion="Cambios en el WebForm ConsultarSancion.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.18" actualizado= "26/01/2010 14:48" autor ="YATC" descripcion="Cambios en la pagina Maestra y en RegistroSAncion.aspx de RUIA, y creacion de LoginRUIA.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.19" actualizado= "27/01/2010 17:55" autor ="YATC" descripcion="Cambios en los WebForm Apoderado.aspx, RepresentanteLegal.aspx y DatosPersonales.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.20" actualizado= "01/02/2010 16:35" autor ="YATC" descripcion="Cambios en los WebForm QyejasDenuncias.aspx, para el envio de archivos"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.21" actualizado= "02/02/2010 11:30" autor ="YATC" descripcion="Se realiza la integración del WebForm QuejasDenuncias.aspx con el modulo de radicación"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.22" actualizado= "02/02/2010 16:55" autor ="YATC" descripcion="Cambios en el WebForm ConsultarSalvoconductoWeb.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.23" actualizado= "03/02/2010 16:15" autor ="YATC" descripcion="Creacion de la pagina maestra SILPALimpia.master y cambios en Publicaciones.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.24" actualizado= "04/02/2010 14:00" autor ="YATC" descripcion="Cambios en DatosPersonales.aspx, Apoderado.aspx y RepresentanteLegal.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.25" actualizado= "09/02/2010 10:46" autor ="AEGB" descripcion="Ingreso de formas de PSE Index.aspx, ErrorPage.aspx, GetBankList.aspx, GetTransactionInformation.aspx y de la clase PPEController.cs"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.26" actualizado= "09/02/2010 16:20" autor ="HAVA" descripcion="Se modifica el aspx Publicaciones.aspx, Se agrega DetalleDocumentos.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.27" actualizado= "25/02/2010 17:20" autor ="JDGB" descripcion="Ajustes en estilos de forma de competencias para solicitud de DAA"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.28" actualizado= "28/05/2010 11:28" autor ="AGAB" descripcion="Implementación del log de erores"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.29" actualizado= "05/06/2010 11:28" autor ="MIRM" descripcion="Modificacion sobre consulta a mis tramites"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.29" actualizado= "05/06/2010 11:28" autor ="MIRM" descripcion="Modificacion sobre consulta a mis tramites"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.30" actualizado= "25/06/2010 11:28" autor ="MIRM" descripcion="Solucion de la insidencia 2005"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.31" actualizado= "29/06/2010 14:49" autor ="HAVA" descripcion="Solucion de la insidencia 2018, corrección de la pagina RepresentanteLegal y DatosPersonales método LimpiarDatosNatural()"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.32" actualizado= "05/07/2010 14:49" autor ="HAVA" descripcion="DatosPersonales.aspx"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.33" actualizado= "07/09/2010 15:11" autor ="HAVA" descripcion="Modificaciones a la pagina QuejasDenuncionas.aspx, Publicacion. "/>
+  <proyecto nombre ="WebHost" version ="1.0.0.34" actualizado= "07/09/2010 15:21" autor ="JMM"  descripcion="Modificaciones a los formularios de audiencia publica, el formulario de datos personales y el archivo webconfig"/>
+  <proyecto nombre ="WebHost" version ="1.0.0.35" actualizado= "13/09/2010 19:00" autor ="HAVA"  descripcion="Modificación de la pagina de quejasDenuncias.aspx, ConsultarSalvoconductoWeb.aspx, RegistrarSancion.aspx, Consultarsancion.aspx por las incidencias 2354, 2291, 2284"/>
+  
+</version>

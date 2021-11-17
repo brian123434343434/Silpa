@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CesionDerechos" targetNamespace="http://tempuri.org/CesionDerechos.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/CesionDerechos.xsd" xmlns:mstns="http://tempuri.org/CesionDerechos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CesionDerechos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NumeroSilpa" type="xs:string" />
+        <xs:element name="IdCesionario" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

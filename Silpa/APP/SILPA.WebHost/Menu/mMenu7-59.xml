@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="" TextField="Inicio" NavigateUrlField="" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="Mis Tareas" TextField="Mis Tareas" NavigateUrlField="http://vital.anla.gov.co/Silpa/TestSilpa/security/goto.aspx?app=NuevoBPM&amp;op=TL&amp;IdRelated=7" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="Salir" TextField="Salir" NavigateUrlField="http://vital.anla.gov.co/SILPA_UT_PRE/Salir.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+</menu>

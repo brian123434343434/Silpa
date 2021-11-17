@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el Diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout Style="LeftRight" layoutVersion="2" viewPortLeft="0" viewPortTop="-746" zoom="100">
+    <PersonaIdentity_XmlElement left="317" top="254" width="5292" height="2831" selected="0" zOrder="0" index="0" expanded="0" />
+    <PersonaIdentity_XmlComplexType left="634" top="10667" width="5292" height="2831" selected="0" zOrder="1" index="1" expanded="1">
+        <_direccionPersona_XmlElement left="6560" top="3725" width="5292" height="2831" selected="0" zOrder="3" index="0" expanded="0" />
+        <ListaPersona_XmlElement left="6560" top="7196" width="5292" height="2831" selected="0" zOrder="6" index="1" expanded="0" />
+        <TipoDocumentoIdentificacion_XmlElement left="6560" top="10667" width="5292" height="2831" selected="0" zOrder="9" index="11" expanded="0" />
+        <TipoPersona_XmlElement left="6560" top="14138" width="5292" height="2831" selected="0" zOrder="12" index="19" expanded="0" />
+        <DireccionPersona_XmlElement left="6560" top="17609" width="5292" height="2831" selected="0" zOrder="15" index="25" expanded="0" />
+    </PersonaIdentity_XmlComplexType>
+    <EntidadSerializable_XmlComplexType left="634" top="21080" width="5292" height="2831" selected="0" zOrder="17" index="2" expanded="1" />
+    <TipoIdentificacionEntity_XmlComplexType left="634" top="24551" width="5292" height="2831" selected="0" zOrder="18" index="3" expanded="1" />
+    <PersonaIndentity_XmlComplexType left="634" top="34964" width="5292" height="2831" selected="0" zOrder="19" index="4" expanded="1">
+        <ListaPersona_XmlElement left="6560" top="28022" width="5292" height="2831" selected="0" zOrder="20" index="0" expanded="0" />
+        <TipoDocumento_XmlElement left="6560" top="31493" width="5292" height="2831" selected="0" zOrder="22" index="10" expanded="0" />
+        <CalidadActua_XmlElement left="6560" top="34964" width="5292" height="2831" selected="0" zOrder="24" index="17" expanded="0" />
+        <TipoPersona_XmlElement left="6560" top="38435" width="5292" height="2831" selected="0" zOrder="26" index="18" expanded="0" />
+        <Direccion_XmlElement left="6560" top="41906" width="5292" height="2831" selected="0" zOrder="28" index="21" expanded="0" />
+    </PersonaIndentity_XmlComplexType>
+    <ArrayOfPersonaIndentity_XmlComplexType left="634" top="45377" width="5292" height="2831" selected="0" zOrder="30" index="5" expanded="1">
+        <PersonaIndentity_XmlElement left="6560" top="45377" width="5292" height="2831" selected="0" zOrder="31" index="0" expanded="0" />
+    </ArrayOfPersonaIndentity_XmlComplexType>
+    <TipoPersonaIdentity_XmlComplexType left="634" top="48848" width="5292" height="2831" selected="0" zOrder="33" index="6" expanded="1" />
+    <DireccionPersonaIdentity_XmlComplexType left="634" top="52319" width="5292" height="2831" selected="0" zOrder="34" index="7" expanded="1" />
+</XSDDesignerLayout>

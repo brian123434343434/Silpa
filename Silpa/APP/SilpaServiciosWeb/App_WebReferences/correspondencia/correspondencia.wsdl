@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="listarEstados">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_visible" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarEstadosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listarEstadosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultarMovimientos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_cod_dependencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_nur" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_remitente" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dte_fecha_desde" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="dte_fecha_hasta" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_ciclo_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_estado_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_asunto_resumen" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultarMovimientosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="consultarMovimientosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultarMovimientoxID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="int_mov_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultarMovimientoxIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="consultarMovimientoxIDResult" type="tns:Movimiento" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Movimiento">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="MovimientoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DocumentoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaDocumento" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Anno" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaMovimiento" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaVencimiento" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="NUR" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remitente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Asunto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Resumen" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="consultarMovimientoxNUR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_nur" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultarMovimientoxNURResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="consultarMovimientoxNURResult" type="tns:Movimiento" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarGrupoMovimientos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_movimientos" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarGrupoMovimientosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listarGrupoMovimientosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="listarEstadosSoapIn">
+    <wsdl:part name="parameters" element="tns:listarEstados" />
+  </wsdl:message>
+  <wsdl:message name="listarEstadosSoapOut">
+    <wsdl:part name="parameters" element="tns:listarEstadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="consultarMovimientosSoapIn">
+    <wsdl:part name="parameters" element="tns:consultarMovimientos" />
+  </wsdl:message>
+  <wsdl:message name="consultarMovimientosSoapOut">
+    <wsdl:part name="parameters" element="tns:consultarMovimientosResponse" />
+  </wsdl:message>
+  <wsdl:message name="consultarMovimientoxIDSoapIn">
+    <wsdl:part name="parameters" element="tns:consultarMovimientoxID" />
+  </wsdl:message>
+  <wsdl:message name="consultarMovimientoxIDSoapOut">
+    <wsdl:part name="parameters" element="tns:consultarMovimientoxIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="consultarMovimientoxNURSoapIn">
+    <wsdl:part name="parameters" element="tns:consultarMovimientoxNUR" />
+  </wsdl:message>
+  <wsdl:message name="consultarMovimientoxNURSoapOut">
+    <wsdl:part name="parameters" element="tns:consultarMovimientoxNURResponse" />
+  </wsdl:message>
+  <wsdl:message name="listarGrupoMovimientosSoapIn">
+    <wsdl:part name="parameters" element="tns:listarGrupoMovimientos" />
+  </wsdl:message>
+  <wsdl:message name="listarGrupoMovimientosSoapOut">
+    <wsdl:part name="parameters" element="tns:listarGrupoMovimientosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="correspondenciaSoap">
+    <wsdl:operation name="listarEstados">
+      <wsdl:input message="tns:listarEstadosSoapIn" />
+      <wsdl:output message="tns:listarEstadosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientos">
+      <wsdl:input message="tns:consultarMovimientosSoapIn" />
+      <wsdl:output message="tns:consultarMovimientosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientoxID">
+      <wsdl:input message="tns:consultarMovimientoxIDSoapIn" />
+      <wsdl:output message="tns:consultarMovimientoxIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientoxNUR">
+      <wsdl:input message="tns:consultarMovimientoxNURSoapIn" />
+      <wsdl:output message="tns:consultarMovimientoxNURSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listarGrupoMovimientos">
+      <wsdl:input message="tns:listarGrupoMovimientosSoapIn" />
+      <wsdl:output message="tns:listarGrupoMovimientosSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="correspondenciaSoap" type="tns:correspondenciaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="listarEstados">
+      <soap:operation soapAction="http://tempuri.org/listarEstados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientos">
+      <soap:operation soapAction="http://tempuri.org/consultarMovimientos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientoxID">
+      <soap:operation soapAction="http://tempuri.org/consultarMovimientoxID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientoxNUR">
+      <soap:operation soapAction="http://tempuri.org/consultarMovimientoxNUR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarGrupoMovimientos">
+      <soap:operation soapAction="http://tempuri.org/listarGrupoMovimientos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="correspondenciaSoap12" type="tns:correspondenciaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="listarEstados">
+      <soap12:operation soapAction="http://tempuri.org/listarEstados" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientos">
+      <soap12:operation soapAction="http://tempuri.org/consultarMovimientos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientoxID">
+      <soap12:operation soapAction="http://tempuri.org/consultarMovimientoxID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarMovimientoxNUR">
+      <soap12:operation soapAction="http://tempuri.org/consultarMovimientoxNUR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarGrupoMovimientos">
+      <soap12:operation soapAction="http://tempuri.org/listarGrupoMovimientos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="correspondencia">
+    <wsdl:port name="correspondenciaSoap" binding="tns:correspondenciaSoap">
+      <soap:address location="http://192.168.0.7:8094/correspondencia.asmx" />
+    </wsdl:port>
+    <wsdl:port name="correspondenciaSoap12" binding="tns:correspondenciaSoap12">
+      <soap12:address location="http://192.168.0.7:8094/correspondencia.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

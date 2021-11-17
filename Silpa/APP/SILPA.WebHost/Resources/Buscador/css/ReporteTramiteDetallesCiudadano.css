@@ -1,0 +1,178 @@
+﻿body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Work Sans';
+    height: 100%;
+}
+
+.accordionHeader {
+    display: flex;
+    background: #3366CB 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: bold;
+    /*font-family: Arial,Sans-Serif;
+        font-size: 12px;
+        font-weight: bold;
+        ;
+        */
+}
+
+.accordionHeaderSelected {
+    display: flex;
+    background: #004884 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.accordionContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: -moz-use-text-color #2F4F4F #2F4F4F;
+    border-right: 1px dashed #2F4F4F;
+    border-style: none dashed dashed;
+    border-width: medium 1px 1px;
+    padding: 10px 5px 5px;
+    width: 100% !important;
+}
+
+.tabs .ajax__tab_header:after {
+    clear: both;
+}
+
+.tabs .ajax__tab_header:before, .tabs .ajax__tab_header:after {
+    content: "";
+    display: table;
+}
+
+.ajax__tab_header {
+    height: 43px;
+}
+
+.ajax__tab_xp .ajax__tab_header {
+    font-family: 'Work Sans' !important;
+    font-size: 14px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+}
+
+.ajax__tab_xp .ajax__tab_tab {
+    display: flex;
+    height: 43px;
+    background: none;
+    border: solid;
+    border-top-width: 0px !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 3px !important;
+    border-bottom-color: #004884 !important;
+}
+
+    .ajax__tab_xp .ajax__tab_tab span {
+        padding: 10px 15px;
+    }
+
+.ajax__tab_xp .ajax__tab_outer, .ajax__tab_xp .ajax__tab_inner,
+.ajax__tab_xp .ajax__tab_active .ajax__tab_outer,
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner,
+.ajax__tab_xp .ajax__tab_active .ajax__tab_tab,
+.ajax__tab_xp .ajax__tab_header,
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_outer,
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_inner,
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_tab {
+    background: none;
+}
+
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner {
+    background-color: #004884 !important;
+    color: white !important;
+}
+
+.ajax__tab_xp .ajax__tab_inner {
+    margin-right: 5px;
+    background-color: white !important;
+    color: #004884 !important;
+    font: normal normal Montserrat !important;
+    border-radius: 4px 4px 0 0;
+    padding: 0;
+}
+
+.ajax__tab_xp .ajax__tab_body {
+    border: solid;
+    border-top-width: 4px !important;
+    border-top-color: #004884 !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+}
+
+.ajax__tab_xp .ajax__tab_outer {
+    padding: 0px;
+    height: 43px;
+}
+
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_inner {
+    background-color: #e6effd !important;
+    cursor: pointer;
+}
+
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner:hover {
+    background-color: #004884 !important;
+}
+
+.label-sm {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.estadoTramite {
+    margin-top: 15px;
+}
+
+    .estadoTramite .Subtitulo {
+        text-align: left;
+        font: normal normal 400 14px/14px Montserrat;
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #004884;
+        opacity: 1;
+        font-weight: bold;
+        margin: 15px 0 15px 0;
+        vertical-align: bottom;
+    }
+
+    .estadoTramite .numeroVITAL {
+        text-align: left;
+        font: normal normal 400 14px/14px Montserrat;
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #58B548;
+        opacity: 1;
+        margin: 15px 0 15px 0;
+    }
+
+    .estadoTramite .expedienteAscociado {
+        text-align: left;
+        font: normal normal 400 14px/14px Montserrat;
+        font-size: 16px;
+        letter-spacing: 0px;
+        opacity: 1;
+        margin: 12px 0 18px 0;
+    }

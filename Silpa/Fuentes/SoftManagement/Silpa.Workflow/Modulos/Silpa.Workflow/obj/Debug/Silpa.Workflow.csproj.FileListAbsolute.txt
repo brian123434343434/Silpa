@@ -1,0 +1,238 @@
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\ResolveAssemblyReference.cache
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\ResolveAssemblyReference.cache
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\ResolveAssemblyReference.cache
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll.config
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Silpa.Workflow.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraException.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\CerticamaraUtils.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\ToVerifyObject.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SILPA.Comun.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\bin\Debug\SoftManagement.Log.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.csprojResolveAssemblyReference.cache
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\obj\Debug\Silpa.Workflow.pdb

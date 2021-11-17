@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="PersonaIdentity" nillable="true" type="PersonaIdentity" />
+	<xs:complexType name="PersonaIdentity">
+		<xs:complexContent mixed="false">
+			<xs:extension base="EntidadSerializable">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="1" name="_direccionPersona" type="DireccionPersonaIdentity" />
+					<xs:element minOccurs="0" maxOccurs="1" name="ListaPersona" type="ArrayOfPersonaIndentity" />
+					<xs:element minOccurs="1" maxOccurs="1" name="PersonaId" type="xs:long" />
+					<xs:element minOccurs="0" maxOccurs="1" name="IdUsuario" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="PrimerNombre" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="SegundoNombre" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="CorreoElectronico" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Telefono" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="NumeroIdentificacion" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="TipoDocumentoIdentificacion" type="TipoIdentificacionEntity" />
+					<xs:element minOccurs="0" maxOccurs="1" name="LugarExpediciónDocumento" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="Pais" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Celular" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Fax" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="IdApplicationUser" type="xs:long" />
+					<xs:element minOccurs="0" maxOccurs="1" name="RazonSocial" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="IdAutoridadAmbiental" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="TipoPersona" type="TipoPersonaIdentity" />
+					<xs:element minOccurs="0" maxOccurs="1" name="TarjetaProfesional" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="IdSolicitante" type="xs:long" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Respuesta" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Pregunta" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:boolean" />
+					<xs:element minOccurs="0" maxOccurs="1" name="DireccionPersona" type="DireccionPersonaIdentity" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="EntidadSerializable" abstract="true" />
+	<xs:complexType name="TipoIdentificacionEntity">
+		<xs:complexContent mixed="false">
+			<xs:extension base="EntidadSerializable">
+				<xs:sequence>
+					<xs:element minOccurs="1" maxOccurs="1" name="Id" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Sigla" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="PersonaIndentity">
+		<xs:complexContent mixed="false">
+			<xs:extension base="EntidadSerializable">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="1" name="ListaPersona" type="ArrayOfPersonaIndentity" />
+					<xs:element minOccurs="1" maxOccurs="1" name="PersonaId" type="xs:long" />
+					<xs:element minOccurs="0" maxOccurs="1" name="IdUsuario" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="PrimerNombre" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="SegundoNombre" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="CorreoElectronico" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Telefono" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="NumeroIdentificacion" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="TipoIdentificacionEntity" />
+					<xs:element minOccurs="0" maxOccurs="1" name="LugarExpediciónDocumento" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="Pais" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Celular" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Fax" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="IdApplicationUser" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="RazonSocial" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="CalidadActua" type="TipoPersonaIdentity" />
+					<xs:element minOccurs="0" maxOccurs="1" name="TipoPersona" type="TipoPersonaIdentity" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Otro" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="TarjetaProfesional" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="Direccion" type="DireccionPersonaIdentity" />
+					<xs:element minOccurs="1" maxOccurs="1" name="IdSolicitante" type="xs:long" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfPersonaIndentity">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="PersonaIndentity" nillable="true" type="PersonaIndentity" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TipoPersonaIdentity">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="CodigoTipoPersona" type="xs:int" />
+			<xs:element minOccurs="0" maxOccurs="1" name="NombreTipoPersona" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DireccionPersonaIdentity">
+		<xs:complexContent mixed="false">
+			<xs:extension base="EntidadSerializable">
+				<xs:sequence>
+					<xs:element minOccurs="1" maxOccurs="1" name="Id" type="xs:long" />
+					<xs:element minOccurs="1" maxOccurs="1" name="PaisId" type="xs:int" />
+					<xs:element minOccurs="1" maxOccurs="1" name="MunicipioId" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="NombreMunicipio" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="VeredaId" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="NombreVereda" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="CorregimientoId" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="NombreCorregimiento" type="xs:string" />
+					<xs:element minOccurs="0" maxOccurs="1" name="DireccionPersona" type="xs:string" />
+					<xs:element minOccurs="1" maxOccurs="1" name="IdPersona" type="xs:long" />
+					<xs:element minOccurs="1" maxOccurs="1" name="DepartamentoId" type="xs:int" />
+					<xs:element minOccurs="0" maxOccurs="1" name="NombreDepartamento" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.1" actualizado= "18/12/2009 16:25" autor ="hava" descripcion="Se crea el archivo de versionamiento"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.2" actualizado= "30/12/2009 13:25" autor ="hava" descripcion="clase Proceso"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.3" actualizado= "04/01/2009 12:00" autor ="mirm" descripcion="Se agrego la carpeta ListaServicios"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.4" actualizado= "06/01/2009 17:00" autor ="YATC" descripcion="Cambios en la clase Publicacion.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.5" actualizado= "07/01/2009 10:43" autor ="MIRM" descripcion="Cambios en la clase Proceso.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.6" actualizado= "07/01/2009 10:43" autor ="JDG" descripcion="Cambios en Solicitud DAAEIA y Formulario para el funcionamiento de lógica de estados"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.7" actualizado= "12/01/2010 09:47" autor ="YATC" descripcion="Cambios en la clase Publicacion.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.8" actualizado= "12/01/2010 11:22" autor ="MIRM" descripcion="Creación de la clase ActividadProceso.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.9" actualizado= "13/01/2010 10:45" autor ="MIRM" descripcion="Creación de la clase TokenUsuario.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.10" actualizado= "13/01/2010 10:52" autor ="LACH" descripcion="Modificaciones en las clases RadicacionDocumento y SolicitudDAAEIA para el funcionamiento radicaciòn de una solicitud"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.11" actualizado= "13/01/2010 11:17" autor ="YATC" descripcion="Cambios en la clase Publicacion.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.12" actualizado= "18/01/2010 18:51" autor ="YATC" descripcion="Creacion de clases TipoDato.cs y Validacion.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.13" actualizado= "19/01/2010 10:29" autor ="YATC" descripcion="Creacion de clases Campo.cs y ValidacionCampo.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.14" actualizado= "19/01/2010 18:15" autor ="YATC" descripcion="Cambios en la clase ValidacionCampo.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.15" actualizado= "19/01/2010 18:44" autor ="LACH" descripcion="Modificado para guardar en el FileTrafic los archivos del bpm"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.16" actualizado= "20/01/2010 12:22" autor ="LACH" descripcion="Cambios en la clase Persona.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.17" actualizado= "21/01/2010 18:00" autor ="YATC" descripcion="Creacion de la clase Listas.cs para el modulo de RUIA"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.18" actualizado= "22/01/2010 18:00" autor ="LACH" descripcion="Cambios para la radicacion tanto manual como automatica"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.19" actualizado= "25/01/2010 11:00" autor ="YATC" descripcion="Creacion de la clase Sancion.cs "/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.20" actualizado= "25/01/2010 16:55" autor ="YATC" descripcion="Creacion de la clase Jurisdiccion.cs "/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.21" actualizado= "26/01/2010 14:46" autor ="YATC" descripcion="Cambios en la clase Sancion.cs"/>
+<proyecto nombre ="LogicaNegocio"  version ="1.0.0.11" actualizado= "28/01/2010 08:47" autor ="LACH" descripcion="Cambios para almacenar en el filetrafic los archivos subidos al bpm"/>
+<proyecto nombre ="LogicaNegocio"  version ="1.0.0.11" actualizado= "28/01/2010 18:59" autor ="LACH" descripcion="Agregado metodo que retorna el codigo de un parametro del bpm a la clase proceso"/>
+<proyecto nombre ="LogicaNegocio"  version ="1.0.0.24" actualizado= "28/01/2010 18:17" autor ="YATC" descripcion="Cambios en la clase Listas.cs"/>
+<proyecto nombre ="LogicaNegocio"  version ="1.0.0.25" actualizado= "29/01/2010 17:39" autor ="YATC" descripcion="Cambios en la clase Listas.cs y creación de la clase Queja.cs"/>
+<proyecto nombre ="LogicaNegocio"  version ="1.0.0.26" actualizado= "01/02/2010 10:53" autor ="MIRM" descripcion="Adicion de los atributos de tipo de tramite y numero silpa en la clase SolicitudDAAEIA.cs"/>
+<proyecto nombre ="LogicaNegocio"  version ="1.0.0.27" actualizado= "01/02/2010 10:53" autor ="LACH" descripcion="Cambios en la clase porceso de manera que fuese posible saber cual es la condicion que finaliza la actividad actual del bpm"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.28" actualizado= "01/02/2010 12:20" autor ="AEGB" descripcion="Creacion de carpeta parametrizacion y clase parametrizacion para devolver la informacion del proceso"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.29" actualizado= "02/02/2010 12:20" autor ="YATC" descripcion="Cambios en las clase Queja.cs y AutoridadAmbiental.cs"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.30" actualizado= "11/02/2010 14:50" autor ="AEGB" descripcion="Creacion de la carpeta comunicacion y de la clase ComunicacionVisita y modificacion de la clase correo"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.31" actualizado= "28/02/2010 16:00" autor ="JDGB" descripcion="Se agrega Clase para manejo de Actividades Radicables y Generar Radicaciones a partir de ellas"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.32" actualizado= "17/03/2010 10:00" autor ="MIRM" descripcion="Adicion de la case de cesion de derechos"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.33" actualizado= "17/03/2010 10:00" autor ="MIRM" descripcion="Adicion de la case de cesion de derechos"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.34" actualizado= "20/04/2010 15:33" autor ="HAVA" descripcion="Modificaciones a la clase RadicacionDocumento"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.35" actualizado= "21/04/2010 15:33" autor ="HAVA" descripcion="Modificaciones a la clase Correo"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.35" actualizado= "28/04/2010 22:33" autor ="LACH" descripcion="Modificacion en la clase SolicitudDAA para adicinal el codigo necesario para la consulta de mis tramites"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.35" actualizado= "28/04/2010 22:33" autor ="LACH" descripcion="Modificacion en la clase Cobro para adicinal el codigo necesario para el detalle de mis tramites"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.35" actualizado= "28/04/2010 22:33" autor ="LACH" descripcion="Modificacion en la clase Queja para adicinal el codigo necesario para el detalle de mis tramites"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.36" actualizado= "26/05/2010 22:33" autor ="MIRM" descripcion="Implemetación de seguridad de ws"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.37" actualizado= "28/05/2010 11:33" autor ="HAVA" descripcion="Ajustes a la funcionalidad de registros de usuario:  clase de  Generico\Persona para"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.38" actualizado= "31/05/2010 11:33" autor ="MIRM" descripcion="Creacion de las clases Enumeracion.EnumeracionEstado y Genericos.Cuenca"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.39" actualizado= "31/05/2010 11:33" autor ="MIRM" descripcion="Creacion de las clases Genericos.Sector"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.40" actualizado= "31/05/2010 04:41" autor ="JDGB" descripcion="Creación Módulo de Notificación para integración con Notificación Electrónica"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.41" actualizado= "05/05/2010 11:32" autor ="MIRM" descripcion="Modificacion de SolicitudDAAEIA.cs para consulta a mis tramite"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.42" actualizado= "11/06/2010 11:32" autor ="MIRM" descripcion="Creacion de la clase de Monitoreo"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.43" actualizado= "26/06/2010 11:32" autor ="MIRM" descripcion="Adicion de funcionalidad impresion Fus"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.44" actualizado= "26/06/2010 11:32" autor ="MIRM" descripcion="Solucion de la insidencia 2052, Clase Persona.cs, ReestablecerClave()"/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.45" actualizado= "30/06/2010 11:32" autor ="MIRM" descripcion="Solución de inconsistencia en el servicio de radicación automatica"/>  
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.45" actualizado= "05/07/2010 11:32" autor ="MIRM" descripcion="Modificacion del metodo Correo\Correo.RadicarSolicitudDaa() --> Logica para agregar los RTF al correo electrónico - MIRM "/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.46" actualizado= "05/07/2010 11:32" autor ="MIRM" descripcion="Modificacion del metodo Usuario\Usuario.EnviarComunicacionAprobacionUsuario() --> Si la comunicacion es de aprobacion - MIRM "/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.47" actualizado= "05/07/2010 11:32" autor ="JDGB" descripcion="Modificacion del metodo Notificacion\Notificacion.cs -> EnviarCorreo() --> Se ajusta para corregir la persona en el envío del correo "/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.48" actualizado= "05/07/2010 11:32" autor ="HAVA" descripcion="Modificacion de la clase Correo.cs para permitir la generación del RTF y su envío al correo de la AA al momento de radicar "/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.49" actualizado= "30/09/2010 11:33" autor ="MIRM" descripcion="Adicion del direccionamiento de los WS "/>
+<proyecto nombre ="LogicaNegocio" version ="1.0.0.50" actualizado= "04/10/2010 11:56" autor ="HAVA" descripcion="Se agrega funcionalidad para formulario.cs, útil para la cesión de derechos.. "/>
+</version>

@@ -1,0 +1,950 @@
+﻿
+.TableBuscarNot
+{    
+    display: table;
+    width: 90%;
+    border: 1px solid;
+    margin-left: 5%;
+}
+
+.TableBuscarInternoNot
+{    
+    display: table;
+    width: 100%;
+}
+
+.TableFormularioNot
+{    
+    display: table;
+    width: 96%;
+    border: 1px solid #333333;
+    margin-left: 2%;
+}
+
+
+.RowBuscarNot
+{  
+    display: table-row;
+}  
+
+.CellBuscarTitulo  
+{  
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #CCCCCC;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    float: left; 
+    margin-bottom: 10px;
+}
+
+.CellBuscarNot
+{  
+    display: table-cell;
+}
+
+.CellBuscarNot label {
+    width:  220px !important; 
+    text-align: right;
+}
+
+.RowFormularioNot
+{  
+    display: table-row;
+}  
+
+.CellFormularioNot
+{  
+    display: table-cell;
+    padding: 5px 5px 5px 5px;
+    vertical-align: top;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+}
+
+.CellFormularioCamposNot
+{  
+    display: table-cell;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    vertical-align: top;
+}
+
+.CellFormularioCamposNot td
+{    
+    border: 1px solid #FFFFFF !important;
+    color: #333333 !important;
+    font-size: 11px !important;
+}
+
+.CellFormularioCamposNot td a
+{    
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    color: #333333 !important;
+    text-decoration: underline !important;
+}
+
+.CellFormularioCamposNot th
+{    
+    border: 1px solid #FFFFFF !important;
+}
+
+.CellFormularioNot label
+{  
+    text-align: right;
+    /*width: 150px;*/
+    width: 100%;
+}
+
+.TableReporteNot
+{    
+    display: table;
+    /*width: 92%;*/
+    /*margin-left: 4%;*/
+    width: 100%;
+}
+
+.RowReporteNot
+{    
+    display: table-row;
+}
+
+.CellReporteNot
+{    
+    display: table-cell;
+}
+
+.CellReporteNot td
+{    
+    border: 1px solid #FFFFFF !important;
+}
+.CellReporteNot th
+{    
+    border: 1px solid #FFFFFF !important;
+}
+
+.TableReporteNotInt
+{    
+    display: table;
+    width: 850px;
+}
+
+.RowReporteNotInt
+{    
+    display: table-row;
+}
+
+.CellReporteNotIntTitulo
+{    
+    display: table-cell;
+    font-weight: bold;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    width: 130px;
+    padding-bottom: 5px;
+}
+
+.CellReporteNotIntTexto
+{    
+    display: table-cell;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    width: 140px;
+    padding-bottom: 5px;
+}
+
+
+.CellReporteNotIntTexto a{
+    color: #222222 !important;
+    vertical-align: middle !important;
+    font-weight: bold;
+}
+
+.CellReporteNotIntTexto a:visited{
+    color: #222222 !important;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    vertical-align: middle !important;
+    font-weight: bold;
+}
+
+.CellReporteNotIntTexto a:hover{
+    color: #222222 !important;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+
+
+.TableResultadoModalNot
+{    
+    display: table;
+    width: 100% !important;
+}  
+  
+  
+.RowResultadoModalNot
+{  
+    display: table-row;
+    position: relative; 
+}  
+
+.RowResultadoTituloModalNot
+{  
+    display: table-row;
+    position: relative; 
+}  
+
+
+.CellResultadoTituloModalNot
+{  
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #CCCCCC;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    float: left; 
+}
+
+.CellResultadoModalNot
+{  
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    background-color: #FFFFFF;
+    width: 100%;
+    /*width: auto !important;*/
+    padding-bottom: 5px;
+    padding-top: 5px;
+    float: left; 
+} 
+
+.CellResultadoModalNot td
+{    
+    border: 1px solid #FFFFFF !important;
+}
+.CellResultadoModalNot th
+{    
+    border: 1px solid #FFFFFF !important;
+}
+
+.RowButtonModalNot {
+    display: table-row;
+}
+
+.CellButtonModalNot {
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    float: left;    
+}
+
+
+.CellLnkButtonExitModalNot {  
+    display: table-cell;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    color: #222222;
+    font-size: 11px; 
+    text-align:right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;    
+    font-weight: bold;
+    background: #FFFFFF;
+}
+
+.CellLnkButtonExitModalNot a{  
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    color: #222222;
+    font-size: 11px; 
+}
+
+.LnkTextoAlertaModalNot {
+    color: #9b0c0c !important;
+    font-weight: bold;
+    text-decoration: underline !important; 
+}
+
+.LnkTextoModalNot {
+    font-weight: bold !important;
+    text-decoration: underline !important; 
+}
+
+.ContenedorModalNot {
+    max-height: 800px;    
+    overflow-y: scroll;
+}
+
+.ContenedorModalFormularioNot {
+    max-height: 700px;    
+    overflow-y: scroll;
+    max-width: 900px;
+    /*width: 70%;*/
+    /*width: 100% !important;*/
+    width: auto !important;
+    background-color: white !important;
+}
+
+.TableDetalleNot
+{    
+    display: table;
+    border: 1px solid #DDDDDD;
+    margin-left: 1%;
+    width: 98%;
+    padding-bottom: 10px;
+}
+
+.CellDetalleNot
+{  
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    float: left; 
+    width: 55%;
+} 
+
+.CellDetalleLabelNot
+{  
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    float: left; 
+    font-weight: bold;
+    width: 35%;
+} 
+
+.LnkDetalleModalNot {
+    font-weight: bold;
+    text-decoration: underline !important; 
+    color: #333333 !important;
+}
+
+.EditorHtmlNotificacion {
+    display:block;
+	margin:0 0 10px;
+	padding:6px;
+	background:#FFF;
+	border:#AAA 1px solid;
+	font-size:13px;
+}
+
+.LinkEditorHtmlNotificacion {
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    color: #333333;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.LinkEditorHtmlNotificacion:visited{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    color: #333333;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.bodyAccordeonNotificacion {
+    border: 1px solid #555555 !important;
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    padding: 0px 0px 0px 0px !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    color: #333333 !important;
+    width: 100%;
+}
+
+
+.headerAccordionNotificacion{
+    border: 0px !important;
+    color: #222222 !important;
+    background: none !important;
+    background-color: transparent !important;
+    padding: 0px 0px 0px 0px !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    cursor: pointer !important;
+}
+
+.headerAccordionAdmNotificacion{
+    color: #222222 !important;
+    background: none !important;
+    background-color: transparent !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    cursor: pointer !important;
+}
+
+.bodyAccordeonAdmNotificacion {
+    border: 1px solid #CCCCCC !important;
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    color: #333333 !important;
+    width: 100% !important;
+}
+
+.TableNotificacionNotInt
+{    
+    display: table;
+    width: 100% !important;
+}
+
+.RowNotificacionNotInt
+{    
+    display: table-row;
+}
+
+.CellNotificacionNotIntTitulo
+{    
+    display: table-cell;
+    font-weight: bold;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    width: 130px;
+    padding: 5px 5px 5px 5px;
+}
+
+.CellNotificacionNotIntTexto
+{    
+    display: table-cell;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    width: 140px;
+    padding: 5px 5px 5px 5px;
+}
+
+.TituloTablaNotificacion 
+{
+    color: #222222 !important;
+    font-size: 12px !important;
+    text-align:center !important;
+    font-weight: bold !important;
+}
+
+.TituloTablaNotificacion th
+{
+    color: #222222 !important;
+    font-size: 12px !important;
+    text-align:center !important;
+    font-weight: bold !important;
+}
+
+.ItemNotificacion
+{    
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 11px !important;
+    color: #222222 !important;
+}
+
+.ItemNotificacion a{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 11px !important;
+    color: #222222 !important;
+    text-align:center;
+    vertical-align: middle !important;
+    font-weight: bold;
+}
+
+.ItemNotificacion a:visited{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 11px !important;
+    color: #222222 !important;
+    text-align:center;
+    vertical-align: middle !important;
+    font-weight: bold;
+}
+
+.ItemNotificacion a:hover{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 11px !important;
+    color: #222222 !important;
+    text-align:center;
+    vertical-align: middle !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ItemNotificacionCentrado
+{    
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 11px !important;
+    color: #222222 !important;
+    text-align:center;
+}
+
+.ItemNotificacionCentrado a{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    color: #222222 !important;
+    text-align:center;
+    vertical-align: middle !important;
+    font-weight: bold;
+}
+
+.ItemNotificacionCentrado a:visited{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    color: #222222 !important;
+    text-align:center;
+    vertical-align: middle !important;
+    font-weight: bold;
+}
+
+.ItemNotificacionCentrado a:hover{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    color: #222222 !important;
+    text-align:center;
+    vertical-align: middle !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ItemNotificacionCentradoTodo {
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif !important;
+    font-size: 11px !important;
+    color: #222222 !important;
+    text-align:center;
+    vertical-align: middle !important;
+}
+
+.FileUploadAdjuntos input[type="file"] {
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight: bold;
+    width: 200px;
+}
+
+.UpdatePanelNot {
+    width: 100%;
+}
+
+.UpdatePanelNot div {
+    width: 100%;
+}
+
+.TablaBurbujaNotificacion {
+    width: 100%;
+    border: 0px;
+}
+
+.TituloSeccionBurbujaNotificacion td{    
+    padding-top: 10px;
+    text-align: left;
+    font-size: 12px !important;
+    color: #333333  !important;
+    font-weight: bold !important;
+}
+
+.TituloTablaBurbujaNotificacion {    
+    background: #CCCCCC;
+    padding: 2px 2px 2px 2px !important;
+}
+
+.TituloTablaBurbujaNotificacion td{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight: bold !important;
+    text-align:center;
+}
+
+.ContenidoTablaBurbujaNotificacion {
+    background: #FFFFFF;
+    padding: 2px 2px 2px 2px;
+}
+
+.ContenidoTablaBurbujaNotificacion td{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;    
+    padding: 2px 2px 2px 2px;
+}
+
+.CellTerminosNotificacion {
+    background-color: #EEEEEE;
+    text-align: justify !important;
+    text-justify: auto !important;
+}
+
+.TableAdministradorNotInt
+{    
+    display: table !important;
+    width: 100% !important;
+    border: 1px solid #CCCCCC !important;
+}
+
+.RowAdministradorNotInt
+{    
+    display: table-row !important;
+}
+
+.CellAdministradorTituloNotInt
+{    
+    display: table-cell !important;
+    font-weight: bold;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background-color: #CCCCCC;
+    /*width: 13%;*/
+    width: auto !important;
+    border: 1px solid #FFFFFF !important;
+}
+
+.CellAdministradorNotInt
+{    
+    display: table-cell !important;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px !important;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*width: 13%;*/
+    width: auto !important;
+    border: 1px solid #FFFFFF !important;
+    background-color: #F7F6F3;
+}
+
+.TableMensajesNot
+{    
+    display: table;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.RowMensajesNot
+{  
+    display: table-row;
+}  
+
+.CellMensajesNot
+{  
+    display: table-cell;
+    padding: 5px 5px 5px 5px;
+    vertical-align: top;
+    font-weight: bold !important;
+    text-align: justify !important;
+    text-justify: auto !important;
+    font-size: 12px;
+}
+
+.CellMensajesVerticaCenterNot
+{  
+    display: table-cell;
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+    font-weight: bold !important;
+    text-align: justify !important;
+    text-justify: auto !important;
+}
+
+.CellResultadoModalNotAdm
+{  
+    display: table-cell;
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    float: left;
+} 
+
+.CellResultadoModalNotAdm td
+{    
+    border: 1px solid #FFFFFF !important;
+    color: #333333 !important;
+    font-size: 11px !important;
+}
+.CellResultadoModalNotAdm th
+{    
+    border: 1px solid #FFFFFF !important;
+}
+
+.CellButtonModalDerechaNot {
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-right: 15px;
+    float: left;
+}
+
+.CellColSpanNot
+{
+    position: absolute;
+    /*position: relative;*/
+    left: 2%;
+    right: 2%;    
+}
+
+.CellBotonesListadosNot
+{  
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+
+/* Estilos Paginación GridView */
+.GridPager a,
+.GridPager span {
+    display: inline-block !important;
+    padding: 5px 9px !important;
+    /*margin-right: 4px !important;*/
+    border-radius: 3px !important;
+    border: solid 1px #c0c0c0 !important;
+    background: #e9e9e9 !important;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1) !important;
+    font-size: .875em !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    color: #717171 !important;
+    text-shadow: 0px 1px 0px rgba(255,255,255, 1) !important;
+}
+
+.GridPager a {
+    padding: 5px 9px !important;
+    background-color: #f5f5f5 !important;
+    color: #969696 !important;
+    border: 1px solid #969696 !important;
+}
+
+.GridPager span {
+    padding: 8px 11px !important;
+    background: #616161 !important;
+    box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .8) !important;
+    color: #f0f0f0 !important;
+    text-shadow: 0px 0px 3px rgba(0,0,0, .5) !important;
+    border: 1px solid #3AC0F2 !important;
+}
+
+
+.CellBotonesListadosNot
+{  
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.CellListadosNot
+{  
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    width: 100% !important;
+}
+
+.TableNotificacionNotElecInt
+{    
+    display: table;
+    width: 600px;
+}
+
+.TableNotificacionNotElecNOInt
+{    
+    display: table;
+    width: 780px;
+}
+
+.CellNotificacionNotElecIntNOTitulo
+{    
+    display: table-cell;
+    font-weight: bold;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    width: 110px;
+    padding: 5px 5px 5px 5px;
+}
+
+.CellNotificacionNotElecIntNOTexto
+{    
+    display: table-cell;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    width: 120px;
+    padding: 5px 5px 5px 5px;
+}
+
+.TablePrevisualizacionNot 
+{
+    display: table;
+    width: 98%;
+    margin-left: 1%;
+    border: 1px solid #000000;
+}
+
+.RowPrevisualizacionNot 
+{
+    display: table-row;
+}
+
+.CellDatosPrevisualizacionNot 
+{
+    display: table-cell;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.CellDocumentoPrevisualizacionNot 
+{
+    display: table-cell;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.CellLabelDatosPrevisualizacionNot 
+{
+    display: table-cell;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    width: 45%;
+}
+
+.CellLabelDatosPrevisualizacionNot label
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.CellInformacionDatosPrevisualizacionNot 
+{
+    display: table-cell;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    width: 55%;
+    vertical-align: middle;
+}
+
+.CellGridViewNot
+{  
+    display: table-cell;  
+    border-width: thin;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #25627B;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    margin-top: 3px;  
+}
+
+.CellGridViewNot td {
+    border: 1px solid #FFFFFF;            
+}
+
+.CellGridViewNot th {
+    border: 1px solid #FFFFFF;            
+}
+
+.CellGridViewNot span
+{  
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight:normal;
+}
+
+.CellGridViewNot a
+{  
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.FileUploadRegistroNot input[type="file"] {
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight: bold;
+    width: 200px;
+}
+
+
+.LnkGrillaReporteNot {
+    font-family: Arial,sans-serif,Tahoma,Verdana !important;
+    font-size: 9pt !important;
+    color: #222222 !important;
+    vertical-align: middle !important;
+    font-weight: bold  !important;
+    text-decoration: underline;
+}
+
+.LnkGrillaReporteNot:visited{
+    font-family: Arial,sans-serif,Tahoma,Verdana !important;
+    font-size: 9pt !important;
+    color: #222222 !important;
+    vertical-align: middle !important;
+    font-weight: bold  !important;
+    text-decoration: underline;
+}
+
+.LnkGrillaReporteNot:hover{
+    font-family: Arial,sans-serif,Tahoma,Verdana !important;
+    font-size: 9pt !important;
+    color: #222222 !important;
+    text-align:center;
+    vertical-align: middle !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+}

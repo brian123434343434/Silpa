@@ -1,0 +1,79 @@
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\ResolveAssemblyReference.cache
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\ResolveAssemblyReference.cache
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\ResolveAssemblyReference.cache
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.csprojResolveAssemblyReference.cache
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.csprojResolveAssemblyReference.cache
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.csprojResolveAssemblyReference.cache
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.csprojResolveAssemblyReference.cache
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.csprojResolveAssemblyReference.cache
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb

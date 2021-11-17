@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Sancionatorio" targetNamespace="http://tempuri.org/Sancionatorio.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Sancionatorio.xsd" xmlns:mstns="http://tempuri.org/Sancionatorio.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Sancionatorio" type="SancionatorioIdentity">
+  </xs:element>
+  <xs:complexType name="SancionatorioIdentity">
+    <xs:sequence>
+      <!--Número SILPA (VITAL)-->
+      <xs:element name="NumeroSilpa" type="xs:string" />
+      <!--Número Radicacion-->
+      <xs:element name="NumeroRadicacion" type="xs:string" />
+      <!--Mensaje Sancionatorio-->
+      <xs:element name="Mensaje" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

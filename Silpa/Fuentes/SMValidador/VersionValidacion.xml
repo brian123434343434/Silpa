@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+<proyecto nombre ="Validador" version ="1.0.0.1" actualizado= "17/01/2010 11:21" autor ="MIRM" descripcion="Adicion del proyecto a la solucion total de SILPA"/>
+<proyecto nombre ="Validador" version ="1.0.0.2" actualizado= "25/01/2010 20:21" autor ="MIRM" descripcion="Creación del Método EjecutarFuncionDirect en la Clase de Base de Datos"/>
+</version>

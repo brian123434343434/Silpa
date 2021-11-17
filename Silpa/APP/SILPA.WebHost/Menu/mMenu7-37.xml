@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="Inicio" TextField="Inicio" NavigateUrlField="http//vital.anla.gov.co/Silpa_ut_pre/Default.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="Mis Tareas" TextField="Mis Tareas" NavigateUrlField="http://vital.anla.gov.co/Silpa/TestSilpa/security/goto.aspx?app=NuevoBPM&amp;op=TL&amp;IdRelated=7" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="RUIA" TextField="RUIA" NavigateUrlField="" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem ValueField="Diligenciar RUIA" TextField="Diligenciar RUIA" NavigateUrlField="http://vital.anla.gov.co/SILPA_UT_PRE/RUIA/RegistrarSancion.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+    <MenuItem ValueField="Diligenciar Cumplimiento" TextField="Diligenciar Cumplimiento" NavigateUrlField="http://vital.anla.gov.co/SILPA_UT_PRE/RUIA/ActualizarFechaSancion.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+    <MenuItem ValueField="Consultar RUIA" TextField="Consultar RUIA" NavigateUrlField="http://vital.anla.gov.co/SILPA_UT_PRE/RUIA/ConsultarSancion.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  </MenuItem>
+  <MenuItem ValueField="Salir" TextField="Salir" NavigateUrlField="http://vital.anla.gov.co/SILPA_UT_PRE/Salir.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+</menu>

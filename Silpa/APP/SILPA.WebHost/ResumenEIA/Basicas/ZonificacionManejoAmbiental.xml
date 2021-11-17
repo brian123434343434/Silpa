@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ZonificacionManejoAmbiental>
+	<autoridad_ambiental AUT_ID="0" AUT_NOMBRE="Seleccione..." />
+	<autoridad_ambiental AUT_ID="1" AUT_NOMBRE="Áreas de Exclusión" />
+	<autoridad_ambiental AUT_ID="2" AUT_NOMBRE="Áreas de Intervención con Restricciones" />
+	<autoridad_ambiental AUT_ID="3" AUT_NOMBRE="Áreas de Intervención" />	
+</ZonificacionManejoAmbiental>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AppRadicacion">
+</Property><Property Name="Archivo de la solución" Value="C:\programas\SILPA\Fuentes\AppRadicacion\AppRadicacion.sln">
+</Property><Property Name="Date" Value="miércoles, 20 de enero de 2010">
+</Property><Property Name="Time" Value="16:25:11 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="AppRadicacion" Source="AppRadicacion.csproj" Description="Se realizó correctamente la copia de seguridad del archivo de proyecto C:\programas\SILPA\Fuentes\AppRadicacion\Backup\AppRadicacion.csproj">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="FrmRadicacion.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\FrmRadicacion.cs">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="FrmRadicacion.Designer.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\FrmRadicacion.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Logica\AutoridadAmbiental.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Logica\AutoridadAmbiental.cs">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Program.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Properties\AssemblyInfo.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Properties\Resources.Designer.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Properties\Settings.Designer.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Web References\EnviarDatosSolicitud\Reference.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Web References\EnviarDatosSolicitud\Reference.cs">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Properties\Settings.settings" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="app.config" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Web References\EnviarDatosSolicitud\Reference.map" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Web References\EnviarDatosSolicitud\Reference.map">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Web References\EnviarDatosSolicitud\WSPQ03.disco" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Web References\EnviarDatosSolicitud\WSPQ03.disco">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Web References\EnviarDatosSolicitud\WSPQ03.wsdl" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Web References\EnviarDatosSolicitud\WSPQ03.wsdl">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="FrmRadicacion.resx" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\FrmRadicacion.resx">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="Properties\Resources.resx" Description="Se realizó correctamente la copia de seguridad del archivo C:\programas\SILPA\Fuentes\AppRadicacion\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="AppRadicacion.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="AppRadicacion" Source="AppRadicacion.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AppRadicacion" Source="AppRadicacion.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

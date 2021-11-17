@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el Diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout Style="LeftRight" layoutVersion="2" viewPortLeft="0" viewPortTop="254" zoom="100">
+    <ListasSancionType_XmlComplexType left="1317" top="4593" width="5292" height="2831" selected="0" zOrder="1" index="0" expanded="1">
+        <_x0028_group1_x0029__XmlSequence left="7243" top="1254" width="5292" height="2831" selected="0" zOrder="2" index="0" expanded="1">
+            <listaFaltas_XmlElement left="13169" top="1254" width="5292" height="2831" selected="0" zOrder="5" index="0" expanded="0" />
+        </_x0028_group1_x0029__XmlSequence>
+        <_x0028_group2_x0029__XmlSequence left="7243" top="4593" width="5292" height="2831" selected="0" zOrder="12" index="1" expanded="1">
+            <listaOpciones_XmlElement left="13169" top="4593" width="5291" height="2831" selected="0" zOrder="14" index="0" expanded="0" />
+        </_x0028_group2_x0029__XmlSequence>
+        <_x0028_group3_x0029__XmlSequence left="7243" top="7932" width="5292" height="2831" selected="0" zOrder="17" index="2" expanded="1">
+            <listaTipoSancion_XmlElement left="13169" top="7932" width="5291" height="2831" selected="0" zOrder="20" index="0" expanded="0" />
+        </_x0028_group3_x0029__XmlSequence>
+    </ListasSancionType_XmlComplexType>
+    <TipoFaltaType_XmlComplexType left="1317" top="11271" width="5292" height="2831" selected="0" zOrder="4" index="1" expanded="1" />
+    <OpcionTipoSancionType_XmlComplexType left="1317" top="14610" width="5292" height="2831" selected="0" zOrder="9" index="2" expanded="1" />
+    <TipoSancionType_XmlComplexType left="1317" top="17949" width="5292" height="2831" selected="0" zOrder="11" index="3" expanded="1" />
+    <listasRuia_XmlElement left="1317" top="21288" width="5292" height="2831" selected="0" zOrder="23" index="4" expanded="1">
+        <_x0028_group1_x0029__XmlSequence left="7243" top="17949" width="5292" height="2831" selected="0" zOrder="26" index="0" expanded="1">
+            <listaFaltas_XmlElement left="13169" top="17949" width="5292" height="2831" selected="0" zOrder="33" index="0" expanded="0" />
+        </_x0028_group1_x0029__XmlSequence>
+        <_x0028_group2_x0029__XmlSequence left="7243" top="21288" width="5292" height="2831" selected="0" zOrder="28" index="1" expanded="1">
+            <listaOpciones_XmlElement left="13169" top="21288" width="5292" height="2831" selected="0" zOrder="37" index="0" expanded="0" />
+        </_x0028_group2_x0029__XmlSequence>
+        <_x0028_group3_x0029__XmlSequence left="7243" top="24627" width="5292" height="2831" selected="0" zOrder="30" index="2" expanded="1">
+            <listaTipoSancion_XmlElement left="13169" top="24627" width="5292" height="2831" selected="0" zOrder="40" index="0" expanded="0" />
+        </_x0028_group3_x0029__XmlSequence>
+    </listasRuia_XmlElement>
+</XSDDesignerLayout>

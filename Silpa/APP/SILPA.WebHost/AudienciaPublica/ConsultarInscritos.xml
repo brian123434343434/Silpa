@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<audiencias >
+  <!--<a href="../../silpa/AudienciaPublica/ListaInscritosAudienciaPublica.aspx">-->
+  <item id="0" numerovital="AUD-200909200236"
+        nombreproyecto="ONG Venezuela"
+        numeroexpediente="CAS0009" 
+    identificaciónentidades="ONG Venezuela" 
+    fecha_reunión_Informativa="08/10/2009" 
+    fecha_publicación="23/10/2009"
+        link ="~/AudienciaPublica/ListaInscritosAudienciaPublica.aspx"
+        />
+  
+
+  <item id="0" 
+        numerovital="AUD-200909200238" 
+        nombreproyecto="ONG Ecuador"
+  numeroexpediente="CAS0010"
+  identificaciónentidades="ONG Ecuador"
+  fecha_reunión_Informativa="24/10/2009"
+  fecha_publicación="12/11/2009"
+        link ="~/AudienciaPublica/ListaInscritosAudienciaPublica.aspx"
+        />
+  
+  <item id="0" numerovital="AUD-200909200240"
+        nombreproyecto="ONG EEUU"
+   numeroexpediente="CAS0011"
+  identificaciónentidades="ONG EEUU"
+  fecha_reunión_Informativa="16/10/2009"
+  fecha_publicación="28/10/2009"
+        link ="~/AudienciaPublica/ListaInscritosAudienciaPublica.aspx"
+        />
+</audiencias>

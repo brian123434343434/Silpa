@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><OficioIdentity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+  <NumeroSilpa>NumeroSilpa-0001</NumeroSilpa>  
+  <NumeroExpediente>NumeroExpediente-0001</NumeroExpediente> 
+  <NumeroOficio>num_oficio-0001</NumeroOficio> 
+  <FechaOficio>2009-01-01T00:00:00</FechaOficio>
+  <TipoOficio>Tipo_Uno</TipoOficio>
+  <RequiereRadicacion>true</RequiereRadicacion>
+  <Descripcion>Esta es una descripcion inicial</Descripcion> 
+  <TiempoMaximoAnexarInfo>10</TiempoMaximoAnexarInfo> 
+  <IdAA>11</IdAA>
+</OficioIdentity>

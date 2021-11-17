@@ -1,0 +1,69 @@
+﻿.Frame_Master {
+    position:fixed; 
+    top:90px; left:0; 
+    bottom:0; right:0; 
+    width:100%; 
+    height:calc(100vh - 90px); 
+    border:none; 
+    margin:0; 
+    padding:0; 
+    overflow:hidden; 
+    z-index:999999;
+}
+
+.ModalBackgroundCorporaciones
+{
+	background-color:Gray !important;
+	filter:alpha(opacity=40) !important;
+	opacity:0.4 !important;
+
+}
+
+.ContenedorModalCorporaciones {
+    max-height: 700px;    
+    overflow-y: scroll;
+    max-width: 900px;
+    width: 70%;
+    background-color: #FFFFFF;
+}
+
+.TablaFormularioCorporaciones 
+{
+    width:98%;
+    margin-left: 1%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.TablaBotonesFormularioCorporaciones 
+{
+    width:98%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.TituloSeccionCorporaciones {
+    font-size: 13px;    
+    color: #333333 !important;
+    font-weight: bold !important;
+    background: #EEEEEE;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+}
+
+.ImagenesModalCorporaciones
+{
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.TextoModalErrorCorporaciones
+{
+    font-size: 14px;
+    text-align: justify;
+    color: #333333 !important;
+}

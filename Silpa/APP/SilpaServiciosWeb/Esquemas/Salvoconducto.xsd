@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Salvoconducto" targetNamespace="http://tempuri.org/Salvoconducto.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Salvoconducto.xsd" xmlns:mstns="http://tempuri.org/Salvoconducto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Salvoconducto" type="SalvoconductoIdentity">
+  </xs:element>
+  <xs:complexType name="SalvoconductoIdentity">
+    <xs:sequence>
+      <!--Número SILPA (VITAL)-->
+      <xs:element name="NumeroSilpa" type="xs:string" />
+      <!--Número Expediente-->
+      <xs:element name="NumeroExpediente" type="xs:int" />
+      <!--Identificador del Tipo del salvoconducto-->
+      <xs:element name="TipoSalvoconducto" type="xs:string" />
+      <!--Identificador del Tipo del salvoconducto-->
+      <xs:element name="IdTipoSalvoconducto" type="xs:int" />
+      <!--Número del salvoconducto-->
+      <xs:element name="NumeroSalvoconducto" type="xs:string" />
+      <!--Número del salvoconducto anterior-->
+      <xs:element name="NumeroSalvoconductoAnterior" type="xs:string" minOccurs="0" />
+      <!--Fecha inicial del salvoconducto-->
+      <xs:element name="FechaDesde" type="xs:string" />
+      <!--Tipo de recurso flora (Clase de aprovechamiento)-->
+      <xs:element name="TipoRecursoFlora" type="xs:string" />
+      <!--Identificador del Tipo de recurso flora (Clase de aprovechamiento)-->
+      <xs:element name="IdTipoRecursoFlora" type="xs:int" />
+      <!--Municipio-->
+      <xs:element name="Municipio" type="xs:string" />
+      <!--Identificador del Municipio-->
+      <xs:element name="IdMunicipio" type="xs:int" />
+      <!--Corregimiento-->
+      <xs:element name="Corregimiento" type="xs:string" minOccurs="0" />
+      <!--Identificador del Corregimiento-->
+      <xs:element name="IdCorregimiento" type="xs:int" minOccurs="0" />
+      <!--Identificador del Vereda-->
+      <xs:element name="IdVereda" type="xs:int" minOccurs="0" />
+      <!--Vereda-->
+      <xs:element name="Vereda" type="xs:string" minOccurs="0" />
+      <!--Departamento-->
+      <xs:element name="Departamento" type="xs:string" />
+      <!-- Identificador del Departamento-->
+      <xs:element name="IdDepartamento" type="xs:int" />
+      <!-- Fecha Vencimiento-->
+      <xs:element name="FechaHasta" type="xs:string" />
+      <xs:sequence minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="especimen" type="EspecimenIdentity" />
+      </xs:sequence>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EspecimenIdentity">
+    <xs:sequence>
+      <!--Nombre cientifico del especimen-->
+      <xs:element name="NombreCientifico" type="xs:string" minOccurs="0" />
+      <!--Nombre comun del especimen-->
+      <xs:element name="NombreComun" type="xs:string" />
+      <!--DEscripcion del especimen-->
+      <xs:element name="DescripcionEspecimen" type="xs:string" />
+      <!--Identificacion del especimen-->
+      <xs:element name="IdentificacionEspecimen" type="xs:string" minOccurs="0" />
+      <!--Cantidad del especimen-->
+      <xs:element name="CantidadEspecimen" type="xs:string" minOccurs="0" />
+      <!--Unidad de medida del especimen-->
+      <xs:element name="UnidadMedida" type="xs:string" />
+      <!--Dimensiones del especimen-->
+      <xs:element name="DimensionesEspecimen" type="xs:string" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

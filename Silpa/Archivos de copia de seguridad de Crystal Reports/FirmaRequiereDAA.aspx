@@ -1,0 +1,32 @@
+<%@ Page Language="C#" MasterPageFile="~/plantillas/SILPA.master" AutoEventWireup="true" CodeFile="FirmaRequiereDAA.aspx.cs" Inherits="FirmaDigital_FirmaDocumento" Title="Untitled Page" %>
+<asp:Content ID="Content2" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
+<div class="SubHeaderBack">
+	<div class="pageHeader">
+		<div class="subBannerPhoto"></div>
+		<p>&nbsp;</p>
+		<%--TITLE--%>
+		<p> &nbsp; <span class="specialsBtn"><strong>FIRMAR DOCUMENTO</strong></span></p>
+		<p>&nbsp;</p>		
+	</div>
+</div>
+<div class="copy">
+<%--BODY--%>
+
+<asp:ScriptManager id="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <table style="width: 600px">
+        <tr>
+            <td colspan="3" style="text-align: center; width: 603px;">
+                <asp:Button ID="btnFirmar" runat="server" Text="Firmar Documento" PostBackUrl="~/NotificacionElectronica/Documento.aspx" OnClientClick="return alert('Documento Firmado.')" /></td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2" style="width: 603px">
+            <iframe id="ifdoc" src="../documentos/Auto_Requiere_DAA.pdf" height="600" width="600" style="height: 433px" ></iframe>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+    </div>
+</asp:Content>
+

@@ -1,0 +1,110 @@
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\ResolveAssemblyReference.cache
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\Silpa\Codigo Fuente\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\ResolveAssemblyReference.cache
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\ResolveAssemblyReference.cache
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\SoftManagement.Log.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.csprojResolveAssemblyReference.cache
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Debug\SoftManagement.Log.pdb

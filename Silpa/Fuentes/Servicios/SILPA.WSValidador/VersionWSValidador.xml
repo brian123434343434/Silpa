@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+  <proyecto nombre ="WSValidador" version ="1.0.0.0" actualizado= "17/01/2010 12:00" autor ="MIRM" descripcion="Adicion del sitio de WSValidacion a la solucion"/>
+  <proyecto nombre ="WSValidador" version ="1.0.0.1" actualizado= "18/01/2010 12:00" autor ="jgarces" descripcion="Se realiza un ajuste en la estructura de respuesta de xml del servicio expuesto"/>
+  <proyecto nombre ="WSValidador" version ="1.0.0.2" actualizado= "25/01/2010 20:00" autor ="MIRM" descripcion="aDICION DE LAS REFERENCIAS DE VALIDACION Y VALIDACION NEGOCIO"/>
+</version>

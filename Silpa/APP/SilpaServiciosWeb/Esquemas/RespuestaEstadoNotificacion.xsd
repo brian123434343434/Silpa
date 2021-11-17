@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RespuestaEstadoNotificacion" targetNamespace="http://tempuri.org/RespuestaEstadoNotificacion.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/RespuestaEstadoNotificacion.xsd" xmlns:mstns="http://tempuri.org/RespuestaEstadoNotificacion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="RespuestaEstadoNotificacionType">
+		<xs:sequence>
+			<xs:element name="numProcesoAdministracion" type="xs:string" />
+			<xs:element name="numActoAdministrativoNotificacion" type="xs:string" />
+			<xs:element name="fechaEmisionActoAdministrativo" type="xs:date" />
+			<xs:element name="codigoEstadoNotificacion" type="enumCodigoEstadoNotificacion" />
+			<xs:element name="nombreEstadoNotificacion" type="enumNombreEstadoNotificacion" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="enumCodigoEstadoNotificacion">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="1">
+				<xs:annotation>
+					<xs:documentation>PENDIENTE DE ACUSE DE NOTIFICACIÓN</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2">
+				<xs:annotation>
+					<xs:documentation>NOTIFICADA</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="3">
+				<xs:annotation>
+					<xs:documentation>EN EDICTO</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="4">
+				<xs:annotation>
+					<xs:documentation>CON RECURSO INTERPUESTO</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="5">
+				<xs:annotation>
+					<xs:documentation>EJECUTORIADA</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="6">
+				<xs:annotation>
+					<xs:documentation>CON RENUNCIA A TÉRMINOS</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="7">
+				<xs:annotation>
+					<xs:documentation>SUSPENDIDO</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="8">
+				<xs:annotation>
+					<xs:documentation>REVOCADO</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="9">
+				<xs:annotation>
+					<xs:documentation>NO EXISTE</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="-1">
+				<xs:annotation>
+					<xs:documentation>CON ERROR</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="enumNombreEstadoNotificacion">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PENDIENTE_DE_ACUSE_DE_NOTIFICACIÓN">
+				<xs:annotation>
+					<xs:documentation>1</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NOTIFICADA">
+				<xs:annotation>
+					<xs:documentation>2</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="EN_EDICTO">
+				<xs:annotation>
+					<xs:documentation>3</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="CON_RECURSO_INTERPUESTO">
+				<xs:annotation>
+					<xs:documentation>4</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="EJECUTORIADA">
+				<xs:annotation>
+					<xs:documentation>5</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="CON_RENUNCIA_A_TÉRMINOS">
+				<xs:annotation>
+					<xs:documentation>6</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="SUSPENDIDO">
+				<xs:annotation>
+					<xs:documentation>7</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="REVOCADO">
+				<xs:annotation>
+					<xs:documentation>8</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="NO_EXISTE">
+				<xs:annotation>
+					<xs:documentation>9</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="CON_ERROR">
+				<xs:annotation>
+					<xs:documentation>-1</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="RespuestaEstadoNotificacion" type="RespuestaEstadoNotificacionType">
+	</xs:element>
+</xs:schema>

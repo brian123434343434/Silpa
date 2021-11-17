@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TipoDocumento" targetNamespace="http://tempuri.org/TipoDocumento.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TipoDocumento.xsd" xmlns:mstns="http://tempuri.org/TipoDocumento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="TipoDocumentoType">
+		<xs:sequence>
+			<xs:sequence>
+				<xs:element name="id" type="xs:int" />
+				<xs:element name="nombre" type="xs:string" />
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="TipoDocumento" type="TipoDocumentoType">
+	</xs:element>
+</xs:schema>

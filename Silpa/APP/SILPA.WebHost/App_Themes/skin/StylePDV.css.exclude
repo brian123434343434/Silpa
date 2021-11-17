@@ -1,0 +1,507 @@
+﻿/* === Remove input autofocus webkit === */  
+*:focus {  
+    outline: none;  
+}  
+  
+/* === Form Typography === */  
+body {  
+    color: #25627B;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}  
+  
+.contact_form h2, .contact_form label, .contact_form h3 {  
+    font-family: Georgia, Times, "Times New Roman", serif;  
+    margin: 5px; 
+    padding: 5px;    
+}
+  
+/* === List Styles === */  
+.contact_form ul {  
+    width: 750px;  
+    list-style-type: none;  
+    list-style-position: outside;  
+    margin: 0px;  
+    padding: 0px;  
+}  
+  
+/* === Form Elements === */  
+.contact_form label { 
+    color: #25627B;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    width: 236px;  
+    margin-top: 3px;  
+    display: inline-block;  
+    float: left; 
+    font-weight: normal;   
+}  
+  
+.contact_form input {  
+    padding: 2px 5px; 
+}  
+  
+.contact_form textarea {  
+    padding: 8px;  
+    width: 300px;  
+}  
+  
+.contact_form button {  
+    margin-left: 156px;  
+}  
+  
+/* form element visual styles */  
+.contact_form input, .contact_form textarea {  
+    border: 1px solid #aaa;  
+    
+}  
+  
+.contact_form input:focus, .contact_form textarea:focus {  
+    background: #fff;  
+    border: 1px solid #555;  
+    box-shadow: 0 0 3px #aaa;  
+      
+}  
+  
+/* === HTML5 validation styles === */  
+.contact_form input:required, .contact_form textarea:required {  
+    background: #fff url(images/red_asterisk.png) no-repeat 98% center;  
+}  
+  
+.contact_form input:required:valid, .contact_form textarea:required:valid {  
+    background: #fff url(images/valid.png) no-repeat 98% center;  
+    box-shadow: 0 0 5px #5cd053;  
+    border-color: #28921f;  
+}  
+  
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {  
+    background: #fff url(images/invalid.png) no-repeat 98% center;  
+    box-shadow: 0 0 5px #d45252;  
+    border-color: #b03535;  
+}  
+  
+/* === Form hints === */  
+.form_hint {  
+    background: #d45252;  
+    border-radius: 3px 3px 3px 3px;  
+    color: white;  
+    margin-left: 8px;  
+    padding: 1px 6px;  
+    z-index: 999; /* hints stay above all other elements */  
+    position: absolute; /* allows proper formatting if hint is two lines */  
+    display: none;  
+}  
+  
+.form_hint::before {  
+    content: "\25C0";  
+    color: #d45252;  
+    position: absolute;  
+    top: 1px;  
+    left: -6px;  
+}  
+  
+.contact_form input:focus + .form_hint {  
+    display: inline;  
+}  
+  
+.contact_form input:required:valid + .form_hint {  
+    background: #28921f;  
+}  
+  
+.contact_form input:required:valid + .form_hint::before {  
+    color: #28921f;  
+}  
+
+.Table  
+{    
+    display: table;
+    width: 96%;
+    margin-left: 2%;
+    padding: 5px 5px 5px 5px;
+}  
+  
+.Title  
+  
+{  
+  
+    display: table-caption;  
+    text-align: center;  
+    font-weight: bold;  
+    font-size: larger;  
+  
+}  
+  
+.Heading  
+{  
+    display: table-row;  
+    font-weight: bold;  
+    text-align: center;  
+}  
+.Row  
+{  
+    display: table-row;
+    padding: 12px; 
+    position: relative;  
+}  
+.Cell  
+{  
+    display: table-cell;  
+    border-width: thin;  
+    padding-left: 5px;  
+    padding-right: 5px; 
+    color: #25627B;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    margin-top: 3px;  
+    float: left; 
+    font-weight: normal;  
+    width: 100%;
+} 
+     
+.TableMensaje
+{    
+    display: table;
+    width: 80%;
+    margin-left: 0%;
+    padding: 5px 5px 5px 5px;
+}
+
+.CellArchivo a
+{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.CellMensaje
+{  
+    display: table-cell;  
+    border-width: thin;  
+    padding-left: 5px;  
+    padding-right: 5px; 
+    padding-bottom: 20px;
+    color: #9b0c0c;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px; 
+    margin-top: 3px;  
+    float: left; 
+    font-weight: normal;
+}
+
+.CellMensaje .Label
+{  
+    color: #9b0c0c;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px; 
+}
+
+.TableGridView  
+{    
+    display: table;
+}  
+
+.TableGridRow
+{    
+    display: table-row;
+    position: relative; 
+}
+
+.CellGridView
+{  
+    display: table-cell;  
+    border-width: thin;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #25627B;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    margin-top: 3px;  
+}
+
+.CellGridView td {
+    border: 1px solid #FFFFFF;            
+}
+
+.CellGridView th {
+    border: 1px solid #FFFFFF;            
+}
+
+.CellGridView span
+{  
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight:normal;
+}
+
+.CellGridView a
+{  
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.TextoMayuscula input[type="text"]
+{  
+    text-transform: uppercase;
+}        
+
+.CellGridViewLista
+{  
+    display: table-cell;  
+    border-width: thin;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #25627B;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    margin-top: 3px;  
+}
+
+.CellGridViewLista td {
+    border: 1px solid #FFFFFF;            
+}
+
+.CellGridViewLista th {
+    border: 1px solid #FFFFFF;            
+}
+
+.CellGridViewLista span
+{  
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #25627B;
+    font-weight:normal;
+}
+
+.CellGridViewLista a
+{  
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.CellGridViewLista input[type="text"]
+{  
+    text-transform: uppercase;
+}        
+
+.CellTable {
+    display: table-cell;  
+    border-width: thin;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #25627B;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    margin-top: 3px;  
+}
+
+.CellTable table {
+    border: 1px solid #FFFFFF;
+}
+
+.CellTable th {
+    background-color: #CCCCCC;
+    color: #222222;
+    padding: 3px 3px 3px 3px;
+}
+
+.CellTable td {
+    background-color: #E2DED6;
+    color: #333333;
+    text-align: center;            
+}
+
+.CellTable td a{
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+}
+
+.TableButton {
+    display: table;
+    width:90%;
+}
+
+.RowButton {
+    display: table-row;
+}
+
+.CellButton {
+    display: table-cell;  
+    border-width: thin;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 3px;  
+    width: 100%;       
+    text-align:right;     
+}
+
+
+.TableBuscar
+{    
+    display: table;
+    border: 1px solid;
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+}  
+  
+  
+.RowBuscar
+{  
+    display: table-row;
+    position: relative; 
+}  
+
+.RowBuscarTitulo
+{  
+    display: table-row;
+    position: relative; 
+}  
+
+
+.CellBuscarTitulo  
+{  
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #CCCCCC;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    float: left; 
+    margin-bottom: 10px;
+}
+
+.CellBuscar  
+{  
+    display: table-cell;
+    border-width: thin;  
+    padding-left: 5px;  
+    padding-right: 5px; 
+    color: #25627B;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px; 
+    margin-top: 3px;  
+    float: left; 
+    font-weight: normal;
+} 
+
+.CellBuscar label
+{  
+    width: 260px;
+} 
+
+.TableResultadoBuscar
+{    
+    display: table;
+    width: 100%;
+}
+
+.InputFile{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px; 
+    cursor: pointer;
+}
+
+.validator {
+    color: red;
+}
+
+.mensajeInformativo {
+    color: red;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 9px; 
+    font-style: oblique;
+}
+
+.contact_form_resultado {
+    width: 40%;
+    background-color:#ffffff; 
+}
+
+.TableResultadoModal
+{    
+    display: table;
+    width: 100%;
+    border: 1px solid #333333;
+}  
+  
+  
+.RowResultadoModal
+{  
+    display: table-row;
+    position: relative; 
+}  
+
+.RowResultadoTituloModal
+{  
+    display: table-row;
+    position: relative; 
+}  
+
+
+.CellResultadoTituloModal
+{  
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #CCCCCC;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    float: left; 
+}
+
+.CellResultadoModal
+{  
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    float: left; 
+} 
+
+.RowButtonModal {
+    display: table-row;
+}
+
+.CellButtonModal {
+    display: table-cell;  
+    color: #222222;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px; 
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    float: left;    
+}
+
+
+.modalBackground { 
+    background-color:#333333; 
+    filter:alpha(opacity=70); 
+    opacity:0.7; 
+} 

@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="Inicio" TextField="Inicio" NavigateUrlField="http//vital.anla.gov.co/Silpa_ut_pre/Default.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="" TextField="Registro Minero" NavigateUrlField="" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem ValueField="" TextField="Registro" NavigateUrlField="http://vital.anla.gov.co/silpa_UT_PRE/RegistroMinero/RegistroMinero.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="Blank" ToolTipField="" />
+    <MenuItem ValueField="" TextField="Modificar Registro" NavigateUrlField="http://vital.anla.gov.co/silpa_UT_PRE/RegistroMinero/listadoRegistroMInero.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="Blank" ToolTipField="" />
+  </MenuItem>
+  <MenuItem ValueField="" TextField="Salir" NavigateUrlField="http://vital.anla.gov.co/ventanillasilpa" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+</menu>

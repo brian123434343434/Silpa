@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el Diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout Style="LeftRight" layoutVersion="2" viewPortLeft="111" viewPortTop="386" zoom="100">
+    <NotificacionType_XmlComplexType left="1740" top="1386" width="12303" height="5371" selected="0" zOrder="1" index="0" expanded="1">
+        <_x0028_group1_x0029__XmlSequence left="14677" top="3291" width="5080" height="1561" selected="0" zOrder="2" index="10" expanded="1">
+            <listaPersonas_XmlElement left="20391" top="1307" width="9022" height="5530" selected="0" zOrder="12" index="0" expanded="0" />
+        </_x0028_group1_x0029__XmlSequence>
+    </NotificacionType_XmlComplexType>
+    <Notificacion_XmlElement left="1720" top="7303" width="12330" height="4948" selected="0" zOrder="5" index="1" expanded="1">
+        <_x0028_group1_x0029__XmlSequence left="14684" top="9208" width="5609" height="1138" selected="0" zOrder="7" index="10" expanded="1">
+            <listaPersonas_XmlElement left="20927" top="7012" width="8837" height="5530" selected="0" zOrder="14" index="0" expanded="0" />
+        </_x0028_group1_x0029__XmlSequence>
+    </Notificacion_XmlElement>
+    <enumTipoIdentificacion_XmlSimpleType left="1528" top="12800" width="8520" height="5371" selected="0" zOrder="10" index="2" expanded="1" />
+    <PersonaType_XmlComplexType left="1396" top="21299" width="8731" height="6218" selected="0" zOrder="16" index="3" expanded="1">
+        <_x0028_group1_x0029__XmlSequence left="10761" top="22727" width="5292" height="3254" selected="0" zOrder="18" index="10" expanded="1">
+            <estadoNotificado_XmlElement left="16687" top="22727" width="5291" height="3254" selected="0" zOrder="21" index="0" expanded="1" />
+        </_x0028_group1_x0029__XmlSequence>
+    </PersonaType_XmlComplexType>
+    <enumTipoPersona_XmlSimpleType left="1587" top="18679" width="7091" height="2408" selected="0" zOrder="24" index="4" expanded="1" />
+    <enumNombreEstadoNotificacion_XmlSimpleType left="17436" top="29685" width="15346" height="6218" selected="0" zOrder="26" index="5" expanded="1" />
+    <enumCodigoEstadoNotificacion_XmlSimpleType left="1111" top="29819" width="16404" height="5371" selected="0" zOrder="28" index="6" expanded="1" />
+    <EstadoNotificadoType_XmlComplexType left="11986" top="26484" width="7885" height="3254" selected="0" zOrder="30" index="7" expanded="1" />
+</XSDDesignerLayout>

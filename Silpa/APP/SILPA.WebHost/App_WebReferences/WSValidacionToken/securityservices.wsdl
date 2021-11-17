@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Servicios de Seguridad para Clientes COM</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx">
+      <s:element name="TestTransmission">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestTransmissionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestTransmissionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Client" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidateUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserInfoByToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Client" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Token" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserInfoByTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserInfoByTokenResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TestTransmissionSoapIn">
+    <wsdl:part name="parameters" element="tns:TestTransmission" />
+  </wsdl:message>
+  <wsdl:message name="TestTransmissionSoapOut">
+    <wsdl:part name="parameters" element="tns:TestTransmissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateUserSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidateUser" />
+  </wsdl:message>
+  <wsdl:message name="ValidateUserSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoByTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserInfoByToken" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoByTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserInfoByTokenResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap">
+    <wsdl:operation name="TestTransmission">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna True si la conexion al WS esta correcta</wsdl:documentation>
+      <wsdl:input message="tns:TestTransmissionSoapIn" />
+      <wsdl:output message="tns:TestTransmissionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna XML con los datos del Usuario</wsdl:documentation>
+      <wsdl:input message="tns:ValidateUserSoapIn" />
+      <wsdl:output message="tns:ValidateUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoByToken">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna XML con los datos del Usuario</wsdl:documentation>
+      <wsdl:input message="tns:GetUserInfoByTokenSoapIn" />
+      <wsdl:output message="tns:GetUserInfoByTokenSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap" type="tns:Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestTransmission">
+      <soap:operation soapAction="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx/TestTransmission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUser">
+      <soap:operation soapAction="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx/ValidateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoByToken">
+      <soap:operation soapAction="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx/GetUserInfoByToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap12" type="tns:Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TestTransmission">
+      <soap12:operation soapAction="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx/TestTransmission" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateUser">
+      <soap12:operation soapAction="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx/ValidateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoByToken">
+      <soap12:operation soapAction="http://www.e-gattaca.com/eSecurity/Services/SecurityServices.asmx/GetUserInfoByToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Servicios de Seguridad para Clientes COM</wsdl:documentation>
+    <wsdl:port name="Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap" binding="tns:Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap">
+      <soap:address location="http://192.168.0.7:8000/silpa/esecurity/services/securityservices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap12" binding="tns:Gattaca_x0020_Security_x0020_Services_x0020_9.0.0.0Soap12">
+      <soap12:address location="http://192.168.0.7:8000/silpa/esecurity/services/securityservices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

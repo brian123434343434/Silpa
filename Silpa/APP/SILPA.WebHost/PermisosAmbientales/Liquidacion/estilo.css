@@ -1,0 +1,51 @@
+﻿.body
+{
+	background-color:#FFFFFF;
+}
+.principal
+{
+	width: 1000px;
+	height:auto;
+	margin-left: auto; 
+	margin-right: auto; 
+	border: 1px solid #FFFFFF;
+	background-color:White;
+}
+.titulo-corporacion
+{
+	font-family:Tahoma;
+	font-size:x-large;
+	font-weight:bold;
+}
+.borde-tabla
+{
+	border: solid 1px #000000;
+}
+.titulo-modulo
+{
+	text-align:left; 
+    vertical-align:middle;        
+    width:500px; 
+    height:50px;
+	background-image:url(../../App_Themes/Img/fondo-celda.png);
+	background-repeat:no-repeat;
+    background-position:left;    
+}
+.titulo-cheque
+{
+	text-align:left; 
+    vertical-align:middle;        
+    width: 1500px; 
+    height: 50px;
+	background-image:url(../../App_Themes/Img/fondo-titulo.png);
+	background-repeat:no-repeat;
+    background-position:left;    
+}
+hr.separador
+{
+	height: 2px;
+	width: 100%;
+	border: 3px dashed #000000;
+}
+
+

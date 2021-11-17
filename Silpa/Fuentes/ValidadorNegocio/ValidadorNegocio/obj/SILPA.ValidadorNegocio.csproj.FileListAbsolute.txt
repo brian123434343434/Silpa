@@ -1,0 +1,7 @@
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.ValidadorNegocio.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.ValidadorNegocio.pdb
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.Validador.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Debug\SILPA.Validador.pdb
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\SILPA.ValidadorNegocio.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Debug\SILPA.ValidadorNegocio.pdb

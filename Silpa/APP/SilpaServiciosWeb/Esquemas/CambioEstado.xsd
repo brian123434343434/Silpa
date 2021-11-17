@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="HistoriaCambioEstadoEntity" nillable="true" type="HistoriaCambioEstadoEntity" />
+  <xs:complexType name="HistoriaCambioEstadoEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="EntidadSerializable">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="IdHistoriaCambio" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="FechaRegistro" type="xs:dateTime" />
+          <xs:element minOccurs="0" maxOccurs="1" name="NumeroVital" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ValorExpediente" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="EstadoNuevo" type="EstadoVitalEntity" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Autoridad" type="AutoridadAmbientalIdentity" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EntidadSerializable" abstract="true" />
+  <xs:complexType name="AutoridadAmbientalIdentity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="EntidadSerializable">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="IdAutoridad" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Activo" type="xs:boolean" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Direccion" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Telefono" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Fax" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Email" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="NIT" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Cargue" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Base" type="xs:boolean" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ServicioRadicacion" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="RadicacionAutomatica" type="xs:boolean" />
+          <xs:element minOccurs="0" maxOccurs="1" name="urlServicioRadicacion" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="CorreoCorrespondencia" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Gs1_Code" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Consecutivo" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Anio" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Ppe_certificate_sub" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Ppe_url" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Ppe_code" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Razon_social" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="EmailCorrespondencia" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Nombre_Largo" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="EstadoVitalEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="EntidadSerializable">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="EstId" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="EstNombre" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="EstActivo" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,247 @@
+a:link {
+	color: #000066;
+}
+a:hover {
+	color: #0000FF;
+	text-decoration: underline;
+}
+a:visited {
+	color: #415E7F;
+	}
+a:active {
+	color: #FF0000;
+}
+.modalBackground
+{
+	background-color:Gray;
+	filter:alpha(opacity=40);
+	opacity:0.4;
+
+}
+.titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	text-decoration: none;
+}
+.fondoazulclaro {
+	background-color: #B9D7F5;
+}
+.texto_formas {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003366;
+	text-decoration: none;
+	text-align: right;
+	font-weight: normal;
+}
+.campos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	background-color: #CCCCCC;
+	background-image: url(images/fondo_campo.gif);
+	border-top: 1px none;
+	border-right: 1px none;
+	border-bottom: 1px none;
+	border-left: 1px none;
+	font-weight: normal;
+}
+.boton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: none;
+	background-color: #D1F3FF;
+	background-image: url(images/fondo_boton.gif);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	height: 20px;
+	width: auto;
+	font-weight: normal;
+	clear: both;
+	text-align: center;
+	vertical-align: middle;
+}
+.texto_creditos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+}
+.texto_usuario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003399;
+	text-decoration: none;
+}
+.numero_expediente {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+}
+.texto_plano {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+}
+.titulo_tablas {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #E5E5E5;
+	background-image: url(../Img/ImagenArriba.png);
+	text-align: center;
+	text-decoration: none;
+}
+.texto_tablas {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	background-color: #E5E5E5;
+	text-decoration: none;
+}
+.texto_tablas_dos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	background-color: #EFEFEF;
+	text-decoration: none;
+}
+.texto_urgente {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.texto_tablas_paginador {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	background-color: #F5F5F5;
+	text-decoration: none;
+}
+.texto_tablas_tres {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #CCCCCC;
+	background-color: #CCCCCC;
+	text-decoration: none;
+}
+.texto_ocupado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #0000CC;
+	background-color: #0000CC;
+}
+.texto_sobrecargado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+	background-color: #FF0000;
+}
+.texto_tablas_cuatro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #E5E5E5;
+	background-color: #E5E5E5;
+}
+#ModalProgressContainer
+{
+    z-index: 101;
+    position: fixed;
+    cursor: wait;
+    top: 0px;
+    left: 0px;
+    background-color: #000000; /*#d1d1d4;*/
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    -moz-opacity: .30;
+    height: 100%;
+    width: 100%;
+}
+
+#ModalProgressContainer div
+{
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    border: solid 0px #000040; /*background-color: #ffffff;*/
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: White;
+    top: 49%;
+    left: 49%;
+}
+.caja-dialogo-fondo-aplicacion
+{
+   background-color: Gray;
+   filter: alpha(opacity=70);
+   opacity: 0.5;
+}
+.caja-dialogo
+{
+	border: 1px outset #808080;
+	background-color: #FFFFCC;
+	padding: 0px;
+	font-weight: bold;
+	font-style: normal;
+	width:300px;
+	padding: 10px 5px 5px 5px;
+	z-index: 100;
+}
+.caja-dialogo2
+{
+	border: 1px outset #808080;
+	background-color:White;
+	padding: 0px;
+	font-weight: bold;
+	font-style: normal;
+	width:400px;
+	padding: 10px 5px 5px 5px;
+}
+.caja-dialogo3
+{
+	border: 1px outset #808080;
+	background-color:White;
+	padding: 0px;
+	font-weight: bold;
+	font-style: normal;
+	width:auto;
+	padding: 10px 5px 5px 5px;
+	overflow:auto;
+	height:500px;
+}
+.caja-dialogo4
+{
+	border: 1px outset #808080;
+	background-color:White;
+	padding: 0px;
+	font-weight: bold;
+	font-style: normal;
+	width:auto;
+	padding: 10px 5px 5px 5px;
+	overflow:auto;
+}
+.centerTable {
+    text-align: center;
+}
+.centerTable Table{
+    margin:0 auto;
+    text-align:left;
+}

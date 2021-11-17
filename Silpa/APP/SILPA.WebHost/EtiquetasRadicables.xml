@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Etiquetas>
+<TramiteDefineAutoridadPorSector ID="LIC"/>
+<TramiteDefineAutoridadPorSector ID="LIQLA"/>
+<TramiteDefineAutoridadPorSector ID="MODLA"/>
+<TramiteDefineAutoridadPorSector ID="DAA"/>
+<TramiteDefineAutoridadPorSector ID="MPMA"/>
+<labelArchivo  ID = "Adjuntar Documento" />
+<labelArchivo ID="Adjuntar Documento 1" />
+<labelArchivo ID="Adjuntar Documento 2" />
+<labelArchivo ID="Adjuntar Documento 3" />
+<labelArchivo ID="Adjuntar" />
+<labelRadicado ID = "N Radicado" />
+<labelRadicado  ID = "Adjuntar" />
+<labelRadicado ID = "N Radicado" />
+
+<labelRadicado  ID = "Adjuntar Archivo" />
+<labelRadicado ID = "Descripción" />
+
+<labelCorreoForma  ID = "Descripción Respuesta a Solicitud" />
+<labelCorreoArchivo  ID = "Adjuntar Documento" />
+<!--<NumeroVitalDefAA ID = "Numero Vital"/>-->
+<!-- <NumeroVitalDefAA ID = "Número VITAL"/> -->
+<NumeroVitalDefAA ID = "autoridad ambiental"/>
+<NumeroVitalDefAA ID = "Autoridad Ambiental"/>
+<NumeroVitalDefAA ID = "Número VITAL."/>
+<NumeroVitalDefAA ID = "Seleccione la Autoridad Ambiental"/>
+<SectorSolEstandarDefAASector ID = "Sector"/>
+<SectorSolEstandarDefAATipoProy ID = "Tipo de Proyecto"/>
+<SectorSolEstandarDefAASector ID = "Proyecto"/>
+<SectorSolEstandarDefAATipoProy ID = "Tipo de Proyecto, Obra o Actividad (Identifique el numeral y/o literal del Art. 8 y 9, Decreto 2041/2014)"/>
+<!-- JNEVA 20200220 IDENTIFICADOR POR NUMERO VITAL -->
+<NumeroVitalDefAANumVital ID = "Número Vital Solicitud."/>
+</Etiquetas>

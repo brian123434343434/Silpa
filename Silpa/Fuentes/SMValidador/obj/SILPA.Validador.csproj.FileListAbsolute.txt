@@ -1,0 +1,5 @@
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SMValidador\bin\Debug\SILPA.Validador.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SMValidador\bin\Debug\SILPA.Validador.pdb
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SMValidador\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SMValidador\obj\Debug\SILPA.Validador.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SMValidador\obj\Debug\SILPA.Validador.pdb

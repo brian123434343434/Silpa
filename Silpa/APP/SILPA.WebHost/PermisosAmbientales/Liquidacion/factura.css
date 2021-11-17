@@ -1,0 +1,106 @@
+﻿.left10 {
+		text-align: left;
+		font-family: Tahoma;
+		font-size: 10px;
+		text-transform: capitalize;
+	}
+	.right10 {
+		text-align: right;
+		font-family: Tahoma;
+		font-size: 10px;
+	}
+.dcobro {
+	text-align: center;
+	font-family: Tahoma;
+	text-transform: capitalize;
+	white-space: normal;
+	word-spacing: normal;
+	letter-spacing: normal;
+}
+	.font1 {
+		font-family: Tahoma;
+	}
+	.tableborderfull {
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	float: left;
+}
+	.tablebordernone {
+	border-collapse: collapse;
+	font-family:Tahoma;
+	float: left;
+}
+
+	.tableborder4 {
+		border-left-style: none;
+		border-left-width: medium;
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-bottom-style: none;
+		border-bottom-width: medium;
+	}
+	.tableborder3 {
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right-style: none;
+		border-right-width: medium;
+		border-top-style: none;
+		border-top-width: medium;
+		border-bottom-style: none;
+		border-bottom-width: medium;
+	}
+	.tableborder2 {
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right-style: none;
+		border-right-width: medium;
+		border-top-style: none;
+		border-top-width: medium;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+	}
+	.tableborder1 {
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right-style: none;
+		border-right-width: medium;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-bottom-style: none;
+		border-bottom-width: medium;
+	}
+	.fondoThead {
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-size: 14px;
+	background-color: #A1C577;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+.right18Bold {
+	text-align: right;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: bold;
+}
+.left18Bold {
+		text-align: left;
+		font-family: Tahoma;
+		font-size: 18px;
+		text-transform: capitalize;
+		font-weight:bold;
+	}
+.right18 {
+	text-align: right;
+	font-family: Tahoma;
+	font-size: 18px;
+}
+.left18 {
+		text-align: left;
+		font-family: Tahoma;
+		font-size: 18px;
+		text-transform: capitalize;
+	}
+

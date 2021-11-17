@@ -1,0 +1,450 @@
+﻿.TablaTituloSeccionAutoliquidacion 
+{
+    width: 98%;
+    margin-left:1%;
+    margin-bottom: 10px;
+}
+
+.TablaAutoliquidacion 
+{
+    width:98%;
+    margin-left: 1%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.TablaFormularioAutoliquidacion 
+{
+    width:98%;
+    margin-left: 1%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.DivTablaFormularioAutoliquidacion 
+{
+    border: 1px solid #ddd; 
+    width: 98% !important; 
+    overflow: auto; 
+    padding: 0 !important; 
+    margin-top: 10px !important;
+    margin-left: 1%;
+}
+
+.TablaRespuestaAutoliquidacion 
+{
+    width:98%;
+    margin-left: 1%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.TablaBotonesFormularioAutoliquidacion 
+{
+    width:98%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.TituloSeccionAutoliquidacion {
+    font-size: 13px;    
+    color: #333333 !important;
+    font-weight: bold !important;
+    background: #EEEEEE;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+}
+
+.SubTituloSeccionAutoliquidacion {
+    font-size: 13px;    
+    color: #333333 !important;
+    font-weight: bold !important;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+    border-top: 1px dashed #AAAAAA !important;
+    border-bottom: 1px dashed #AAAAAA !important;
+}
+
+.LabelFormularioAutoliquidacion 
+{
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    font-weight: bold !important;
+    color: #333333 !important;
+    width: 25%;
+    vertical-align: middle;
+}
+
+.CamposFormularioAutoliquidacion 
+{
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    width: 75%;
+}
+
+.LabelFormularioBusquedaAutoliquidacion 
+{
+    padding: 5px 5px 5px 5px;
+    text-align: right;
+    font-weight: bold !important;
+    color: #333333 !important;
+    width: 15%;
+    vertical-align: middle;
+}
+
+.CamposFormularioBusquedaAutoliquidacion 
+{
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    width: 35%;
+}
+
+.LabelFormularioNoAnchoAutoliquidacion 
+{
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    font-weight: bold !important;
+    color: #333333 !important;
+    vertical-align: middle;
+}
+
+.CamposFormularioNoAnchoAutoliquidacion 
+{
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.TablaMensajeErrorAutoliquidacion
+{
+    width:98%;
+    margin-left: 1%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.MensajeErrorAutoliquidacion
+{
+    font-size: 13px;   
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-weight: bold !important;
+    color: #ba0e0e !important;
+}
+
+.CamposFormularioAutoliquidacion .checkBoxList input[type="checkbox"]
+{
+    border: 1px solid #B6A056 !important;
+}
+
+.CamposFormularioAutoliquidacion .checkBoxList label
+{
+    padding-right: 5px !important;
+    vertical-align: middle !important;
+    position: relative !important;
+    font-size: 12px !important;
+    color: #333333 !important;
+}
+
+.TablaGrillaCampoAutoliquidacion 
+{
+    width: 100%;
+}
+
+.TablaGrillaCampoAutoliquidacion .BotonesCamposAutoliquidacion 
+{
+    text-align: right;
+}
+
+.TablaGrillaCampoAutoliquidacion .BotonesCamposAutoliquidacion .button
+{
+    font-size: 11px !important;
+    border: 2px solid #555555 !important;
+    padding: 3px 16px !important;
+}
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion 
+{
+    width: 100% !important;
+    border: 1px solid #555555 !important;
+}
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion .TituloTabla
+{    
+    color: #333333 !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    background: #DDDDDD !important;  
+}
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion .TituloTabla th
+{
+    text-align: center !important;
+}
+
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion .TextoFila td 
+{
+    color: #333333 !important;
+    font-size: 11px !important;
+    background: #FAFAFA;
+    border: 1px solid #555555 !important;
+}
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion .TextoFilaCentro
+{
+    text-align: center !important;
+}
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion .TextoFilaAlterno td 
+{
+    color: #333333 !important;
+    font-size: 11px !important;
+    background: #F0F0F0;
+    border: 1px solid #555555 !important;
+}
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion .TextoFilaVacia td
+{
+    color: #333333 !important;
+    font-size: 11px !important;
+    text-align: center !important;   
+    font-weight: bold !important;
+}
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion .TextoFila td a
+{
+    color: #333333 !important;
+    font-weight: bold;
+}
+
+.TablaGrillaCampoAutoliquidacion .GrillaCampoAutoliquidacion .TextoFilaAlterno td a
+{
+    color: #333333 !important;
+    font-weight: bold;
+}
+
+.ContenedorModalAutoliquidacion {
+    max-height: 700px;    
+    overflow-y: scroll;
+    max-width: 900px;
+    width: 70%;
+    background-color: #FFFFFF;
+}
+
+.ModalBackgroundAutoliquidacion
+{
+	background-color:Gray !important;
+	filter:alpha(opacity=40) !important;
+	opacity:0.4 !important;
+
+}
+
+.ModalImagenes 
+{
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.ModalTablaAceptarTerminos
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+}
+
+.ModalTextoTerminos 
+{
+    font-size: 14px;
+    text-align: justify;
+    color: #333333 !important;
+}
+
+.ModalTextoAceptarTerminos
+{
+    font-size: 12px;
+    color: #333333 !important;
+    font-weight: bold;
+}
+
+
+.HeaderAccordionLiquidacion{
+    color: #222222 !important;
+    background: none !important;
+    background-color: transparent !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    cursor: pointer !important;
+}
+
+.BodyAccordeonLiquidacion {
+    border: 1px solid #555555 !important;
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    color: #333333 !important;
+}
+
+.TextoRespuestaRadicacionLiquidacion 
+{
+    color: #333333 !important;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+}
+
+.TextoRespuestaAutoLiquidacion 
+{
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    font-size: 14px;
+    text-align: justify !important;
+}
+
+.TextoAnotacionRespuestaAutoLiquidacion 
+{
+    color: #333333 !important;
+    padding: 10px 10px 10px 10px;
+    font-size: 10px;
+    text-align: justify !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+.SubTablaRespuestaAutoliquidacion 
+{
+    width:98%;
+    margin-left: 1%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.SubTablaRespuestaAutoliquidacion td{
+    border: 1px solid #CCCCCC !important;
+}
+
+.TituloSubTablaRespuestaAutoliquidacion {
+    font-size: 13px;    
+    color: #333333 !important;
+    font-weight: bold !important;
+    background: #EEEEEE;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+    text-align: center;
+}
+
+.LabelSubTablaRespuestaAutoliquidacion {
+    font-size: 13px;    
+    color: #333333 !important;
+    font-weight: bold !important;
+    background: #EEEEEE;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;    
+    width: 35%;
+}
+
+.TextoSubTablaRespuestaAutoliquidacion {
+    font-size: 13px;    
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;    
+    width: 65%;
+}
+
+.TextoListadoSubTablaRespuestaAutoliquidacion {
+    font-size: 12px;    
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+}
+
+.TextoListadoCentradoSubTablaRespuestaAutoliquidacion {
+    font-size: 12px;    
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+    text-align: center;
+}
+
+.TextoListadoDerechaSubTablaRespuestaAutoliquidacion {
+    font-size: 12px;    
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+    text-align: right;
+}
+
+
+.GrillaAutoliquidacion 
+{
+    width: 100% !important;
+    border: 1px solid #FFFFFF !important;
+}
+
+.GrillaAutoliquidacion .TituloTabla
+{    
+    color: #333333 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    background: #DDDDDD !important;  
+}
+
+.GrillaAutoliquidacion .TituloTabla th
+{
+    text-align: center !important;
+}
+
+
+.GrillaAutoliquidacion .TextoFila td 
+{
+    color: #333333 !important;
+    font-size: 12px !important;
+    background: #FAFAFA;
+    border: 1px solid #FFFFFF !important;
+}
+
+.GrillaAutoliquidacion .TextoFilaCentro
+{
+    text-align: center !important;
+}
+
+.GrillaAutoliquidacion .TextoFilaAlterno td 
+{
+    color: #333333 !important;
+    font-size: 12px !important;
+    background: #F0F0F0;
+    border: 1px solid #FFFFFF !important;
+}
+
+.GrillaAutoliquidacion .TextoFilaVacia td
+{
+    color: #333333 !important;
+    font-size: 12px !important;
+    text-align: center !important;   
+    font-weight: bold !important;
+}
+
+.GrillaAutoliquidacion .TextoFila td a
+{
+    color: #333333 !important;
+    font-weight: bold;
+}
+
+.GrillaAutoliquidacion .TextoFilaAlterno td a
+{
+    color: #333333 !important;
+    font-weight: bold;    
+}
+
+.comboBox 
+{
+    width: 100% !important;
+}

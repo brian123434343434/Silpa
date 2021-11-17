@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CU-COM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="datosComunicacionXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-COMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CU-COMResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-COMR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="datosComunicacionXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-COMRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CU-COMRResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-COM-03">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="datosComunicacionXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-COM-03Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CU-COM-03Result" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-COM-04">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="numeroExpediente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-COM-04Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CU-COM-04Result" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Test">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CU-COMSoapIn">
+    <wsdl:part name="parameters" element="tns:CU-COM" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMSoapOut">
+    <wsdl:part name="parameters" element="tns:CU-COMResponse" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMRSoapIn">
+    <wsdl:part name="parameters" element="tns:CU-COMR" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMRSoapOut">
+    <wsdl:part name="parameters" element="tns:CU-COMRResponse" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-03SoapIn">
+    <wsdl:part name="parameters" element="tns:CU-COM-03" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-03SoapOut">
+    <wsdl:part name="parameters" element="tns:CU-COM-03Response" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-04SoapIn">
+    <wsdl:part name="parameters" element="tns:CU-COM-04" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-04SoapOut">
+    <wsdl:part name="parameters" element="tns:CU-COM-04Response" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMHttpGetIn">
+    <wsdl:part name="datosComunicacionXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMRHttpGetIn">
+    <wsdl:part name="datosComunicacionXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMRHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-03HttpGetIn">
+    <wsdl:part name="datosComunicacionXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-03HttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-04HttpGetIn">
+    <wsdl:part name="numeroExpediente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-04HttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="TestHttpGetIn" />
+  <wsdl:message name="TestHttpGetOut" />
+  <wsdl:message name="CU-COMHttpPostIn">
+    <wsdl:part name="datosComunicacionXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMRHttpPostIn">
+    <wsdl:part name="datosComunicacionXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-COMRHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-03HttpPostIn">
+    <wsdl:part name="datosComunicacionXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-03HttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-04HttpPostIn">
+    <wsdl:part name="numeroExpediente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-COM-04HttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="TestHttpPostIn" />
+  <wsdl:message name="TestHttpPostOut" />
+  <wsdl:portType name="WSPQ02Soap">
+    <wsdl:operation name="EnviarComunicacionEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COM" message="tns:CU-COMSoapIn" />
+      <wsdl:output name="CU-COM" message="tns:CU-COMSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResponderComunicacionEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Responde los datos solicitados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COMR" message="tns:CU-COMRSoapIn" />
+      <wsdl:output name="CU-COMR" message="tns:CU-COMRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarComunicacionVisita">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación de visita a un solicitante]</wsdl:documentation>
+      <wsdl:input name="CU-COM-03" message="tns:CU-COM-03SoapIn" />
+      <wsdl:output name="CU-COM-03" message="tns:CU-COM-03SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MonitorearRespuestaEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COM-04" message="tns:CU-COM-04SoapIn" />
+      <wsdl:output name="CU-COM-04" message="tns:CU-COM-04SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestSoapIn" />
+      <wsdl:output message="tns:TestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSPQ02HttpGet">
+    <wsdl:operation name="EnviarComunicacionEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COM" message="tns:CU-COMHttpGetIn" />
+      <wsdl:output name="CU-COM" message="tns:CU-COMHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResponderComunicacionEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Responde los datos solicitados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COMR" message="tns:CU-COMRHttpGetIn" />
+      <wsdl:output name="CU-COMR" message="tns:CU-COMRHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarComunicacionVisita">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación de visita a un solicitante]</wsdl:documentation>
+      <wsdl:input name="CU-COM-03" message="tns:CU-COM-03HttpGetIn" />
+      <wsdl:output name="CU-COM-03" message="tns:CU-COM-03HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MonitorearRespuestaEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COM-04" message="tns:CU-COM-04HttpGetIn" />
+      <wsdl:output name="CU-COM-04" message="tns:CU-COM-04HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestHttpGetIn" />
+      <wsdl:output message="tns:TestHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSPQ02HttpPost">
+    <wsdl:operation name="EnviarComunicacionEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COM" message="tns:CU-COMHttpPostIn" />
+      <wsdl:output name="CU-COM" message="tns:CU-COMHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResponderComunicacionEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Responde los datos solicitados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COMR" message="tns:CU-COMRHttpPostIn" />
+      <wsdl:output name="CU-COMR" message="tns:CU-COMRHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarComunicacionVisita">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación de visita a un solicitante]</wsdl:documentation>
+      <wsdl:input name="CU-COM-03" message="tns:CU-COM-03HttpPostIn" />
+      <wsdl:output name="CU-COM-03" message="tns:CU-COM-03HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MonitorearRespuestaEE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos entregados por la Autoridad Ambiental para enviar una comunicación a una entidad Externa]</wsdl:documentation>
+      <wsdl:input name="CU-COM-04" message="tns:CU-COM-04HttpPostIn" />
+      <wsdl:output name="CU-COM-04" message="tns:CU-COM-04HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestHttpPostIn" />
+      <wsdl:output message="tns:TestHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSPQ02Soap" type="tns:WSPQ02Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EnviarComunicacionEE">
+      <soap:operation soapAction="http://tempuri.org/CU-COM" style="document" />
+      <wsdl:input name="CU-COM">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResponderComunicacionEE">
+      <soap:operation soapAction="http://tempuri.org/CU-COMR" style="document" />
+      <wsdl:input name="CU-COMR">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-COMR">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarComunicacionVisita">
+      <soap:operation soapAction="http://tempuri.org/CU-COM-03" style="document" />
+      <wsdl:input name="CU-COM-03">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM-03">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MonitorearRespuestaEE">
+      <soap:operation soapAction="http://tempuri.org/CU-COM-04" style="document" />
+      <wsdl:input name="CU-COM-04">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM-04">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSPQ02Soap12" type="tns:WSPQ02Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EnviarComunicacionEE">
+      <soap12:operation soapAction="http://tempuri.org/CU-COM" style="document" />
+      <wsdl:input name="CU-COM">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResponderComunicacionEE">
+      <soap12:operation soapAction="http://tempuri.org/CU-COMR" style="document" />
+      <wsdl:input name="CU-COMR">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-COMR">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarComunicacionVisita">
+      <soap12:operation soapAction="http://tempuri.org/CU-COM-03" style="document" />
+      <wsdl:input name="CU-COM-03">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM-03">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MonitorearRespuestaEE">
+      <soap12:operation soapAction="http://tempuri.org/CU-COM-04" style="document" />
+      <wsdl:input name="CU-COM-04">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM-04">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSPQ02HttpGet" type="tns:WSPQ02HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="EnviarComunicacionEE">
+      <http:operation location="/CU-COM" />
+      <wsdl:input name="CU-COM">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="CU-COM">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResponderComunicacionEE">
+      <http:operation location="/CU-COMR" />
+      <wsdl:input name="CU-COMR">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="CU-COMR">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarComunicacionVisita">
+      <http:operation location="/CU-COM-03" />
+      <wsdl:input name="CU-COM-03">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="CU-COM-03">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MonitorearRespuestaEE">
+      <http:operation location="/CU-COM-04" />
+      <wsdl:input name="CU-COM-04">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="CU-COM-04">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <http:operation location="/Test" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSPQ02HttpPost" type="tns:WSPQ02HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="EnviarComunicacionEE">
+      <http:operation location="/CU-COM" />
+      <wsdl:input name="CU-COM">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResponderComunicacionEE">
+      <http:operation location="/CU-COMR" />
+      <wsdl:input name="CU-COMR">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="CU-COMR">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarComunicacionVisita">
+      <http:operation location="/CU-COM-03" />
+      <wsdl:input name="CU-COM-03">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM-03">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MonitorearRespuestaEE">
+      <http:operation location="/CU-COM-04" />
+      <wsdl:input name="CU-COM-04">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="CU-COM-04">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <http:operation location="/Test" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSPQ02">
+    <wsdl:port name="WSPQ02Soap" binding="tns:WSPQ02Soap">
+      <soap:address location="http://192.168.0.7:8182/WSPQ02.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSPQ02Soap12" binding="tns:WSPQ02Soap12">
+      <soap12:address location="http://192.168.0.7:8182/WSPQ02.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSPQ02HttpGet" binding="tns:WSPQ02HttpGet">
+      <http:address location="http://192.168.0.7:8182/WSPQ02.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSPQ02HttpPost" binding="tns:WSPQ02HttpPost">
+      <http:address location="http://192.168.0.7:8182/WSPQ02.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,4 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SMValidador\bin\Release\SILPA.Validador.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SMValidador\bin\Release\SILPA.Validador.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SMValidador\obj\Release\SILPA.Validador.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SMValidador\obj\Release\SILPA.Validador.pdb

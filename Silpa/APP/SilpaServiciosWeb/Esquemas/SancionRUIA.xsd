@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SancionRUIA" targetNamespace="http://tempuri.org/SancionRUIA.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/SancionRUIA.xsd" xmlns:mstns="http://tempuri.org/SancionRUIA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="ListasSancionType">
+		<xs:sequence>
+			<xs:sequence minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="listaFaltas" type="TipoFaltaType" />
+			</xs:sequence>
+			<xs:sequence maxOccurs="unbounded" minOccurs="0">
+				<xs:element name="listaOpciones" type="OpcionTipoSancionType" />
+			</xs:sequence>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="listaTipoSancion" type="TipoSancionType" />
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TipoFaltaType">
+		<xs:sequence>
+			<xs:element name="idTipoFalta" type="xs:int" />
+			<xs:element name="nombreTipoFalta" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OpcionTipoSancionType">
+		<xs:sequence>
+			<xs:element name="idOpcionSancion" type="xs:int" />
+			<xs:element name="nombreOpcionSancion" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TipoSancionType">
+		<xs:sequence>
+			<xs:element name="idTipoSancion" type="xs:int" />
+			<xs:element name="nombreTipoSancion" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="listasRuia" type="ListasSancionType">
+	</xs:element>
+</xs:schema>

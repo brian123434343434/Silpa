@@ -1,0 +1,320 @@
+﻿.TablaTituloSeccionContingencias 
+{
+    width: 98%;
+    margin-left:1%;
+    margin-bottom: 10px;
+}
+
+
+.TablaFormularioContingencias 
+{
+    width:98%;
+    margin-left: 1%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.TablaCuestionariosContingencias 
+{
+    width:100%;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.TablaBotonesFormularioContingencias 
+{
+    width:98%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+
+.TituloSeccionContingencias {
+    font-size: 13px;    
+    color: #333333 !important;
+    font-weight: bold !important;
+    background: #EEEEEE;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+}
+
+.LabelFormularioContingencias 
+{
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    font-weight: bold !important;
+    color: #333333 !important;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.CamposFormularioContingencias 
+{
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    width: 70%;
+}
+
+.TextoExplicativoContingencias {
+    font-size: 12px;
+    text-align: justify;
+    color: #333333 !important;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.InputFileOcultoContingencias{
+    z-index: 999;
+    line-height: 0;
+    font-size: 2px;
+    opacity: 0;
+    filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+    margin: 0;
+    padding:0;
+    left:0;
+}
+
+.BotonFileContingencias 
+{
+    font-size: 12px;
+    text-align: center;
+    color: #333333 !important;
+    font-weight: bold;
+}
+
+
+.ModalBackgroundContingencias
+{
+	background-color:Gray !important;
+	filter:alpha(opacity=40) !important;
+	opacity:0.4 !important;
+
+}
+
+.ContenedorModalContingencias {
+    max-height: 700px;    
+    overflow-y: scroll;
+    max-width: 900px;
+    width: 70%;
+    background-color: #FFFFFF;
+}
+
+.ImagenesModalContingencias
+{
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.TextoModalErrorContingencias
+{
+    font-size: 14px;
+    text-align: justify;
+    color: #333333 !important;
+}
+
+
+.TablaCuestionarioContingencias 
+{
+    width: 100%;
+    border: 0px;
+}
+
+.TablaCuestionarioContingencias .Pregunta
+{
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    font-weight: bold !important;
+    color: #333333 !important;    
+    vertical-align: middle;
+}
+
+.TablaCuestionarioContingencias .Campos
+{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333 !important;    
+    padding: 5px 5px 10px 20px;
+    vertical-align: middle;
+}
+
+.TablaCuestionarioContingencias .Campos label
+{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333 !important;    
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+}
+
+.TablaCuestionarioContingencias .Campos .TituloTabla
+{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold !important;
+    text-align: center;
+    color: #333333 !important;    
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle !important;
+}
+
+.TablaCuestionarioContingencias .Campos .CampoTabla
+{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: #333333 !important;    
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle !important;
+}
+
+
+.TablaCuestionarioContingencias  tr:nth-child(even) td {
+	background: #F1F1F1;
+}
+.TablaCuestionarioContingencias  tr:nth-child(odd) td {
+	background: #FEFEFE;
+}
+
+.TablaCuestionarioContingencias .Numeral
+{
+    width: 3% !important;
+    font-size: 12px !important;
+    text-align: left !important;
+    font-weight: bold !important;        
+    color: #333333;
+}
+
+.TablaCuestionarioContingencias .Texto
+{
+    font-size: 12px !important;
+    text-align: justify !important;     
+    color: #333333;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    border-left: 1px #FFFFFF solid !important;
+    border-right: 1px #FFFFFF solid !important;
+}
+
+.TablaCuestionarioContingencias .Seleccion
+{   
+    width: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.TablaCuestionarioContingencias .Complementario textarea
+{
+    width: 50% !important;
+}
+
+
+.BodySinSeccionContingencias {    
+    background: #EEEEEE !important;   
+    margin: 2px 0 0 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid #d3d3d3;
+}
+
+.TablaCuestionarioContingenciasSinSeccion 
+{
+    width: 100%;
+    border: 0px;
+}
+
+.TablaCuestionarioContingenciasSinSeccion td {
+	background: #EEEEEE !important;   
+}
+
+.TablaCuestionarioContingenciasSinSeccion .Numeral
+{
+    display: none;
+}
+
+.TablaCuestionarioContingenciasSinSeccion .Texto
+{    
+    padding-left: 2.2em;
+    font-size: 13px !important;
+    text-align: justify !important;     
+    color: #333333;
+    font-weight: bold !important;
+}
+
+.TablaCuestionarioContingenciasSinSeccion .Seleccion
+{   
+    width: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.TablaCuestionarioContingenciasSinSeccion .Complementario textarea
+{
+    width: 50% !important;
+}
+
+.TablaSeccionContingencias {
+    width:100%;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.HeaderAccordionContingencias {
+    background: #EEEEEE !important;    
+    cursor: pointer !important;
+}
+
+.HeaderAccordionContingencias table{
+    width:98%;
+    margin-left: 1%;
+    border: 0px;
+}
+
+.HeaderAccordionContingencias table td{
+    font-size: 13px;
+    color: #333333 !important;
+    font-weight: bold !important;
+}
+
+.BodyAccordeonContingencias {
+    border: 1px solid #CCCCCC !important;
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    padding: 0 0 0 0 !important;
+}
+
+.BodyAccordeonContingencias table{
+    width:100%;
+    border: 0px;
+}
+
+.TextoRespuestaContingencias {
+    color: #333333 !important;
+    font-size: 14px;
+    text-align: justify;
+    padding: 15px 15px 15px 15px;
+}
+
+.CamposFormularioContingencias .NotaAlerta {
+    color: #6b0707;
+    font-size: 11px;
+}
+
+.Campos .Check span {
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+    float:none !important;
+}

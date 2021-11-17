@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WL5G3N0:definitions xmlns:WL5G3N2="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:WL5G3N1="http://www.ideam.gov.co/snif/registraraprovechamiento/" name="RegistrarAprovechamientoService" targetNamespace="http://www.ideam.gov.co/snif/registraraprovechamiento/" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/">
+  <WL5G3N0:types>
+    <xsd:schema xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://www.ideam.gov.co/snif/registraraprovechamiento/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import schemaLocation="http://129.150.71.162:9073/WS_SIAC_SNIF_RegistrarAprovechamientoV2.0/proxy/RegistrarAprovechamientoProxyService?SCHEMA%2FWS_SIAC_SNIF_RegistrarAprovechamientoV2.0%2Fproxy%2Fwsdl%2Fschema%2FRegistrarAprovechamientos" namespace="http://www.ideam.gov.co/snif/registraraprovechamiento/" />
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="AprovechamientoRequest">
+    <WL5G3N0:part name="parameters" element="WL5G3N1:AprovechamientoRequest" />
+  </WL5G3N0:message>
+  <WL5G3N0:message name="AprovechamientoResponse">
+    <WL5G3N0:part name="parameters" element="WL5G3N1:AprovechamientoResponse" />
+  </WL5G3N0:message>
+  <WL5G3N0:message name="auditoriaHeader">
+    <WL5G3N0:part name="Auditoria" element="WL5G3N1:Auditoria" />
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="RegistrarAprovechamientoPortType">
+    <WL5G3N0:operation name="guardarAprovechamiento">
+      <WL5G3N0:input message="WL5G3N1:AprovechamientoRequest" />
+      <WL5G3N0:output message="WL5G3N1:AprovechamientoResponse" />
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="RegistrarAprovechamientoPortBinding" type="WL5G3N1:RegistrarAprovechamientoPortType">
+    <WL5G3N2:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <WL5G3N0:operation name="guardarAprovechamiento">
+      <WL5G3N2:operation soapAction="" />
+      <WL5G3N0:input>
+        <WL5G3N2:body use="literal" />
+        <WL5G3N2:header message="WL5G3N1:auditoriaHeader" part="Auditoria" use="literal" />
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <WL5G3N2:body use="literal" />
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="RegistrarAprovechamientoService">
+    <WL5G3N0:documentation>OSB Service</WL5G3N0:documentation>
+    <WL5G3N0:port name="RegistrarAprovechamientoPort" binding="WL5G3N1:RegistrarAprovechamientoPortBinding">
+      <WL5G3N2:address location="http://129.150.71.162:9073/WS_SIAC_SNIF_RegistrarAprovechamientoV2.0/proxy/RegistrarAprovechamientoProxyService" />
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

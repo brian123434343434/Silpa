@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<listainscritos>
+  <item Nombre="Carlos Ceballos" cedula="52105783"  numsolicitud ="SOLAUD-20091105-001"/>
+  <item Nombre="Claudia Ramírez" cedula="52258369" numsolicitud ="SOLAUD-20091105-002"/>
+  <item Nombre="Mauricio Jiménez" cedula="52347563" numsolicitud ="SOLAUD-20091105-003"/>
+  <item Nombre="Augusto Santos" cedula="54869563" numsolicitud ="SOLAUD-20091105-004"/>
+  <item Nombre="Marcela Babativa" cedula="52555563" numsolicitud ="SOLAUD-20091105-005"/>
+  <item Nombre="Héctor Hernández" cedula="50138533" numsolicitud ="SOLAUD-20091105-006"/>
+  <item Nombre="Juan David Ramírez" cedula="51047563" numsolicitud ="SOLAUD-20091105-007"/>
+</listainscritos>

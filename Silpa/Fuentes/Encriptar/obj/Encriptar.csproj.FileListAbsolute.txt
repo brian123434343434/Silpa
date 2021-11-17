@@ -1,0 +1,7 @@
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Encriptar\bin\Debug\Encriptar.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Encriptar\bin\Debug\Encriptar.pdb
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Encriptar\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Encriptar\obj\Debug\Encriptar.Properties.Resources.resources
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Encriptar\obj\Debug\Encriptar.csproj.GenerateResource.Cache
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Encriptar\obj\Debug\Encriptar.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Encriptar\obj\Debug\Encriptar.pdb

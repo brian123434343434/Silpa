@@ -1,0 +1,132 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<%-- Estándares de navegabilidad v 1.2 --%>
+
+<asp:Image SkinID="img_gobierno" runat="server" ImageUrl="http://www.gobiernoenlinea.gov.co" src="../App_Themes/img/logoportal.jpg" />
+<asp:Label SkinID="titulo_principal" runat="server" Font-Size="13pt" Font-Names="Tahoma" ForeColor="White"  />
+<asp:Label SkinID="subtitulo" runat="server" Font-Size="9pt" Font-Names="Tahoma" ForeColor="White"  />
+<asp:Label SkinID="etiqueta_negra" runat="server" Font-Size="8.5pt" Font-Names="Tahoma" ForeColor="Black"  />
+<asp:Label SkinID="etiqueta_verde" runat="server" Font-Size="8.5pt" Font-Names="Tahoma" ForeColor="Green"  />
+<asp:Label SkinID="fecha_noticia" runat="server" Font-Size="8.5pt" Font-Names="Tahoma" ForeColor="Black"  />
+<asp:HyperLink SkinID="vinculo_texto" runat="server" Font-Names="Tahoma" Font-Size="8.5pt" Font-Underline="True" ForeColor="Blue" />
+<asp:HyperLink SkinID="vinculo_subtitulo" runat="server" Font-Names="Tahoma" Font-Size="8.5pt" Font-Underline="True" ForeColor="Blue" />
+<asp:Textbox SkinID="texto" runat="server" Font-Size="8.5pt" Font-Names="Tahoma" ForeColor="Black"  />
+<%--
+<asp:GridView runat="server" SkinId="grilla" BackColor="#D2FFD2" Font-Names="Tahoma">
+   <AlternatingRowStyle BackColor="#96BF95" />
+</asp:GridView>
+<asp:CheckBox SkinID="checkbox" runat="server" Font-Names="Tahoma" Font-Size="8.5" ForeColor="Black" />
+--%>
+
+<asp:GridView SkinId="Grilla" runat="server" CellPadding="3" AllowPaging="True" 
+    PageSize="5" AllowSorting="True" AutoGenerateColumns="False"
+    GridLines="Horizontal" BackColor="White" BorderColor="White" 
+    BorderStyle="Ridge" BorderWidth="2px" Font-Names="Tahoma" 
+    Font-Size="8.5pt">
+ <%--
+ <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White"  />
+ --%>
+ <FooterStyle BackColor="#496D20" Font-Bold="True" ForeColor="White"/>
+ <RowStyle BackColor="#F7F6F3" ForeColor="#333333"/>
+ <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333"/>
+ <HeaderStyle BackColor="#496D20" Font-Bold="True" ForeColor="White"/>
+ <%--
+ <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+ --%>
+ <EditRowStyle BackColor="#999999" />
+ <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+ </asp:GridView>             
+
+<asp:Checkbox SkinID="check" runat="server" Font-Size="8.5pt" Font-Names = "Tahoma"/>
+
+<asp:DropDownList SkinID="lista_desplegable" runat="server" Font-Size="8.5pt" Font-Names = "Tahoma"/>
+
+
+<%--------------------------------------------------------------------------%>
+
+
+<%-- 
+<asp:ImageButton runat="server" ImageUrl="~/App_Themes/Img/archivo.jpg" SkinId="Archivo" />
+<asp:ImageButton runat="server" ImageUrl="~/App_Themes/Img/icon-delete.gif" SkinId="IconDelete" />
+<asp:ImageButton runat="server" ImageUrl="~/App_Themes/Img/icon-floppy.gif" SkinId="IconFloppy" />
+<asp:ImageButton runat="server" ImageUrl="~/App_Themes/Img/icon-pencil.gif" SkinId="IconPencil" />
+<asp:ImageButton runat="server" ImageUrl="~/App_Themes/Img/icon-pencil-x.gif" SkinId="IconPencilX" />
+<asp:ImageButton runat="server" ImageUrl="~/App_Themes/Img/icon-new.gif" SkinId="IconNew" />
+<asp:ImageButton runat="server" ImageUrl="~/App_Themes/Img/seleccionar.gif" SkinId="Seleccionar" />
+<asp:ImageButton runat="server" ImageUrl="~/App_Themes/Img/calendar.gif" SkinId="Calendar" />
+<asp:Image runat="server" ImageUrl="~/App_Themes/Img/calendar.gif" SkinId="Calendar" />
+<asp:Image runat="server" ImageUrl="~/App_Themes/Img/encabezado.jpg" SkinId="Encabezado" />
+<asp:Image runat="server" ImageUrl="~/App_Themes/Img/bg.jpg" SkinId="bg" />
+
+<asp:Label runat="server" Font-Names="Arial" Font-Size="11px" ForeColor="#000066" SkinId="TituloS"     Font-Bold="true"  Font-Underline="True"/>
+<asp:Label runat="server" Font-Names="Arial" Font-Size="11px" ForeColor="#000066" SkinId="Titulo"      Font-Bold="true" />
+<asp:Label runat="server" Font-Names="Arial" Font-Size="11px" ForeColor="#000000" SkinId="LabelS"      Font-Bold="true"  Font-Underline="True"/>
+<asp:Label runat="server" Font-Names="Arial" Font-Size="11px" ForeColor="#000000" SkinId="Label"       Font-Bold="true" />
+<asp:Label runat="server" Font-Names="Arial" Font-Size="11px" ForeColor="Red"     SkinId="Error" />
+<asp:Label runat="server" Font-Names="Arial" Font-Size="11px" ForeColor="#000000" SkinId="Texto" />
+
+<asp:LinkButton runat="server"  Font-Names="Arial" Font-Size="10px" SkinId="Enlace"/>
+
+<asp:TextBox runat="server" Font-Names="Arial"  Font-Size="12px"/>
+<asp:TextBox runat="server" Font-Names="Arial"  Font-Size="12px" SkinId="Texto"/>
+<asp:TextBox runat="server" Font-Names="Arial"  Font-Size="12px" SkinId="TextoBold" Font-Bold="true"/>
+<asp:TextBox runat="server" Font-Names="Arial"  Font-Size="12px" SkinId="TextoBoldS" Font-Bold="true" Font-Underline="True"/>
+<asp:TextBox runat="server" Font-Names="Arial"  Font-Size="12px" SkinId="TextoBoldSEnable" Font-Bold="true" Font-Underline="True" BorderColor="DarkGray"/>
+
+<asp:DropDownList runat="server" Font-Size="12px" />
+<asp:DropDownList runat="server" Font-Size="12px"  SkinId="Lista"/>
+
+<asp:Button runat="server" />
+<asp:Button runat="server" SkinId="Boton"/>
+
+<asp:GridView runat="server" CellPadding="3" AllowPaging="True" 
+    PageSize="5" AllowSorting="True" AutoGenerateColumns="False"
+    GridLines="Horizontal" BackColor="White" BorderColor="White" 
+    BorderStyle="Ridge" BorderWidth="2px" Font-Names="Arial" 
+    Font-Size="11px"    SkinId="Grilla">
+ <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White"  />
+ <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+ <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+ <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+ <EditRowStyle BackColor="#999999" />
+ <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+ </asp:GridView>             
+                                                                                                                                      
+ <asp:DataList runat="server" SkinId="Lista" BackColor="White" 
+     BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" 
+    ForeColor="#003366" GridLines="Vertical" Font-Size="11px" >
+    <FooterStyle ForeColor="Black" BackColor="#CCCCCC" />
+    <AlternatingItemStyle  BackColor="Gainsboro" />
+    <ItemStyle ForeColor="Black" BackColor="#EEEEEE" />
+    <SelectedItemStyle Font-Bold="True" ForeColor="White" BackColor="#008A8C" />
+    <HeaderStyle Font-Bold="True" ForeColor="White" BackColor="#000084" /> 
+</asp:DataList>
+
+<asp:DataList runat="server" SkinId="ListaP" BackColor="White"       
+    ForeColor="#003366" Font-Size="11px" >
+    <FooterStyle ForeColor="Black" BackColor="White" />
+    <AlternatingItemStyle  BackColor="White" />
+    <ItemStyle ForeColor="Black" BackColor="White" />
+    <SelectedItemStyle Font-Bold="True" ForeColor="White" BackColor="White" />
+    <HeaderStyle Font-Bold="True" ForeColor="White" BackColor="White" /> 
+</asp:DataList>
+
+<asp:RadioButtonList runat="server"
+Font-Names="Arial" Font-Size="11px" ForeColor="#000066" SkinId="Lista" Font-Bold="true" >
+</asp:RadioButtonList>
+--%>
+

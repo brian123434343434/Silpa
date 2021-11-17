@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RUIA" targetNamespace="http://tempuri.org/RUIA.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/RUIA.xsd" xmlns:mstns="http://tempuri.org/RUIA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sancion" type="SancionType">
+  </xs:element>
+  <xs:complexType name="SancionType">
+    <xs:sequence>
+      <xs:element name="numeroSilpa" type="xs:string" />
+      <xs:element name="autoridadId" type="xs:int" />
+      <xs:element name="municipioId" type="xs:int" />
+      <xs:element name="veredaId" type="xs:int" />
+      <xs:element name="corregimientoId" type="xs:int" />
+      <xs:element name="tipoFaltaId" type="xs:int" />
+      <xs:element name="descripcionNorma" type="xs:string" />
+      <xs:element name="tipoSancionPrincipalId" type="xs:int" />
+      <xs:element name="sancionAplicada" type="xs:string" />
+      <xs:element name="numeroExp" type="xs:string" />
+      <xs:element name="numeroActo" type="xs:string" />
+      <xs:element name="fechaExpActo" type="xs:string" />
+      <xs:element name="fechaEjecutoriaActo" type="xs:string" />
+      <xs:element name="tipoPersonaId" type="xs:int" />
+      <xs:element name="razonSocial" type="xs:string" />
+      <xs:element name="nit" type="xs:string" />
+      <xs:element name="primerNombre" type="xs:string" />
+      <xs:element name="segundoNombre" type="xs:string" />
+      <xs:element name="primerApellido" type="xs:string" />
+      <xs:element name="segundoApellido" type="xs:string" />
+      <xs:element name="tipoIdentificacionId" type="xs:int" />
+      <xs:element name="numeroIdentificacion" type="xs:string" />
+      <xs:element name="municipioIdentificacionId" />
+      <xs:sequence>
+        <xs:element name="sancionAccesoria" type="SancionAccesoriaType" minOccurs="1" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SancionAccesoriaType">
+    <xs:sequence>
+      <xs:element name="tipoSancionAccesoriaId" type="xs:int" />
+      <xs:element name="sancionAccesoriaNombre" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SancionAccesoria" type="SancionAccesoriaType">
+  </xs:element>
+</xs:schema>

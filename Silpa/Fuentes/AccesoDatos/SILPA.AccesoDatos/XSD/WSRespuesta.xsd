@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WSRespuestaSchema" targetNamespace="http://tempuri.org/XMLSchema1.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema1.xsd" xmlns:mstns="http://tempuri.org/XMLSchema1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="WSRespuesta">
+    <xs:sequence>
+      <xs:element name="idExterno" type="string" />
+      <xs:element name="idSilpa" type="string" />
+      <xs:element name="Mensaje" type="string" />
+      <xs:element name="CodigoMensaje" type="string" />
+      <xs:element name="Estado" type="string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="Inicio" TextField="Inicio" NavigateUrlField="http//vital.anla.gov.co/Silpa_ut_pre/Default.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="" TextField="Consulta Minera" NavigateUrlField="" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem ValueField="Consulta" TextField="Consulta" NavigateUrlField="http://vital.anla.gov.co/silpa_UT_PRE/RegistroMinero/listadoRegistroMInero.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="_Blank" ToolTipField="" />
+  </MenuItem>
+  <MenuItem ValueField="" TextField="Salir" NavigateUrlField="http://vital.anla.gov.co/silpa_UT_PRE/Salir.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+</menu>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSNotificacion" targetNamespace="http://tempuri.org/DSNotificacion.xsd" xmlns:mstns="http://tempuri.org/DSNotificacion.xsd" xmlns="http://tempuri.org/DSNotificacion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSNotificacion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSNotificacion" msprop:Generator_UserDSName="DSNotificacion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FIRMA" msprop:Generator_TableClassName="FIRMADataTable" msprop:Generator_TableVarName="tableFIRMA" msprop:Generator_TablePropName="FIRMA" msprop:Generator_RowDeletingName="FIRMARowDeleting" msprop:Generator_RowChangingName="FIRMARowChanging" msprop:Generator_RowEvHandlerName="FIRMARowChangeEventHandler" msprop:Generator_RowDeletedName="FIRMARowDeleted" msprop:Generator_UserTableName="FIRMA" msprop:Generator_RowChangedName="FIRMARowChanged" msprop:Generator_RowEvArgName="FIRMARowChangeEvent" msprop:Generator_RowClassName="FIRMARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AUTORIDAD_ID" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="AUTORIDAD_ID" msprop:Generator_ColumnVarNameInTable="columnAUTORIDAD_ID" msprop:Generator_ColumnPropNameInTable="AUTORIDAD_IDColumn" msprop:Generator_UserColumnName="AUTORIDAD_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="FIRMA" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="FIRMA" msprop:Generator_ColumnVarNameInTable="columnFIRMA" msprop:Generator_ColumnPropNameInTable="FIRMAColumn" msprop:Generator_UserColumnName="FIRMA" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="FIRMANTE" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="FIRMANTE" msprop:Generator_ColumnVarNameInTable="columnFIRMANTE" msprop:Generator_ColumnPropNameInTable="FIRMANTEColumn" msprop:Generator_UserColumnName="FIRMANTE" type="xs:string" minOccurs="0" />
+              <xs:element name="CARGO_FIRMANTE" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="CARGO_FIRMANTE" msprop:Generator_ColumnVarNameInTable="columnCARGO_FIRMANTE" msprop:Generator_ColumnPropNameInTable="CARGO_FIRMANTEColumn" msprop:Generator_UserColumnName="CARGO_FIRMANTE" type="xs:string" minOccurs="0" />
+              <xs:element name="EMAIL" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="EMAIL" msprop:Generator_ColumnVarNameInTable="columnEMAIL" msprop:Generator_ColumnPropNameInTable="EMAILColumn" msprop:Generator_UserColumnName="EMAIL" type="xs:string" minOccurs="0" />
+              <xs:element name="AUTORIDAD" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="AUTORIDAD" msprop:Generator_ColumnVarNameInTable="columnAUTORIDAD" msprop:Generator_ColumnPropNameInTable="AUTORIDADColumn" msprop:Generator_UserColumnName="AUTORIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="PLANTILLA_ID" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="PLANTILLA_ID" msprop:Generator_ColumnVarNameInTable="columnPLANTILLA_ID" msprop:Generator_ColumnPropNameInTable="PLANTILLA_IDColumn" msprop:Generator_UserColumnName="PLANTILLA_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="USUARIO" msprop:Generator_TableClassName="USUARIODataTable" msprop:Generator_TableVarName="tableUSUARIO" msprop:Generator_TablePropName="USUARIO" msprop:Generator_RowDeletingName="USUARIORowDeleting" msprop:Generator_RowChangingName="USUARIORowChanging" msprop:Generator_RowEvHandlerName="USUARIORowChangeEventHandler" msprop:Generator_RowDeletedName="USUARIORowDeleted" msprop:Generator_UserTableName="USUARIO" msprop:Generator_RowChangedName="USUARIORowChanged" msprop:Generator_RowEvArgName="USUARIORowChangeEvent" msprop:Generator_RowClassName="USUARIORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TIPO_IDENTIFICACION" msprop:Generator_ColumnVarNameInTable="columnTIPO_IDENTIFICACION" msprop:Generator_ColumnPropNameInRow="TIPO_IDENTIFICACION" msprop:Generator_ColumnPropNameInTable="TIPO_IDENTIFICACIONColumn" msprop:Generator_UserColumnName="TIPO_IDENTIFICACION" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMERO_IDENTIFICACION" msprop:Generator_ColumnVarNameInTable="columnNUMERO_IDENTIFICACION" msprop:Generator_ColumnPropNameInRow="NUMERO_IDENTIFICACION" msprop:Generator_ColumnPropNameInTable="NUMERO_IDENTIFICACIONColumn" msprop:Generator_UserColumnName="NUMERO_IDENTIFICACION" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE" msprop:Generator_ColumnPropNameInRow="NOMBRE" msprop:Generator_ColumnPropNameInTable="NOMBREColumn" msprop:Generator_UserColumnName="NOMBRE" type="xs:string" minOccurs="0" />
+              <xs:element name="EMAIL" msprop:Generator_ColumnVarNameInTable="columnEMAIL" msprop:Generator_ColumnPropNameInRow="EMAIL" msprop:Generator_ColumnPropNameInTable="EMAILColumn" msprop:Generator_UserColumnName="EMAIL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ACTO" msprop:Generator_TableClassName="ACTODataTable" msprop:Generator_TableVarName="tableACTO" msprop:Generator_TablePropName="ACTO" msprop:Generator_RowDeletingName="ACTORowDeleting" msprop:Generator_RowChangingName="ACTORowChanging" msprop:Generator_RowEvHandlerName="ACTORowChangeEventHandler" msprop:Generator_RowDeletedName="ACTORowDeleted" msprop:Generator_UserTableName="ACTO" msprop:Generator_RowChangedName="ACTORowChanged" msprop:Generator_RowEvArgName="ACTORowChangeEvent" msprop:Generator_RowClassName="ACTORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TIPO_ACTO" msprop:Generator_ColumnVarNameInTable="columnTIPO_ACTO" msprop:Generator_ColumnPropNameInRow="TIPO_ACTO" msprop:Generator_ColumnPropNameInTable="TIPO_ACTOColumn" msprop:Generator_UserColumnName="TIPO_ACTO" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMERO_ACTO" msprop:Generator_ColumnVarNameInTable="columnNUMERO_ACTO" msprop:Generator_ColumnPropNameInRow="NUMERO_ACTO" msprop:Generator_ColumnPropNameInTable="NUMERO_ACTOColumn" msprop:Generator_UserColumnName="NUMERO_ACTO" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHA_ACTO" msprop:Generator_ColumnVarNameInTable="columnFECHA_ACTO" msprop:Generator_ColumnPropNameInRow="FECHA_ACTO" msprop:Generator_ColumnPropNameInTable="FECHA_ACTOColumn" msprop:Generator_UserColumnName="FECHA_ACTO" type="xs:string" minOccurs="0" />
+              <xs:element name="EXPEDIENTE" msprop:Generator_ColumnVarNameInTable="columnEXPEDIENTE" msprop:Generator_ColumnPropNameInRow="EXPEDIENTE" msprop:Generator_ColumnPropNameInTable="EXPEDIENTEColumn" msprop:Generator_UserColumnName="EXPEDIENTE" type="xs:string" minOccurs="0" />
+              <xs:element name="PROYECTO" msprop:Generator_ColumnVarNameInTable="columnPROYECTO" msprop:Generator_ColumnPropNameInRow="PROYECTO" msprop:Generator_ColumnPropNameInTable="PROYECTOColumn" msprop:Generator_UserColumnName="PROYECTO" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAMITE" msprop:Generator_ColumnVarNameInTable="columnTRAMITE" msprop:Generator_ColumnPropNameInRow="TRAMITE" msprop:Generator_ColumnPropNameInTable="TRAMITEColumn" msprop:Generator_UserColumnName="TRAMITE" type="xs:string" minOccurs="0" />
+              <xs:element name="AUTORIDAD_ID" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="AUTORIDAD_ID" msprop:Generator_ColumnVarNameInTable="columnAUTORIDAD_ID" msprop:Generator_ColumnPropNameInTable="AUTORIDAD_IDColumn" msprop:Generator_UserColumnName="AUTORIDAD_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="NOMBRE_AUTORIDAD" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="NOMBRE_AUTORIDAD" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_AUTORIDAD" msprop:Generator_ColumnPropNameInTable="NOMBRE_AUTORIDADColumn" msprop:Generator_UserColumnName="NOMBRE_AUTORIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="EMAIL_AUTORIDAD" msprop:Generator_ColumnVarNameInTable="columnEMAIL_AUTORIDAD" msprop:Generator_ColumnPropNameInRow="EMAIL_AUTORIDAD" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInTable="EMAIL_AUTORIDADColumn" msprop:Generator_UserColumnName="EMAIL_AUTORIDAD" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PLANTILLA" msprop:Generator_TableClassName="PLANTILLADataTable" msprop:Generator_TableVarName="tablePLANTILLA" msprop:Generator_TablePropName="PLANTILLA" msprop:Generator_RowDeletingName="PLANTILLARowDeleting" msprop:Generator_RowChangingName="PLANTILLARowChanging" msprop:Generator_RowEvHandlerName="PLANTILLARowChangeEventHandler" msprop:Generator_RowDeletedName="PLANTILLARowDeleted" msprop:Generator_UserTableName="PLANTILLA" msprop:Generator_RowChangedName="PLANTILLARowChanged" msprop:Generator_RowEvArgName="PLANTILLARowChangeEvent" msprop:Generator_RowClassName="PLANTILLARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ENCABEZADO" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ENCABEZADO" msprop:Generator_ColumnVarNameInTable="columnENCABEZADO" msprop:Generator_ColumnPropNameInTable="ENCABEZADOColumn" msprop:Generator_UserColumnName="ENCABEZADO" type="xs:string" minOccurs="0" />
+              <xs:element name="CUERPO" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="CUERPO" msprop:Generator_ColumnVarNameInTable="columnCUERPO" msprop:Generator_ColumnPropNameInTable="CUERPOColumn" msprop:Generator_UserColumnName="CUERPO" type="xs:string" minOccurs="0" />
+              <xs:element name="PIE_FIRMA" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="PIE_FIRMA" msprop:Generator_ColumnVarNameInTable="columnPIE_FIRMA" msprop:Generator_ColumnPropNameInTable="PIE_FIRMAColumn" msprop:Generator_UserColumnName="PIE_FIRMA" type="xs:string" minOccurs="0" />
+              <xs:element name="PIE" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="PIE" msprop:Generator_ColumnVarNameInTable="columnPIE" msprop:Generator_ColumnPropNameInTable="PIEColumn" msprop:Generator_UserColumnName="PIE" type="xs:string" minOccurs="0" />
+              <xs:element name="PLANTILLA_ID" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="PLANTILLA_ID" msprop:Generator_ColumnVarNameInTable="columnPLANTILLA_ID" msprop:Generator_ColumnPropNameInTable="PLANTILLA_IDColumn" msprop:Generator_UserColumnName="PLANTILLA_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="ACTO_AUTORIDAD" msdata:parent="ACTO" msdata:child="FIRMA" msdata:parentkey="AUTORIDAD_ID" msdata:childkey="AUTORIDAD_ID" msprop:Generator_UserChildTable="FIRMA" msprop:Generator_ChildPropName="GetAUTORIDADRows" msprop:Generator_UserRelationName="ACTO_AUTORIDAD" msprop:Generator_RelationVarName="relationACTO_AUTORIDAD" msprop:Generator_UserParentTable="ACTO" msprop:Generator_ParentPropName="ACTORow" />
+      <msdata:Relationship name="PLANTILLA_FIRMA" msdata:parent="PLANTILLA" msdata:child="FIRMA" msdata:parentkey="PLANTILLA_ID" msdata:childkey="PLANTILLA_ID" msprop:Generator_UserChildTable="FIRMA" msprop:Generator_ChildPropName="GetFIRMARows" msprop:Generator_UserRelationName="PLANTILLA_FIRMA" msprop:Generator_ParentPropName="PLANTILLARow" msprop:Generator_RelationVarName="relationPLANTILLA_FIRMA" msprop:Generator_UserParentTable="PLANTILLA" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

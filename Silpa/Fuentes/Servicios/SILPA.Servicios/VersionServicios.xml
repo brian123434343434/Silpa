@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+<proyecto nombre ="Servicios" version ="1.0.0.1" actualizado= "18/12/2009 16:25" autor ="hava" descripcion="Se crea el archivo de versionamiento"/>
+<proyecto nombre ="Servicios" version ="1.0.0.2" actualizado= "18/12/2009 16:25" autor ="jgarces" descripcion="Se modifica la lógica de negocio de radicación"/>
+<proyecto nombre ="Servicios" version ="1.0.0.3" actualizado= "22/12/2009 20:25" autor ="jgarces" descripcion="Se agrega la lógica para procesar la solicitud de DAA"/>
+<proyecto nombre ="Servicios" version ="1.0.0.4" actualizado= "30/12/2009 13:35" autor ="hava" descripcion="Se agrega la procesoFachada para seleccionar cualquier proceso lanzado dede el bpm"/>
+<proyecto nombre ="Servicios" version ="1.0.0.4" actualizado= "30/12/2009 13:35" autor ="hava" descripcion="Ajustes en SolicitudFachada para el manejo de estados iniciales de la solicitud de DAA-EIA"/>
+<proyecto nombre ="Servicios" version ="1.0.0.6" actualizado= "12/01/2010 09:45" autor ="YATC" descripcion="Creación de la clase PublicacionFachada.cs"/>
+<proyecto nombre ="Servicios" version ="1.0.0.7" actualizado= "13/01/2010 11:18" autor ="YATC" descripcion="Cambiosn en la clase PublicacionFachada.cs"/>
+<proyecto nombre ="Servicios" version ="1.0.0.8" actualizado= "17/01/2010 21:14" autor ="jgarces" descripcion="Se ajusta la radicación para conflictos, y el llamado a token de usuario"/>
+<proyecto nombre ="Servicios" version ="1.0.0.9" actualizado= "19/01/2010 18:43" autor ="LACH" descripcion="Modificado para guardar en el FileTrafic los archivos del bpm"/>
+<proyecto nombre ="Servicios" version ="1.0.0.10" actualizado= "22/01/2010 18:43" autor ="LACH" descripcion="Cambios para la radicacion tanto manual como automatica"/>
+<proyecto nombre ="Servicios"  version ="1.0.0.11" actualizado= "28/01/2010 08:47" autor ="LACH" descripcion="Cambios para almacenar en el filetrafic los archivos subidos al bpm"/>
+<proyecto nombre ="Servicios"  version ="1.0.0.12" actualizado= "01/02/2010 08:47" autor ="LACH" descripcion="Cambios para a partir al radicar se finalize automaticamente la actividad"/>
+<proyecto nombre ="Servicios"  version ="1.0.0.13" actualizado= "11/02/2010 14:47" autor ="AEGB" descripcion="Creacion de la carpeta comunicaion y de la clase ComunicacionVisitaFachada"/>
+<proyecto nombre ="Servicios"  version ="1.0.0.14" actualizado= "28/02/2010 18:00" autor ="JDGB" descripcion="Ajuste para Creación de Radicación a partir de otros formularios de BPM"/>
+<proyecto nombre ="Servicios"  version ="1.0.0.15" actualizado= "30/03/2010 18:00" autor ="MIRM" descripcion="Adicion de la funcionalidad de impresion Fus Dinámico"/>
+<proyecto nombre ="Servicios"  version ="1.0.0.16" actualizado= "11/05/2010 18:00" autor ="MIRM" descripcion="Implementación de ThreadPool"/>
+<proyecto nombre ="Servicios"  version ="1.0.0.17" actualizado= "26/05/2010 18:00" autor ="MIRM" descripcion="Adicion de Impresion Fus"/>
+<proyecto nombre ="Servicios"  version ="1.0.0.18" actualizado= "29/06/2010 16:15" autor ="HAVA" descripcion="Adicion de registro log mediante la clase SonftManagement.Log.SMLog "/>
+<proyecto nombre ="Servicios"  version ="1.0.0.19" actualizado= "16/09/2010 16:06" autor ="HAVA" descripcion=" Modificación de NotificacionFachada, para permitir que se escriba el error generado por notificacion electronica en WSRespuesta cuando este no responde"/>
+</version>

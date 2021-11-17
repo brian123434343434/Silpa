@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7f1c61d9-463b-4d67-82e3-b4d647721f36" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://129.150.71.162:9073//WS_SIAC_SNIF_ConsultarParametrosV2.0/proxy/ConsultarParametrosProxyService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ConsultasParametrosSNIF.wsdl" MetadataType="Wsdl" ID="53dc59b9-9bca-41a9-b49c-0cfd17c5b36f" SourceId="1" SourceUrl="http://129.150.71.162:9073//WS_SIAC_SNIF_ConsultarParametrosV2.0/proxy/ConsultarParametrosProxyService?wsdl" />
+    <MetadataFile FileName="ConsultarParametrosProxyService.xsd" MetadataType="Schema" ID="fc2939f0-b9e4-4b66-88c7-4181b1fa26ff" SourceId="1" SourceUrl="http://129.150.71.162:9073/WS_SIAC_SNIF_ConsultarParametrosV2.0/proxy/ConsultarParametrosProxyService?SCHEMA%2FWS_SIAC_SNIF_ConsultarParametrosV2.0%2Fproxy%2Fwsdl%2Fschema%2FConsultarParametros" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

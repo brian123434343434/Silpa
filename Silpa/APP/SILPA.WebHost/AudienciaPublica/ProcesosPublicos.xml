@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<procesopublico>
+  <item Procesos ="Solicitar celebración de audiencia pública" link ="~/AudienciaPublica/SolicitudAudienciaPublica.aspx"></item>
+  <!--<item Procesos ="Proceso de inscripción en audiencia pública" link ="~/AudienciaPublica/InscripcionAudienciaPublica.aspx"></item>-->
+  <item Procesos ="Consultar audiencias públicas" link ="~/AudienciaPublica/InscripcionAudienciaPublica.aspx"></item>
+  <!--<item Procesos ="Consultar inscritos para intervención  audiencia pública" link="~/AudienciaPublica/ConsultarInscritosAudienciaPublica.aspx"></item>-->
+  <item Procesos ="Consultar lista de inscritos aceptados para intervenir en audiencia pública" link="~/AudienciaPublica/ConsultarInscritosAudienciaPublica.aspx"></item>
+</procesopublico>

@@ -1,0 +1,16 @@
+C:\inetpub\pruebaAuditoria\Bin\Auditoria.dll
+C:\inetpub\pruebaAuditoria\Bin\Auditoria.pdb
+C:\inetpub\wwwroot\pruebaAuditoria\LogicaNegocios\Auditoria\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\pruebaAuditoria\LogicaNegocios\Auditoria\obj\Debug\Auditoria.dll
+C:\inetpub\wwwroot\pruebaAuditoria\LogicaNegocios\Auditoria\obj\Debug\Auditoria.pdb
+C:\inetpub\wwwroot\pruebaAuditoria\Bin\Auditoria.dll
+C:\inetpub\wwwroot\pruebaAuditoria\Bin\Auditoria.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Bin\Auditoria.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Bin\Auditoria.pdb
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\ResolveAssemblyReference.cache
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\Auditoria.dll
+D:\Silpa\FUENTES\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\Auditoria.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Bin\Auditoria.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Bin\Auditoria.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\Auditoria.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Auditoria\Auditoria\obj\Debug\Auditoria.pdb

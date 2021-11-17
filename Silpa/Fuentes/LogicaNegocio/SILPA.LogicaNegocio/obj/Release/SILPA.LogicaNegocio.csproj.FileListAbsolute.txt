@@ -1,0 +1,1 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\LogicaNegocio\SILPA.LogicaNegocio\obj\Release\SILPA.LogicaNegocio.csprojResolveAssemblyReference.cache

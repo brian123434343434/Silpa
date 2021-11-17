@@ -1,0 +1,165 @@
+﻿input[type="text"] {
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #333333 !important;
+    font-size: 12px;
+    width: 80%;
+}
+
+input[type="submit"] {    
+    padding: 5px 20px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 12px !important;
+}
+
+.comboBox {
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #333333 !important;
+    font-size: 12px;
+    border: 1px solid #999999;
+    width: 98% !important;
+}
+
+.buscar-seccion {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 1.1rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .5rem;
+}
+
+.buscar-seccion table {
+    width: 98%;
+    margin: 1%;
+}
+
+.buscar-seccion table td {
+   vertical-align: middle;
+    padding: 5px;
+}
+
+.buscar-seccion .label-formulario {
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold !important;
+    margin-right: 10px !important;
+    text-align: right !important;
+    width: 25%;
+}
+
+.buscar-seccion [type="text"] {
+    width: 90%;
+}
+
+.buscar-seccion select {
+    display: inline !important;
+    width: 90% !important;
+}
+
+.botones {
+    padding: 10px;
+    text-align: right !important;
+}
+
+.seccion{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .5rem;
+    padding: 10px;
+    margin: 5px;
+    color: #333333;
+}
+
+.seccion .titulo-seccion{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 13px;
+    border-bottom: 2px solid #86847F;
+    margin-bottom: 10px;
+}
+
+.seccion .label-formulario {
+    padding: 5px 5px 5px 15px;
+    font-weight: bold !important;
+    color: #252525 !important;
+    width: 35%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.seccion .campos-formulario {
+    color: #252525 !important;
+    padding: 5px 5px 5px 30px;
+    text-align: left;
+    width: 65%;
+}
+
+.modal-body .row-modal {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.modal-body .label-formulario {
+    padding: 5px 5px 5px 15px;
+    font-weight: bold !important;
+    color: #252525 !important;
+    width: 35%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.modal-body .campos-formulario {
+    color: #252525 !important;
+    padding: 5px 5px 5px 30px;
+    text-align: left;
+    width: 65%;
+}
+
+.modal-body .img-resultado {
+    width: 10%;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.modal-body .img-resultado img{
+    width: 100%;
+}
+
+.modal-body .texto-resultado {
+    width: 90%;
+    vertical-align: middle !important;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.mensaje-informativo-busqueda {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .5rem;
+    padding: 10px;
+    margin: 5px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.seccion .container {
+    width: 100%;
+}
+
+.seccion .row-seccion {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+

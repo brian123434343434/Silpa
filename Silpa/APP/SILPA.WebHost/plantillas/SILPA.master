@@ -1,0 +1,497 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SILPA.master.cs" Inherits="plantillas_Silpa" %>
+
+<%@ Register Src="~/controles/User.ascx" TagName="User" TagPrefix="uc4" %>
+
+
+
+<!DOCTYPE html">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>VITAL - Ventanilla Integral de Trámites Ambientales - <%: Page.Title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="VITAL, MINAMBIENTE, MADS, TRAMITES EN LINEA" />
+    <meta name="Author" content="MINAMBIENTE - MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE" />
+    <meta name="robots" content="index, follow, All" />
+    <meta name="revisit-after" content="30 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+	
+
+   
+    <link rel="stylesheet" href="~/Resources/Bootstrap/5.0.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Resources/Bootstrap/5.0.1/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/Resources/MasterPage/css/master.css" />
+    <link rel="stylesheet" href="~/Resources/MasterPage/css/RadGrid.css" />
+	
+	
+		
+    
+    <script type="text/javascript" src="../Resources/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../Resources/Bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../Resources/Bootstrap/5.0.1/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../Resources/jquery/fontsize/js/jquery.jfontsize-1.0.js"></script>
+    <script type="text/javascript" src="../Resources/MasterPage/js/Master.js"></script>
+    
+	
+	<!-- Nuevos estilos -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles-vital.css">
+
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+  
+</head>
+
+<body id="body">
+    
+    <form id="form1" runat="server">
+    <div class="pagina">
+        <div class="pagina-limites">
+            <!-- ENCABEZADO -->
+            <header>
+                <div class="encabezado">
+                    <div class="barra-superior d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                        <div class="row">
+                            <div class="col-12">
+                                <img id="img-logo-barra-superior" class="img-logo-izquierdo" src="../Resources/Img_Vital/logo-gov.co.png" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="barra-superior-small d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                        <div class="row">
+                            <div class="col-12 img-logo-mads-small">
+                                <img id="img-logo-mads-barra-superior" src="../Resources/Img_Vital/Logo-MADS.png" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="logo-vital d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                        <div class="row">
+                            <div class="col-6 img-logo-vital">
+                                <img id="img-logo-vital" src="../Resources/Img_Vital/Logo-Vital.png" />
+                            </div>
+                            <div class="col-6 img-logo-mads">
+                                <img id="img-logo-ministerio" src="../Resources/Img_Vital/Logo-MADS.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo-vital d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                        <div class="row">
+                            <div class="col-12 img-logo-vital-small">
+                                <img id="img-logo-vital-small" src="../Resources/Img_Vital/Logo-Vital.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- FIN ENCABEZADO -->
+            <!-- CUERPO -->
+            <main>
+                    <div id="container-loader" class="container-loader" style="display:none;"></div>
+                    <div id="loader" class="loader" style="display:none;"></div>               
+                    <div class="cuerpo">   
+                        <div id="opciones_contenido" class="master-opciones-contenido">
+                            <div class="opciones-contenido">
+                                <a id="alto-contraste" class="jfontsize-button" href="#"><img src="../Resources/Img_Vital/ICO-contraste.png" /></a>
+                                <a id="letra-pequena" class="jfontsize-button" href="#"><img src="../Resources/Img_Vital/ICO-menostypo.png" /></a>
+                                <a id="letra-grande" class="jfontsize-button" href="#"><img src="../Resources/Img_Vital/ICO-mastypo.png" /></a>
+                            </div>                            
+                        </div>  
+                        <div id="contenido">   
+                                <div class="row datosUsuario">
+                                    <div class="col-4">
+                                        <asp:Label ID="lblFecha"  runat="server"></asp:Label>
+                                    </div>
+                                    <div class="col-4"> 
+                                        <asp:Label ID="lblInfoImpers" runat="server"></asp:Label>
+                                        <asp:LinkButton ID="lnkFinalizarImpersonalizacion" runat="server" Visible="False" 
+                                            Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"
+                                            Font-Bold="true" Font-Underline="true" 
+                                            OnClick="lnkFinalizarImpersonalizacion_Click" >Finalizar Modo Funcionario</asp:LinkButton>
+                                    </div>
+                                    <div class="col-4">
+                                        <uc4:User ID="ucUserData" runat="server" />
+                                    </div>
+                                 </div>
+                                <div class="row contentplaceholder">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>  
+                                </div>
+                                <div class="row">
+                                    <asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+                                </div> 
+                            </div> 
+                             
+                    </div>
+                    
+            </main>
+            <!-- FIN CUERPO -->
+            <!-- PIE -->
+            <footer>
+                <div class="pie">
+                    <div class="pie-pagina d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                        <div class="row espacio-superior"></div>
+                        <div class="row">
+                            <table>
+                                <tr>
+                                    <td class="espacio-extremos" rowspan="7"></td>
+                                    <td class="logos">
+                                        <img id="img-pie-logo-barra-inferior" class="img-logo-izquierdo" src="../Resources/Img_Vital/logo-gov.co.png" /></td>
+                                    <td class="espacio-central border-end border-white"></td>
+                                    <td class="espacio-central"></td>
+                                    <td class="ubicacion titulo">Ministerio de Ambiente y Desarrollo Sostenible</td>
+                                    <td class="espacio-central border-end border-white"></td>
+                                    <td class="espacio-central"></td>
+                                    <td class="subtitulo-img">
+                                        <img id="img-pie-contacto" src="../Resources/Img_Vital/ICO_Telefono.png" /></td>
+                                    <td class="contacto subtitulo">Contacto</td>
+                                    <td class="espacio-extremos" rowspan="7"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td class="texto">Dirección: Calle 37 No. 8 - 40 Bogotá D.C.</td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td colspan="2" class="texto">Teléfono conmutador: (57-1) 3323400</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td class="texto">Horario de atención: Lunes a Viernes de 8:00 a.m. a 4:00 p.m.</td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td colspan="2" class="texto">Línea gratuita nacional: 01 8000 919 301</td>
+                                </tr>
+                                <tr>
+                                    <td class="logos" rowspan="6">
+                                        <img id="img-pie-logo-colombia" class="img-logo-izquierdo" src="../Resources/Img_Vital/Logo_CoCol.png" /></td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td colspan="2" class="texto">Whatsapp empresarial: +57 310-221 3891</td>
+                                </tr>
+                                <tr>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td colspan="2" class="texto">Correo: servicioalciudadano@minambiente.gov.co</td>
+                                </tr>
+                                <tr>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td colspan="2" class="texto"><a href="#">Mapa del Sitio</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="texto-redes">
+                                                    <a href="https://twitter.com/MINAMBIENTE_Col" target="_blank">
+                                                        <img id="img-pie-logo-twiter" class="img-logo-izquierdo" src="../Resources/Img_Vital/ICO_Twitter.png" />
+                                                        @MINAMBIENTE
+                                                    </a>
+                                                </td>
+                                                <td class="texto-redes">
+                                                    <a href="https://www.instagram.com/minambientecol/?hl=es" target="_blank">
+                                                        <img id="img-pie-logo-instagram" class="img-logo-izquierdo" src="../Resources/Img_Vital/ICO_Instagram.png" />
+                                                        @MINAMBIENTE
+                                                    </a>
+                                                </td>
+                                                <td class="texto-redes">
+                                                    <a href="https://www.facebook.com/MINAMBIENTECol/" target="_blank">
+                                                        <img id="img-pie-logo-facebook" class="img-logo-izquierdo" src="../Resources/Img_Vital/ICO_facebook.png" />
+                                                        @MINAMBIENTE
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="border-end border-white"></td>
+                                    <td></td>
+                                    <td colspan="2" class="texto"><a href="http://vital-qa.minambiente.gov.co/ventanillasilpa/Inicio/PoliticasycondicionesdeU/tabid/78/language/es-ES/Default.aspx" target="_blank">Políticas</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="row espacio-inferior"></div>
+                    </div>
+
+
+                    <div class="pie-pagina d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                        <div class="espacio-superior-sm"></div>
+                        <div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <table class="table-sm">
+                                            <tr>
+                                                <td class="titulo">Ministerio de Ambiente y Desarrollo Sostenible</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="texto">Dirección: Calle 37 No. 8 - 40 Bogotá D.C.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="texto">Horario de atención: Lunes a Viernes de 8:00 a.m. a 4:00 p.m.</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="espacio-pie-sm">
+                                        <hr />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="table-sm">
+                                            <tr>
+                                                <td class="subtitulo-img-sm">
+                                                    <img id="img-pie-telefono-sm" src="../Resources/Img_Vital/ICO_Telefono.png" /></td>
+                                                <td class="subtitulo">Contacto</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="texto">Teléfono conmutador: (57-1) 3323400</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="texto">Línea gratuita nacional: 01 8000 919 301</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="texto">Whatsapp empresarial: +57 310-221 3891</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="texto">Correo: servicioalciudadano@minambiente.gov.co</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="texto"><a href="#">Mapa del Sitio</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" class="texto"><a href="http://vital-qa.minambiente.gov.co/ventanillasilpa/Inicio/PoliticasycondicionesdeU/tabid/78/language/es-ES/Default.aspx" target="_blank">Políticas</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="espacio-pie-sm">
+                                        <hr />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="texto-redes">
+                                                    <a href="https://twitter.com/MINAMBIENTE_Col" target="_blank">
+                                                        <img id="img-pie-logo-twiter-sm" class="img-logo-izquierdo" src="../Resources/Img_Vital/ICO_Twitter.png" />
+                                                        @MINAMBIENTE
+                                                    </a>
+                                                </td>
+                                                <td class="texto-redes">
+                                                    <a href="https://www.instagram.com/minambientecol/?hl=es" target="_blank">
+                                                        <img id="img-pie-logo-instagram-sm" class="img-logo-izquierdo" src="../Resources/Img_Vital/ICO_Instagram.png" />
+                                                        @MINAMBIENTE
+                                                    </a>
+                                                </td>
+                                                <td class="texto-redes">
+                                                    <a href="https://www.facebook.com/MINAMBIENTECol/" target="_blank">
+                                                        <img id="img-pie-logo-facebook-sm" class="img-logo-izquierdo" src="../Resources/Img_Vital/ICO_facebook.png" />
+                                                        @MINAMBIENTE
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="espacio-pie-sm">
+                                        <hr />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="logos-sm">
+                                                    <img id="img-pie-logo-govco-sm" class="img-logo-izquierdo" src="../Resources/Img_Vital/logo-gov.co.png" />
+                                                </td>
+                                                <td class="logos-sm">
+                                                    <img id="img-pie-logo-col-sm" class="img-logo-izquierdo" src="../Resources/Img_Vital/Logo_CoCol.png" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="espacio-inferior-sm"></div>
+                    </div>
+                </div>
+
+            </footer>
+            <!-- FIN PIE -->
+        </div>
+    </div>
+
+
+
+    <%--<div id="sitewrapper">
+        <div id="topHeader" style="color: gainsboro !important; padding: 0px !important; margin: 0px !important;">
+            <div class="container" style="padding-top: 15px !important; padding-bottom: 15px !important; vertical-align: middle; font-size: 8.5pt!important; font-family: Arial, sans-serif, Tahoma, Verdana;">
+                <div class="col-md-12">
+                    <div class="col-md-2 text-left">
+                        <a href='<%= this.URL_TESTSILPA %>' title="Regresar a la página principal" style="text-decoration: none; cursor: pointer;">
+                            <img src='<%= ResolveClientUrl("~/App_Themes/Img/home.png") %>' alt="" width="27" style="max-width: 27px; max-height: 23px;" />
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-left">
+                        <asp:Label ID="lblFecha"  runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <asp:Label ID="lblInfoImpers" runat="server" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                        <asp:LinkButton ID="lnkFinalizarImpersonalizacion" runat="server" Visible="False" 
+                            Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"
+                            Font-Bold="true" Font-Underline="true" 
+                            OnClick="lnkFinalizarImpersonalizacion_Click" >Finalizar Modo Funcionario</asp:LinkButton>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <uc4:User ID="ucUserData" runat="server" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ContentPlaceHolder_Master col-md-12">
+                
+            </div>
+            <div class="col-md-12">
+                <asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+            </div>
+        </div>
+        <footer role="contentinfo">
+            <div class="footer-below" style="border-top: 10px solid #151515;">
+                <div class="container">
+                    <div class="dnnpane">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject" style="color: #d2d2d2 !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important;">Copyright &copy; = DateTime.Now.Year %> Autoridad Nacional de Licencias Ambientales - ANLA</span>
+                            </div>
+                            <div class="terms-priv">
+                                <a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="javascript:;">Términos de uso</a>
+                                |
+					            <a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="javascript:;">Política de privacidad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>--%>
+
+        
+    </form>
+	<script>
+
+$('link[rel=stylesheet][href="../App_Themes/skin/StyleControls.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/StyleAutoliquidacion.css"]').remove();
+
+$('link[rel=stylesheet][href="../Resources/MasterPage/css/RadGrid.css"]').remove();
+
+$('link[rel=stylesheet][href="../Resources/Bootstrap/5.0.1/css/bootstrap.css"]').remove();
+$('link[rel=stylesheet][href="../Resources/Bootstrap/5.0.1/css/bootstrap.min.css"]').remove();
+
+$('link[rel=stylesheet][href="../App_Themes/skin/Xcillion/Css/font-awesome.min.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/EstiloMenuAdminSUNL.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/EstiloMenuSINTRAB.css"]').remove();
+
+$('link[rel=stylesheet][href="../App_Themes/skin/PG.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/PG2.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/SmokeAndGlass.css"]').remove();
+
+$('link[rel=stylesheet][href="../Resources/Bootstrap/3.3.7/css/bootstrap.min.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/base.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/StyleNotificacion.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/StylePDV.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/StyleREDDS.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/StyleRID.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/StyleSeguridad.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/DetalleSalvoconducto.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/Xcillion/skin.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/Xcillion/Bootstrap/css/bootstrap.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/Xcillion/Bootstrap/css/bootstrap.min.css"]').remove();
+
+$('link[rel=stylesheet][href="../App_Themes/skin/Xcillion/portal.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/Xcillion/home.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/estilos.css"]').remove();
+$('link[rel=stylesheet][href="../App_Themes/skin/AyudaStyle.css"]').remove();
+
+
+
+$('.barra-superior .row').attr('id','barra-superior');
+$('#barra-superior').removeClass();
+$('#barra-superior').addClass('container');
+$('#barra-superior div').removeClass();
+
+$('.logo-vital').attr('id','logo-vital');
+$('#logo-vital').removeClass();
+$('#logo-vital').addClass('container');
+
+
+$('.img-logo-vital').attr('id','img-logo-vital');
+$('#img-logo-vital').removeClass();
+$('#img-logo-vital').addClass('col-md-8');
+$('#img-logo-vital').addClass('text-left');
+
+
+$('.img-logo-mads').attr('id','img-logo-mads');
+$('#img-logo-mads').removeClass();
+$('#img-logo-mads').addClass('col-md-4');
+$('#img-logo-mads').addClass('text-right');
+
+
+$('#contenido').addClass('container');
+
+$('input[type="text"]').each(function(){
+    $(this).attr('style','');
+    $(this).addClass('form-control');
+});
+
+$('input[type="submit"]').each(function(){
+    $(this).attr('style','');
+    $(this).addClass('btn-high');
+    $(this).addClass('btn-gov-mads');
+});
+
+$('select').each(function(){
+    $(this).attr('style','');
+    $(this).addClass('form-control');
+});
+
+$('textarea').each(function(){
+    $(this).attr('style','');
+    $(this).addClass('form-control');
+});
+
+</script>
+   
+</body>
+ <link rel="stylesheet" href="~/Resources/MasterPage/css/master.css" />
+ </html>

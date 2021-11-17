@@ -1,0 +1,26 @@
+.validatorCallout table td div{
+	background:tranparent !important;
+	/*border: 0px none #000000 !important;*/
+	filter: alpha(opacity=90) !important;
+	width:5% !important;
+	
+}
+.validatorCallout table td{
+	text-align:left !important;
+	border: 0px none #000000 !important;
+	background:#E08C7F;
+	/*background:tranparent !important;/**/
+	color: #CC0000 !important;
+	padding:0px !important; 
+	text-indent:2px !important;
+	
+}
+.validatorCallout table{
+	margin-left:5px;
+	/*height:15px !important;	
+	border: 1px solid #CC0000 !important;*/
+}
+.validatorCallout{
+	/*position:relative !important;
+	float:left !important;*/
+}

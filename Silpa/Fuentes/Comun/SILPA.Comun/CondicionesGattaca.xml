@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<response>
+	<operationResult>True</operationResult>
+	<operationType>
+		<code>0</code>
+		<name>RecibirXML</name>
+	   </operationType>
+	<operationResponse>
+		<SystemData>
+			<DataType>String</DataType>
+			<DataValue>1</DataValue>
+			  </SystemData>
+	   </operationResponse>
+	<errorMessage>
+		<code></code>
+		<message></message>
+	   </errorMessage>
+</response>

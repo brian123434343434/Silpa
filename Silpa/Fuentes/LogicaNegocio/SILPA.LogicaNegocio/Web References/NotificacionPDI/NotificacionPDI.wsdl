@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="EjecutarNotificacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XMLDatos" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="codigoTramite" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="versionTramite" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rutaArchivo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EjecutarNotificacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EjecutarNotificacionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="testPDI">
+        <s:complexType />
+      </s:element>
+      <s:element name="testPDIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="testPDIResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="EjecutarNotificacionSoapIn">
+    <wsdl:part name="parameters" element="tns:EjecutarNotificacion" />
+  </wsdl:message>
+  <wsdl:message name="EjecutarNotificacionSoapOut">
+    <wsdl:part name="parameters" element="tns:EjecutarNotificacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="testPDISoapIn">
+    <wsdl:part name="parameters" element="tns:testPDI" />
+  </wsdl:message>
+  <wsdl:message name="testPDISoapOut">
+    <wsdl:part name="parameters" element="tns:testPDIResponse" />
+  </wsdl:message>
+  <wsdl:portType name="NotificacionPDISoap">
+    <wsdl:operation name="EjecutarNotificacion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Realiza una ejecución de un trámite de notificación en PDI para SILPA</wsdl:documentation>
+      <wsdl:input message="tns:EjecutarNotificacionSoapIn" />
+      <wsdl:output message="tns:EjecutarNotificacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="testPDI">
+      <wsdl:input message="tns:testPDISoapIn" />
+      <wsdl:output message="tns:testPDISoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NotificacionPDISoap" type="tns:NotificacionPDISoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EjecutarNotificacion">
+      <soap:operation soapAction="http://tempuri.org/EjecutarNotificacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testPDI">
+      <soap:operation soapAction="http://tempuri.org/testPDI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NotificacionPDISoap12" type="tns:NotificacionPDISoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EjecutarNotificacion">
+      <soap12:operation soapAction="http://tempuri.org/EjecutarNotificacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testPDI">
+      <soap12:operation soapAction="http://tempuri.org/testPDI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NotificacionPDI">
+    <wsdl:port name="NotificacionPDISoap" binding="tns:NotificacionPDISoap">
+      <soap:address location="http://192.168.0.7:8000/ClienteTramitadorAAC/NotificacionPDI.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NotificacionPDISoap12" binding="tns:NotificacionPDISoap12">
+      <soap12:address location="http://192.168.0.7:8000/ClienteTramitadorAAC/NotificacionPDI.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

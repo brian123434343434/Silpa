@@ -1,0 +1,285 @@
+﻿.TablaTituloSeccionPermisoREA 
+{
+    width: 98%;
+    margin-left:1%;
+    margin-bottom: 10px;
+}
+
+
+.TablaFormularioPermisoREA 
+{
+    width:98%;
+    margin-left: 1%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-size: cover;
+    clear:both;
+}
+
+.TablaBotonesFormularioPermisoREA 
+{
+    width:98%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+
+.TituloSeccionPermisoREA {
+    font-size: 13px;    
+    color: #333333 !important;
+    font-weight: bold !important;
+    background: #EEEEEE;
+    padding: 5px 5px 5px 5px;
+    vertical-align:middle;
+    clear:both; 
+}
+
+.LabelFormularioPermisoREA 
+{
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    font-weight: bold !important;
+    color: #333333 !important;
+    width: 25%;
+    vertical-align: middle;
+}
+.Label2FormularioPermisoREA 
+{
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    font-weight: bold !important;
+    color: #333333 !important;
+    vertical-align: middle;
+}
+
+.CamposFormularioPermisoREA 
+{
+    color: #333333 !important;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+    width: 75%;
+}
+
+.TextoExplicativoPermisoREA {
+    font-size: 12px;
+    text-align: justify;
+    color: #333333 !important;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.InputFileOcultoPermisoREA{
+    z-index: 999;
+    line-height: 0;
+    font-size: 2px;
+    opacity: 0;
+    filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+    margin: 0;
+    padding:0;
+    left:0;
+}
+
+.BotonFilePermisoREA 
+{
+    font-size: 12px;
+    text-align: center;
+    color: #333333 !important;
+    font-weight: bold;
+}
+
+
+.ModalBackgroundPermisoREA
+{
+	background-color:Gray !important;
+	filter:alpha(opacity=40) !important;
+	opacity:0.4 !important;
+
+}
+.ModalBackgroundPermisoREAMensaje
+{
+	background-color:Gray !important;
+	filter:alpha(opacity=40) !important;
+	opacity:0.4 !important;
+    z-index: 100001 !important;
+}
+
+.ContenedorModalPermisoREA {
+    max-height: 700px;    
+    overflow-y: scroll;
+    max-width: 900px;
+    width: 70%;
+    background-color: #FFFFFF;
+}
+
+.ImagenesModalPermisoREA
+{
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.TextoModalErrorPermisoREA
+{
+    font-size: 14px;
+    text-align: justify;
+    color: #333333 !important;
+    clear:both;
+    margin:1% !important;
+    box-sizing: border-box;
+}
+
+
+.TablaCuestionarioPermisoREA 
+{
+    width: 100%;
+    border: 0px;
+}
+
+.TablaCuestionarioPermisoREA  tr:nth-child(even) td {
+	background: #F1F1F1;
+}
+.TablaCuestionarioPermisoREA  tr:nth-child(odd) td {
+	background: #FEFEFE;
+}
+
+.TablaCuestionarioPermisoREA .Numeral
+{
+    width: 3% !important;
+    font-size: 12px !important;
+    text-align: left !important;
+    font-weight: bold !important;        
+    color: #333333;
+}
+
+.TablaCuestionarioPermisoREA .Texto
+{
+    font-size: 12px !important;
+    text-align: justify !important;     
+    color: #333333;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    border-left: 1px #FFFFFF solid !important;
+    border-right: 1px #FFFFFF solid !important;
+}
+
+.TablaCuestionarioPermisoREA .Seleccion
+{   
+    width: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.TablaCuestionarioPermisoREA .Complementario textarea
+{
+    width: 50% !important;
+}
+
+
+.BodySinSeccionPermisoREA {    
+    background: #EEEEEE !important;   
+    margin: 2px 0 0 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid #d3d3d3;
+}
+
+.TablaCuestionarioPermisoREASinSeccion 
+{
+    width: 100%;
+    border: 0px;
+}
+
+.TablaCuestionarioPermisoREASinSeccion td {
+	background: #EEEEEE !important;   
+}
+
+.TablaCuestionarioPermisoREASinSeccion .Numeral
+{
+    display: none;
+}
+
+.TablaCuestionarioPermisoREASinSeccion .Texto
+{    
+    padding-left: 2.2em;
+    font-size: 13px !important;
+    text-align: justify !important;     
+    color: #333333;
+    font-weight: bold !important;
+}
+
+.TablaCuestionarioPermisoREASinSeccion .Seleccion
+{   
+    width: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.TablaCuestionarioPermisoREASinSeccion .Complementario textarea
+{
+    width: 50% !important;
+}
+
+
+
+
+
+
+
+
+
+
+.TablaSeccionPermisoREA {
+    width:98%;
+    margin-left: 1%;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.HeaderAccordionPermisoREA {
+    background: #EEEEEE !important;    
+    cursor: pointer !important;
+}
+
+.HeaderAccordionPermisoREA table{
+    width:98%;
+    margin-left: 1%;
+    border: 0px;
+}
+
+.HeaderAccordionPermisoREA table td{
+    font-size: 13px;
+    color: #333333 !important;
+    font-weight: bold !important;
+}
+
+.BodyAccordeonPermisoREA {
+    border: 1px solid #CCCCCC !important;
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    padding: 0 0 0 0 !important;
+}
+
+.BodyAccordeonPermisoREA table{
+    width:100%;
+    border: 0px;
+}
+
+.TextoRespuestaPermisoREA {
+    color: #333333 !important;
+    font-size: 14px;
+    text-align: justify;
+    padding: 15px 15px 15px 15px;
+}
+.LnkTextoModal {
+    font-weight: bold !important;
+    text-decoration: underline !important; 
+}

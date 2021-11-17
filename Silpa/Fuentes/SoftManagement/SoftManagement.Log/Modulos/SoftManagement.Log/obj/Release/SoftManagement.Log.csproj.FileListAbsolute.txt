@@ -1,0 +1,8 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Release\SoftManagement.Log.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Release\SoftManagement.Log.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Release\SoftManagement.Log.csprojResolveAssemblyReference.cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Release\SoftManagement.Log.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\obj\Release\SoftManagement.Log.pdb

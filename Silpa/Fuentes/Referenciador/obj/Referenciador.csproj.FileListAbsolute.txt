@@ -1,0 +1,12 @@
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll.config
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\bin\Debug\Referenciador.pdb
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\Referenciador\obj\Debug\Referenciador.pdb

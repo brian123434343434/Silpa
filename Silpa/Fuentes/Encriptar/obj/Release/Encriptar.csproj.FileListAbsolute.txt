@@ -1,0 +1,7 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Encriptar\bin\Release\Encriptar.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Encriptar\bin\Release\Encriptar.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Encriptar\obj\Release\Encriptar.csprojResolveAssemblyReference.cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Encriptar\obj\Release\Encriptar.Properties.Resources.resources
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Encriptar\obj\Release\Encriptar.csproj.GenerateResource.Cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Encriptar\obj\Release\Encriptar.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Encriptar\obj\Release\Encriptar.pdb

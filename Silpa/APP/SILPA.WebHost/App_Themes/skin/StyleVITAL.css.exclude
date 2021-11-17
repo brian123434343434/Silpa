@@ -1,0 +1,12 @@
+﻿.negrilla {
+    font-family: Verdana, Arial, Helvetica, sans-serif!important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    color: #403B33 !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    display: inline-block !important;
+}
+input {
+    height:24px;
+}

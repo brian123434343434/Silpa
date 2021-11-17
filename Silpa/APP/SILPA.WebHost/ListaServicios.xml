@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Servicio nombre ="EmitirActoAdministrativo" app="SILPA" url =""/>
+<Servicio nombre ="BPMServices" app="BPM" url ="http://192.168.0.7:8000/silpa/bpm/services/bpmservices.asmx"/>
+<Servicio nombre ="BPMServicesProxy" app="SILPA" url ="http://192.168.0.7:8090/BPMServicesProxy.asmx"/>
+<Servicio nombre ="RecibirAA" app="SILPA" url ="http://192.168.0.7:8090/WSDAA02.asmx"/>
+

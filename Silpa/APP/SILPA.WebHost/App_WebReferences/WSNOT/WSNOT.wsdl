@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CU-NOT-03">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="datosConsulta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-NOT-03Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CU-NOT-03Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CU-NOT-02">
+        <s:complexType />
+      </s:element>
+      <s:element name="CU-NOT-02Response">
+        <s:complexType />
+      </s:element>
+      <s:element name="CU-NOTsss">
+        <s:complexType />
+      </s:element>
+      <s:element name="CU-NOTsssResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CU-NOTsssResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Test">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CU-NOT-03SoapIn">
+    <wsdl:part name="parameters" element="tns:CU-NOT-03" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOT-03SoapOut">
+    <wsdl:part name="parameters" element="tns:CU-NOT-03Response" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOT-02SoapIn">
+    <wsdl:part name="parameters" element="tns:CU-NOT-02" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOT-02SoapOut">
+    <wsdl:part name="parameters" element="tns:CU-NOT-02Response" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOTsssSoapIn">
+    <wsdl:part name="parameters" element="tns:CU-NOTsss" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOTsssSoapOut">
+    <wsdl:part name="parameters" element="tns:CU-NOTsssResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOT-03HttpGetIn">
+    <wsdl:part name="datosConsulta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOT-03HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOT-02HttpGetIn" />
+  <wsdl:message name="CU-NOT-02HttpGetOut" />
+  <wsdl:message name="CU-NOTsssHttpGetIn" />
+  <wsdl:message name="CU-NOTsssHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TestHttpGetIn" />
+  <wsdl:message name="TestHttpGetOut" />
+  <wsdl:message name="CU-NOT-03HttpPostIn">
+    <wsdl:part name="datosConsulta" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOT-03HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CU-NOT-02HttpPostIn" />
+  <wsdl:message name="CU-NOT-02HttpPostOut" />
+  <wsdl:message name="CU-NOTsssHttpPostIn" />
+  <wsdl:message name="CU-NOTsssHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TestHttpPostIn" />
+  <wsdl:message name="TestHttpPostOut" />
+  <wsdl:portType name="WSNOTSoap">
+    <wsdl:operation name="VerificarEstado">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Expone la información del estado del proceso de Notificación a la autoridad ambiental para que la consulte]</wsdl:documentation>
+      <wsdl:input name="CU-NOT-03" message="tns:CU-NOT-03SoapIn" />
+      <wsdl:output name="CU-NOT-03" message="tns:CU-NOT-03SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoNotificacion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Consume un servicio del sistema de Notificación en Línea mediante PDI para recuperar el estado de un todos los procesos de notificación con Acto Administrativo pendiente por actualizar]</wsdl:documentation>
+      <wsdl:input name="CU-NOT-02" message="tns:CU-NOT-02SoapIn" />
+      <wsdl:output name="CU-NOT-02" message="tns:CU-NOT-02SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarPDI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Método de Prueba para conectar con PDI</wsdl:documentation>
+      <wsdl:input name="CU-NOTsss" message="tns:CU-NOTsssSoapIn" />
+      <wsdl:output name="CU-NOTsss" message="tns:CU-NOTsssSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestSoapIn" />
+      <wsdl:output message="tns:TestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSNOTHttpGet">
+    <wsdl:operation name="VerificarEstado">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Expone la información del estado del proceso de Notificación a la autoridad ambiental para que la consulte]</wsdl:documentation>
+      <wsdl:input name="CU-NOT-03" message="tns:CU-NOT-03HttpGetIn" />
+      <wsdl:output name="CU-NOT-03" message="tns:CU-NOT-03HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoNotificacion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Consume un servicio del sistema de Notificación en Línea mediante PDI para recuperar el estado de un todos los procesos de notificación con Acto Administrativo pendiente por actualizar]</wsdl:documentation>
+      <wsdl:input name="CU-NOT-02" message="tns:CU-NOT-02HttpGetIn" />
+      <wsdl:output name="CU-NOT-02" message="tns:CU-NOT-02HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarPDI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Método de Prueba para conectar con PDI</wsdl:documentation>
+      <wsdl:input name="CU-NOTsss" message="tns:CU-NOTsssHttpGetIn" />
+      <wsdl:output name="CU-NOTsss" message="tns:CU-NOTsssHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestHttpGetIn" />
+      <wsdl:output message="tns:TestHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSNOTHttpPost">
+    <wsdl:operation name="VerificarEstado">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Expone la información del estado del proceso de Notificación a la autoridad ambiental para que la consulte]</wsdl:documentation>
+      <wsdl:input name="CU-NOT-03" message="tns:CU-NOT-03HttpPostIn" />
+      <wsdl:output name="CU-NOT-03" message="tns:CU-NOT-03HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoNotificacion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Consume un servicio del sistema de Notificación en Línea mediante PDI para recuperar el estado de un todos los procesos de notificación con Acto Administrativo pendiente por actualizar]</wsdl:documentation>
+      <wsdl:input name="CU-NOT-02" message="tns:CU-NOT-02HttpPostIn" />
+      <wsdl:output name="CU-NOT-02" message="tns:CU-NOT-02HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarPDI">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Método de Prueba para conectar con PDI</wsdl:documentation>
+      <wsdl:input name="CU-NOTsss" message="tns:CU-NOTsssHttpPostIn" />
+      <wsdl:output name="CU-NOTsss" message="tns:CU-NOTsssHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestHttpPostIn" />
+      <wsdl:output message="tns:TestHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSNOTSoap" type="tns:WSNOTSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="VerificarEstado">
+      <soap:operation soapAction="http://tempuri.org/CU-NOT-03" style="document" />
+      <wsdl:input name="CU-NOT-03">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOT-03">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoNotificacion">
+      <soap:operation soapAction="http://tempuri.org/CU-NOT-02" style="document" />
+      <wsdl:input name="CU-NOT-02">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOT-02">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarPDI">
+      <soap:operation soapAction="http://tempuri.org/CU-NOTsss" style="document" />
+      <wsdl:input name="CU-NOTsss">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOTsss">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSNOTSoap12" type="tns:WSNOTSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="VerificarEstado">
+      <soap12:operation soapAction="http://tempuri.org/CU-NOT-03" style="document" />
+      <wsdl:input name="CU-NOT-03">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOT-03">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoNotificacion">
+      <soap12:operation soapAction="http://tempuri.org/CU-NOT-02" style="document" />
+      <wsdl:input name="CU-NOT-02">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOT-02">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarPDI">
+      <soap12:operation soapAction="http://tempuri.org/CU-NOTsss" style="document" />
+      <wsdl:input name="CU-NOTsss">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOTsss">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSNOTHttpGet" type="tns:WSNOTHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="VerificarEstado">
+      <http:operation location="/CU-NOT-03" />
+      <wsdl:input name="CU-NOT-03">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="CU-NOT-03">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoNotificacion">
+      <http:operation location="/CU-NOT-02" />
+      <wsdl:input name="CU-NOT-02">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="CU-NOT-02" />
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarPDI">
+      <http:operation location="/CU-NOTsss" />
+      <wsdl:input name="CU-NOTsss">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="CU-NOTsss">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <http:operation location="/Test" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSNOTHttpPost" type="tns:WSNOTHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="VerificarEstado">
+      <http:operation location="/CU-NOT-03" />
+      <wsdl:input name="CU-NOT-03">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOT-03">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoNotificacion">
+      <http:operation location="/CU-NOT-02" />
+      <wsdl:input name="CU-NOT-02">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOT-02" />
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarPDI">
+      <http:operation location="/CU-NOTsss" />
+      <wsdl:input name="CU-NOTsss">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="CU-NOTsss">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <http:operation location="/Test" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSNOT">
+    <wsdl:port name="WSNOTSoap" binding="tns:WSNOTSoap">
+      <soap:address location="http://172.17.0.160:8182/WSNOT.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSNOTSoap12" binding="tns:WSNOTSoap12">
+      <soap12:address location="http://172.17.0.160:8182/WSNOT.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSNOTHttpGet" binding="tns:WSNOTHttpGet">
+      <http:address location="http://172.17.0.160:8182/WSNOT.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSNOTHttpPost" binding="tns:WSNOTHttpPost">
+      <http:address location="http://172.17.0.160:8182/WSNOT.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,47 @@
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ResolveAssemblyReference.cache
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.ServicioSilpa.resources
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.csproj.GenerateResource.Cache
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.exe
+D:\Trabajo\Minambiente\Fuentes\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\ServicioSILPA.exe.config
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\ServicioSILPA.exe.manifest
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\ServicioSILPA.application
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\ServicioSILPA.exe
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\ServicioSILPA.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\Altova.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\AltovaXML.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SILPA.LogicaNegocio.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SILPA.Servicios.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SoftManagement.CorreoElectronico.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SILPA.Comun.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SILPA.AccesoDatos.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\Silpa.Workflow.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\tipoDatoProcesoNotificacionEnt.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\tipoDatoProcesoNotificacionSal.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\tipoConsultaEstadoNotificacionEnt.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\tipoConsultaEstadoNotificacionSal.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\tipoEjecutoriarActoAdministratiEnt.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\tipoEjecutoriarActoAdministratiSal.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\tipoDatoRevocatoriaNotificacionEnt.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\CerticamaraException.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\CerticamaraUtils.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\ToVerifyObject.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SILPA.LogicaNegocio.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SILPA.Servicios.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SoftManagement.CorreoElectronico.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SoftManagement.Log.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SILPA.Comun.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\SILPA.AccesoDatos.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\bin\Release\Silpa.Workflow.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.ServicioSilpa.resources
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.csproj.GenerateResource.Cache
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.exe.manifest
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.application
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.exe
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\APP\ServicioSILPA\Modulos\ServicioSILPA\obj\Release\ServicioSILPA.pdb

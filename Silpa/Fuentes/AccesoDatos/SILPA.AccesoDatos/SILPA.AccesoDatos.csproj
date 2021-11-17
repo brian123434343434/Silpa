@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D373A3B-29ED-45C8-9632-282DC389EE34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SILPA.AccesoDatos</RootNamespace>
+    <AssemblyName>SILPA.AccesoDatos</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dll\Library3_1\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dll\Library3_1\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Security.Cryptography">
+      <HintPath>..\..\Dll\Library2_0\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dll\Library3_1\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdmTablasBasicas\AutoridadAmbientalDALC.cs" />
+    <Compile Include="AdmTablasBasicas\CasoProcesoPermitidoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\CorreoPlantillaDALC.cs" />
+    <Compile Include="AdmTablasBasicas\CorreoServidorDALC.cs" />
+    <Compile Include="AdmTablasBasicas\DatosHomologacionEntity.cs" />
+    <Compile Include="AdmTablasBasicas\EstadoCorreoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\EstadosProcesoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\FestivosDalc.cs" />
+    <Compile Include="AdmTablasBasicas\Geb_Tipo_PersonaDALC.cs" />
+    <Compile Include="AdmTablasBasicas\ActividadRadicableDALC.cs" />
+    <Compile Include="AdmTablasBasicas\GenParticipantDALC.cs" />
+    <Compile Include="AdmTablasBasicas\GenProcesoPagoCondicionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\GenTipoDocAcreditacionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\GenTipoUsuarioDALC.cs" />
+    <Compile Include="AdmTablasBasicas\GenTipoUsuarioGrupoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\LogicaEstadosDALC.cs" />
+    <Compile Include="AdmTablasBasicas\NOT_TipoIdentificacionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\NOT_TipoPersonaDALC.cs" />
+    <Compile Include="AdmTablasBasicas\RUH_OpcionSancionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\RUH_RelacionSancionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\SIH_EstadoRecursoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\SolicitudesDALC.cs" />
+    <Compile Include="AdmTablasBasicas\SolicitudesEntity.cs" />
+    <Compile Include="AdmTablasBasicas\TipoDocumentoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\Gen_ConceptoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\Gen_Estado_CobroDACL.cs" />
+    <Compile Include="AdmTablasBasicas\Gen_Tipo_DatoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\Gen_Tipo_PublicacionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\Not_Dependencia_EntidadDALC.cs" />
+    <Compile Include="AdmTablasBasicas\Not_Estado_NotificacionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\Ruh_Tipo_FaltaDALC.cs" />
+    <Compile Include="AdmTablasBasicas\Ruh_Tipo_SancionDALC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdmTablasBasicas\RuiaTiempoSancionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\San_RecursoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\San_Tipo_Persona_QuejaDALC.cs" />
+    <Compile Include="AdmTablasBasicas\TablasBasicasDalc.cs" />
+    <Compile Include="AdmTablasBasicas\TipoTramiteDALC.cs" />
+    <Compile Include="AdmTablasBasicas\Tipo_SalvoconductoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\UserGroupDALC.cs" />
+    <Compile Include="AdmTablasBasicas\VAB_CampoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\VAB_TipoDatoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\VAB_ValidacionCampoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\VAB_ValidacionDALC.cs" />
+    <Compile Include="AdmTablasBasicas\VAB_ValidacionNegocioDALC.cs" />
+    <Compile Include="AdmTablasBasicas\WorkFlowActividadRelacionadaDALC.cs" />
+    <Compile Include="AdmTablasBasicas\WorkFlowActividadSilpaDALC.cs" />
+    <Compile Include="AdmTablasBasicas\WSB_MetodoDALC.cs" />
+    <Compile Include="AdmTablasBasicas\WSB_ServiciosDALC.cs" />
+    <Compile Include="Aprovechamiento\AprovechamientoDalc.cs" />
+    <Compile Include="Aprovechamiento\AprovechamientoIdentity.cs" />
+    <Compile Include="Aprovechamiento\CoordenadaAprovechamientoDalc.cs" />
+    <Compile Include="Aprovechamiento\CoordenadaAprovechamientoIndentity.cs" />
+    <Compile Include="Aprovechamiento\EspecieAprovechamientoDalc.cs" />
+    <Compile Include="Aprovechamiento\EspecieAprovechamientoIdentity.cs" />
+    <Compile Include="Aprovechamiento\EspecieDalc.cs" />
+    <Compile Include="Aprovechamiento\EspecieIdentity.cs" />
+    <Compile Include="Aprovechamiento\TipoAprovechamientoDalc.cs" />
+    <Compile Include="Aprovechamiento\TipoAprovechamientoIdentity.cs" />
+    <Compile Include="Aprovechamiento\TratamientoSilviculturaDalc.cs" />
+    <Compile Include="Aprovechamiento\TratamientoSilviculturaIdentity.cs" />
+    <Compile Include="Aprovechamiento\UbicacionArbolAisladoDalc.cs" />
+    <Compile Include="Aprovechamiento\UbicacionArbolAisladoIdentity.cs" />
+    <Compile Include="AudienciaPublica\AudienciaDalc.cs" />
+    <Compile Include="AudienciaPublica\AudienciaIdentity.cs" />
+    <Compile Include="AudienciaPublica\ConsultaInscritosAudiencia.cs" />
+    <Compile Include="AudienciaPublica\CorreoAudienciaIdentity.cs" />
+    <Compile Include="AudienciaPublica\FuncionarioPublicoDalc.cs" />
+    <Compile Include="AudienciaPublica\FuncionarioPublicoIdentity.cs" />
+    <Compile Include="AudienciaPublica\AudienciaPublicaDalc.cs" />
+    <Compile Include="AudienciaPublica\AudienciaPublicaIdentity.cs" />
+    <Compile Include="AudienciaPublica\InscripcionAudienciaDalc.cs" />
+    <Compile Include="AudienciaPublica\SolicitudAudienciaDalc.cs" />
+    <Compile Include="AudienciaPublica\SolicitudAudienciaIdentity.cs" />
+    <Compile Include="AudienciaPublica\SolicitudAudienciaType.cs" />
+    <Compile Include="BPMProcess\CampoIdentity.cs" />
+    <Compile Include="BPMProcess\FormularioIdentity.cs" />
+    <Compile Include="BPMProcess\ProcessDalc.cs" />
+    <Compile Include="BPMProcess\ProcessIdentity.cs" />
+    <Compile Include="BPMProcess\ValoresIdentity.cs" />
+    <Compile Include="CesionDeDerechos\Cesion.cs" />
+    <Compile Include="CesionDeDerechos\CesionEntity.cs" />
+    <Compile Include="CesionDeDerechos\InformacionInstanciaFormularioEntity.cs" />
+    <Compile Include="CesionDeDerechos\InformacionInstanciaFormularioDalc.cs" />
+    <Compile Include="CesionDeDerechos\PersonaCesionIdentity.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Comunicacion\ComunicacionEE.cs" />
+    <Compile Include="Comunicacion\ComunicacionReunionType.cs" />
+    <Compile Include="Comunicacion\ComunicacionVisitaIdentity.cs" />
+    <Compile Include="Comunicacion\EsperarRespuestaDalc.cs" />
+    <Compile Include="Comunicacion\EsperarRespuestaEntidadDalc.cs" />
+    <Compile Include="Comunicacion\EsperarRespuestaEntidadIdentity.cs" />
+    <Compile Include="Comunicacion\EsperarRespuestaIdentity.cs" />
+    <Compile Include="ConsultaPublica\ConsultaPublicaDaLC.cs" />
+    <Compile Include="ConsultaPublica\ConsultaPublicaEntity.cs" />
+    <Compile Include="Contingencias\ContingenciasDalc.cs" />
+    <Compile Include="DAA\DAASolicitudEntity.cs" />
+    <Compile Include="DAA\DAASolicitudEstadoReasignacionEntity.cs" />
+    <Compile Include="DAA\DAASolicitudReasignacionEntity.cs" />
+    <Compile Include="Generico\RegistroMineroDalc.cs" />
+    <Compile Include="Generico\RegistroMineroEntity.cs" />
+    <Compile Include="Salvoconducto\ParametrizacionSunlDalc.cs" />
+    <Compile Include="Salvoconducto\ParametrizacionSunlIdentity.cs" />
+    <Compile Include="ServiciosREST\Dalc\IntegracionCorporacionRESTDalc.cs" />
+    <Compile Include="ServiciosREST\Entidades\CredencialesEntity.cs" />
+    <Compile Include="ServiciosREST\Entidades\IntegracionCorporacionRESTEntity.cs" />
+    <Compile Include="DAA\RegistroRadicarSigproEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\CoordenadasPreguntaSolicitudContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\OpcionPreguntaSolicitudContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\DocumentoPreguntaSolicitudContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\LocalizacionPreguntaSolicitudContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\NivelEmergenciaContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\EtapaProyectoContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\RespuestaPreguntaSolicitudContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\NivelEmergenciaContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Dalc\AutoridadAmbientalEncuestasDalc.cs" />
+    <Compile Include="Encuestas\Encuesta\Dalc\ExpedienteEncuestasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\GeneracionPDFContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\PreguntaSolicitudContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Dalc\SolicitudContingenciasDalc.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\CoordenadasPreguntaSolicitudContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\DocumentoPreguntaSolicitudContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\LocalizacionPreguntaSolicitudContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\RespuestaPreguntaSolicitudContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\TipoSolicitudContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\OpcionPreguntaSolicitudContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\EtapaProyectoContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\AutoridadAmbientalEncuestasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\PreguntaHabilitaOpcionEncuestasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\ExpedienteEncuestasEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\PreguntaSolicitudContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Contingencias\Entity\SolicitudContingenciasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Dalc\FormularioEncuestasDalc.cs" />
+    <Compile Include="Encuestas\Encuesta\Dalc\SectorEncuestasDalc.cs" />
+    <Compile Include="Correspondencia\CorrespondenciaSilpaDalc.cs" />
+    <Compile Include="DAA\DAADalc.cs" />
+    <Compile Include="DAA\JurisdiccionDalc.cs" />
+    <Compile Include="DAA\JurisdiccionIdentity.cs" />
+    <Compile Include="DAA\ReenviarSolicitud.cs" />
+    <Compile Include="DAA\SolicitudExpedienteDalc.cs" />
+    <Compile Include="Documento\MisTramitesDocumentos.cs" />
+    <Compile Include="Documento\MisTramitesDocumentosDALC.cs" />
+    <Compile Include="EIA\EIADalc.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\TipoOpcionPreguntaEncuestaEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\TipoPreguntaEncuestaEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\OpcionPreguntaEncuestasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\FormularioEncuestasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\PreguntaEncuestasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\SeccionEncuestasEntity.cs" />
+    <Compile Include="Encuestas\Encuesta\Entity\SectorEncuestasEntity.cs" />
+    <Compile Include="EstadoAA\EstadoVitalAutoridadDalc.cs" />
+    <Compile Include="EstadoAA\EstadoVitalAutoridadEntity.cs" />
+    <Compile Include="EstadoAA\EstadoVitalDalc.cs" />
+    <Compile Include="EstadoAA\EstadoVitalEntity.cs" />
+    <Compile Include="EstadoAA\HistoriaCambioEstadoDalc.cs" />
+    <Compile Include="EstadoAA\HistoriaCambioEstadoEntity.cs" />
+    <Compile Include="EvaluacionREA\Dalc\CaracteriticaDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\DocumentoSolicitudREADalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\EsfuerzoMuestreoDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\ExperienciaEspecificaDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\FormacionAcademicaDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\GrupoBiologicoDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\InsumoCoberturaDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\InsumoPreservacionMovilizacionDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\InsumoProfesionalDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\InsumoRecoleccionDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\PDFSolicitudREADalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\RecoleccionDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\SacrificioDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\SolicitudREADalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\TecnicaMuestreoDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\TiempoExperienciaDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\TipoFijacionPreservacionDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\TipoMovilizacionDalc.cs" />
+    <Compile Include="EvaluacionREA\Dalc\UnidadMuestreoDalc.cs" />
+    <Compile Include="EvaluacionREA\Entity\CaracteristicaEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\DocumentoSolicitudREAEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\EsfuerzoMuestreoEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\ExperienciaEspecificaEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\FormacionAcademicaProfesionalEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\GrupoBiologicoEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\GrupoBiologicoTecnicaMuestreoEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\InsumoCoberturaEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\InsumoPreservacionMovilizacionEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\InsumoProfesionalEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\InsumoRecoleccionEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\InsumosGrupoBiologicoEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\RecoleccionEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\SolicitudREAEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\TecnicaMuestreoEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\TiempoExperienciaEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\TipoFijacionPreservacionEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\TipoMovilizacionEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\TipoSacrificioEntity.cs" />
+    <Compile Include="EvaluacionREA\Entity\UnidadMuestreoEntity.cs" />
+    <Compile Include="Excepciones\NotExpedientesException.cs" />
+    <Compile Include="Excepciones\PDVDalcException.cs" />
+    <Compile Include="Excepciones\READalcException.cs" />
+    <Compile Include="Excepciones\RIDDalcException.cs" />
+    <Compile Include="Expedientes\ExpedienteAutExtDaLC.cs" />
+    <Compile Include="Expedientes\ExpedienteAutExtEntity.cs" />
+    <Compile Include="Expedientes\ExpedientesExternosEntity.cs" />
+    <Compile Include="Expedientes\ExpedienteSilaDALC.cs" />
+    <Compile Include="Expedientes\ExpedienteSilaEntity.cs" />
+    <Compile Include="GenerarSalvoConducto\ClaseAprovechamiento.cs" />
+    <Compile Include="GenerarSalvoConducto\ClaseAprovechamientoxRecurso.cs" />
+    <Compile Include="GenerarSalvoConducto\ClaseRecursosTrans.cs" />
+    <Compile Include="GenerarSalvoConducto\FinalidadAprovechamiento.cs" />
+    <Compile Include="GenerarSalvoConducto\FormaOtorgamiento.cs" />
+    <Compile Include="GenerarSalvoConducto\GenerarSalvoConductoDALC.cs" />
+    <Compile Include="GenerarSalvoConducto\IdentificacionRecurso.cs" />
+    <Compile Include="GenerarSalvoConducto\IdentificacionRecursoDALC.cs" />
+    <Compile Include="GenerarSalvoConducto\LocalizacionPredial.cs" />
+    <Compile Include="GenerarSalvoConducto\LocalizacionPredialDALC.cs" />
+    <Compile Include="GenerarSalvoConducto\NombreCientifico.cs" />
+    <Compile Include="GenerarSalvoConducto\NombreComun.cs" />
+    <Compile Include="GenerarSalvoConducto\SalActoAdministrativo.cs" />
+    <Compile Include="GenerarSalvoConducto\SalActoAdministrativoDALC.cs" />
+    <Compile Include="GenerarSalvoConducto\SalProducto.cs" />
+    <Compile Include="GenerarSalvoConducto\SolicitudProducto.cs" />
+    <Compile Include="GenerarSalvoConducto\SolicitudProductoDALC.cs" />
+    <Compile Include="GenerarSalvoConducto\TipoProducto.cs" />
+    <Compile Include="GenerarSalvoConducto\TipoPropiedadPredio.cs" />
+    <Compile Include="GenerarSalvoConducto\UnidadMetrica.cs" />
+    <Compile Include="GenerarSalvoConducto\Vereda.cs" />
+    <Compile Include="GenerarSalvoConducto\WSRespuestaSalvoConducto.cs" />
+    <Compile Include="Generico\AcreditacionDalc.cs" />
+    <Compile Include="Generico\ActividadProcesoDalc.cs" />
+    <Compile Include="Generico\ActividadProcesoIdentity.cs" />
+    <Compile Include="DAA\SolicitudDAAEIADalc.cs" />
+    <Compile Include="DAA\SolicitudDAAEIAIdentity.cs" />
+    <Compile Include="Generico\ActividadRadicableDalc.cs" />
+    <Compile Include="Generico\ActividadRadicableIdentity.cs" />
+    <Compile Include="Generico\AnexarDocumentacionSoporteDalc.cs" />
+    <Compile Include="Generico\AnexarDocumentacionSoporteIdentity.cs" />
+    <Compile Include="Generico\AreaHidrograficaDalc.cs" />
+    <Compile Include="Generico\AreaHidrograficaIndenitty.cs" />
+    <Compile Include="Generico\AutoridadAmbientalDalc.cs" />
+    <Compile Include="Generico\AutoridadAmbientalIdentity.cs" />
+    <Compile Include="Generico\BpmParametros.cs" />
+    <Compile Include="Generico\ClasificacionInformacionGeneralDalc.cs" />
+    <Compile Include="Generico\ClasificacionInformacionGeneralIdentity.cs" />
+    <Compile Include="Generico\Cobro.cs" />
+    <Compile Include="Generico\CobroDalc.cs" />
+    <Compile Include="Generico\CobroIdentity.cs" />
+    <Compile Include="Generico\CobroPSE.cs" />
+    <Compile Include="Generico\ComplementoDireccionDalc.cs" />
+    <Compile Include="Generico\ComplementoDireccionIdentity.cs" />
+    <Compile Include="Generico\ContactoPersonaIdentity.cs" />
+    <Compile Include="Generico\DetalleTransaccionPSEIdentity.cs" />
+    <Compile Include="Generico\EnumEstadoCobro.cs" />
+    <Compile Include="Generico\EnumOrigenCobro.cs" />
+    <Compile Include="Generico\NomenclaturaDalc.cs" />
+    <Compile Include="Generico\NomenclaturaIdentity.cs" />
+    <Compile Include="Generico\PermisoCobroIdentity.cs" />
+    <Compile Include="Generico\PermisosCobroDalc.cs" />
+    <Compile Include="Generico\PersonaLogoIdentity.cs" />
+    <Compile Include="Generico\CredTipoUsuario.cs" />
+    <Compile Include="Generico\CuencaDalc.cs" />
+    <Compile Include="Generico\EmitirDocumentoDalc.cs" />
+    <Compile Include="Generico\EmitirDocumentoIdentity.cs" />
+    <Compile Include="Generico\EnumUbicacion.cs" />
+    <Compile Include="Generico\NumeroSilpaDalc.cs" />
+    <Compile Include="Generico\ParametroDalc.cs" />
+    <Compile Include="Generico\ParametroEntity.cs" />
+    <Compile Include="Generico\ConceptoCobroDalc.cs" />
+    <Compile Include="Generico\DetalleCobroDalc.cs" />
+    <Compile Include="Generico\DetalleCobroIdentity.cs" />
+    <Compile Include="Generico\ConceptoIdentity.cs" />
+    <Compile Include="Generico\DireccionPersonaDalc.cs" />
+    <Compile Include="Generico\DocumentoDalc.cs" />
+    <Compile Include="Generico\EstadoCobroDalc.cs" />
+    <Compile Include="Generico\EstadoCobroIdentity.cs" />
+    <Compile Include="Generico\FormularioDalc.cs" />
+    <Compile Include="Generico\FormularioPersonaDalc.cs" />
+    <Compile Include="Generico\InformacionAdicionalIdentity.cs" />
+    <Compile Include="Generico\Movimiento.cs" />
+    <Compile Include="Generico\CorregimientoIdentity.cs" />
+    <Compile Include="Generico\CorregimientoDalc.cs" />
+    <Compile Include="Generico\CorrespondenciaDalc.cs" />
+    <Compile Include="Generico\CuencaIdentity.cs" />
+    <Compile Include="Generico\DepartamentoDalc.cs" />
+    <Compile Include="Generico\DepartamentoIdentity.cs" />
+    <Compile Include="Generico\DireccionPersonaIdentity.cs" />
+    <Compile Include="Generico\DocumentoIdentity.cs" />
+    <Compile Include="Generico\ExpedienteDalc.cs" />
+    <Compile Include="Generico\ExpedienteIdentity.cs" />
+    <Compile Include="Generico\FirmaIdentity.cs" />
+    <Compile Include="Generico\GenericDalc.cs" />
+    <Compile Include="Generico\JurisdiccionDalc.cs" />
+    <Compile Include="Generico\JurisdiccionIdentity.cs" />
+    <Compile Include="Generico\MunicipioDalc.cs" />
+    <Compile Include="Generico\MunicipioIdentity.cs" />
+    <Compile Include="Generico\PaisDalc.cs" />
+    <Compile Include="Generico\PaisIdentity.cs" />
+    <Compile Include="Generico\PerfilDocumentoDALC.cs" />
+    <Compile Include="Generico\PerfilDocumentoIdentity.cs" />
+    <Compile Include="Generico\PersonaFirmaIdentity.cs" />
+    <Compile Include="Generico\PersonaIdentity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Generico\PersonaIndentity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Generico\ProcesoDalc.cs" />
+    <Compile Include="Generico\ProcesoIdentity.cs" />
+    <Compile Include="Generico\PseDalc.cs" />
+    <Compile Include="Generico\PseIdentity.cs" />
+    <Compile Include="Generico\RadicacionDocumentoDalc.cs" />
+    <Compile Include="Generico\RadicacionDocumentoIdentity.cs" />
+    <Compile Include="Generico\PersonaDalc.cs" />
+    <Compile Include="Generico\ResultadoConsultaDocumentoIdentity.cs" />
+    <Compile Include="Generico\SolicitanteDalc.cs" />
+    <Compile Include="Generico\SolicitanteEntity.cs" />
+    <Compile Include="Generico\SolicitudCredencialesDalc.cs" />
+    <Compile Include="Generico\SolicitudCredencialesEntity.cs" />
+    <Compile Include="Generico\TipoContactoCampoDalc.cs" />
+    <Compile Include="Generico\TipoContactoCampoIdentity.cs" />
+    <Compile Include="Generico\TipoContactoDalc.cs" />
+    <Compile Include="Generico\TipoContactoIdentity.cs" />
+    <Compile Include="Generico\TipoUsuarioDalc.cs" />
+    <Compile Include="Generico\TipoUsuarioIdentity.cs" />
+    <Compile Include="Generico\TransaccionPSEIdentity.cs" />
+    <Compile Include="Generico\Ubicacion.cs" />
+    <Compile Include="Generico\UbicacionProyecto.cs" />
+    <Compile Include="GrupoYUsuarios\CredencialesDalc.cs" />
+    <Compile Include="GrupoYUsuarios\CredencialesEntity.cs" />
+    <Compile Include="GrupoYUsuarios\GrupoDalc.cs" />
+    <Compile Include="GrupoYUsuarios\GrupoEntity.cs" />
+    <Compile Include="GrupoYUsuarios\GrupoMenuOpcionDalc.cs" />
+    <Compile Include="GrupoYUsuarios\GrupoMenuOpcionEntity.cs" />
+    <Compile Include="GrupoYUsuarios\MenuDalc.cs" />
+    <Compile Include="GrupoYUsuarios\MenuEntity.cs" />
+    <Compile Include="GrupoYUsuarios\MenuOpcionDalc.cs" />
+    <Compile Include="GrupoYUsuarios\MenuOpcionEntity.cs" />
+    <Compile Include="GrupoYUsuarios\OpcionDalc.cs" />
+    <Compile Include="GrupoYUsuarios\OpcionEntity.cs" />
+    <Compile Include="ImpresionesFus\ImpresionArchivoFus.cs" />
+    <Compile Include="ImpresionesFus\ImpresionArchivoFusDalc.cs" />
+    <Compile Include="IntegracionCorporaciones\Dalc\IntegracionCorporacionDalc.cs" />
+    <Compile Include="IntegracionCorporaciones\Entidades\CredencialesEntity.cs" />
+    <Compile Include="IntegracionCorporaciones\Entidades\IntegracionCorporacionEntity.cs" />
+    <Compile Include="Liquidacion\Dalc\AutoliquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\ClaseSolicitudLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\EstadoSolicitudLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\MedioTransporteLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\OceanoLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\OrigenMagnaCoordenadaLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\PermisoLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\ProyectoLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\RegionLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\SectorLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\TipoCoordenadaUbicacionLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\TipoGeometriaCoordenadaLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\TipoSolicitudLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Dalc\TramiteLiquidacionDalc.cs" />
+    <Compile Include="Liquidacion\Entity\ActividadLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\ClaseSolicitudLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\CobroSolicitudLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\CoordenadaUbicacionLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\EstadoCobroLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\EstadoSolicitudLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\MedioTransporteLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\OceanoLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\OrigenMagnaCoordenadaLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\PermisoLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\PermisoSolicitudLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\ProyectoLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\RegionLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\RegionSolicitudLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\RutaLogisticaSolicitudLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\SectorLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\SolicitudLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\TipoCoordenadaUbicacionLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\TipoGeometriaCoordenadaLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\TipoSolicitudLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\TramiteLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entity\UbicacionSolicitudLiquidacionEntity.cs" />
+    <Compile Include="LOG\SMHLogDALC.cs" />
+    <Compile Include="Monitoreo AA-PDI\MOH_Log_AA-PDI_DALC.cs" />
+    <Compile Include="Monitoreo PSE\MOH_Log_PESE_DALC.cs" />
+    <Compile Include="Monitoreo\MonitoreoEEDalc.cs" />
+    <Compile Include="Monitoreo\MonitoreoPagoDalc.cs" />
+    <Compile Include="Notificacion\BloqueoNotificacionSIGPROEntity.cs" />
+    <Compile Include="Notificacion\CargueEnvioNotificacionDalc.cs" />
+    <Compile Include="Notificacion\CargueEnvioNotificacionEntity.cs" />
+    <Compile Include="Notificacion\CorreoNotificacionEntity.cs" />
+    <Compile Include="Notificacion\DireccionNotificacionEntity.cs" />
+    <Compile Include="Notificacion\EnlaceDocumentoDalc.cs" />
+    <Compile Include="Notificacion\EnlaceDocumentoEntity.cs" />
+    <Compile Include="Notificacion\EnlaceDocumentoSilaDalc.cs" />
+    <Compile Include="Notificacion\EnlaceDocumentoSilaEntity.cs" />
+    <Compile Include="Notificacion\EstadoActoDalc.cs" />
+    <Compile Include="Notificacion\EstadoActoEntity.cs" />
+    <Compile Include="Notificacion\EstadoFlujoEntity.cs" />
+    <Compile Include="Notificacion\EstadoFlujoNotificacionDalc.cs" />
+    <Compile Include="Notificacion\EstadoFlujoNotificacionEntity.cs" />
+    <Compile Include="Notificacion\EstadoInicialActoParametroDalc.cs" />
+    <Compile Include="Notificacion\EstadoInicialActoParametroEntity.cs" />
+    <Compile Include="Notificacion\EstadoPersonaActoEntity.cs" />
+    <Compile Include="Notificacion\EstadosNotificacionSelect.cs" />
+    <Compile Include="Notificacion\FirmaAutoridadNotificacionDalc.cs" />
+    <Compile Include="Notificacion\FirmaAutoridadNotificacionEntity.cs" />
+    <Compile Include="Notificacion\FirmaAutoridadPlantillaNotificacionDalc.cs" />
+    <Compile Include="Notificacion\FlujoNotificacionElectronicaDalc.cs" />
+    <Compile Include="Notificacion\FlujoNotificacionElectronicaEntity.cs" />
+    <Compile Include="Notificacion\FormatoPlantillaNotificacionDalc.cs" />
+    <Compile Include="Notificacion\FormatoPlantillaNotificacionEntity.cs" />
+    <Compile Include="Notificacion\MarcaPlantillaNotificacionEntity.cs" />
+    <Compile Include="Notificacion\NotExpedientesEntity.cs" />
+    <Compile Include="Notificacion\NotExpedientesEntityDalc.cs" />
+    <Compile Include="Notificacion\PersonaNotExpedienteEntity.cs" />
+    <Compile Include="Notificacion\PlantillaNotificacionDalc.cs" />
+    <Compile Include="Notificacion\PlantillaNotificacionEntity.cs" />
+    <Compile Include="Notificacion\PublicidadEstadosDalc.cs" />
+    <Compile Include="Notificacion\ReasignacionDocumentoEntity.cs" />
+    <Compile Include="Notificacion\TIpoNotificacionDalc.cs" />
+    <Compile Include="Notificacion\TipoNotificacionEntity.cs" />
+    <Compile Include="ParametrizacionUrlSolicitudAutAmbDalc\ParametrizacionUrlSolicitudAutAmbDalc.cs" />
+    <Compile Include="Parametrizacion\ConsultaDocumentoDALC.cs" />
+    <Compile Include="Parametrizacion\ParametrizacionDocumentoEntity.cs" />
+    <Compile Include="PINES\AccionActividadIdentity.cs" />
+    <Compile Include="PINES\AccionActividadDALC.cs" />
+    <Compile Include="PINES\AccionDALC.cs" />
+    <Compile Include="PINES\AccionIdentity.cs" />
+    <Compile Include="PINES\ActividadProcesoURL.cs" />
+    <Compile Include="PINES\ComentarioActividadIdentity.cs" />
+    <Compile Include="PINES\PINESDALC.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RecursoReposicion\RecursoDalc.cs" />
+    <Compile Include="RecursoReposicion\RecursoDocumentoDalc.cs" />
+    <Compile Include="RecursoReposicion\RecursoDocumentoEntity.cs" />
+    <Compile Include="RecursoReposicion\RecursoEntity.cs" />
+    <Compile Include="Generico\RequerimientoPagoIdentity.cs" />
+    <Compile Include="Generico\SectorDalc.cs" />
+    <Compile Include="Generico\SectorIdentity.cs" />
+    <Compile Include="Generico\SubZonaHidrologicaIdentity.cs" />
+    <Compile Include="Generico\SubZonaHidrologicaDalc.cs" />
+    <Compile Include="Generico\TipoDireccionDalc.cs" />
+    <Compile Include="Generico\TipoDireccionIdentity.cs" />
+    <Compile Include="Generico\TipoDocumento.cs" />
+    <Compile Include="Generico\TipoDocumentoDalc.cs" />
+    <Compile Include="Generico\TipoDocumentoIdentity.cs" />
+    <Compile Include="Generico\TipoEstadoProcesoDalc.cs" />
+    <Compile Include="Generico\TipoEstadoProcesoIdentity.cs" />
+    <Compile Include="ListaServicios\Metodo.cs" />
+    <Compile Include="ListaServicios\MetodoDalc.cs" />
+    <Compile Include="ListaServicios\Servicio.cs" />
+    <Compile Include="ListaServicios\ServicioDalc.cs" />
+    <Compile Include="Notificacion\ConstulaEstadoNotificacion.cs" />
+    <Compile Include="Notificacion\DependenciaEntidadDalc.cs" />
+    <Compile Include="Notificacion\DependenciaEntidadEntity.cs" />
+    <Compile Include="Notificacion\EstadoNotificacionDalc.cs" />
+    <Compile Include="Notificacion\EstadoNotificacionEntity.cs" />
+    <Compile Include="Notificacion\NotificacionDalc.cs" />
+    <Compile Include="Notificacion\PersonaNotificarDalc.cs" />
+    <Compile Include="Notificacion\PersonaNotificarEntity.cs" />
+    <Compile Include="Notificacion\ResultadoNotificacionEntity.cs" />
+    <Compile Include="Notificacion\TipoIdentificacionDalc.cs" />
+    <Compile Include="Generico\TipoPersonaDalc.cs" />
+    <Compile Include="Generico\TipoPersonaIdentity.cs" />
+    <Compile Include="Generico\TipoTramiteDalc.cs" />
+    <Compile Include="Generico\TipoUbicacionDalc.cs" />
+    <Compile Include="Generico\TipoUbicacionIdentity.cs" />
+    <Compile Include="Generico\VeredaDalc.cs" />
+    <Compile Include="Generico\VeredaIndentity.cs" />
+    <Compile Include="Generico\WsbCasoProcesoPermitidoDalc.cs" />
+    <Compile Include="Generico\ZonaHidrograficaDalc.cs" />
+    <Compile Include="Generico\ZonaHidrograficaIdentity.cs" />
+    <Compile Include="Notificacion\Notificacion.cs" />
+    <Compile Include="Notificacion\NotificacionEntity.cs" />
+    <Compile Include="Notificacion\TipoPersonaDalc.cs" />
+    <Compile Include="Notificacion\TipoPersonaEntity.cs" />
+    <Compile Include="Parametrizacion\EntidadExternaEntity.cs" />
+    <Compile Include="Parametrizacion\ParametrizacionDocumentoDalc.cs" />
+    <Compile Include="Parametrizacion\TiempoNotificacionDalc.cs" />
+    <Compile Include="Parametrizacion\TipoTramite.cs" />
+    <Compile Include="Parametrizacion\TipoTramiteDalc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publicacion\ComentarioDalc.cs" />
+    <Compile Include="Publicacion\ComentarioIdentity.cs" />
+    <Compile Include="Publicacion\DetalleDocumentoIdentity.cs" />
+    <Compile Include="Publicacion\PublicacionDalc.cs" />
+    <Compile Include="Publicacion\PublicacionIdentity.cs" />
+    <Compile Include="Publicacion\TipoPublicacionIdentity.cs" />
+    <Compile Include="Notificacion\TipoIdentificacionEntity.cs" />
+    <Compile Include="RecursoReposicion\RecursoEstadoDalc.cs" />
+    <Compile Include="RecursoReposicion\RecursoEstadoEntity.cs" />
+    <Compile Include="RecursoReposicion\ActoParaRecursoEntity.cs" />
+    <Compile Include="REDDS\Redds.cs" />
+    <Compile Include="REDDS\ReddsActividad.cs" />
+    <Compile Include="REDDS\ReddsArchivos.cs" />
+    <Compile Include="REDDS\ReddsAutoridadAmbiental.cs" />
+    <Compile Include="REDDS\ReddsCompartimientoCarbono.cs" />
+    <Compile Include="REDDS\ReddsCoordenadasLocalizacion.cs" />
+    <Compile Include="REDDS\ReddsDalc.cs" />
+    <Compile Include="REDDS\ReddsDeptoMunicipio.cs" />
+    <Compile Include="REDDS\ReddsEstadoAvanceIniciativa.cs" />
+    <Compile Include="REDDS\ReddsEstandarMercado.cs" />
+    <Compile Include="REDDS\ReddsEstimadoReduccionDeforestacion.cs" />
+    <Compile Include="REDDS\ReddsEstimadoReduccionEmisiones.cs" />
+    <Compile Include="REDDS\ReddsLocalizacion.cs" />
+    <Compile Include="REDDS\ReddsMetodologiaEstandar.cs" />
+    <Compile Include="REDDS\ReddsParticipante.cs" />
+    <Compile Include="REDDS\ReddsRelacionJuridica.cs" />
+    <Compile Include="RegistroMinero\BitacoraRegistroMineroIdentity.cs" />
+    <Compile Include="RegistroMinero\Coordenada.cs" />
+    <Compile Include="RegistroMinero\EstadoRegistroMineroIdenity.cs" />
+    <Compile Include="RegistroMinero\Geometria.cs" />
+    <Compile Include="RegistroMinero\LimitesAutoridadAmbiental.cs" />
+    <Compile Include="RegistroMinero\Localizacion.cs" />
+    <Compile Include="RegistroMinero\MineralIdentity.cs" />
+    <Compile Include="RegistroMinero\Origen.cs" />
+    <Compile Include="RegistroMinero\RegistroMineroDalc.cs" />
+    <Compile Include="RegistroMinero\RegistroMineroIdentity.cs" />
+    <Compile Include="RegistroMinero\TipoResgistroIndetity.cs" />
+    <Compile Include="RegistroMinero\TitularIdentity.cs" />
+    <Compile Include="RegistroMinero\UbicacionIdentity.cs" />
+    <Compile Include="ReportesSolicitudesVital\ReportesSolicitudesVital.cs" />
+    <Compile Include="ReporteTramite\DocumentacionSolicitudDalc.cs" />
+    <Compile Include="ReporteTramite\DocumentacionSolicitudEntity.cs" />
+    <Compile Include="ReporteTramite\MisTramitesIdentity.cs" />
+    <Compile Include="ReporteTramite\ReporteTramiteDalc.cs" />
+    <Compile Include="ReporteTramite\ReporteTramiteEntity.cs" />
+    <Compile Include="RepositorioArchivos\Archivo.cs" />
+    <Compile Include="RepositorioArchivos\ArchivoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\CaractEstCalidadDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\CaractEstCalidadEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\ClasTipoEcosistemaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\ClasTipoEcosistemaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\DepartamentoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\DepartamentoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\EscalaTrabajoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\EscalaTrabajoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\EstrucVertDomDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\EstrucVertDomEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\Ficha1Dalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\FuenteInfoEcoterrDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\FuenteInfoEcoterrEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\GradienteHidraulicoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\GradienteHidraulicoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\LabEstCalidadDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\LabEstCalidadEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\MetDetEstCalidadDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\MetDetEstCalidadEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\MunicipioDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\MunicipioEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\PeriodoMuestraDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\PeriodoMuestraEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\PosFitoDominanteDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\PosFitoDominanteEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\SectorProductivoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\SectorProductivoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\SubSecSitioMonitRuidoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\SubSecSitioMonitRuidoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoAcuiferoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoAcuiferoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoBiotaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoBiotaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoContribuyenteDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoContribuyenteEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoDocumentoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoDocumentoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEcosistemaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEcosistemaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEspecieFloraDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEspecieFloraEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEspecieMarinaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEspecieMarinaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEspeciesFaunaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEspeciesFaunaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEstratoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoEstratoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoFuentAguaSubtDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoFuentAguaSubtEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoFuenteRuidoDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoFuenteRuidoEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoInstitucionDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoInstitucionEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoMuestraDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoMuestraEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoOlaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoOlaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoOleajeDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoOleajeEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoOtraPobDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoOtraPobEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoPtoAguaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoPtoAguaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoVarClimaticaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\TipoVarClimaticaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\UnidadAreaDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\UnidadAreaEntity.cs" />
+    <Compile Include="ResumenEIA\Basicas\UnidadPolAdminDalc.cs" />
+    <Compile Include="ResumenEIA\Basicas\UnidadPolAdminEntity.cs" />
+    <Compile Include="ResumenEIA\Generacion\Generacion.cs" />
+    <Compile Include="ResumenEIA\Generacion\Procedimientos.cs" />
+    <Compile Include="RUIA\OpcionSancionDalc.cs" />
+    <Compile Include="RUIA\OpcionSancionIdentity.cs" />
+    <Compile Include="RUIA\RelacionSancionDalc.cs" />
+    <Compile Include="RUIA\RelacionSancionIdentity.cs" />
+    <Compile Include="RUIA\RUIAIdentity.cs" />
+    <Compile Include="RUIA\SancionDalc.cs" />
+    <Compile Include="RUIA\SancionIdentity.cs" />
+    <Compile Include="RUIA\SancionRUIA.cs" />
+    <Compile Include="RUIA\TipoFaltaDalc.cs" />
+    <Compile Include="RUIA\TipoFaltaIdentity.cs" />
+    <Compile Include="RUIA\TipoSancionDalc.cs" />
+    <Compile Include="RUIA\TipoSancionIdentity.cs" />
+    <Compile Include="Salvoconducto\AsignarNumeracionSalvoconductoDalc.cs" />
+    <Compile Include="Salvoconducto\CargueSaldoDalc.cs" />
+    <Compile Include="Salvoconducto\CargueSaldoIdentity.cs" />
+    <Compile Include="Salvoconducto\ClaseAprovechamientoDalc.cs" />
+    <Compile Include="Salvoconducto\ClaseAprovechamientoIdentity.cs" />
+    <Compile Include="Salvoconducto\ClaseProductoDalc.cs" />
+    <Compile Include="Salvoconducto\ClaseProductoIdentity.cs" />
+    <Compile Include="Salvoconducto\ClaseRecursoDalc.cs" />
+    <Compile Include="Salvoconducto\ClaseRecursoIdentity.cs" />
+    <Compile Include="Salvoconducto\ClaseSalvoconductoDalc.cs" />
+    <Compile Include="Salvoconducto\ClaseSalvoconductoIdentity.cs" />
+    <Compile Include="Salvoconducto\EspecimenNewDalc.cs" />
+    <Compile Include="Salvoconducto\EspecimenNewIdentity.cs" />
+    <Compile Include="Salvoconducto\EstadoSalvoconductoIdentity.cs" />
+    <Compile Include="Salvoconducto\EstadoSalvoconductoDalc.cs" />
+    <Compile Include="Salvoconducto\FinalidadRecursoDalc.cs" />
+    <Compile Include="Salvoconducto\FinalidadRecursoIdentity.cs" />
+    <Compile Include="Salvoconducto\FormaOtorgamientoDalc.cs" />
+    <Compile Include="Salvoconducto\FormaOtorgamientoIdentity.cs" />
+    <Compile Include="Salvoconducto\LogSalvoconductoDalc.cs" />
+    <Compile Include="Salvoconducto\ModoAdquisicionRecursoDalc.cs" />
+    <Compile Include="Salvoconducto\ModoAdquisicionRecursoIdentity.cs" />
+    <Compile Include="Salvoconducto\ModoTransporteDalc.cs" />
+    <Compile Include="Salvoconducto\ModoTransporteIdentity.cs" />
+    <Compile Include="Salvoconducto\ProcedenciaLegalDalc.cs" />
+    <Compile Include="Salvoconducto\ProcedenciaLegalIdentity.cs" />
+    <Compile Include="Salvoconducto\PuntoControlDalc.cs" />
+    <Compile Include="Salvoconducto\PuntoControlIdentity.cs" />
+    <Compile Include="Salvoconducto\RecursosIdentity.cs" />
+    <Compile Include="Salvoconducto\RecursoIdentity.cs" />
+    <Compile Include="Salvoconducto\ResolucionDalc.cs" />
+    <Compile Include="Salvoconducto\RutaDalc.cs" />
+    <Compile Include="Salvoconducto\RutaEntity.cs" />
+    <Compile Include="Salvoconducto\SalvoconductoNewDalc.cs" />
+    <Compile Include="Salvoconducto\SalvoconductoNewIdentity.cs" />
+    <Compile Include="Salvoconducto\SeguimientoRutaSalvocondcutoDalc.cs" />
+    <Compile Include="Salvoconducto\SeguimientoRutaSalvocondcutoIdentity.cs" />
+    <Compile Include="Salvoconducto\TipoProductoDalc.cs" />
+    <Compile Include="Salvoconducto\TipoProductoDimensionDalc.cs" />
+    <Compile Include="Salvoconducto\TipoProductoDimensionIdentity.cs" />
+    <Compile Include="Salvoconducto\TipoProductoIdentity.cs" />
+    <Compile Include="Salvoconducto\TipoRuta.cs" />
+    <Compile Include="Salvoconducto\TipoSalvoconducto.cs" />
+    <Compile Include="Salvoconducto\TipoSalvoconductoDalc.cs" />
+    <Compile Include="Salvoconducto\TipoTransporteDalc.cs" />
+    <Compile Include="Salvoconducto\TipoTransporteIdentity.cs" />
+    <Compile Include="Salvoconducto\TipoTransporteIndetity.cs" />
+    <Compile Include="Salvoconducto\TransporteDalc.cs" />
+    <Compile Include="Salvoconducto\TransporteIdentity.cs" />
+    <Compile Include="Salvoconducto\EspecimenDalc.cs" />
+    <Compile Include="Salvoconducto\EspecimenIdentity.cs" />
+    <Compile Include="Salvoconducto\SalvoconductoDalc.cs" />
+    <Compile Include="Salvoconducto\SalvoconductoIdentity.cs" />
+    <Compile Include="Salvoconducto\TransporteNewIdentity.cs" />
+    <Compile Include="Salvoconducto\UnidadMedidaDalc.cs" />
+    <Compile Include="Salvoconducto\UnidadMedidaIdentity.cs" />
+    <Compile Include="Sancionatorio\CoordenadaIdentity.cs" />
+    <Compile Include="Sancionatorio\PersonaQuejaDalc.cs" />
+    <Compile Include="Sancionatorio\PersonaQuejaIdentity.cs" />
+    <Compile Include="Sancionatorio\QuejaDalc.cs" />
+    <Compile Include="Sancionatorio\QuejaIdentity.cs" />
+    <Compile Include="Sancionatorio\QuejaRecursoIdentity.cs" />
+    <Compile Include="Sancionatorio\RecursoDalc.cs" />
+    <Compile Include="Sancionatorio\SancionatorioIdentity.cs" />
+    <Compile Include="SINTRAB\Entidades\MenuSINTRABIdentity.cs" />
+    <Compile Include="SINTRAB\MenuSINTRABDalc.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\CertificadoUPMEDalc.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\Entidades\bienesEntity.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\Entidades\CertificadoUPMEEntity.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\Entidades\documentoEntity.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\Entidades\FuenteConvencionalSustituirEntity.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\Entidades\serviciosEntity.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\Entidades\solicitanteEntity.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\Entidades\SubFuenteConvencionalSustituirEntity.cs" />
+    <Compile Include="Tramites\BeneficioTributario\CertificadoUPME\LogCertificadoUPMEDalc.cs" />
+    <Compile Include="Usuario\CredencialEntity.cs" />
+    <Compile Include="Usuario\EnlaceActivacionUsuarioDalc.cs" />
+    <Compile Include="Usuario\EnlaceActivacionUsuarioEntity.cs" />
+    <Compile Include="Usuario\TokenUsuarioDalc.cs" />
+    <Compile Include="Usuario\TokenUsuarioIdentity.cs" />
+    <Compile Include="Usuario\UsuarioDalc.cs" />
+    <Compile Include="Usuario\UsuarioIdentity.cs" />
+    <Compile Include="Utilidades\Comando.cs" />
+    <Compile Include="Utilidades\UbicacionIdentity.cs" />
+    <Compile Include="Utilidades\UbicacionDalc.cs" />
+    <Compile Include="ValidadoresBPM\CampoDalc.cs" />
+    <Compile Include="ValidadoresBPM\CampoIdentity.cs" />
+    <Compile Include="ValidadoresBPM\TipoDatoDalc.cs" />
+    <Compile Include="ValidadoresBPM\TipoDatoIdentity.cs" />
+    <Compile Include="ValidadoresBPM\ValidacionCampoDalc.cs" />
+    <Compile Include="ValidadoresBPM\ValidacionCampoIdentity.cs" />
+    <Compile Include="ValidadoresBPM\ValidacionDalc.cs" />
+    <Compile Include="ValidadoresBPM\ValidacionIdentity.cs" />
+    <Compile Include="Web References\WSBuscador\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WSIntegracion_SUNL_IDEAM_Dalc\RegistroAprovechamientoDalc.cs" />
+    <Compile Include="WSIntegracion_SUNL_IDEAM_Dalc\RegistroSalvoconductoDalc.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VersionAccesoDatos.xml" />
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WSBuscador\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WSBuscador\WSBuscador.disco" />
+    <Content Include="XML\XmlParamsRadicado.xml" />
+    <Content Include="XML\XmlParamsObtenerDatosRadicacion.xml" />
+    <Content Include="XML\XMLOficioIdentity.xml" />
+    <Content Include="XML\XmlListaRadicacion.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\WSBuscador\WSBuscador.wsdl" />
+    <None Include="XSD\WSRespuesta.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\WSRespuesta.xsx">
+      <DependentUpon>WSRespuesta.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Identificacion\" />
+    <Folder Include="LicenciaAmbiental\" />
+    <Folder Include="PermisoAmbiental\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Comun\SILPA.Comun\SILPA.Comun.csproj">
+      <Project>{b83dcaac-2e52-4dd6-8849-982019703fed}</Project>
+      <Name>SILPA.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\SoftManagement.Log.csproj">
+      <Project>{8dae3f18-176d-4bf6-afc7-f243055d9005}</Project>
+      <Name>SoftManagement.Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:3545/WSBuscador.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WSBuscador\</RelPath>
+      <UpdateFromURL>http://localhost:3545/WSBuscador.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SILPA_AccesoDatos_WSBuscador_WSBuscador</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

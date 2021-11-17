@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://PDI.GOBIERNOENLINEA.GOV/WSPDI" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://PDI.GOBIERNOENLINEA.GOV/WSPDI" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="http://PDI.GOBIERNOENLINEA.GOV/WSPDI">
+      <s:include schemaLocation="http://www.tramitador.gov.co/WebServicePDI/WebServicePDI.asmx?schema=schema1" />
+      <s:import schemaLocation="http://www.tramitador.gov.co/WebServicePDI/WebServicePDI.asmx?schema=schema2" namespace="http://www.gobiernoenlinea.gov.co/wspdi" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="EjecutarSoapIn">
+    <wsdl:part name="Ejecutar1" element="tns:Ejecutar" />
+  </wsdl:message>
+  <wsdl:message name="EjecutarSoapOut">
+    <wsdl:part name="EjecutarResult" element="tns:EjecutarResponse" />
+  </wsdl:message>
+  <wsdl:message name="EjecutarHeaderCredenciales">
+    <wsdl:part xmlns:q1="http://www.gobiernoenlinea.gov.co/wspdi" name="HeaderCredenciales" element="q1:HeaderCredenciales" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarResultadoSoapIn">
+    <wsdl:part name="ConsultarResultado1" element="tns:ConsultarResultado" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarResultadoSoapOut">
+    <wsdl:part name="ConsultarResultadoResult" element="tns:ConsultarResultadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarResultadoHeaderCredenciales">
+    <wsdl:part xmlns:q2="http://www.gobiernoenlinea.gov.co/wspdi" name="HeaderCredenciales" element="q2:HeaderCredenciales" />
+  </wsdl:message>
+  <wsdl:message name="EjecutarAsyncSoapIn">
+    <wsdl:part name="EjecutarAsync1" element="tns:EjecutarAsync" />
+  </wsdl:message>
+  <wsdl:message name="EjecutarAsyncSoapOut">
+    <wsdl:part name="EjecutarAsyncResult" element="tns:EjecutarAsyncResponse" />
+  </wsdl:message>
+  <wsdl:message name="EjecutarAsyncHeaderCredenciales">
+    <wsdl:part xmlns:q3="http://www.gobiernoenlinea.gov.co/wspdi" name="HeaderCredenciales" element="q3:HeaderCredenciales" />
+  </wsdl:message>
+  <wsdl:portType name="WSPDI">
+    <wsdl:operation name="Ejecutar">
+      <wsdl:input message="tns:EjecutarSoapIn" />
+      <wsdl:output message="tns:EjecutarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarResultado">
+      <wsdl:input message="tns:ConsultarResultadoSoapIn" />
+      <wsdl:output message="tns:ConsultarResultadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarAsync">
+      <wsdl:input message="tns:EjecutarAsyncSoapIn" />
+      <wsdl:output message="tns:EjecutarAsyncSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSPDI" type="tns:WSPDI">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ejecutar">
+      <soap:operation soapAction="http://PDI.GOBIERNOENLINEA.GOV/WSPDI:ejecutarIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:EjecutarHeaderCredenciales" part="HeaderCredenciales" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarResultado">
+      <soap:operation soapAction="http://PDI.GOBIERNOENLINEA.GOV/WSPDI:consultarResultadoIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:ConsultarResultadoHeaderCredenciales" part="HeaderCredenciales" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarAsync">
+      <soap:operation soapAction="http://PDI.GOBIERNOENLINEA.GOV/WSPDI:ejecutarAsyncIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:EjecutarAsyncHeaderCredenciales" part="HeaderCredenciales" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSPDI1" type="tns:WSPDI">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ejecutar">
+      <soap12:operation soapAction="http://PDI.GOBIERNOENLINEA.GOV/WSPDI:ejecutarIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:EjecutarHeaderCredenciales" part="HeaderCredenciales" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarResultado">
+      <soap12:operation soapAction="http://PDI.GOBIERNOENLINEA.GOV/WSPDI:consultarResultadoIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:ConsultarResultadoHeaderCredenciales" part="HeaderCredenciales" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarAsync">
+      <soap12:operation soapAction="http://PDI.GOBIERNOENLINEA.GOV/WSPDI:ejecutarAsyncIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:EjecutarAsyncHeaderCredenciales" part="HeaderCredenciales" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

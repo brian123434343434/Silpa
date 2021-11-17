@@ -1,0 +1,28 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.csprojResolveAssemblyReference.cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.csprojResolveAssemblyReference.cache
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.csprojResolveAssemblyReference.cache
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\bin\Debug\SILPA.ComunSeguridad.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.csprojResolveAssemblyReference.cache
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\ComunSeguridad\Seguridad\obj\Debug\SILPA.ComunSeguridad.pdb

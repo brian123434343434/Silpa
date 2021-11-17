@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://PDI.GOBIERNOENLINEA.GOV/WSPDI" elementFormDefault="qualified" targetNamespace="http://PDI.GOBIERNOENLINEA.GOV/WSPDI" id="schema1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Ejecutar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="codigoTramite" type="xs:integer" />
+        <xs:element minOccurs="1" maxOccurs="1" form="unqualified" name="versionTramite" type="xs:decimal" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="xmlEntradaEjecucion">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="documento" type="tns:documento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="documento">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="nombreArchivo" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="archivo" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EjecutarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" form="unqualified" name="resultado" type="xs:boolean" />
+        <xs:element minOccurs="1" maxOccurs="1" form="unqualified" name="resultadoEjecucion" type="tns:TipoEnumResultadoEjecucion" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="motivoRechazo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="XmlRespuesta">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="documento" type="tns:documento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="TipoEnumResultadoEjecucion">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="EjecucionSatisfactoria" />
+      <xs:enumeration value="ErrorInterno" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ConsultarResultado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="tiquete" type="xs:nonNegativeInteger" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="numeroRastreo" type="xs:nonNegativeInteger" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarResultadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" form="unqualified" name="resultado" type="xs:boolean" />
+        <xs:element minOccurs="1" maxOccurs="1" form="unqualified" name="resultadoConsulta" type="tns:TipoEnumResultadoConsultarResultado" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="motivoRechazo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="XmlRespuesta">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="documento" type="tns:documento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="TipoEnumResultadoConsultarResultado">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="EnEjecucion" />
+      <xs:enumeration value="SiExisteDocumento" />
+      <xs:enumeration value="NoExisteDocumento" />
+      <xs:enumeration value="ErrorInterno" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EjecutarAsync">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="codigoTramite" type="xs:integer" />
+        <xs:element minOccurs="1" maxOccurs="1" form="unqualified" name="versionTramite" type="xs:decimal" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="xmlEntradaEjecucion">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="documento" type="tns:documento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EjecutarAsyncResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" form="unqualified" name="resultado" type="xs:boolean" />
+        <xs:element minOccurs="1" maxOccurs="1" form="unqualified" name="resultadoEjecucion" type="tns:TipoEnumResultadoEjecucion" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="motivoRechazo" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="tiquete" type="xs:nonNegativeInteger" />
+        <xs:element minOccurs="0" maxOccurs="1" form="unqualified" name="numeroRastreo" type="xs:nonNegativeInteger" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

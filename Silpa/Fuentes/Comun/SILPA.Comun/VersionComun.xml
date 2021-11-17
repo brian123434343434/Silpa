@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+<proyecto nombre ="Comun" version ="1.0.0.1" actualizado= "18/12/2009 16:25" autor ="HAVA" descripcion="Se crea el archivo de versionamiento"/>
+<proyecto nombre ="Comun" version ="1.0.0.2" actualizado= "19/12/2009 16:19" autor ="HAVA" descripcion="Se hizo variaciones el Enumeraciones.cs"/>
+<proyecto nombre ="Comun" version ="1.0.0.3" actualizado= "15/01/2010 20:00" autor ="jgarces" descripcion="Se agregan enumeraciones para actividades y condiciones de DAA"/>
+<proyecto nombre ="Comun" version ="1.0.0.4" actualizado= "01/02/2010 12:18" autor ="HAVA" descripcion="Modificación de la clase traficoDocumento (FileTraffic)"/>
+<proyecto nombre ="Comun" version ="1.0.0.5" actualizado= "01/02/2010 11:27" autor ="HAVA" descripcion="Modificación de la clase traficoDocumento (FileTraffic)"/>
+<proyecto nombre ="Comun" version ="1.0.0.6" actualizado= "01/02/2010 11:27" autor ="HAVA" descripcion="Modificación de la clase traficoDocumento (FileTraffic)"/>
+<proyecto nombre ="Comun" version ="1.0.0.7" actualizado= "03/02/2010 17:27" autor ="HAVA" descripcion="Modificación de la clase traficoDocumento (FileTraffic)"/>
+<proyecto nombre ="Comun" version ="1.0.0.8" actualizado= "09/02/2010 10:49" autor ="aegb" descripcion="Inclusion de las clases para PSE MainServices.cs y MainServicesProxy.cs"/>
+<proyecto nombre ="Comun" version ="1.0.0.9" actualizado= "09/02/2010 16:19" autor ="HAVA" descripcion="Modificación de la clase traficoDocumento (FileTraffic)"/>
+<proyecto nombre ="Comun" version ="1.0.0.10" actualizado= "19/04/2010 16:19" autor ="HAVA" descripcion="Modificación de la clase traficoDocumento (FileTraffic)"/>
+<proyecto nombre ="Comun" version ="1.0.0.11" actualizado= "29/06/2010 16:19" autor ="HAVA" descripcion="Modificación del elemento Enumeraciones.cs, para avanzar al tarea"/>
+<proyecto nombre ="Comun" version ="1.0.0.12" actualizado= "30/09/2010 02:00" autor ="MIRM" descripcion="Creacion del Direccionamiento WS"/>
+</version>  

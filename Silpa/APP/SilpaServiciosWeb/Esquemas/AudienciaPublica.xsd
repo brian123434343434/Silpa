@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AudienciaPublica" targetNamespace="http://tempuri.org/AudienciaPublica.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/AudienciaPublica.xsd" xmlns:mstns="http://tempuri.org/AudienciaPublica.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AudienciaPublica" type="AudienciaIdentity">
+  </xs:element>
+  <xs:complexType name="AudienciaIdentity">
+    <xs:sequence>
+      <xs:element name="NumeroSilpa" type="xs:string" />
+      <xs:element name="FechaExpEdicto" type="xs:string" />
+      <xs:element name="IdentificacionSolicitante" type="xs:string" />
+      <xs:element name="EntidadesAud" type="xs:string" />
+      <xs:element name="NombreProyecto" type="xs:string" />
+      <xs:element name="NumeroExpediente" type="xs:string" />
+      <xs:element name="IdExpediente" type="xs:int" />
+      <xs:element name="IdentificacionPropietarioTramite" type="xs:string" />
+      <xs:element name="FechaAudiencia" type="xs:string" />
+      <xs:element name="LugarAudiencia" type="xs:string" />
+      <xs:element name="LugarInscripcionPonentes" type="xs:string" />
+      <xs:element name="LugaresConsultaEstudios" type="xs:string" />
+      <xs:element name="FechaReunionInformativa" type="xs:string" />
+      <xs:element name="LugarReunionInformativa" type="xs:string" />
+      <xs:element name="Convocatoria" type="xs:string" />
+      <xs:element name="Edicto" type="xs:string" />
+      <xs:element name="IdAutoridad" type="xs:int" />
+      <!--Archivo Adjunto (Si Aplica)-->
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

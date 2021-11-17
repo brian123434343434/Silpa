@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="Seguridad" TextField="Seguridad / Security" NavigateUrlField="" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem ValueField="SegundaClave" TextField="Segunda Clave / Second Password" NavigateUrlField="http://vital.anla.gov.co/silpa_ut_pre/Seguridad/CambiarSegundaClave.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+    <MenuItem ValueField="Firma" TextField="Firma / Signature" NavigateUrlField="http://vital.anla.gov.co/silpa_ut_pre/Seguridad/CambiarFirma.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  </MenuItem>
+  <MenuItem ValueField="Salir" TextField="Salir / Exit" NavigateUrlField="http://vital.anla.gov.co/SILPA_UT_PRE/Salir.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />  
+</menu>

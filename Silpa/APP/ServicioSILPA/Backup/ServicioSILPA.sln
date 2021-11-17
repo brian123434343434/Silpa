@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioSILPA", "Modulos\ServicioSILPA\ServicioSILPA.csproj", "{97346D17-0CF5-4325-B8D6-4CFCF3CC1C9C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstallServicioSILPA", "Modulos\InstallServicioSILPA\InstallServicioSILPA.vdproj", "{1C6988CF-5F4E-4456-A353-4A0783524945}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97346D17-0CF5-4325-B8D6-4CFCF3CC1C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97346D17-0CF5-4325-B8D6-4CFCF3CC1C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97346D17-0CF5-4325-B8D6-4CFCF3CC1C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97346D17-0CF5-4325-B8D6-4CFCF3CC1C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6988CF-5F4E-4456-A353-4A0783524945}.Debug|Any CPU.ActiveCfg = Debug
+		{1C6988CF-5F4E-4456-A353-4A0783524945}.Debug|Any CPU.Build.0 = Debug
+		{1C6988CF-5F4E-4456-A353-4A0783524945}.Release|Any CPU.ActiveCfg = Release
+		{1C6988CF-5F4E-4456-A353-4A0783524945}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

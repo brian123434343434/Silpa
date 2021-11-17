@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DocumentoAdjunto" targetNamespace="http://tempuri.org/Publicacion.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Publicacion.xsd" xmlns:mstns="http://tempuri.org/Publicacion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ReenviarSolicitud">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NumeroSilpa" type="xs:string" />
+        <xs:element name="autIdEntrega" type="xs:int" />
+        <xs:element name="autIdAsignada" type="xs:int" />
+        <xs:element name="numRadicacion" type="xs:string" />
+        <xs:element name="documento" type="ListaDocumentoAdjuntoType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="ListaDocumentoAdjuntoType">
+    <xs:sequence>
+      <xs:element name="ListaDocumento" type="documentoAdjuntoType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="documentoAdjuntoType">
+    <xs:sequence>
+      <xs:element name="nombreArchivo" type="xs:string" />
+      <xs:element name="bytes" type="xs:unsignedByte" />
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>

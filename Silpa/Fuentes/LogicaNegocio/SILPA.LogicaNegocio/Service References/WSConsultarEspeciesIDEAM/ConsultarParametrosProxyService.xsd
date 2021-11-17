@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:snifconpar="http://www.ideam.gov.co/schema/snif/consultarparametros" elementFormDefault="qualified" targetNamespace="http://www.ideam.gov.co/schema/snif/consultarparametros" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Auditoria" type="snifconpar:Auditoria" />
+  <xsd:element name="ParametrosRequest" type="snifconpar:ParametrosRequest" />
+  <xsd:element name="ParametrosResponse" type="snifconpar:ParametrosResponse" />
+  <xsd:complexType name="Auditoria">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="SistemaSolicitud" type="xsd:string" />
+      <xsd:element minOccurs="0" name="FechaHoraSolicitud" type="xsd:string" />
+      <xsd:element minOccurs="0" name="IpSolicitud" type="xsd:string" />
+      <xsd:element minOccurs="0" name="AutoridadAmbiental" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoNumeroTransaccion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Dependencia" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ParametrosRequest">
+    <xsd:sequence />
+  </xsd:complexType>
+  <xsd:complexType name="Parametro">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Codigo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Nombre" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ParametrosResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Exitoso" type="xsd:boolean" />
+      <xsd:element minOccurs="0" name="CodigoError" type="xsd:string" />
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="MensajeError" nillable="true" type="xsd:string" />
+      <xsd:element minOccurs="0" name="IdentificadorConsulta" type="xsd:string" />
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="Parametro" nillable="true" type="snifconpar:Parametro" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ComunicacionEE" targetNamespace="http://tempuri.org/ComunicacionEE.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/ComunicacionEE.xsd" xmlns:mstns="http://tempuri.org/ComunicacionEE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ComunicacionEEType">
+    <xs:sequence>
+      <xs:element name="numSilpa" type="xs:string" />
+      <xs:element name="numExpediente" type="xs:string" />
+      <xs:sequence maxOccurs="1" minOccurs="0">
+        <xs:element name="EntidadExterna" type="EntidadExternaType" minOccurs="1" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:sequence maxOccurs="unbounded" minOccurs="0">
+        <xs:element name="listaSolicitantes" type="SolicitanteType" />
+      </xs:sequence>
+      <xs:element name="esperarRespuesta" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EntidadExternaType">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string" />
+      <xs:element name="correoElectronico" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="comunicacionEE" type="ComunicacionEEType" />
+  <xs:element name="EntidadExterna" type="EntidadExternaType" />
+  <xs:complexType name="SolicitanteType">
+    <xs:sequence>
+      <xs:element name="Nombre" type="xs:string" />
+      <xs:element name="Correo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

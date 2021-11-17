@@ -1,0 +1,178 @@
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\Trabajo\Minambiente\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\Fuentes VITAL\FuentesNuevoOrigen\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\FtesSVN\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\Fuentes VITAL\FuentesSVNPru\FtesAnla\SILPA_PREPRODUCCION\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\ThinkX\Development\Anla\Projects\SEPARACION-VITAL-V1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationFramework.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\UIAutomationProvider.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\WindowsBase.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SILPA.Comun.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraException.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\CerticamaraUtils.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\Microsoft.Web.Services.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\PresentationCore.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\ToVerifyObject.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\bin\Debug\SoftManagement.Log.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.csprojResolveAssemblyReference.cache
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\Fuentes\Comun\SILPA.Comun\obj\Debug\SILPA.Comun.pdb

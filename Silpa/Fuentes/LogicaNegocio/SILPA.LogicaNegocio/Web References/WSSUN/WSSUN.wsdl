@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="RecibirDatosSalvoconducto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="datosSalvoconductoXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecibirDatosSalvoconductoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RecibirDatosSalvoconductoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecibirDatosRecursos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="datosRecursoXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RecibirDatosRecursosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RecibirDatosRecursosResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistrarAprovechamiento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vAprovechamientoIdentity" type="tns:AprovechamientoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AprovechamientoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="AprovechamientoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoAprovechamientoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoAprovechamiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Numero" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Detalle" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaExpedicion" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaDesde" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaHasta" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseRecursoId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaseRecurso" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ModoAdquisicionRecursoID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModoAdquisicionRecurso" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DepartamentoProcedenciaID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="DepartamentoProcedencia" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MunicipioProcedenciaID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MunicipioProcedencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CorregimientoProcedencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VeredaProcedencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Predio" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AutoridadEmisoraID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="AutoridadEmisora" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AutoridadOtorgaID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="AutoridadOtorga" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FormatOtorgamientoID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="FormaOtorgamiento" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SolicitanteID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Solicitante" type="tns:PersonaIdentity" />
+          <s:element minOccurs="1" maxOccurs="1" name="SolicitanteOtorgaID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolicitanteOtorga" type="tns:PersonaIdentity" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDocOtorga" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaDocOtorga" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaisProcedencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EstablecimientoProcedencia" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FinalidadID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Finalidad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RutaArchivo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LstEspecies" type="tns:ArrayOfEspecieAprovechamientoIdentity" />
+          <s:element minOccurs="0" maxOccurs="1" name="LstCoordenadas" type="tns:ArrayOfCoordenadaAprovechamientoIndentity" />
+          <s:element minOccurs="1" maxOccurs="1" name="AreaTotalAutorizada" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioRegistra" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaFinalizacion" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIDEAMFormaOtorgamiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIDEAMClaseRecurso" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIDEAMModoAdquisicion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoUbicacionArbolAislado" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIDEAMUbicacionArbolAislado" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PersonaIdentity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntidadSerializable">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="_direccionPersona" type="tns:DireccionPersonaIdentity" />
+              <s:element minOccurs="0" maxOccurs="1" name="ListaPersona" type="tns:ArrayOfPersonaIndentity" />
+              <s:element minOccurs="1" maxOccurs="1" name="PersonaId" type="s:long" />
+              <s:element minOccurs="0" maxOccurs="1" name="IdUsuario" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PrimerNombre" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SegundoNombre" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CorreoElectronico" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="AutorizaCorreo" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="Telefono" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NumeroIdentificacion" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TipoDocumentoIdentificacion" type="tns:TipoIdentificacionEntity" />
+              <s:element minOccurs="0" maxOccurs="1" name="LugarExpediciónDocumento" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Pais" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Celular" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Fax" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IdApplicationUser" type="s:long" />
+              <s:element minOccurs="0" maxOccurs="1" name="RazonSocial" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IdAutoridadAmbiental" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="TipoPersona" type="tns:TipoPersonaIdentity" />
+              <s:element minOccurs="0" maxOccurs="1" name="TipoSolicitante" type="tns:TipoPersonaIdentity" />
+              <s:element minOccurs="0" maxOccurs="1" name="TarjetaProfesional" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IdSolicitante" type="s:long" />
+              <s:element minOccurs="0" maxOccurs="1" name="Respuesta" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Pregunta" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Activo" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="DireccionPersona" type="tns:DireccionPersonaIdentity" />
+              <s:element minOccurs="1" maxOccurs="1" name="EnProceso" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Direcciones" type="tns:ArrayOfDireccionPersonaIdentity" />
+              <s:element minOccurs="0" maxOccurs="1" name="RutaRtf" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NumeroVital" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TipoPersonaIDEAM" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TipoIdentificacionIDEAM" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EntidadSerializable" abstract="true" />
+      <s:complexType name="TipoIdentificacionEntity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntidadSerializable">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Sigla" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="PersonaIndentity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntidadSerializable">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ListaPersona" type="tns:ArrayOfPersonaIndentity" />
+              <s:element minOccurs="1" maxOccurs="1" name="PersonaId" type="s:long" />
+              <s:element minOccurs="0" maxOccurs="1" name="IdUsuario" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PrimerNombre" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SegundoNombre" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CorreoElectronico" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Telefono" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NumeroIdentificacion" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="tns:TipoIdentificacionEntity" />
+              <s:element minOccurs="0" maxOccurs="1" name="LugarExpediciónDocumento" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Pais" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="Celular" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Fax" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IdApplicationUser" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="RazonSocial" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CalidadActua" type="tns:TipoPersonaIdentity" />
+              <s:element minOccurs="0" maxOccurs="1" name="TipoPersona" type="tns:TipoPersonaIdentity" />
+              <s:element minOccurs="0" maxOccurs="1" name="Otro" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TarjetaProfesional" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Direccion" type="tns:DireccionPersonaIdentity" />
+              <s:element minOccurs="1" maxOccurs="1" name="IdSolicitante" type="s:long" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfPersonaIndentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PersonaIndentity" nillable="true" type="tns:PersonaIndentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TipoPersonaIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CodigoTipoPersona" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreTipoPersona" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DireccionPersonaIdentity">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:EntidadSerializable">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:long" />
+              <s:element minOccurs="1" maxOccurs="1" name="PaisId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="MunicipioId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="NombreMunicipio" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="VeredaId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="NombreVereda" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CorregimientoId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="NombreCorregimiento" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DireccionPersona" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IdPersona" type="s:long" />
+              <s:element minOccurs="1" maxOccurs="1" name="DepartamentoId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="NombreDepartamento" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="TipoDireccion" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="NombreTipoDireccion" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfDireccionPersonaIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DireccionPersonaIdentity" nillable="true" type="tns:DireccionPersonaIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfEspecieAprovechamientoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="EspecieAprovechamientoIdentity" nillable="true" type="tns:EspecieAprovechamientoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="EspecieAprovechamientoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="EspecieAprovechamientoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="AprovechamientoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="EspecieTaxonomiaID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreEspecie" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UnidadMedidaID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UnidadMedida" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Cantidad" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="CantidadEspecieLetras" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseProductoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaseProducto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoProductoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoProducto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CantidadVolumenMovilizar" nillable="true" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="CantidadVolumenRemanente" nillable="true" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="CantidadDisponible" nillable="true" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="CantidadMovido" nillable="true" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreComunEspecie" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIDEAMClaseProducto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIDEAMEspecie" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIDEAMUnidadMedida" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIDEAMTipoProducto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DiametroAlturaPecho" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="AlturaComercial" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TratamientoSilviculturaID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamTratamientoSilvID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCoordenadaAprovechamientoIndentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CoordenadaAprovechamientoIndentity" nillable="true" type="tns:CoordenadaAprovechamientoIndentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CoordenadaAprovechamientoIndentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CoordenadaID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="AprovechamientoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Norte" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Este" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RegistrarAprovechamientoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistrarAprovechamientoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaAprovechamiento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pAutoridadId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pUsuarioId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pTipoAprovechamientoId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaAprovechamientoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaAprovechamientoResult" type="tns:ArrayOfAprovechamientoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAprovechamientoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AprovechamientoIdentity" nillable="true" type="tns:AprovechamientoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RegistrarSalvoconducto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vSalvoconductoNewIdentity" type="tns:SalvoconductoNewIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SalvoconductoNewIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SalvoconductoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoSalvoconductoID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoSalvoconducto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseRecursoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaseRecurso" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Vigencia" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Numero" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoSeguridad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroVitalTramite" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AprovechamientoID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DepartamentoProcedenciaID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="DepartamentoProcedencia" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MunicipioProcedenciaID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MunicipioProcedencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CorregimientoProcedencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VeredaProcedencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EstablecimientoProcedencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Aprovechamiento" type="tns:AprovechamientoIdentity" />
+          <s:element minOccurs="1" maxOccurs="1" name="EstadoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaExpedicion" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaInicioVigencia" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaFinalVigencia" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="LstEspecimen" type="tns:ArrayOfEspecimenNewIdentity" />
+          <s:element minOccurs="0" maxOccurs="1" name="Observacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LstRuta" type="tns:ArrayOfRutaEntity" />
+          <s:element minOccurs="0" maxOccurs="1" name="Transporte" type="tns:TransporteNewIdentity" />
+          <s:element minOccurs="1" maxOccurs="1" name="FormatOtorgamientoID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="FormatOtorgamiento" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ModoAdquisicionRecursoID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModoAdquisicionRecurso" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaSolicitud" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FinalidadID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Finalidad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioCargue" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AutoridadEmisoraID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="AutoridadEmisora" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AutoridadCargueID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="AutoridadOtorgaID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDocOtorga" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaDocOtorga" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="SolicitanteOtorgaID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolicitanteTitularPersonaIdentity" type="tns:PersonaIdentity" />
+          <s:element minOccurs="1" maxOccurs="1" name="SolicitanteID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Solicitante" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroSUNAnterior" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="consecutivo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Detalle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LstSalvoconductoAnterior" type="tns:ArrayOfSalvoconductoAnterior" />
+          <s:element minOccurs="1" maxOccurs="1" name="DepartamentoOrigenID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MunicipioOrigenID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MotivoRechazo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdTipoBloqueo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MotivoBloqueo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LstAprovechamientoOrigen" type="tns:ArrayOfAprovechamientoOrigen" />
+          <s:element minOccurs="0" maxOccurs="1" name="TitularSalvoconducto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdentificacionTitularSalvocoducto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SalvoconductoAsociados">
+            <s:complexType>
+              <s:sequence>
+                <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+          <s:element minOccurs="0" maxOccurs="1" name="NombreImagenAutoridad" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LstTransporte" type="tns:ArrayOfTransporteNewIdentity" />
+          <s:element minOccurs="1" maxOccurs="1" name="AutoridadCambiaEstado" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamTipoSalvoconducto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamFinalidadRecurso" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfEspecimenNewIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="EspecimenNewIdentity" nillable="true" type="tns:EspecimenNewIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="EspecimenNewIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Orden" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Identity" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="EspecieSalvoconductoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SalvocoductoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="EspecieTaxonomiaID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreEspecie" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseProductoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaseProducto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoProductoId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoProducto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UnidadMedidaId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UnidadMedida" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Cantidad" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="CantidadLetras" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Volumen" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="VolumenBruto" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="CantidadDisponible" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="SalvoconductoOrigenId" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="AprovechamientoOrigenId" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Dimensiones" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Identificacion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CantidadMovido" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroSUNL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroSUNLAnterior" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreComunEspecie" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamClaseRecurso" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamEspecie" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamUnidadMedida" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamClaseProducto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamTipoProducto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StrEspecieSunlAnterior" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfRutaEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="RutaEntity" nillable="true" type="tns:RutaEntity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="RutaEntity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="RutaID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DepartamentoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Departamento" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MunicipioID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Municipio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Corregimiento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Vereda" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Barrio" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoRutaID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Orden" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoRuta" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdOrigenDestino" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Estado" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TransporteNewIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TransporteSalvoconductoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SalvoconductoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoTransporteID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoTransporteOtro" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoTransporte" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ModoTransporteID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModoTransporte" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroIdentificacionMedioTransporte" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreTransportador" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroIdentificacionTransportador" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoIdentificacionTransportadorID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoIdentificacionTransportador" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamTipoTransporte" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoIdentificacionTransportadorIDEAM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoIdeamModoTransporte" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfSalvoconductoAnterior">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SalvoconductoAnterior" nillable="true" type="tns:SalvoconductoAnterior" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SalvoconductoAnterior">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SalvoconductoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Detalle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Numero" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAprovechamientoOrigen">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AprovechamientoOrigen" nillable="true" type="tns:AprovechamientoOrigen" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AprovechamientoOrigen">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="AprovechamientoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Detalle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="numeroAprovechamiento" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTransporteNewIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TransporteNewIdentity" nillable="true" type="tns:TransporteNewIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RegistrarSalvoconductoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegistrarSalvoconductoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultaSalvoconductoXSalvoconductoID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pSalvoconductoId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultaSalvoconductoXSalvoconductoIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultaSalvoconductoXSalvoconductoIDResult" type="tns:SalvoconductoNewIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaTipoSalvoConducto">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaTipoSalvoConductoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaTipoSalvoConductoResult" type="tns:ArrayOfTipoSalvoconductoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTipoSalvoconductoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TipoSalvoconductoIdentity" nillable="true" type="tns:TipoSalvoconductoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TipoSalvoconductoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TipoSalvoconductoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoSalvoconducto" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaClaseRecurso">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaClaseRecursoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaClaseRecursoResult" type="tns:ArrayOfClaseRecursoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClaseRecursoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ClaseRecursoIdentity" nillable="true" type="tns:ClaseRecursoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ClaseRecursoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseRecursoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaseRecurso" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaModoAdquisicionRecurso">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="claseRecursoId" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaModoAdquisicionRecursoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaModoAdquisicionRecursoResult" type="tns:ArrayOfModoAdquisicionRecursoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfModoAdquisicionRecursoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ModoAdquisicionRecursoIdentity" nillable="true" type="tns:ModoAdquisicionRecursoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ModoAdquisicionRecursoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ModAdqRecursoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModAdqRecurso" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseRecursoID" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaFinalidadRecurso">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="claseRecursoId" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaFinalidadRecursoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaFinalidadRecursoResult" type="tns:ArrayOfFinalidadRecursoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfFinalidadRecursoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FinalidadRecursoIdentity" nillable="true" type="tns:FinalidadRecursoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FinalidadRecursoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="FinalidadRecursoId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="FinalidadRecurso" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseRecursoId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaClaseAprovechamiento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="claseRecursoId" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaClaseAprovechamientoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaClaseAprovechamientoResult" type="tns:ArrayOfClaseAprovechamientoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClaseAprovechamientoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ClaseAprovechamientoIdentity" nillable="true" type="tns:ClaseAprovechamientoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ClaseAprovechamientoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseAprovechamientoId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseRecursoId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaseAprovechamiento" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaProcedenciaLegal">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaProcedenciaLegalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaProcedenciaLegalResult" type="tns:ArrayOfProcedenciaLegalIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfProcedenciaLegalIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ProcedenciaLegalIdentity" nillable="true" type="tns:ProcedenciaLegalIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ProcedenciaLegalIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ProcedenciaLegalID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProcedenciaLegal" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaUnidaMedidaTipoProducto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="tipoProductoID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaUnidaMedidaTipoProductoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaUnidaMedidaTipoProductoResult" type="tns:ArrayOfUnidadMedidaIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfUnidadMedidaIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="UnidadMedidaIdentity" nillable="true" type="tns:UnidadMedidaIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="UnidadMedidaIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="UnidadMedidaId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UnidadMedidad" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoProductoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Factor" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaClaseProductoParaAprovechamiento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="claseRecursoId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaClaseProductoParaAprovechamientoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaClaseProductoParaAprovechamientoResult" type="tns:ArrayOfClaseProductoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfClaseProductoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ClaseProductoIdentity" nillable="true" type="tns:ClaseProductoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ClaseProductoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseProductoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseRecursoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClaseProducto" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaTipoProducto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="claseProductoId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaTipoProductoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaTipoProductoResult" type="tns:ArrayOfTipoProductoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTipoProductoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TipoProductoIdentity" nillable="true" type="tns:TipoProductoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TipoProductoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TipoProductoID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseProductoID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoProducto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Formula" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaEspecie">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nombreCientifico" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="claseRecursoId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaEspecieResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaEspecieResult" type="tns:ArrayOfEspecieIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfEspecieIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="EspecieIdentity" nillable="true" type="tns:EspecieIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="EspecieIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="EspecieID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreComun" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreCientifico" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ClaseRecurso" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaAutoridadAmbiental">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaAutoridadAmbientalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaAutoridadAmbientalResult" type="tns:ArrayOfAutoridadAmbiental" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAutoridadAmbiental">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AutoridadAmbiental" nillable="true" type="tns:AutoridadAmbiental" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AutoridadAmbiental">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="AutoridadID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreAutoridad" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaFormaOtorgamiento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="claseRecursoID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaFormaOtorgamientoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaFormaOtorgamientoResult" type="tns:ArrayOfFormaOtorgamientoIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfFormaOtorgamientoIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FormaOtorgamientoIdentity" nillable="true" type="tns:FormaOtorgamientoIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FormaOtorgamientoIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="FormaOtorgamientoId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="FormaOtorgamiento" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaModoTransporte">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaModoTransporteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaModoTransporteResult" type="tns:ArrayOfModoTransporteIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfModoTransporteIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ModoTransporteIdentity" nillable="true" type="tns:ModoTransporteIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ModoTransporteIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ModoTransporteID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModoTransporte" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaTipoTransportePorModoTransporte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="modoTransporteID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaTipoTransportePorModoTransporteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaTipoTransportePorModoTransporteResult" type="tns:ArrayOfTipoTransporteIdentity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTipoTransporteIdentity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TipoTransporteIdentity" nillable="true" type="tns:TipoTransporteIdentity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TipoTransporteIdentity">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TipoTransporteID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ModoTransporteID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoTransporte" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CapacidadPromedioCarga" nillable="true" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CargueSaldoAprovechamiento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vAprovechamientoIdentity" type="tns:AprovechamientoIdentity" />
+            <s:element minOccurs="1" maxOccurs="1" name="tipoSaldoID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CargueSaldoAprovechamientoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CargueSaldoAprovechamientoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaAutoridadAmbientalJSON">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaAutoridadAmbientalJSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaAutoridadAmbientalJSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaRecursosAprovechamientoJSON">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pAprovechamientoId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaRecursosAprovechamientoJSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaRecursosAprovechamientoJSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaDepartamentosJSON">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaDepartamentosJSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaDepartamentosJSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaMunicipiosJSON">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeptoID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaMunicipiosJSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaMunicipiosJSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaUnidadMedidaPorClaseRecursoJSON">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="claseRecursoId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaUnidadMedidaPorClaseRecursoJSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaUnidadMedidaPorClaseRecursoJSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaModoTransporteJSON">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaModoTransporteJSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaModoTransporteJSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaTipoTransportePorModoTransporteJSON">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="modoTransporteID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaTipoTransportePorModoTransporteJSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaTipoTransportePorModoTransporteJSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Test">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="VerificarResolucionSUN">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strInformacionResolucion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerificarResolucionSUNResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VerificarResolucionSUNResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="ArrayOfAprovechamientoIdentity" nillable="true" type="tns:ArrayOfAprovechamientoIdentity" />
+      <s:element name="SalvoconductoNewIdentity" nillable="true" type="tns:SalvoconductoNewIdentity" />
+      <s:element name="ArrayOfTipoSalvoconductoIdentity" nillable="true" type="tns:ArrayOfTipoSalvoconductoIdentity" />
+      <s:element name="ArrayOfClaseRecursoIdentity" nillable="true" type="tns:ArrayOfClaseRecursoIdentity" />
+      <s:element name="ArrayOfProcedenciaLegalIdentity" nillable="true" type="tns:ArrayOfProcedenciaLegalIdentity" />
+      <s:element name="ArrayOfUnidadMedidaIdentity" nillable="true" type="tns:ArrayOfUnidadMedidaIdentity" />
+      <s:element name="ArrayOfClaseProductoIdentity" nillable="true" type="tns:ArrayOfClaseProductoIdentity" />
+      <s:element name="ArrayOfTipoProductoIdentity" nillable="true" type="tns:ArrayOfTipoProductoIdentity" />
+      <s:element name="ArrayOfEspecieIdentity" nillable="true" type="tns:ArrayOfEspecieIdentity" />
+      <s:element name="ArrayOfAutoridadAmbiental" nillable="true" type="tns:ArrayOfAutoridadAmbiental" />
+      <s:element name="ArrayOfFormaOtorgamientoIdentity" nillable="true" type="tns:ArrayOfFormaOtorgamientoIdentity" />
+      <s:element name="ArrayOfModoTransporteIdentity" nillable="true" type="tns:ArrayOfModoTransporteIdentity" />
+      <s:element name="ArrayOfTipoTransporteIdentity" nillable="true" type="tns:ArrayOfTipoTransporteIdentity" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RecibirDatosSalvoconductoSoapIn">
+    <wsdl:part name="parameters" element="tns:RecibirDatosSalvoconducto" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosSalvoconductoSoapOut">
+    <wsdl:part name="parameters" element="tns:RecibirDatosSalvoconductoResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosRecursosSoapIn">
+    <wsdl:part name="parameters" element="tns:RecibirDatosRecursos" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosRecursosSoapOut">
+    <wsdl:part name="parameters" element="tns:RecibirDatosRecursosResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarAprovechamientoSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistrarAprovechamiento" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarAprovechamientoSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrarAprovechamientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaAprovechamientoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaAprovechamiento" />
+  </wsdl:message>
+  <wsdl:message name="ListaAprovechamientoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaAprovechamientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarSalvoconductoSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistrarSalvoconducto" />
+  </wsdl:message>
+  <wsdl:message name="RegistrarSalvoconductoSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistrarSalvoconductoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaSalvoconductoXSalvoconductoIDSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultaSalvoconductoXSalvoconductoID" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaSalvoconductoXSalvoconductoIDSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultaSalvoconductoXSalvoconductoIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoSalvoConductoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaTipoSalvoConducto" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoSalvoConductoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaTipoSalvoConductoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseRecursoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaClaseRecurso" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseRecursoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaClaseRecursoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoAdquisicionRecursoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaModoAdquisicionRecurso" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoAdquisicionRecursoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaModoAdquisicionRecursoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaFinalidadRecursoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaFinalidadRecurso" />
+  </wsdl:message>
+  <wsdl:message name="ListaFinalidadRecursoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaFinalidadRecursoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseAprovechamientoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaClaseAprovechamiento" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseAprovechamientoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaClaseAprovechamientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaProcedenciaLegalSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaProcedenciaLegal" />
+  </wsdl:message>
+  <wsdl:message name="ListaProcedenciaLegalSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaProcedenciaLegalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidaMedidaTipoProductoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaUnidaMedidaTipoProducto" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidaMedidaTipoProductoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaUnidaMedidaTipoProductoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseProductoParaAprovechamientoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaClaseProductoParaAprovechamiento" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseProductoParaAprovechamientoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaClaseProductoParaAprovechamientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoProductoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaTipoProducto" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoProductoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaTipoProductoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaEspecieSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaEspecie" />
+  </wsdl:message>
+  <wsdl:message name="ListaEspecieSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaEspecieResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaAutoridadAmbientalSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaAutoridadAmbiental" />
+  </wsdl:message>
+  <wsdl:message name="ListaAutoridadAmbientalSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaAutoridadAmbientalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaFormaOtorgamientoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaFormaOtorgamiento" />
+  </wsdl:message>
+  <wsdl:message name="ListaFormaOtorgamientoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaFormaOtorgamientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoTransporteSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaModoTransporte" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoTransporteSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaModoTransporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaTipoTransportePorModoTransporte" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaTipoTransportePorModoTransporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="CargueSaldoAprovechamientoSoapIn">
+    <wsdl:part name="parameters" element="tns:CargueSaldoAprovechamiento" />
+  </wsdl:message>
+  <wsdl:message name="CargueSaldoAprovechamientoSoapOut">
+    <wsdl:part name="parameters" element="tns:CargueSaldoAprovechamientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaAutoridadAmbientalJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaAutoridadAmbientalJSON" />
+  </wsdl:message>
+  <wsdl:message name="ListaAutoridadAmbientalJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaAutoridadAmbientalJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaRecursosAprovechamientoJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaRecursosAprovechamientoJSON" />
+  </wsdl:message>
+  <wsdl:message name="ListaRecursosAprovechamientoJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaRecursosAprovechamientoJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaDepartamentosJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaDepartamentosJSON" />
+  </wsdl:message>
+  <wsdl:message name="ListaDepartamentosJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaDepartamentosJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaMunicipiosJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaMunicipiosJSON" />
+  </wsdl:message>
+  <wsdl:message name="ListaMunicipiosJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaMunicipiosJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidadMedidaPorClaseRecursoJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaUnidadMedidaPorClaseRecursoJSON" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidadMedidaPorClaseRecursoJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaUnidadMedidaPorClaseRecursoJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoTransporteJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaModoTransporteJSON" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoTransporteJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaModoTransporteJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaTipoTransportePorModoTransporteJSON" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaTipoTransportePorModoTransporteJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerificarResolucionSUNSoapIn">
+    <wsdl:part name="parameters" element="tns:VerificarResolucionSUN" />
+  </wsdl:message>
+  <wsdl:message name="VerificarResolucionSUNSoapOut">
+    <wsdl:part name="parameters" element="tns:VerificarResolucionSUNResponse" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosSalvoconductoHttpGetIn">
+    <wsdl:part name="datosSalvoconductoXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosSalvoconductoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosRecursosHttpGetIn">
+    <wsdl:part name="datosRecursoXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosRecursosHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaAprovechamientoHttpGetIn">
+    <wsdl:part name="pAutoridadId" type="s:string" />
+    <wsdl:part name="pUsuarioId" type="s:string" />
+    <wsdl:part name="pTipoAprovechamientoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaAprovechamientoHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAprovechamientoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaSalvoconductoXSalvoconductoIDHttpGetIn">
+    <wsdl:part name="pSalvoconductoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaSalvoconductoXSalvoconductoIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:SalvoconductoNewIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoSalvoConductoHttpGetIn" />
+  <wsdl:message name="ListaTipoSalvoConductoHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTipoSalvoconductoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseRecursoHttpGetIn" />
+  <wsdl:message name="ListaClaseRecursoHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClaseRecursoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaProcedenciaLegalHttpGetIn" />
+  <wsdl:message name="ListaProcedenciaLegalHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfProcedenciaLegalIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidaMedidaTipoProductoHttpGetIn">
+    <wsdl:part name="tipoProductoID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidaMedidaTipoProductoHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfUnidadMedidaIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseProductoParaAprovechamientoHttpGetIn">
+    <wsdl:part name="claseRecursoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseProductoParaAprovechamientoHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClaseProductoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoProductoHttpGetIn">
+    <wsdl:part name="claseProductoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoProductoHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTipoProductoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaEspecieHttpGetIn">
+    <wsdl:part name="nombreCientifico" type="s:string" />
+    <wsdl:part name="claseRecursoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaEspecieHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfEspecieIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaAutoridadAmbientalHttpGetIn" />
+  <wsdl:message name="ListaAutoridadAmbientalHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAutoridadAmbiental" />
+  </wsdl:message>
+  <wsdl:message name="ListaFormaOtorgamientoHttpGetIn">
+    <wsdl:part name="claseRecursoID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaFormaOtorgamientoHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfFormaOtorgamientoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoTransporteHttpGetIn" />
+  <wsdl:message name="ListaModoTransporteHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfModoTransporteIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteHttpGetIn">
+    <wsdl:part name="modoTransporteID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTipoTransporteIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaAutoridadAmbientalJSONHttpGetIn" />
+  <wsdl:message name="ListaAutoridadAmbientalJSONHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaRecursosAprovechamientoJSONHttpGetIn">
+    <wsdl:part name="pAprovechamientoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaRecursosAprovechamientoJSONHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaDepartamentosJSONHttpGetIn" />
+  <wsdl:message name="ListaDepartamentosJSONHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaMunicipiosJSONHttpGetIn">
+    <wsdl:part name="DeptoID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaMunicipiosJSONHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidadMedidaPorClaseRecursoJSONHttpGetIn">
+    <wsdl:part name="claseRecursoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidadMedidaPorClaseRecursoJSONHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoTransporteJSONHttpGetIn" />
+  <wsdl:message name="ListaModoTransporteJSONHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteJSONHttpGetIn">
+    <wsdl:part name="modoTransporteID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteJSONHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TestHttpGetIn" />
+  <wsdl:message name="TestHttpGetOut" />
+  <wsdl:message name="VerificarResolucionSUNHttpGetIn">
+    <wsdl:part name="strInformacionResolucion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VerificarResolucionSUNHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosSalvoconductoHttpPostIn">
+    <wsdl:part name="datosSalvoconductoXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosSalvoconductoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosRecursosHttpPostIn">
+    <wsdl:part name="datosRecursoXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RecibirDatosRecursosHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaAprovechamientoHttpPostIn">
+    <wsdl:part name="pAutoridadId" type="s:string" />
+    <wsdl:part name="pUsuarioId" type="s:string" />
+    <wsdl:part name="pTipoAprovechamientoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaAprovechamientoHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAprovechamientoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaSalvoconductoXSalvoconductoIDHttpPostIn">
+    <wsdl:part name="pSalvoconductoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaSalvoconductoXSalvoconductoIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:SalvoconductoNewIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoSalvoConductoHttpPostIn" />
+  <wsdl:message name="ListaTipoSalvoConductoHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTipoSalvoconductoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseRecursoHttpPostIn" />
+  <wsdl:message name="ListaClaseRecursoHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClaseRecursoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaProcedenciaLegalHttpPostIn" />
+  <wsdl:message name="ListaProcedenciaLegalHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfProcedenciaLegalIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidaMedidaTipoProductoHttpPostIn">
+    <wsdl:part name="tipoProductoID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidaMedidaTipoProductoHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfUnidadMedidaIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseProductoParaAprovechamientoHttpPostIn">
+    <wsdl:part name="claseRecursoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaClaseProductoParaAprovechamientoHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfClaseProductoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoProductoHttpPostIn">
+    <wsdl:part name="claseProductoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoProductoHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTipoProductoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaEspecieHttpPostIn">
+    <wsdl:part name="nombreCientifico" type="s:string" />
+    <wsdl:part name="claseRecursoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaEspecieHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfEspecieIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaAutoridadAmbientalHttpPostIn" />
+  <wsdl:message name="ListaAutoridadAmbientalHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfAutoridadAmbiental" />
+  </wsdl:message>
+  <wsdl:message name="ListaFormaOtorgamientoHttpPostIn">
+    <wsdl:part name="claseRecursoID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaFormaOtorgamientoHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfFormaOtorgamientoIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoTransporteHttpPostIn" />
+  <wsdl:message name="ListaModoTransporteHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfModoTransporteIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteHttpPostIn">
+    <wsdl:part name="modoTransporteID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfTipoTransporteIdentity" />
+  </wsdl:message>
+  <wsdl:message name="ListaAutoridadAmbientalJSONHttpPostIn" />
+  <wsdl:message name="ListaAutoridadAmbientalJSONHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaRecursosAprovechamientoJSONHttpPostIn">
+    <wsdl:part name="pAprovechamientoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaRecursosAprovechamientoJSONHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaDepartamentosJSONHttpPostIn" />
+  <wsdl:message name="ListaDepartamentosJSONHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaMunicipiosJSONHttpPostIn">
+    <wsdl:part name="DeptoID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaMunicipiosJSONHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidadMedidaPorClaseRecursoJSONHttpPostIn">
+    <wsdl:part name="claseRecursoId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaUnidadMedidaPorClaseRecursoJSONHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaModoTransporteJSONHttpPostIn" />
+  <wsdl:message name="ListaModoTransporteJSONHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteJSONHttpPostIn">
+    <wsdl:part name="modoTransporteID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListaTipoTransportePorModoTransporteJSONHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TestHttpPostIn" />
+  <wsdl:message name="TestHttpPostOut" />
+  <wsdl:message name="VerificarResolucionSUNHttpPostIn">
+    <wsdl:part name="strInformacionResolucion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VerificarResolucionSUNHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WSSUNSoap">
+    <wsdl:operation name="RecibirDatosSalvoconducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del salvonconducto]</wsdl:documentation>
+      <wsdl:input message="tns:RecibirDatosSalvoconductoSoapIn" />
+      <wsdl:output message="tns:RecibirDatosSalvoconductoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecibirDatosRecursos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del recurso]</wsdl:documentation>
+      <wsdl:input message="tns:RecibirDatosRecursosSoapIn" />
+      <wsdl:output message="tns:RecibirDatosRecursosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RecibeInformacion Arpovechamiento</wsdl:documentation>
+      <wsdl:input message="tns:RegistrarAprovechamientoSoapIn" />
+      <wsdl:output message="tns:RegistrarAprovechamientoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista autoridad Ambiental</wsdl:documentation>
+      <wsdl:input message="tns:ListaAprovechamientoSoapIn" />
+      <wsdl:output message="tns:ListaAprovechamientoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarSalvoconducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RecibeInformacion Salvoconducto</wsdl:documentation>
+      <wsdl:input message="tns:RegistrarSalvoconductoSoapIn" />
+      <wsdl:output message="tns:RegistrarSalvoconductoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaSalvoconductoXSalvoconductoID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la informacion del Salvoconducto asociado al Salvoconducto ID</wsdl:documentation>
+      <wsdl:input message="tns:ConsultaSalvoconductoXSalvoconductoIDSoapIn" />
+      <wsdl:output message="tns:ConsultaSalvoconductoXSalvoconductoIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoSalvoConducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta los tipos de salvoconducto</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoSalvoConductoSoapIn" />
+      <wsdl:output message="tns:ListaTipoSalvoConductoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseRecurso">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las clases de recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaClaseRecursoSoapIn" />
+      <wsdl:output message="tns:ListaClaseRecursoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoAdquisicionRecurso">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta los modos de adquisicion del recurso </wsdl:documentation>
+      <wsdl:input message="tns:ListaModoAdquisicionRecursoSoapIn" />
+      <wsdl:output message="tns:ListaModoAdquisicionRecursoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaFinalidadRecurso">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las finalidades del aprovechamiento</wsdl:documentation>
+      <wsdl:input message="tns:ListaFinalidadRecursoSoapIn" />
+      <wsdl:output message="tns:ListaFinalidadRecursoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las clase del aprovechamiento</wsdl:documentation>
+      <wsdl:input message="tns:ListaClaseAprovechamientoSoapIn" />
+      <wsdl:output message="tns:ListaClaseAprovechamientoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaProcedenciaLegal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las procedencias legales</wsdl:documentation>
+      <wsdl:input message="tns:ListaProcedenciaLegalSoapIn" />
+      <wsdl:output message="tns:ListaProcedenciaLegalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidaMedidaTipoProducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de unidades de medida</wsdl:documentation>
+      <wsdl:input message="tns:ListaUnidaMedidaTipoProductoSoapIn" />
+      <wsdl:output message="tns:ListaUnidaMedidaTipoProductoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseProductoParaAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de clase de producto del recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaClaseProductoParaAprovechamientoSoapIn" />
+      <wsdl:output message="tns:ListaClaseProductoParaAprovechamientoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoProducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de clase de producto del recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoProductoSoapIn" />
+      <wsdl:output message="tns:ListaTipoProductoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaEspecie">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de especies por recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaEspecieSoapIn" />
+      <wsdl:output message="tns:ListaEspecieSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbiental">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista autoridad Ambiental</wsdl:documentation>
+      <wsdl:input message="tns:ListaAutoridadAmbientalSoapIn" />
+      <wsdl:output message="tns:ListaAutoridadAmbientalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaFormaOtorgamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Forma Otorgamiento</wsdl:documentation>
+      <wsdl:input message="tns:ListaFormaOtorgamientoSoapIn" />
+      <wsdl:output message="tns:ListaFormaOtorgamientoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporte">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Modo de Transporte</wsdl:documentation>
+      <wsdl:input message="tns:ListaModoTransporteSoapIn" />
+      <wsdl:output message="tns:ListaModoTransporteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporte">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Tipo de Transporte</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoTransportePorModoTransporteSoapIn" />
+      <wsdl:output message="tns:ListaTipoTransportePorModoTransporteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CargueSaldoAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RecibeInformacion para crear el saldo del Arpovechamiento</wsdl:documentation>
+      <wsdl:input message="tns:CargueSaldoAprovechamientoSoapIn" />
+      <wsdl:output message="tns:CargueSaldoAprovechamientoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbientalJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listas de Autoridades</wsdl:documentation>
+      <wsdl:input message="tns:ListaAutoridadAmbientalJSONSoapIn" />
+      <wsdl:output message="tns:ListaAutoridadAmbientalJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaRecursosAprovechamientoJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la informacion del Arpovechamiento asociado a la tarea</wsdl:documentation>
+      <wsdl:input message="tns:ListaRecursosAprovechamientoJSONSoapIn" />
+      <wsdl:output message="tns:ListaRecursosAprovechamientoJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamentosJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los departamentos (DEP_NOMBRE,DEP_ID)</wsdl:documentation>
+      <wsdl:input message="tns:ListaDepartamentosJSONSoapIn" />
+      <wsdl:output message="tns:ListaDepartamentosJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaMunicipiosJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los municipios del departamento (MUN_NOMBRE,MUN_ID)</wsdl:documentation>
+      <wsdl:input message="tns:ListaMunicipiosJSONSoapIn" />
+      <wsdl:output message="tns:ListaMunicipiosJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidadMedidaPorClaseRecursoJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaUnidadMedidaPorClaseRecursoJSONSoapIn" />
+      <wsdl:output message="tns:ListaUnidadMedidaPorClaseRecursoJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporteJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaModoTransporteJSONSoapIn" />
+      <wsdl:output message="tns:ListaModoTransporteJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporteJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoTransportePorModoTransporteJSONSoapIn" />
+      <wsdl:output message="tns:ListaTipoTransportePorModoTransporteJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestSoapIn" />
+      <wsdl:output message="tns:TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarResolucionSUN">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Registra un nuevo cobro de autoliquidacion en VITAL]</wsdl:documentation>
+      <wsdl:input message="tns:VerificarResolucionSUNSoapIn" />
+      <wsdl:output message="tns:VerificarResolucionSUNSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSSUNHttpGet">
+    <wsdl:operation name="RecibirDatosSalvoconducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del salvonconducto]</wsdl:documentation>
+      <wsdl:input message="tns:RecibirDatosSalvoconductoHttpGetIn" />
+      <wsdl:output message="tns:RecibirDatosSalvoconductoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecibirDatosRecursos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del recurso]</wsdl:documentation>
+      <wsdl:input message="tns:RecibirDatosRecursosHttpGetIn" />
+      <wsdl:output message="tns:RecibirDatosRecursosHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista autoridad Ambiental</wsdl:documentation>
+      <wsdl:input message="tns:ListaAprovechamientoHttpGetIn" />
+      <wsdl:output message="tns:ListaAprovechamientoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaSalvoconductoXSalvoconductoID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la informacion del Salvoconducto asociado al Salvoconducto ID</wsdl:documentation>
+      <wsdl:input message="tns:ConsultaSalvoconductoXSalvoconductoIDHttpGetIn" />
+      <wsdl:output message="tns:ConsultaSalvoconductoXSalvoconductoIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoSalvoConducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta los tipos de salvoconducto</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoSalvoConductoHttpGetIn" />
+      <wsdl:output message="tns:ListaTipoSalvoConductoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseRecurso">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las clases de recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaClaseRecursoHttpGetIn" />
+      <wsdl:output message="tns:ListaClaseRecursoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaProcedenciaLegal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las procedencias legales</wsdl:documentation>
+      <wsdl:input message="tns:ListaProcedenciaLegalHttpGetIn" />
+      <wsdl:output message="tns:ListaProcedenciaLegalHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidaMedidaTipoProducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de unidades de medida</wsdl:documentation>
+      <wsdl:input message="tns:ListaUnidaMedidaTipoProductoHttpGetIn" />
+      <wsdl:output message="tns:ListaUnidaMedidaTipoProductoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseProductoParaAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de clase de producto del recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaClaseProductoParaAprovechamientoHttpGetIn" />
+      <wsdl:output message="tns:ListaClaseProductoParaAprovechamientoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoProducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de clase de producto del recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoProductoHttpGetIn" />
+      <wsdl:output message="tns:ListaTipoProductoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaEspecie">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de especies por recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaEspecieHttpGetIn" />
+      <wsdl:output message="tns:ListaEspecieHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbiental">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista autoridad Ambiental</wsdl:documentation>
+      <wsdl:input message="tns:ListaAutoridadAmbientalHttpGetIn" />
+      <wsdl:output message="tns:ListaAutoridadAmbientalHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaFormaOtorgamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Forma Otorgamiento</wsdl:documentation>
+      <wsdl:input message="tns:ListaFormaOtorgamientoHttpGetIn" />
+      <wsdl:output message="tns:ListaFormaOtorgamientoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporte">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Modo de Transporte</wsdl:documentation>
+      <wsdl:input message="tns:ListaModoTransporteHttpGetIn" />
+      <wsdl:output message="tns:ListaModoTransporteHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporte">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Tipo de Transporte</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoTransportePorModoTransporteHttpGetIn" />
+      <wsdl:output message="tns:ListaTipoTransportePorModoTransporteHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbientalJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listas de Autoridades</wsdl:documentation>
+      <wsdl:input message="tns:ListaAutoridadAmbientalJSONHttpGetIn" />
+      <wsdl:output message="tns:ListaAutoridadAmbientalJSONHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaRecursosAprovechamientoJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la informacion del Arpovechamiento asociado a la tarea</wsdl:documentation>
+      <wsdl:input message="tns:ListaRecursosAprovechamientoJSONHttpGetIn" />
+      <wsdl:output message="tns:ListaRecursosAprovechamientoJSONHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamentosJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los departamentos (DEP_NOMBRE,DEP_ID)</wsdl:documentation>
+      <wsdl:input message="tns:ListaDepartamentosJSONHttpGetIn" />
+      <wsdl:output message="tns:ListaDepartamentosJSONHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaMunicipiosJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los municipios del departamento (MUN_NOMBRE,MUN_ID)</wsdl:documentation>
+      <wsdl:input message="tns:ListaMunicipiosJSONHttpGetIn" />
+      <wsdl:output message="tns:ListaMunicipiosJSONHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidadMedidaPorClaseRecursoJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaUnidadMedidaPorClaseRecursoJSONHttpGetIn" />
+      <wsdl:output message="tns:ListaUnidadMedidaPorClaseRecursoJSONHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporteJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaModoTransporteJSONHttpGetIn" />
+      <wsdl:output message="tns:ListaModoTransporteJSONHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporteJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoTransportePorModoTransporteJSONHttpGetIn" />
+      <wsdl:output message="tns:ListaTipoTransportePorModoTransporteJSONHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestHttpGetIn" />
+      <wsdl:output message="tns:TestHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarResolucionSUN">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Registra un nuevo cobro de autoliquidacion en VITAL]</wsdl:documentation>
+      <wsdl:input message="tns:VerificarResolucionSUNHttpGetIn" />
+      <wsdl:output message="tns:VerificarResolucionSUNHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSSUNHttpPost">
+    <wsdl:operation name="RecibirDatosSalvoconducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del salvonconducto]</wsdl:documentation>
+      <wsdl:input message="tns:RecibirDatosSalvoconductoHttpPostIn" />
+      <wsdl:output message="tns:RecibirDatosSalvoconductoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RecibirDatosRecursos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del recurso]</wsdl:documentation>
+      <wsdl:input message="tns:RecibirDatosRecursosHttpPostIn" />
+      <wsdl:output message="tns:RecibirDatosRecursosHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista autoridad Ambiental</wsdl:documentation>
+      <wsdl:input message="tns:ListaAprovechamientoHttpPostIn" />
+      <wsdl:output message="tns:ListaAprovechamientoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaSalvoconductoXSalvoconductoID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la informacion del Salvoconducto asociado al Salvoconducto ID</wsdl:documentation>
+      <wsdl:input message="tns:ConsultaSalvoconductoXSalvoconductoIDHttpPostIn" />
+      <wsdl:output message="tns:ConsultaSalvoconductoXSalvoconductoIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoSalvoConducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta los tipos de salvoconducto</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoSalvoConductoHttpPostIn" />
+      <wsdl:output message="tns:ListaTipoSalvoConductoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseRecurso">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las clases de recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaClaseRecursoHttpPostIn" />
+      <wsdl:output message="tns:ListaClaseRecursoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaProcedenciaLegal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las procedencias legales</wsdl:documentation>
+      <wsdl:input message="tns:ListaProcedenciaLegalHttpPostIn" />
+      <wsdl:output message="tns:ListaProcedenciaLegalHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidaMedidaTipoProducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de unidades de medida</wsdl:documentation>
+      <wsdl:input message="tns:ListaUnidaMedidaTipoProductoHttpPostIn" />
+      <wsdl:output message="tns:ListaUnidaMedidaTipoProductoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseProductoParaAprovechamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de clase de producto del recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaClaseProductoParaAprovechamientoHttpPostIn" />
+      <wsdl:output message="tns:ListaClaseProductoParaAprovechamientoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoProducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de clase de producto del recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoProductoHttpPostIn" />
+      <wsdl:output message="tns:ListaTipoProductoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaEspecie">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la lista de especies por recurso</wsdl:documentation>
+      <wsdl:input message="tns:ListaEspecieHttpPostIn" />
+      <wsdl:output message="tns:ListaEspecieHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbiental">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista autoridad Ambiental</wsdl:documentation>
+      <wsdl:input message="tns:ListaAutoridadAmbientalHttpPostIn" />
+      <wsdl:output message="tns:ListaAutoridadAmbientalHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaFormaOtorgamiento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Forma Otorgamiento</wsdl:documentation>
+      <wsdl:input message="tns:ListaFormaOtorgamientoHttpPostIn" />
+      <wsdl:output message="tns:ListaFormaOtorgamientoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporte">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Modo de Transporte</wsdl:documentation>
+      <wsdl:input message="tns:ListaModoTransporteHttpPostIn" />
+      <wsdl:output message="tns:ListaModoTransporteHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporte">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta lista Tipo de Transporte</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoTransportePorModoTransporteHttpPostIn" />
+      <wsdl:output message="tns:ListaTipoTransportePorModoTransporteHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbientalJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listas de Autoridades</wsdl:documentation>
+      <wsdl:input message="tns:ListaAutoridadAmbientalJSONHttpPostIn" />
+      <wsdl:output message="tns:ListaAutoridadAmbientalJSONHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaRecursosAprovechamientoJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta la informacion del Arpovechamiento asociado a la tarea</wsdl:documentation>
+      <wsdl:input message="tns:ListaRecursosAprovechamientoJSONHttpPostIn" />
+      <wsdl:output message="tns:ListaRecursosAprovechamientoJSONHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamentosJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los departamentos (DEP_NOMBRE,DEP_ID)</wsdl:documentation>
+      <wsdl:input message="tns:ListaDepartamentosJSONHttpPostIn" />
+      <wsdl:output message="tns:ListaDepartamentosJSONHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaMunicipiosJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los municipios del departamento (MUN_NOMBRE,MUN_ID)</wsdl:documentation>
+      <wsdl:input message="tns:ListaMunicipiosJSONHttpPostIn" />
+      <wsdl:output message="tns:ListaMunicipiosJSONHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidadMedidaPorClaseRecursoJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaUnidadMedidaPorClaseRecursoJSONHttpPostIn" />
+      <wsdl:output message="tns:ListaUnidadMedidaPorClaseRecursoJSONHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporteJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaModoTransporteJSONHttpPostIn" />
+      <wsdl:output message="tns:ListaModoTransporteJSONHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporteJSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las listas de los Tipo de productos</wsdl:documentation>
+      <wsdl:input message="tns:ListaTipoTransportePorModoTransporteJSONHttpPostIn" />
+      <wsdl:output message="tns:ListaTipoTransportePorModoTransporteJSONHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de test del servicio</wsdl:documentation>
+      <wsdl:input message="tns:TestHttpPostIn" />
+      <wsdl:output message="tns:TestHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarResolucionSUN">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Registra un nuevo cobro de autoliquidacion en VITAL]</wsdl:documentation>
+      <wsdl:input message="tns:VerificarResolucionSUNHttpPostIn" />
+      <wsdl:output message="tns:VerificarResolucionSUNHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSSUNSoap" type="tns:WSSUNSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RecibirDatosSalvoconducto">
+      <soap:operation soapAction="http://tempuri.org/RecibirDatosSalvoconducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecibirDatosRecursos">
+      <soap:operation soapAction="http://tempuri.org/RecibirDatosRecursos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarAprovechamiento">
+      <soap:operation soapAction="http://tempuri.org/RegistrarAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAprovechamiento">
+      <soap:operation soapAction="http://tempuri.org/ListaAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarSalvoconducto">
+      <soap:operation soapAction="http://tempuri.org/RegistrarSalvoconducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaSalvoconductoXSalvoconductoID">
+      <soap:operation soapAction="http://tempuri.org/ConsultaSalvoconductoXSalvoconductoID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoSalvoConducto">
+      <soap:operation soapAction="http://tempuri.org/ListaTipoSalvoConducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseRecurso">
+      <soap:operation soapAction="http://tempuri.org/ListaClaseRecurso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoAdquisicionRecurso">
+      <soap:operation soapAction="http://tempuri.org/ListaModoAdquisicionRecurso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaFinalidadRecurso">
+      <soap:operation soapAction="http://tempuri.org/ListaFinalidadRecurso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseAprovechamiento">
+      <soap:operation soapAction="http://tempuri.org/ListaClaseAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaProcedenciaLegal">
+      <soap:operation soapAction="http://tempuri.org/ListaProcedenciaLegal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidaMedidaTipoProducto">
+      <soap:operation soapAction="http://tempuri.org/ListaUnidaMedidaTipoProducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseProductoParaAprovechamiento">
+      <soap:operation soapAction="http://tempuri.org/ListaClaseProductoParaAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoProducto">
+      <soap:operation soapAction="http://tempuri.org/ListaTipoProducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaEspecie">
+      <soap:operation soapAction="http://tempuri.org/ListaEspecie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbiental">
+      <soap:operation soapAction="http://tempuri.org/ListaAutoridadAmbiental" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaFormaOtorgamiento">
+      <soap:operation soapAction="http://tempuri.org/ListaFormaOtorgamiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporte">
+      <soap:operation soapAction="http://tempuri.org/ListaModoTransporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporte">
+      <soap:operation soapAction="http://tempuri.org/ListaTipoTransportePorModoTransporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargueSaldoAprovechamiento">
+      <soap:operation soapAction="http://tempuri.org/CargueSaldoAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbientalJSON">
+      <soap:operation soapAction="http://tempuri.org/ListaAutoridadAmbientalJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaRecursosAprovechamientoJSON">
+      <soap:operation soapAction="http://tempuri.org/ListaRecursosAprovechamientoJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamentosJSON">
+      <soap:operation soapAction="http://tempuri.org/ListaDepartamentosJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMunicipiosJSON">
+      <soap:operation soapAction="http://tempuri.org/ListaMunicipiosJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidadMedidaPorClaseRecursoJSON">
+      <soap:operation soapAction="http://tempuri.org/ListaUnidadMedidaPorClaseRecursoJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporteJSON">
+      <soap:operation soapAction="http://tempuri.org/ListaModoTransporteJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporteJSON">
+      <soap:operation soapAction="http://tempuri.org/ListaTipoTransportePorModoTransporteJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarResolucionSUN">
+      <soap:operation soapAction="http://tempuri.org/VerificarResolucionSUN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSSUNSoap12" type="tns:WSSUNSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RecibirDatosSalvoconducto">
+      <soap12:operation soapAction="http://tempuri.org/RecibirDatosSalvoconducto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecibirDatosRecursos">
+      <soap12:operation soapAction="http://tempuri.org/RecibirDatosRecursos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarAprovechamiento">
+      <soap12:operation soapAction="http://tempuri.org/RegistrarAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAprovechamiento">
+      <soap12:operation soapAction="http://tempuri.org/ListaAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistrarSalvoconducto">
+      <soap12:operation soapAction="http://tempuri.org/RegistrarSalvoconducto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaSalvoconductoXSalvoconductoID">
+      <soap12:operation soapAction="http://tempuri.org/ConsultaSalvoconductoXSalvoconductoID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoSalvoConducto">
+      <soap12:operation soapAction="http://tempuri.org/ListaTipoSalvoConducto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseRecurso">
+      <soap12:operation soapAction="http://tempuri.org/ListaClaseRecurso" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoAdquisicionRecurso">
+      <soap12:operation soapAction="http://tempuri.org/ListaModoAdquisicionRecurso" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaFinalidadRecurso">
+      <soap12:operation soapAction="http://tempuri.org/ListaFinalidadRecurso" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseAprovechamiento">
+      <soap12:operation soapAction="http://tempuri.org/ListaClaseAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaProcedenciaLegal">
+      <soap12:operation soapAction="http://tempuri.org/ListaProcedenciaLegal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidaMedidaTipoProducto">
+      <soap12:operation soapAction="http://tempuri.org/ListaUnidaMedidaTipoProducto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseProductoParaAprovechamiento">
+      <soap12:operation soapAction="http://tempuri.org/ListaClaseProductoParaAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoProducto">
+      <soap12:operation soapAction="http://tempuri.org/ListaTipoProducto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaEspecie">
+      <soap12:operation soapAction="http://tempuri.org/ListaEspecie" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbiental">
+      <soap12:operation soapAction="http://tempuri.org/ListaAutoridadAmbiental" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaFormaOtorgamiento">
+      <soap12:operation soapAction="http://tempuri.org/ListaFormaOtorgamiento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporte">
+      <soap12:operation soapAction="http://tempuri.org/ListaModoTransporte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporte">
+      <soap12:operation soapAction="http://tempuri.org/ListaTipoTransportePorModoTransporte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargueSaldoAprovechamiento">
+      <soap12:operation soapAction="http://tempuri.org/CargueSaldoAprovechamiento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbientalJSON">
+      <soap12:operation soapAction="http://tempuri.org/ListaAutoridadAmbientalJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaRecursosAprovechamientoJSON">
+      <soap12:operation soapAction="http://tempuri.org/ListaRecursosAprovechamientoJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamentosJSON">
+      <soap12:operation soapAction="http://tempuri.org/ListaDepartamentosJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMunicipiosJSON">
+      <soap12:operation soapAction="http://tempuri.org/ListaMunicipiosJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidadMedidaPorClaseRecursoJSON">
+      <soap12:operation soapAction="http://tempuri.org/ListaUnidadMedidaPorClaseRecursoJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporteJSON">
+      <soap12:operation soapAction="http://tempuri.org/ListaModoTransporteJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporteJSON">
+      <soap12:operation soapAction="http://tempuri.org/ListaTipoTransportePorModoTransporteJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarResolucionSUN">
+      <soap12:operation soapAction="http://tempuri.org/VerificarResolucionSUN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSSUNHttpGet" type="tns:WSSUNHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="RecibirDatosSalvoconducto">
+      <http:operation location="/RecibirDatosSalvoconducto" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecibirDatosRecursos">
+      <http:operation location="/RecibirDatosRecursos" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAprovechamiento">
+      <http:operation location="/ListaAprovechamiento" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaSalvoconductoXSalvoconductoID">
+      <http:operation location="/ConsultaSalvoconductoXSalvoconductoID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoSalvoConducto">
+      <http:operation location="/ListaTipoSalvoConducto" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseRecurso">
+      <http:operation location="/ListaClaseRecurso" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaProcedenciaLegal">
+      <http:operation location="/ListaProcedenciaLegal" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidaMedidaTipoProducto">
+      <http:operation location="/ListaUnidaMedidaTipoProducto" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseProductoParaAprovechamiento">
+      <http:operation location="/ListaClaseProductoParaAprovechamiento" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoProducto">
+      <http:operation location="/ListaTipoProducto" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaEspecie">
+      <http:operation location="/ListaEspecie" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbiental">
+      <http:operation location="/ListaAutoridadAmbiental" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaFormaOtorgamiento">
+      <http:operation location="/ListaFormaOtorgamiento" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporte">
+      <http:operation location="/ListaModoTransporte" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporte">
+      <http:operation location="/ListaTipoTransportePorModoTransporte" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbientalJSON">
+      <http:operation location="/ListaAutoridadAmbientalJSON" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaRecursosAprovechamientoJSON">
+      <http:operation location="/ListaRecursosAprovechamientoJSON" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamentosJSON">
+      <http:operation location="/ListaDepartamentosJSON" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMunicipiosJSON">
+      <http:operation location="/ListaMunicipiosJSON" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidadMedidaPorClaseRecursoJSON">
+      <http:operation location="/ListaUnidadMedidaPorClaseRecursoJSON" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporteJSON">
+      <http:operation location="/ListaModoTransporteJSON" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporteJSON">
+      <http:operation location="/ListaTipoTransportePorModoTransporteJSON" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <http:operation location="/Test" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarResolucionSUN">
+      <http:operation location="/VerificarResolucionSUN" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSSUNHttpPost" type="tns:WSSUNHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="RecibirDatosSalvoconducto">
+      <http:operation location="/RecibirDatosSalvoconducto" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecibirDatosRecursos">
+      <http:operation location="/RecibirDatosRecursos" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAprovechamiento">
+      <http:operation location="/ListaAprovechamiento" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaSalvoconductoXSalvoconductoID">
+      <http:operation location="/ConsultaSalvoconductoXSalvoconductoID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoSalvoConducto">
+      <http:operation location="/ListaTipoSalvoConducto" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseRecurso">
+      <http:operation location="/ListaClaseRecurso" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaProcedenciaLegal">
+      <http:operation location="/ListaProcedenciaLegal" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidaMedidaTipoProducto">
+      <http:operation location="/ListaUnidaMedidaTipoProducto" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaClaseProductoParaAprovechamiento">
+      <http:operation location="/ListaClaseProductoParaAprovechamiento" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoProducto">
+      <http:operation location="/ListaTipoProducto" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaEspecie">
+      <http:operation location="/ListaEspecie" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbiental">
+      <http:operation location="/ListaAutoridadAmbiental" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaFormaOtorgamiento">
+      <http:operation location="/ListaFormaOtorgamiento" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporte">
+      <http:operation location="/ListaModoTransporte" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporte">
+      <http:operation location="/ListaTipoTransportePorModoTransporte" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaAutoridadAmbientalJSON">
+      <http:operation location="/ListaAutoridadAmbientalJSON" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaRecursosAprovechamientoJSON">
+      <http:operation location="/ListaRecursosAprovechamientoJSON" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamentosJSON">
+      <http:operation location="/ListaDepartamentosJSON" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMunicipiosJSON">
+      <http:operation location="/ListaMunicipiosJSON" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaUnidadMedidaPorClaseRecursoJSON">
+      <http:operation location="/ListaUnidadMedidaPorClaseRecursoJSON" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaModoTransporteJSON">
+      <http:operation location="/ListaModoTransporteJSON" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaTipoTransportePorModoTransporteJSON">
+      <http:operation location="/ListaTipoTransportePorModoTransporteJSON" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <http:operation location="/Test" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarResolucionSUN">
+      <http:operation location="/VerificarResolucionSUN" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSSUN">
+    <wsdl:port name="WSSUNSoap" binding="tns:WSSUNSoap">
+      <soap:address location="http://vital.anla.gov.co:8182/WSSUN.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSSUNSoap12" binding="tns:WSSUNSoap12">
+      <soap12:address location="http://vital.anla.gov.co:8182/WSSUN.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSSUNHttpGet" binding="tns:WSSUNHttpGet">
+      <http:address location="http://vital.anla.gov.co:8182/WSSUN.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSSUNHttpPost" binding="tns:WSSUNHttpPost">
+      <http:address location="http://vital.anla.gov.co:8182/WSSUN.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSSolInformcionAdicional" targetNamespace="http://tempuri.org/DSSolInformcionAdicional.xsd" xmlns:mstns="http://tempuri.org/DSSolInformcionAdicional.xsd" xmlns="http://tempuri.org/DSSolInformcionAdicional.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSSolInformcionAdicional" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSSolInformcionAdicional" msprop:Generator_DataSetName="DSSolInformcionAdicional" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FORMULARIO" msprop:Generator_UserTableName="FORMULARIO" msprop:Generator_RowDeletedName="FORMULARIORowDeleted" msprop:Generator_RowChangedName="FORMULARIORowChanged" msprop:Generator_RowClassName="FORMULARIORow" msprop:Generator_RowChangingName="FORMULARIORowChanging" msprop:Generator_RowEvArgName="FORMULARIORowChangeEvent" msprop:Generator_RowEvHandlerName="FORMULARIORowChangeEventHandler" msprop:Generator_TableClassName="FORMULARIODataTable" msprop:Generator_TableVarName="tableFORMULARIO" msprop:Generator_RowDeletingName="FORMULARIORowDeleting" msprop:Generator_TablePropName="FORMULARIO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdFormulario" msprop:Generator_UserColumnName="IdFormulario" msprop:Generator_ColumnPropNameInRow="IdFormulario" msprop:Generator_ColumnVarNameInTable="columnIdFormulario" msprop:Generator_ColumnPropNameInTable="IdFormularioColumn" type="xs:string" />
+              <xs:element name="Número_VITAL_del_Trámite_4586" msprop:Generator_UserColumnName="Número_VITAL_del_Trámite_4586" msprop:Generator_ColumnPropNameInRow="Número_VITAL_del_Trámite_4586" msprop:Generator_ColumnVarNameInTable="columnNúmero_VITAL_del_Trámite_4586" msprop:Generator_ColumnPropNameInTable="Número_VITAL_del_Trámite_4586Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo_de_Documento_4587" msprop:Generator_UserColumnName="Tipo_de_Documento_4587" msprop:Generator_ColumnPropNameInRow="Tipo_de_Documento_4587" msprop:Generator_ColumnVarNameInTable="columnTipo_de_Documento_4587" msprop:Generator_ColumnPropNameInTable="Tipo_de_Documento_4587Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Requiere_Notificación_4588" msprop:Generator_UserColumnName="Requiere_Notificación_4588" msprop:Generator_ColumnPropNameInRow="Requiere_Notificación_4588" msprop:Generator_ColumnVarNameInTable="columnRequiere_Notificación_4588" msprop:Generator_ColumnPropNameInTable="Requiere_Notificación_4588Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Formulario_Id" msprop:Generator_UserColumnName="Formulario_Id" msprop:Generator_ColumnVarNameInTable="columnFormulario_Id" msprop:Generator_ColumnPropNameInRow="Formulario_Id" msprop:Generator_ColumnPropNameInTable="Formulario_IdColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

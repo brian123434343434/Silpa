@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:ns0="http://www.ideam.gov.co/snif/registrarmovilizacion/" targetNamespace="http://www.ideam.gov.co/snif/registrarmovilizacion/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Auditoria" type="ns0:Auditoria" />
+  <xsd:element name="MovilizacionRequest" type="ns0:MovilizacionRequest" />
+  <xsd:element name="MovilizacionResponse" type="ns0:MovilizacionResponse" />
+  <xsd:complexType name="Auditoria">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="SistemaSolicitud" type="xsd:string" />
+      <xsd:element minOccurs="0" name="AutoridadAmbiental" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoNumeroTransaccion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Dependencia" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Usuario" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MovilizacionRequest">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="InfoGralAA" type="ns0:InfoGralAA" />
+      <xsd:element minOccurs="0" name="InfoUsuarioRecurso" type="ns0:InfoUsuarioRecurso" />
+      <xsd:element minOccurs="0" name="InfoGralMovilizacion" type="ns0:InfoGralMovilizacion" />
+      <xsd:element minOccurs="0" name="SUN" type="ns0:SUN" />
+      <xsd:element minOccurs="0" name="InfoGeografica" type="ns0:InfoGeografica" />
+      <xsd:element minOccurs="0" name="EspeciesAmparadasSalvoconducto" type="ns0:EspeciesAmparadasSalvoconducto" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoGralAA">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CodigoAutoridad" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Dependencia" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Funcionario" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Correo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Telefono" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoUsuarioRecurso">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CodigoTipoPersona" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoTipoIdentificacion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Identificacion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="RazonSocial" type="xsd:string" />
+      <xsd:element minOccurs="0" name="PrimerNombre" type="xsd:string" />
+      <xsd:element minOccurs="0" name="SegundoNombre" type="xsd:string" />
+      <xsd:element minOccurs="0" name="PrimerApellido" type="xsd:string" />
+      <xsd:element minOccurs="0" name="SegundoApellido" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CorreoElectronico" type="xsd:string" />
+      <xsd:element minOccurs="0" name="TelefonoFijo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Celular" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Direccion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoDepartamento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoMunicipio" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoGralMovilizacion">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="NumeroActoAdministrativoMovilizacion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="FinalidadRecurso" type="xsd:string" />
+      <xsd:element minOccurs="0" name="NumeroSUN" type="xsd:string" />
+      <xsd:element minOccurs="0" name="FechaExpedicionSUN" type="xsd:string" />
+      <xsd:element minOccurs="0" name="FechaVencimientoSUN" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoTipoSUN" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoMedioTransporte" type="xsd:string" />
+      <xsd:element minOccurs="0" name="NumeroSUNAnterior" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SUN">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="NombreConductor" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoTipoDocumento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="NumeroDocumento" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoTipoVehiculo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="PlacaVehiculo" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoGeografica">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CodigoDepartamentoOrigenProducto" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoMunicipioOrigenProducto" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoDepartamentoDestinoProducto" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoMunicipioDestinoProducto" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="EspeciesAmparadasSalvoconducto">
+    <xsd:sequence>
+      <xsd:element minOccurs="1" maxOccurs="unbounded" name="Especie" nillable="true" type="ns0:Especie" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Especie">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CodigoNombreCientifico" type="xsd:string" />
+      <xsd:element minOccurs="0" name="NombreComun" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoClaseRecurso" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoTipoProductoMaderable" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoClaseProductoMaderableRollizo" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoClaseProductoMaderableAserrado" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoTipoProductoNoMaderable" type="xsd:string" />
+      <xsd:element minOccurs="0" name="CodigoUnidadMedida" type="xsd:string" />
+      <xsd:element minOccurs="0" name="VolumenBrutoMovidoMaderable" type="xsd:string" />
+      <xsd:element minOccurs="0" name="VolumenBrutoMovidoNoMaderable" type="xsd:string" />
+      <xsd:element minOccurs="0" name="PorcentajeDesperdicio" type="xsd:string" />
+      <xsd:element minOccurs="0" name="VolumenDesperdicio" type="xsd:string" />
+      <xsd:element minOccurs="0" name="VolumenDisponibleMover" type="xsd:string" />
+      <xsd:element minOccurs="0" name="Observaciones" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MovilizacionResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Exitoso" type="xsd:boolean" />
+      <xsd:element minOccurs="0" name="CodigoError" type="xsd:string" />
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="MensajeError" nillable="true" type="xsd:string" />
+      <xsd:element minOccurs="0" name="IdentificadorCargue" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConsultaInscritosAudiencia" targetNamespace="http://tempuri.org/ConsultaInscritosAudiencia.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/ConsultaInscritosAudiencia.xsd" xmlns:mstns="http://tempuri.org/ConsultaInscritosAudiencia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="InscritosAudienciaConsultaType">
+    <xs:sequence>
+      <xs:element name="IdInscrito" type="xs:string" />
+      <xs:element name="NombreInscrito" type="xs:string" />
+      <xs:element name="ApellidoInscrito" type="xs:string" />
+      <xs:element name="CorreoInscrito" type="xs:string" />
+      <xs:element name="CedulaInscrito" type="xs:string" />
+      <xs:element name="LugarExpedicion" type="xs:string" />
+      <xs:element name="EntidadComunidad" type="xs:string" />
+      <xs:element name="AprobadoInscrito" type="xs:boolean" />
+      <xs:element name="Motivo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="consultaInscritos" type="InscritosAudienciaConsultaType">
+  </xs:element>
+</xs:schema>

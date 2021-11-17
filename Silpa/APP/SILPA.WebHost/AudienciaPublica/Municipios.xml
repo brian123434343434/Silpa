@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<municipios>
+  <city id="0" name="Seleccione..." />
+  <city id="141" name="Abejorral" />
+  <city id="75" name="Acacias" />
+  <city id="161" name="Agrado" />
+  <city id="50" name="Agua Chica" />
+  <city id="152" name="Aguadas" />
+  <city id="171" name="Aldana" />
+  <city id="23" name="Amagá" />
+  <city id="142" name="Amalfi" />
+  <city id="180" name="Andes" />
+  <city id="138" name="Angelópolis" />
+  <city id="149" name="Anserma" />
+  <city id="9" name="Apartadó" />
+  <city id="39" name="Arjona" />
+  <city id="88" name="Armenia" />
+  <city id="54" name="Ayapel" />
+  <city id="175" name="Barbosa" />
+  <city id="91" name="Barrancabermeja" />
+  <city id="34" name="Barranquilla" />
+  <city id="6" name="Bello" />
+  <city id="177" name="Belmira" />
+  <city id="178" name="Betulia" />
+  <city id="2" name="Bogota" />
+  <city id="179" name="Briseño" />
+  <city id="92" name="Bucaramanga" />
+  <city id="107" name="Buenaventura" />
+  <city id="172" name="Buesaco" />
+  <city id="112" name="Buga" />
+  <city id="181" name="Caicedo" />
+  <city id="69" name="Calamar" />
+  <city id="182" name="Calarcá" />
+  <city id="8" name="Caldas" />
+  <city id="106" name="Cali" />
+  <city id="162" name="Campo Alegre" />
+  <city id="128" name="Cañas Gordas" />
+  <city id="32" name="Carepa" />
+  <city id="42" name="Carmen de Bolivar" />
+  <city id="41" name="Cartagena" />
+  <city id="109" name="Cartago" />
+  <city id="16" name="Caucasia" />
+  <city id="60" name="Cereté" />
+  <city id="157" name="Chia" />
+  <city id="134" name="Chigorodó" />
+  <city id="95" name="Cimitarra" />
+  <city id="183" name="Cisneros" />
+  <city id="26" name="Ciudad Bolivar" />
+  <city id="184" name="Copacabana" />
+  <city id="98" name="Corozal" />
+  <city id="81" name="Cúcuta" />
+  <city id="173" name="Cumbal" />
+  <city id="121" name="Don Matias" />
+  <city id="13" name="Doradal" />
+  <city id="90" name="Dosquebradas" />
+  <city id="43" name="Duitama" />
+  <city id="14" name="El Bagre" />
+  <city id="71" name="El Banco" />
+  <city id="126" name="El Carmen de Viboral" />
+  <city id="103" name="El Espinal" />
+  <city id="198" name="EL Peñol" />
+  <city id="129" name="El Retiro" />
+  <city id="156" name="El Rosal" />
+  <city id="137" name="El Santuario" />
+  <city id="165" name="El Tambo" />
+  <city id="17" name="Entrerrios" />
+  <city id="10" name="Envigado" />
+  <city id="147" name="Filadelfia" />
+  <city id="185" name="Finlandia" />
+  <city id="47" name="Florencia" />
+  <city id="93" name="Floridablanca" />
+  <city id="24" name="Fredonia" />
+  <city id="213" name="Fresno" />
+  <city id="205" name="Frontino" />
+  <city id="70" name="Fundación" />
+  <city id="155" name="Fusagasuga" />
+  <city id="160" name="Garzón" />
+  <city id="62" name="Girardot" />
+  <city id="186" name="Girardota" />
+  <city id="187" name="Giron" />
+  <city id="124" name="Gómez Plata" />
+  <city id="127" name="Granada ANT" />
+  <city id="74" name="Granada MET" />
+  <city id="170" name="Gualmatán" />
+  <city id="72" name="Guamal" />
+  <city id="188" name="Guarne" />
+  <city id="102" name="Honda" />
+  <city id="104" name="Ibagué" />
+  <city id="79" name="Ipiales" />
+  <city id="52" name="Istmina" />
+  <city id="3" name="Itaguí" />
+  <city id="110" name="Jamundí" />
+  <city id="133" name="Jericó" />
+  <city id="132" name="La Ceja" />
+  <city id="46" name="La Dorada" />
+  <city id="131" name="La Estrella" />
+  <city id="80" name="La Florida" />
+  <city id="84" name="La Hormiga" />
+  <city id="29" name="La Pintada" />
+  <city id="11" name="La Unión ANT" />
+  <city id="204" name="La Unión NAR" />
+  <city id="203" name="La Unión SUC" />
+  <city id="189" name="La Unión SUCRE " />
+  <city id="211" name="La Virginia" />
+  <city id="212" name="Lebrijal" />
+  <city id="167" name="Linares" />
+  <city id="59" name="Loríca" />
+  <city id="118" name="Maceo" />
+  <city id="40" name="Magangué" />
+  <city id="64" name="Maicao" />
+  <city id="45" name="Manizales" />
+  <city id="38" name="Maria la Baja" />
+  <city id="120" name="Marinilla" />
+  <city id="105" name="Mariquita" />
+  <city id="150" name="Marquetalia" />
+  <city id="5" name="Medellín" />
+  <city id="202" name="Mitú" />
+  <city id="86" name="Mocoa" />
+  <city id="36" name="Mompós" />
+  <city id="56" name="Montelíbano" />
+  <city id="57" name="Montería" />
+  <city id="159" name="Mosquera" />
+  <city id="190" name="Necoclí" />
+  <city id="65" name="Neiva" />
+  <city id="82" name="Ocaña" />
+  <city id="176" name="Palermo" />
+  <city id="113" name="Palmira" />
+  <city id="76" name="Pasto" />
+  <city id="89" name="Pereira" />
+  <city id="96" name="Piedecuesta" />
+  <city id="66" name="Pitalito" />
+  <city id="58" name="Planeta Rica" />
+  <city id="191" name="Plato" />
+  <city id="49" name="Popayán" />
+  <city id="125" name="Pueblo Rico" />
+  <city id="83" name="Puerto Asís" />
+  <city id="12" name="Puerto Berrio" />
+  <city id="44" name="Puerto Boyacá" />
+  <city id="115" name="Puerto López" />
+  <city id="153" name="Puerto Tejada" />
+  <city id="192" name="Puerto Triunfo " />
+  <city id="193" name="Puerto Wilches " />
+  <city id="53" name="Quibdó" />
+  <city id="194" name="Quimbaya" />
+  <city id="63" name="Riohacha" />
+  <city id="7" name="Rionegro" />
+  <city id="111" name="Roldanillo" />
+  <city id="206" name="Sabanalarga" />
+  <city id="21" name="Sabaneta" />
+  <city id="55" name="Sahagún" />
+  <city id="119" name="San Carlos" />
+  <city id="174" name="San Diego" />
+  <city id="94" name="San Gil" />
+  <city id="195" name="San Jerónimo" />
+  <city id="30" name="San José de la Montaña" />
+  <city id="37" name="San Juan de Nepomuceno" />
+  <city id="99" name="San Marcos" />
+  <city id="116" name="San Martín" />
+  <city id="100" name="San Onofre" />
+  <city id="20" name="San Pedro" />
+  <city id="25" name="San Roque" />
+  <city id="166" name="Sandoria" />
+  <city id="130" name="Santa Bárbara" />
+  <city id="154" name="Santa Cecilia" />
+  <city id="19" name="Santa Fe de Antioquia" />
+  <city id="68" name="Santa Marta" />
+  <city id="18" name="Santa Rosa de Osos" />
+  <city id="136" name="Santo Domingo" />
+  <city id="15" name="Segovia" />
+  <city id="87" name="Sibundoy" />
+  <city id="97" name="Sincelejo" />
+  <city id="158" name="Soacha" />
+  <city id="117" name="Sogamoso" />
+  <city id="35" name="Soledad" />
+  <city id="139" name="Sonsón" />
+  <city id="22" name="Sopetrán" />
+  <city id="197" name="Tame" />
+  <city id="27" name="Tarazá" />
+  <city id="61" name="Tierralta" />
+  <city id="108" name="Tulua" />
+  <city id="145" name="Tunja" />
+  <city id="78" name="Tuquerres" />
+  <city id="143" name="Turbaco" />
+  <city id="31" name="Turbo" />
+  <city id="77" name="umaco" />
+  <city id="200" name="Valdivia" />
+  <city id="51" name="Valledupar" />
+  <city id="209" name="Valparaiso" />
+  <city id="85" name="Villagarzón" />
+  <city id="73" name="Villavicencio" />
+  <city id="151" name="Viterbo" />
+  <city id="210" name="Yalí" />
+  <city id="28" name="Yarumal" />
+  <city id="135" name="Yolombó" />
+  <city id="48" name="Yopal" />
+  <city id="196" name="Yumbo" />
+  <city id="114" name="Zarzál" />
+</municipios>

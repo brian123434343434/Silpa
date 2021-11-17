@@ -1,0 +1,31 @@
+.nodo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #A79F8D !important;
+	width: 100%;
+	background-image: url(../../Images/iconos/bgitem.jpg);
+	background-repeat: no-repeat;
+}
+.nodo a{
+	text-indent: 10px;
+	background-image: none;
+}
+.nodo a:hover {
+	text-indent: 10px;
+	background-image: none;
+	color: #BDB7AA !important;
+}
+.selected_Nodo
+{
+	background-image: url(../../Images/iconos/bg_selected.jpg);
+	background-repeat: no-repeat;
+	color:#000000  !important;
+	}
+
+.Tree table{
+	/*background-color: #FF0000;*/
+	width: 100%;
+}
+.Tree table div table{
+	background-color: transparent;
+}

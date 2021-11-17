@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<version>
+  <proyecto nombre ="ServiciosSilpa" version ="1.0.0.0" actualizado= "29/06/2009 16:27" autor ="HAVA" descripcion="Se crea el archivo de versionamiento, para incluirlo en el general de la solución"/>
+  <proyecto nombre ="ServiciosSilpa" version ="1.0.0.1" actualizado= "10/07/2010 16:27" autor ="mirm" descripcion="Se separó el servicio de notificacion de los demás"/>
+</version>

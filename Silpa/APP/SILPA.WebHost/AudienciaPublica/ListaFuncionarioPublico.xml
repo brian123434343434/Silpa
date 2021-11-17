@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<funcionario>
+  <item requiereinscripcion="0" id ="0" nombre="seleccione..."/>
+    <item requiereinscripcion="0" id ="1" nombre="Representante legal de la autoridad ambiental competente" extension="y los demás funcionarios que para tal efecto se deleguen o designen."/>
+  <item requiereinscripcion= "0" id ="2" nombre="Representante(s) de las personas naturales o jurídicas" extension="que hayan solicitado la realización de la audiencia."/>
+  <item requiereinscripcion= "0" id ="3" nombre="Procurador General de la Nación" extension="el Procurador Delegado para Asuntos Ambientales y Agrarios o los Procuradores Judiciales Ambientales y Agrarios o sus delegados."/>
+  <item requiereinscripcion= "0" id ="4" nombre="Defensor del Pueblo." extension=" o su delegado"/>
+  <item requiereinscripcion= "0" id ="5" nombre="Gobernador del departamento" extension="donde se encuentre o pretenda localizarse el proyecto o sus delegados."/>
+  <item requiereinscripcion= "0" id ="6" nombre="Alcalde del municipio / distrito" extension="donde se encuentre o pretenda localizarse el proyecto o sus delegados."/>
+  <item requiereinscripcion= "0" id ="7" nombre="Personero municipal o distrital" extension="o su delegado."/>
+  <item requiereinscripcion= "0" id ="8" nombre="Los representantes de las autoridades ambientales" extension="con jurisdicción en el sitio donde se desarrolla o pretende desarrollarse el proyecto, obra o actividad o sus delegados."/>
+  <item requiereinscripcion= "0" id ="9" nombre="Los directores de los institutos de investigación científica" extension="adscritos y vinculados al Ministerio de Ambiente, Vivienda y Desarrollo Territorial o sus delegados"/>
+  <item requiereinscripcion= "0" id ="10" nombre="El peticionario de la licencia o permiso ambiental" extension=""/>
+  <item requiereinscripcion= "0" id ="11" nombre="El peticionario de la licencia o permiso ambiental" extension=""/>
+  <item requiereinscripcion= "1" id ="12" nombre="Otras autoridades públicas" extension=""/>
+  <item requiereinscripcion= "1" id ="13" nombre="Expertos y organizaciones comunitarias y/o ambientales." extension=""/>
+  <item requiereinscripcion= "1" id ="14" nombre="Personas naturales o jurídicas" extension=""/>
+</funcionario>

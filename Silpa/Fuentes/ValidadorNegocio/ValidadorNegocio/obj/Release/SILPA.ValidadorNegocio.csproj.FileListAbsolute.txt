@@ -1,0 +1,10 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Release\SILPA.ValidadorNegocio.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Release\SILPA.ValidadorNegocio.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Release\SILPA.Validador.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\bin\Release\SILPA.Validador.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Release\SILPA.ValidadorNegocio.csprojResolveAssemblyReference.cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Release\SILPA.ValidadorNegocio.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\ValidadorNegocio\ValidadorNegocio\obj\Release\SILPA.ValidadorNegocio.pdb

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSRecepcionSolicitudTramite" targetNamespace="http://tempuri.org/DSRecepcionSolicitudTramite.xsd" xmlns:mstns="http://tempuri.org/DSRecepcionSolicitudTramite.xsd" xmlns="http://tempuri.org/DSRecepcionSolicitudTramite.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSRecepcionSolicitudTramite" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSRecepcionSolicitudTramite" msprop:Generator_UserDSName="DSRecepcionSolicitudTramite">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DtRecepcionSolicitudTramite" msprop:Generator_TableClassName="DtRecepcionSolicitudTramiteDataTable" msprop:Generator_TableVarName="tableDtRecepcionSolicitudTramite" msprop:Generator_TablePropName="DtRecepcionSolicitudTramite" msprop:Generator_RowDeletingName="DtRecepcionSolicitudTramiteRowDeleting" msprop:Generator_RowChangingName="DtRecepcionSolicitudTramiteRowChanging" msprop:Generator_RowEvHandlerName="DtRecepcionSolicitudTramiteRowChangeEventHandler" msprop:Generator_RowDeletedName="DtRecepcionSolicitudTramiteRowDeleted" msprop:Generator_UserTableName="DtRecepcionSolicitudTramite" msprop:Generator_RowChangedName="DtRecepcionSolicitudTramiteRowChanged" msprop:Generator_RowEvArgName="DtRecepcionSolicitudTramiteRowChangeEvent" msprop:Generator_RowClassName="DtRecepcionSolicitudTramiteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mensaje" msprop:Generator_ColumnVarNameInTable="columnMensaje" msprop:Generator_ColumnPropNameInRow="Mensaje" msprop:Generator_ColumnPropNameInTable="MensajeColumn" msprop:Generator_UserColumnName="Mensaje" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DtRadicacionSolcitudTramite" msprop:Generator_TableClassName="DtRadicacionSolcitudTramiteDataTable" msprop:Generator_TableVarName="tableDtRadicacionSolcitudTramite" msprop:Generator_TablePropName="DtRadicacionSolcitudTramite" msprop:Generator_RowDeletingName="DtRadicacionSolcitudTramiteRowDeleting" msprop:Generator_RowChangingName="DtRadicacionSolcitudTramiteRowChanging" msprop:Generator_RowEvHandlerName="DtRadicacionSolcitudTramiteRowChangeEventHandler" msprop:Generator_RowDeletedName="DtRadicacionSolcitudTramiteRowDeleted" msprop:Generator_UserTableName="DtRadicacionSolcitudTramite" msprop:Generator_RowChangedName="DtRadicacionSolcitudTramiteRowChanged" msprop:Generator_RowEvArgName="DtRadicacionSolcitudTramiteRowChangeEvent" msprop:Generator_RowClassName="DtRadicacionSolcitudTramiteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mensaje" msprop:Generator_ColumnVarNameInTable="columnMensaje" msprop:Generator_ColumnPropNameInRow="Mensaje" msprop:Generator_ColumnPropNameInTable="MensajeColumn" msprop:Generator_UserColumnName="Mensaje" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

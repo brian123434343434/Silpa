@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59AB864F-4CDF-4B20-93FC-780679737955}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SILPA.Servicios</RootNamespace>
+    <AssemblyName>SILPA.Servicios</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audiencia\AudienciaFachada.cs" />
+    <Compile Include="BPMProcess\BPMProcess.cs" />
+    <Compile Include="BPMProcess\Entidades\RadicadoSolicitudTramiteEntity.cs" />
+    <Compile Include="BPMProcess\Entidades\RespuestaWsConsultaRegistrosRadicarSigproEntity.cs" />
+    <Compile Include="CesionDerechos\CesionFechada.cs" />
+    <Compile Include="Comunicacion\ComunicacionEEFachada.cs" />
+    <Compile Include="Comunicacion\ComunicacionReunionFachada.cs" />
+    <Compile Include="Comunicacion\ComunicacionVisitaFachada.cs" />
+    <Compile Include="DAASolicitud\DAASolicitudFacade.cs" />
+    <Compile Include="DAASolicitud\Entidades\DAASolicitudAutoridad.cs" />
+    <Compile Include="DAASolicitud\Entidades\DAASolicitudAutoridades.cs" />
+    <Compile Include="DAASolicitud\Entidades\DAASolicitudesReasignacion.cs" />
+    <Compile Include="DAASolicitud\Entidades\DAASolicitudEstadosReasignacion.cs" />
+    <Compile Include="DAASolicitud\Entidades\DAASolicitudReasignacion.cs" />
+    <Compile Include="DAASolicitud\Entidades\DAASolicitudRespuesta.cs" />
+    <Compile Include="DAASolicitud\Entidades\DAASolicitudTramite.cs" />
+    <Compile Include="DAASolicitud\Enum\CodigoRespuestaEnum.cs" />
+    <Compile Include="Generico\ArctividadBPMFachada.cs" />
+    <Compile Include="Generico\CobroFachada.cs" />
+    <Compile Include="Generico\Entidades\PersonaRegistroEntity.cs" />
+    <Compile Include="Generico\Entidades\PersonaRespuestaEntity.cs" />
+    <Compile Include="Generico\Entidades\PersonaRespuestaRegistroEntity.cs" />
+    <Compile Include="Generico\Enum\PersonaRespuestaEnum.cs" />
+    <Compile Include="Generico\PersonaRegistroFachada.cs" />
+    <Compile Include="Generico\ProcesoFachada.cs" />
+    <Compile Include="Generico\ReporteTramites.cs" />
+    <Compile Include="Generico\TipoUsuario.cs" />
+    <Compile Include="ImpresionFUS\ImpresionFUSFachada.cs" />
+    <Compile Include="IntegracionCorporacion\Entidades\InformacionUsuarioEntity.cs" />
+    <Compile Include="IntegracionCorporacion\IntegracionCorporacionFacade.cs" />
+    <Compile Include="Liquidacion\AutoliquidacionFachada.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionArchivoEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionCobroEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionDatosMicroTablaEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionDatosPermisosEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionDetalle0324Entity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionDetalle633Entity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionLiquidacionEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionPermisoCobroEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionPermisoEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionRespuestaEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionSolicitudEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionTiquetesEntity.cs" />
+    <Compile Include="Liquidacion\Entidades\AutoliquidacionUbicacionEntity.cs" />
+    <Compile Include="Notificacion\NotificacionElectronica.cs" />
+    <Compile Include="Notificacion\NotificacionFachada.cs" />
+    <Compile Include="PINES\Alarmas.cs" />
+    <Compile Include="Publicacion\PublicacionFachada.cs" />
+    <Compile Include="RUIA\RUIAEjecutoriaFachada.cs" />
+    <Compile Include="RUIA\RUIAFachada.cs" />
+    <Compile Include="Salvoconducto\SalvoconductoFachada.cs" />
+    <Compile Include="Sancionatorio\SancionatorioFachada.cs" />
+    <Compile Include="SolicitudDAA\SolicitudFachada.cs" />
+    <Compile Include="Generico\RadicarDocumento\AnexarDocumentacionFachada.cs" />
+    <Compile Include="Generico\RadicarDocumento\RadicacionDocumentoFachada.cs" />
+    <Compile Include="Generico\Persona.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\UsuarioFachada.cs" />
+    <Compile Include="Web References\BPMServices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/silpa/bpm/services/bpmservices.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\BPMServices\</RelPath>
+      <UpdateFromURL>http://localhost/silpa/bpm/services/bpmservices.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SILPA_Servicios_BPMServices_Gattaca_x0020_BPM_x0020_Services_x0020_9_0_0_0</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\BPMServices\bpmservices.disco" />
+    <None Include="Web References\BPMServices\bpmservices.wsdl" />
+    <None Include="Web References\BPMServices\ListItem.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\BPMServices\ProcessAttributeEntity.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\BPMServices\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VersionServicios.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AudienciaPublica\" />
+    <Folder Include="Licencias\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AccesoDatos\SILPA.AccesoDatos\SILPA.AccesoDatos.csproj">
+      <Project>{7d373a3b-29ed-45c8-9632-282dc389ee34}</Project>
+      <Name>SILPA.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Comun\SILPA.Comun\SILPA.Comun.csproj">
+      <Project>{b83dcaac-2e52-4dd6-8849-982019703fed}</Project>
+      <Name>SILPA.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogicaNegocio\SILPA.LogicaNegocio\SILPA.LogicaNegocio.csproj">
+      <Project>{fb6a4f35-7058-4a64-80ce-5a8ebba5cf1e}</Project>
+      <Name>SILPA.LogicaNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\Silpa.Workflow.csproj">
+      <Project>{52935ac4-3a43-4778-8f73-f98ca396a3cc}</Project>
+      <Name>Silpa.Workflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\SoftManagement.Log.csproj">
+      <Project>{8dae3f18-176d-4bf6-afc7-f243055d9005}</Project>
+      <Name>SoftManagement.Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

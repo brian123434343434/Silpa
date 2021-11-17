@@ -1,0 +1,114 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csprojResolveAssemblyReference.cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Encriptador.resources
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Properties.Resources.resources
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csproj.GenerateResource.Cache
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.exe
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraException.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraUtils.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ToVerifyObject.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.pdb
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.exe
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.exe
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraException.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraUtils.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ToVerifyObject.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.pdb
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csprojResolveAssemblyReference.cache
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Encriptador.resources
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Properties.Resources.resources
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csproj.GenerateResource.Cache
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.exe
+D:\jneva\Trabajo\Proyectos\Migracion VITAL\EntregasFuentes\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.exe
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraException.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraUtils.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ToVerifyObject.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.pdb
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csprojResolveAssemblyReference.cache
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Encriptador.resources
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Properties.Resources.resources
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csproj.GenerateResource.Cache
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.exe
+D:\jneva\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.exe
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ToVerifyObject.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraException.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraUtils.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.pdb
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csprojResolveAssemblyReference.cache
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Encriptador.resources
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Properties.Resources.resources
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csproj.GenerateResource.Cache
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.exe
+D:\MADS\Fuentes GIT\Fuentes Vital\Master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.exe
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraException.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraUtils.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ToVerifyObject.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.pdb
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csprojResolveAssemblyReference.cache
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Encriptador.resources
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Properties.Resources.resources
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csproj.GenerateResource.Cache
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.exe
+C:\JNeva\Trabajo\Ministerio\Repositorio\Produccion\vitalunounificado\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.exe
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.AplicativoEncripcion.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraException.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\CerticamaraUtils.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ToVerifyObject.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SILPA.Comun.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\bin\Debug\SoftManagement.Log.pdb
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csprojResolveAssemblyReference.cache
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Encriptador.resources
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.Properties.Resources.resources
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.csproj.GenerateResource.Cache
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.exe
+E:\Oficina MADS\FUENTES\master\Silpa\SILPA\APP\AplicativoEncripcion\SILPA.AplicativoEncripcion\obj\Debug\SILPA.AplicativoEncripcion.pdb

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="documentoXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_x005B_RecibirActoAdministrativoEIA-01_x005D_Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="_x005B_RecibirActoAdministrativoEIA-01_x005D_Result" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="actoAdm" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerDatosAdjuntos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXmlDatos" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerDatosAdjuntosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerDatosAdjuntosResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_x005B_EnviarDatosRadicacion_x005D_">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXmlDatos" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_x005B_EnviarDatosRadicacion_x005D_Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_x005B_EnviarDatosRadicacion_x005D_Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="_x005B_RecibirActoAdministrativoEIA-01_x005D_SoapIn">
+    <wsdl:part name="parameters" element="tns:_x005B_RecibirActoAdministrativoEIA-01_x005D_" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_RecibirActoAdministrativoEIA-01_x005D_SoapOut">
+    <wsdl:part name="parameters" element="tns:_x005B_RecibirActoAdministrativoEIA-01_x005D_Response" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_SoapIn">
+    <wsdl:part name="parameters" element="tns:_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_SoapOut">
+    <wsdl:part name="parameters" element="tns:_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_Response" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerDatosAdjuntosSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosAdjuntos" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerDatosAdjuntosSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosAdjuntosResponse" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_EnviarDatosRadicacion_x005D_SoapIn">
+    <wsdl:part name="parameters" element="tns:_x005B_EnviarDatosRadicacion_x005D_" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_EnviarDatosRadicacion_x005D_SoapOut">
+    <wsdl:part name="parameters" element="tns:_x005B_EnviarDatosRadicacion_x005D_Response" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_RecibirActoAdministrativoEIA-01_x005D_HttpGetIn">
+    <wsdl:part name="documentoXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_RecibirActoAdministrativoEIA-01_x005D_HttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_HttpGetIn">
+    <wsdl:part name="actoAdm" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerDatosAdjuntosHttpGetIn">
+    <wsdl:part name="strXmlDatos" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerDatosAdjuntosHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_EnviarDatosRadicacion_x005D_HttpGetIn">
+    <wsdl:part name="strXmlDatos" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_EnviarDatosRadicacion_x005D_HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_RecibirActoAdministrativoEIA-01_x005D_HttpPostIn">
+    <wsdl:part name="documentoXML" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_RecibirActoAdministrativoEIA-01_x005D_HttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_HttpPostIn">
+    <wsdl:part name="actoAdm" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerDatosAdjuntosHttpPostIn">
+    <wsdl:part name="strXmlDatos" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerDatosAdjuntosHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_EnviarDatosRadicacion_x005D_HttpPostIn">
+    <wsdl:part name="strXmlDatos" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="_x005B_EnviarDatosRadicacion_x005D_HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WSPQ03Soap">
+    <wsdl:operation name="RecibirDocumento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del Documento (Acto Administrativo u Oficio) de la Autoridad Ambiental para ser expuestos o emitidos según corresponda ]</wsdl:documentation>
+      <wsdl:input name="_x005B_RecibirActoAdministrativoEIA-01_x005D_" message="tns:_x005B_RecibirActoAdministrativoEIA-01_x005D_SoapIn" />
+      <wsdl:output name="_x005B_RecibirActoAdministrativoEIA-01_x005D_" message="tns:_x005B_RecibirActoAdministrativoEIA-01_x005D_SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EmitirDocumento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Consume un servicio del sistema de notificación en línea por medio de PDI para entregar los datos para el proceso de notificación de un Acto Administrativo]</wsdl:documentation>
+      <wsdl:input name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_" message="tns:_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_SoapIn" />
+      <wsdl:output name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_" message="tns:_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosAdjuntos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Expone la información y datos enviados por el solicitante, tercero interviniente o quejoso para que la AA correspondiente los consuma]</wsdl:documentation>
+      <wsdl:input message="tns:ObtenerDatosAdjuntosSoapIn" />
+      <wsdl:output message="tns:ObtenerDatosAdjuntosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarDatosRadicacion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[La Autoridad Ambiental Envía la informacion del numero y fecha de radicación para una solicitud o Documento ]</wsdl:documentation>
+      <wsdl:input name="_x005B_EnviarDatosRadicacion_x005D_" message="tns:_x005B_EnviarDatosRadicacion_x005D_SoapIn" />
+      <wsdl:output name="_x005B_EnviarDatosRadicacion_x005D_" message="tns:_x005B_EnviarDatosRadicacion_x005D_SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSPQ03HttpGet">
+    <wsdl:operation name="RecibirDocumento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del Documento (Acto Administrativo u Oficio) de la Autoridad Ambiental para ser expuestos o emitidos según corresponda ]</wsdl:documentation>
+      <wsdl:input name="_x005B_RecibirActoAdministrativoEIA-01_x005D_" message="tns:_x005B_RecibirActoAdministrativoEIA-01_x005D_HttpGetIn" />
+      <wsdl:output name="_x005B_RecibirActoAdministrativoEIA-01_x005D_" message="tns:_x005B_RecibirActoAdministrativoEIA-01_x005D_HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EmitirDocumento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Consume un servicio del sistema de notificación en línea por medio de PDI para entregar los datos para el proceso de notificación de un Acto Administrativo]</wsdl:documentation>
+      <wsdl:input name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_" message="tns:_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_HttpGetIn" />
+      <wsdl:output name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_" message="tns:_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosAdjuntos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Expone la información y datos enviados por el solicitante, tercero interviniente o quejoso para que la AA correspondiente los consuma]</wsdl:documentation>
+      <wsdl:input message="tns:ObtenerDatosAdjuntosHttpGetIn" />
+      <wsdl:output message="tns:ObtenerDatosAdjuntosHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarDatosRadicacion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[La Autoridad Ambiental Envía la informacion del numero y fecha de radicación para una solicitud o Documento ]</wsdl:documentation>
+      <wsdl:input name="_x005B_EnviarDatosRadicacion_x005D_" message="tns:_x005B_EnviarDatosRadicacion_x005D_HttpGetIn" />
+      <wsdl:output name="_x005B_EnviarDatosRadicacion_x005D_" message="tns:_x005B_EnviarDatosRadicacion_x005D_HttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSPQ03HttpPost">
+    <wsdl:operation name="RecibirDocumento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Recibe los datos del Documento (Acto Administrativo u Oficio) de la Autoridad Ambiental para ser expuestos o emitidos según corresponda ]</wsdl:documentation>
+      <wsdl:input name="_x005B_RecibirActoAdministrativoEIA-01_x005D_" message="tns:_x005B_RecibirActoAdministrativoEIA-01_x005D_HttpPostIn" />
+      <wsdl:output name="_x005B_RecibirActoAdministrativoEIA-01_x005D_" message="tns:_x005B_RecibirActoAdministrativoEIA-01_x005D_HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EmitirDocumento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Consume un servicio del sistema de notificación en línea por medio de PDI para entregar los datos para el proceso de notificación de un Acto Administrativo]</wsdl:documentation>
+      <wsdl:input name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_" message="tns:_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_HttpPostIn" />
+      <wsdl:output name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_" message="tns:_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosAdjuntos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[Expone la información y datos enviados por el solicitante, tercero interviniente o quejoso para que la AA correspondiente los consuma]</wsdl:documentation>
+      <wsdl:input message="tns:ObtenerDatosAdjuntosHttpPostIn" />
+      <wsdl:output message="tns:ObtenerDatosAdjuntosHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarDatosRadicacion">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">[La Autoridad Ambiental Envía la informacion del numero y fecha de radicación para una solicitud o Documento ]</wsdl:documentation>
+      <wsdl:input name="_x005B_EnviarDatosRadicacion_x005D_" message="tns:_x005B_EnviarDatosRadicacion_x005D_HttpPostIn" />
+      <wsdl:output name="_x005B_EnviarDatosRadicacion_x005D_" message="tns:_x005B_EnviarDatosRadicacion_x005D_HttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSPQ03Soap" type="tns:WSPQ03Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RecibirDocumento">
+      <soap:operation soapAction="http://tempuri.org/[RecibirActoAdministrativoEIA-01]" style="document" />
+      <wsdl:input name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmitirDocumento">
+      <soap:operation soapAction="http://tempuri.org/[CU-GN-01 Emitir Documento]" style="document" />
+      <wsdl:input name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosAdjuntos">
+      <soap:operation soapAction="http://tempuri.org/ObtenerDatosAdjuntos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarDatosRadicacion">
+      <soap:operation soapAction="http://tempuri.org/[EnviarDatosRadicacion]" style="document" />
+      <wsdl:input name="_x005B_EnviarDatosRadicacion_x005D_">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_EnviarDatosRadicacion_x005D_">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSPQ03Soap12" type="tns:WSPQ03Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RecibirDocumento">
+      <soap12:operation soapAction="http://tempuri.org/[RecibirActoAdministrativoEIA-01]" style="document" />
+      <wsdl:input name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmitirDocumento">
+      <soap12:operation soapAction="http://tempuri.org/[CU-GN-01 Emitir Documento]" style="document" />
+      <wsdl:input name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosAdjuntos">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerDatosAdjuntos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarDatosRadicacion">
+      <soap12:operation soapAction="http://tempuri.org/[EnviarDatosRadicacion]" style="document" />
+      <wsdl:input name="_x005B_EnviarDatosRadicacion_x005D_">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_EnviarDatosRadicacion_x005D_">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSPQ03HttpGet" type="tns:WSPQ03HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="RecibirDocumento">
+      <http:operation location="/[RecibirActoAdministrativoEIA-01]" />
+      <wsdl:input name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmitirDocumento">
+      <http:operation location="/[CU-GN-01 Emitir Documento]" />
+      <wsdl:input name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosAdjuntos">
+      <http:operation location="/ObtenerDatosAdjuntos" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarDatosRadicacion">
+      <http:operation location="/[EnviarDatosRadicacion]" />
+      <wsdl:input name="_x005B_EnviarDatosRadicacion_x005D_">
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output name="_x005B_EnviarDatosRadicacion_x005D_">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSPQ03HttpPost" type="tns:WSPQ03HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="RecibirDocumento">
+      <http:operation location="/[RecibirActoAdministrativoEIA-01]" />
+      <wsdl:input name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_RecibirActoAdministrativoEIA-01_x005D_">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmitirDocumento">
+      <http:operation location="/[CU-GN-01 Emitir Documento]" />
+      <wsdl:input name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_CU-GN-01_x0020_Emitir_x0020_Documento_x005D_">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosAdjuntos">
+      <http:operation location="/ObtenerDatosAdjuntos" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarDatosRadicacion">
+      <http:operation location="/[EnviarDatosRadicacion]" />
+      <wsdl:input name="_x005B_EnviarDatosRadicacion_x005D_">
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output name="_x005B_EnviarDatosRadicacion_x005D_">
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSPQ03">
+    <wsdl:port name="WSPQ03Soap" binding="tns:WSPQ03Soap">
+      <soap:address location="http://192.168.0.3:8182/WSPQ03.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSPQ03Soap12" binding="tns:WSPQ03Soap12">
+      <soap12:address location="http://192.168.0.3:8182/WSPQ03.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSPQ03HttpGet" binding="tns:WSPQ03HttpGet">
+      <http:address location="http://192.168.0.3:8182/WSPQ03.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSPQ03HttpPost" binding="tns:WSPQ03HttpPost">
+      <http:address location="http://192.168.0.3:8182/WSPQ03.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

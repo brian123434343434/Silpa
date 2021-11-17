@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<departamentos>
+  <depto id="0" name="Seleccione..." />
+  <depto id="33" name="Amazonas" />
+  <depto id="5" name="Antioquia" />
+  <depto id="31" name="Arauca" />
+  <depto id="7" name="Atlántico" />
+  <depto id="8" name="Bolivar" />
+  <depto id="9" name="Boyacá" />
+  <depto id="10" name="Caldas" />
+  <depto id="11" name="Caquetá" />
+  <depto id="12" name="Casanare" />
+  <depto id="13" name="Cauca" />
+  <depto id="14" name="Cesar" />
+  <depto id="6" name="Chocó" />
+  <depto id="15" name="Córdoba" />
+  <depto id="4" name="Cundinamarca" />
+  <depto id="16" name="Guajira" />
+  <depto id="17" name="Huila" />
+  <depto id="18" name="Ibagué" />
+  <depto id="19" name="Magdalena" />
+  <depto id="20" name="Meta" />
+  <depto id="21" name="Nariño" />
+  <depto id="22" name="Norte de Santander" />
+  <depto id="23" name="Putumayo" />
+  <depto id="24" name="Quindio" />
+  <depto id="25" name="Risaralda" />
+  <depto id="26" name="Santander" />
+  <depto id="27" name="Sucre" />
+  <depto id="28" name="Tolima" />
+  <depto id="29" name="Valle del Cauca" />
+  <depto id="32" name="Vaupés" />
+  </departamentos>

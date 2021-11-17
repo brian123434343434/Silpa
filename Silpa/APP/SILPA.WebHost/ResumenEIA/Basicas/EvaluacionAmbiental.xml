@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<evaluacionAmbiental>
+	<autoridad_ambiental AUT_ID="0" AUT_NOMBRE="Seleccione..." />
+	<autoridad_ambiental AUT_ID="1" AUT_NOMBRE="Geotecnia" />
+	<autoridad_ambiental AUT_ID="2" AUT_NOMBRE="Suelos" />
+	<autoridad_ambiental AUT_ID="3" AUT_NOMBRE="Calidad de Fuentes de Agua" />
+	<autoridad_ambiental AUT_ID="4" AUT_NOMBRE="Calidad del Aire" />
+	<autoridad_ambiental AUT_ID="5" AUT_NOMBRE="Ecosistemas Terrestres" />
+	<autoridad_ambiental AUT_ID="6" AUT_NOMBRE="Cobertura Vegetal" />
+	<autoridad_ambiental AUT_ID="7" AUT_NOMBRE="Ecosistemas Acuáticos" />
+	<autoridad_ambiental AUT_ID="8" AUT_NOMBRE="Ecosistemas Marinos" />
+	<autoridad_ambiental AUT_ID="9" AUT_NOMBRE="Componente Socioeconómico" />
+	<autoridad_ambiental AUT_ID="10" AUT_NOMBRE="Otros Componentes Adicionales" />
+</evaluacionAmbiental>

@@ -1,0 +1,16 @@
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\SoftManagement.LogWS.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\SoftManagement.LogWS.pdb
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\obj\Debug\SoftManagement.LogWS.dll
+D:\ProyectosHava\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\obj\Debug\SoftManagement.LogWS.pdb
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\SoftManagement.LogWS.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\SoftManagement.LogWS.pdb
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\obj\Debug\SoftManagement.LogWS.dll
+D:\Proyectos\SILPA_REPOSITORIO_NUEVO\SILPA_PREPRODUCCION\SILPA\Fuentes\SoftManagement\SoftManagement.LogWS\SoftManagement.LogWS\obj\Debug\SoftManagement.LogWS.pdb

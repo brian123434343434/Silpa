@@ -1,0 +1,12 @@
+obj\Debug\ToVerifyObjectExample.exe
+obj\Debug\ToVerifyObjectExample.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ToVerifyObjectExample.Properties.Resources.resources
+obj\Debug\ToVerifyObjectExample.ToVerifyObjectExampleMainForm.resources
+obj\Debug\ToVerifyObjectExample.csproj.GenerateResource.Cache
+bin\Debug\ToVerifyObjectExample.exe
+bin\Debug\ToVerifyObjectExample.pdb
+bin\Debug\CerticamaraException.dll
+bin\Debug\CerticamaraUtils.dll
+bin\Debug\ToVerifyObject.dll
+bin\Debug\ToVerifyObjectExample.exe.config

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+ADVERTENCIA: NO MODIFIQUE el archivo, se usa para el proceso de publicación web.
+
+Copyright (C) Microsoft Corporation. Reservados todos los derechos.
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f92adc91-7c9e-40c4-81a6-0bbeb5cd59d3}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/SILPA.WebHost</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebMetabasePath>
+    </SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Fuentes\AccesoDatos\SILPA.AccesoDatos\SILPA.AccesoDatos.csproj">
+      <Project>{7D373A3B-29ED-45C8-9632-282DC389EE34}</Project>
+      <Name>SILPA.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\Auditoria\Auditoria\Auditoria.csproj">
+      <Project>{B87C12BA-FAA5-4188-932D-818D440C8922}</Project>
+      <Name>Auditoria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\ComunSeguridad\Seguridad\SILPA.ComunSeguridad.csproj">
+      <Project>{14F3448C-16DC-4785-9C2F-1D63082BF605}</Project>
+      <Name>SILPA.ComunSeguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\Comun\SILPA.Comun\SILPA.Comun.csproj">
+      <Project>{B83DCAAC-2E52-4DD6-8849-982019703FED}</Project>
+      <Name>SILPA.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\Encriptar\Encriptar.csproj">
+      <Project>{A4604D96-4540-4F0E-BBF7-E05B17E7EA4E}</Project>
+      <Name>Encriptar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\LogicaNegocio\SILPA.LogicaNegocio\SILPA.LogicaNegocio.csproj">
+      <Project>{FB6A4F35-7058-4A64-80CE-5A8EBBA5CF1E}</Project>
+      <Name>SILPA.LogicaNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\Referenciador\Referenciador.csproj">
+      <Project>{14BECED3-EE5B-4D00-84B3-BF07E47ADC70}</Project>
+      <Name>Referenciador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\Servicios\SILPA.Servicios\SILPA.Servicios.csproj">
+      <Project>{59AB864F-4CDF-4B20-93FC-780679737955}</Project>
+      <Name>SILPA.Servicios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\SMValidador\SILPA.Validador.csproj">
+      <Project>{FB92520B-8DBB-4E87-827A-AA8EB8B0C1CE}</Project>
+      <Name>SILPA.Validador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\SoftManagement\Silpa.Workflow\Modulos\Silpa.Workflow\Silpa.Workflow.csproj">
+      <Project>{52935AC4-3A43-4778-8F73-F98CA396A3CC}</Project>
+      <Name>Silpa.Workflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\SoftManagement\SoftManagement.CorreoElectronico\Modulos\SoftManagement.CorreoElectronico\SoftManagement.CorreoElectronico.csproj">
+      <Project>{1559B086-F375-46EB-A513-B78161375845}</Project>
+      <Name>SoftManagement.CorreoElectronico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\SoftManagement\SoftManagement.Log\Modulos\SoftManagement.Log\SoftManagement.Log.csproj">
+      <Project>{8DAE3F18-176D-4BF6-AFC7-F243055D9005}</Project>
+      <Name>SoftManagement.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\SoftManagement\SoftManagement.Persistencia\SoftManagement.Persistencia.csproj">
+      <Project>{96A2F873-E203-4178-8AFD-60207CD410BB}</Project>
+      <Name>SoftManagement.Persistencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Fuentes\ValidadorNegocio\ValidadorNegocio\SILPA.ValidadorNegocio.csproj">
+      <Project>{ADE52370-1101-4540-93E6-988348049D7E}</Project>
+      <Name>SILPA.ValidadorNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>

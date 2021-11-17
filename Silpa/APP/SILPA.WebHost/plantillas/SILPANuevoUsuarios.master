@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SILPANuevoUsuarios.master.cs" Inherits="SILPANuevoUsuarios" %>
+
+<%@ Register Src="~/controles/User.ascx" TagName="User" TagPrefix="uc4" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="~/BUC/skin/SSnuevoUsuarios.css" type="text/css" media="screen" runat="server" />
+    <script src="../js/jquery-3.1.1.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="contenedor-mains">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="contenedor-centro">
+            <div class="panel-heading" style="background-color: #383838 !important;">
+                <div class="col-md-4">
+                    <asp:Label ID="lblFecha" runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                    <asp:Label ID="lblInfoImpers" runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+                </div>
+                <div class="col-md-4">
+                    <uc4:User ID="ucUserData" runat="server" />
+                </div>
+                <br />
+            </div>
+            <div class="col-md-4">
+                <asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+                <asp:LinkButton ID="lnkFinalizarImpersonalizacion" runat="server" Visible="False" 
+                    Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"
+                    Font-Bold="true" Font-Underline="true" 
+                    OnClick="lnkFinalizarImpersonalizacion_Click">Finalizar Modo Funcionario</asp:LinkButton>
+            </div>
+            <div class="panel-body">
+                <asp:ContentPlaceHolder ID="Contenido" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

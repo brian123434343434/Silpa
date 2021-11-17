@@ -1,0 +1,2 @@
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\obj\Release\Referenciador.dll
+D:\FuentesSVN\branches\desarrollos\SeparacionVitalV1\Silpa\SILPA\Fuentes\Referenciador\obj\Release\Referenciador.pdb

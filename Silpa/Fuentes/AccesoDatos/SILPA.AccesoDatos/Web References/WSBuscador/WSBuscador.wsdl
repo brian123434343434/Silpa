@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ConsultarDetalleExpedienteSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="parametroBusqueda" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarDetalleExpedienteSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultarDetalleExpedienteSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarExpedientesAsociadosSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_exp_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarExpedientesAsociadosSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarExpedientesAsociadosSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarEtapasExpedienteSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_exp_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarEtapasExpedienteSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarEtapasExpedienteSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarInstanciasActosValidaNotificacionSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_exp_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_etapa" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarInstanciasActosValidaNotificacionSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarInstanciasActosValidaNotificacionSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarInstanciasActosSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_exp_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_tar_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_nombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_etapa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="str_tipos_acto" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarInstanciasActosSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarInstanciasActosSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarArchivosForestExpedienteSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str_exp_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarArchivosForestExpedienteSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarArchivosForestExpedienteSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarDocumentosDSSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="int_dird_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarDocumentosDSSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listarDocumentosDSSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDirectoriosDocumentoTareaSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="int_tar_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDirectoriosDocumentoTareaSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarDirectoriosDocumentoTareaSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDirectoriosDocumentoSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="int_dir_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarDirectoriosDocumentoSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarDirectoriosDocumentoSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarDocumentosSila">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="int_dird_id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listarDocumentosSilaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listarDocumentosSilaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsultarDetalleExpedienteSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultarDetalleExpedienteSila" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarDetalleExpedienteSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultarDetalleExpedienteSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarExpedientesAsociadosSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarExpedientesAsociadosSila" />
+  </wsdl:message>
+  <wsdl:message name="ListarExpedientesAsociadosSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarExpedientesAsociadosSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarEtapasExpedienteSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarEtapasExpedienteSila" />
+  </wsdl:message>
+  <wsdl:message name="ListarEtapasExpedienteSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarEtapasExpedienteSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarInstanciasActosValidaNotificacionSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarInstanciasActosValidaNotificacionSila" />
+  </wsdl:message>
+  <wsdl:message name="ListarInstanciasActosValidaNotificacionSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarInstanciasActosValidaNotificacionSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarInstanciasActosSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarInstanciasActosSila" />
+  </wsdl:message>
+  <wsdl:message name="ListarInstanciasActosSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarInstanciasActosSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivosForestExpedienteSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarArchivosForestExpedienteSila" />
+  </wsdl:message>
+  <wsdl:message name="ListarArchivosForestExpedienteSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarArchivosForestExpedienteSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="listarDocumentosDSSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:listarDocumentosDSSila" />
+  </wsdl:message>
+  <wsdl:message name="listarDocumentosDSSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:listarDocumentosDSSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarDirectoriosDocumentoTareaSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarDirectoriosDocumentoTareaSila" />
+  </wsdl:message>
+  <wsdl:message name="ListarDirectoriosDocumentoTareaSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarDirectoriosDocumentoTareaSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarDirectoriosDocumentoSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarDirectoriosDocumentoSila" />
+  </wsdl:message>
+  <wsdl:message name="ListarDirectoriosDocumentoSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarDirectoriosDocumentoSilaResponse" />
+  </wsdl:message>
+  <wsdl:message name="listarDocumentosSilaSoapIn">
+    <wsdl:part name="parameters" element="tns:listarDocumentosSila" />
+  </wsdl:message>
+  <wsdl:message name="listarDocumentosSilaSoapOut">
+    <wsdl:part name="parameters" element="tns:listarDocumentosSilaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WSBuscadorSoap">
+    <wsdl:operation name="ConsultarDetalleExpedienteSila">
+      <wsdl:input message="tns:ConsultarDetalleExpedienteSilaSoapIn" />
+      <wsdl:output message="tns:ConsultarDetalleExpedienteSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarExpedientesAsociadosSila">
+      <wsdl:input message="tns:ListarExpedientesAsociadosSilaSoapIn" />
+      <wsdl:output message="tns:ListarExpedientesAsociadosSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarEtapasExpedienteSila">
+      <wsdl:input message="tns:ListarEtapasExpedienteSilaSoapIn" />
+      <wsdl:output message="tns:ListarEtapasExpedienteSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarInstanciasActosValidaNotificacionSila">
+      <wsdl:input message="tns:ListarInstanciasActosValidaNotificacionSilaSoapIn" />
+      <wsdl:output message="tns:ListarInstanciasActosValidaNotificacionSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarInstanciasActosSila">
+      <wsdl:input message="tns:ListarInstanciasActosSilaSoapIn" />
+      <wsdl:output message="tns:ListarInstanciasActosSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivosForestExpedienteSila">
+      <wsdl:input message="tns:ListarArchivosForestExpedienteSilaSoapIn" />
+      <wsdl:output message="tns:ListarArchivosForestExpedienteSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listarDocumentosDSSila">
+      <wsdl:input message="tns:listarDocumentosDSSilaSoapIn" />
+      <wsdl:output message="tns:listarDocumentosDSSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarDirectoriosDocumentoTareaSila">
+      <wsdl:input message="tns:ListarDirectoriosDocumentoTareaSilaSoapIn" />
+      <wsdl:output message="tns:ListarDirectoriosDocumentoTareaSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarDirectoriosDocumentoSila">
+      <wsdl:input message="tns:ListarDirectoriosDocumentoSilaSoapIn" />
+      <wsdl:output message="tns:ListarDirectoriosDocumentoSilaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listarDocumentosSila">
+      <wsdl:input message="tns:listarDocumentosSilaSoapIn" />
+      <wsdl:output message="tns:listarDocumentosSilaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSBuscadorSoap" type="tns:WSBuscadorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultarDetalleExpedienteSila">
+      <soap:operation soapAction="http://tempuri.org/ConsultarDetalleExpedienteSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarExpedientesAsociadosSila">
+      <soap:operation soapAction="http://tempuri.org/ListarExpedientesAsociadosSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarEtapasExpedienteSila">
+      <soap:operation soapAction="http://tempuri.org/ListarEtapasExpedienteSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarInstanciasActosValidaNotificacionSila">
+      <soap:operation soapAction="http://tempuri.org/ListarInstanciasActosValidaNotificacionSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarInstanciasActosSila">
+      <soap:operation soapAction="http://tempuri.org/ListarInstanciasActosSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivosForestExpedienteSila">
+      <soap:operation soapAction="http://tempuri.org/ListarArchivosForestExpedienteSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarDocumentosDSSila">
+      <soap:operation soapAction="http://tempuri.org/listarDocumentosDSSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDirectoriosDocumentoTareaSila">
+      <soap:operation soapAction="http://tempuri.org/ListarDirectoriosDocumentoTareaSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDirectoriosDocumentoSila">
+      <soap:operation soapAction="http://tempuri.org/ListarDirectoriosDocumentoSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarDocumentosSila">
+      <soap:operation soapAction="http://tempuri.org/listarDocumentosSila" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSBuscadorSoap12" type="tns:WSBuscadorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultarDetalleExpedienteSila">
+      <soap12:operation soapAction="http://tempuri.org/ConsultarDetalleExpedienteSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarExpedientesAsociadosSila">
+      <soap12:operation soapAction="http://tempuri.org/ListarExpedientesAsociadosSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarEtapasExpedienteSila">
+      <soap12:operation soapAction="http://tempuri.org/ListarEtapasExpedienteSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarInstanciasActosValidaNotificacionSila">
+      <soap12:operation soapAction="http://tempuri.org/ListarInstanciasActosValidaNotificacionSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarInstanciasActosSila">
+      <soap12:operation soapAction="http://tempuri.org/ListarInstanciasActosSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarArchivosForestExpedienteSila">
+      <soap12:operation soapAction="http://tempuri.org/ListarArchivosForestExpedienteSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarDocumentosDSSila">
+      <soap12:operation soapAction="http://tempuri.org/listarDocumentosDSSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDirectoriosDocumentoTareaSila">
+      <soap12:operation soapAction="http://tempuri.org/ListarDirectoriosDocumentoTareaSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDirectoriosDocumentoSila">
+      <soap12:operation soapAction="http://tempuri.org/ListarDirectoriosDocumentoSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarDocumentosSila">
+      <soap12:operation soapAction="http://tempuri.org/listarDocumentosSila" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSBuscador">
+    <wsdl:port name="WSBuscadorSoap" binding="tns:WSBuscadorSoap">
+      <soap:address location="http://localhost:3545/WSBuscador.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSBuscadorSoap12" binding="tns:WSBuscadorSoap12">
+      <soap12:address location="http://localhost:3545/WSBuscador.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

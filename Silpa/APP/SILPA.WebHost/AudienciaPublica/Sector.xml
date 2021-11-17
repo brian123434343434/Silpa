@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sector>
+<item Nombre ="Seleccione..."/>
+<item Nombre ="Agroquimicos"/>
+<item Nombre ="Eléctrico"/>
+<item Nombre ="Hidrocarburos"/>
+<item Nombre ="Infraestructura"/>
+<item Nombre ="Minería"/>
+<item Nombre ="Otros sectores"/>
+</sector>

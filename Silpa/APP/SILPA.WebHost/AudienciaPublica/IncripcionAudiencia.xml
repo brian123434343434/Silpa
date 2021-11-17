@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<inscripcionaudiencia>
+  <item numaudiencia ="AUD-200909200236"
+        Proyecto ="ONG Venezuela"
+        expediente="CAS0009"
+        entidad="ONG Venezuela"
+        fecha_reunión_informativa="23/10/2009"
+        fecha_reunión_audiencia_publica="13/11/2009"
+        link ="~/AudienciaPublica/InscripcionAudienciaPublica_II.aspx"/>
+  <item numaudiencia ="AUD-200909200238"
+        Proyecto ="ONG Ecuador"
+        expediente="CAS0010"
+        entidad="ONG Venezuela"
+        fecha_reunión_informativa="24/10/2009"
+        fecha_reunión_audiencia_publica="12/11/2009"
+        link ="~/AudienciaPublica/InscripcionAudienciaPublica_II.aspx"/>
+  <item numaudiencia ="AUD-200909200240"
+        Proyecto ="ONG EEUU"
+        expediente="CAS0011"
+        entidad="ONG Venezuela"
+        fecha_reunión_informativa="16/10/2009"
+        fecha_reunión_audiencia_publica="28/10/2009"
+        link ="~/AudienciaPublica/InscripcionAudienciaPublica_II.aspx"/>
+</inscripcionaudiencia>

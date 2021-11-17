@@ -1,0 +1,48 @@
+﻿protected void btnAgregarSitMonitRuido_Click(object sender, EventArgs e)
+    {
+        addRegistroSitMonitRuido();
+    }
+	protected void cargarGrillaSitMonitRuido()
+    {
+        dsGrilla = new DataSet();
+        List<SqlParameter> parametrosConsulta = new List<SqlParameter>();
+        SqlParameter ParametroCarga = new SqlParameter("@EIC_ID", SqlDbType.Int, 10, "EIP_ID");
+        ParametroCarga.Value = IdProyecto;
+        parametrosConsulta.Add(ParametroCarga);
+        Contexto.cargarTabla(parametrosConsulta, dsGrilla, "EIH_SitMonitRuido_MEDIO_ABIOTICO");
+        this.grvSitMonitRuido.DataSource = dsGrilla.Tables[0];
+        this.grvSitMonitRuido.DataBind();
+    }
+
+    protected void addRegistroSitMonitRuido()
+    {
+        cargarGrillaSitMonitRuido();
+        DataRow dr = dsGrilla.Tables[0].NewRow();
+        dr["EIP_ID"] = IdProyecto;
+        dr["EGM_CODIGO_MAPA"] = txtCodigoMapaSitMonitRuido.Text;
+        dr["EGM_UNIDADES_LITOLOGICAS"] = txtUnidLitoAreaGeografia.Text;
+        dr["EGM_RASGOS_ESTRUCTURALES"] = txtRasgosEstrucSitMonitRuido.Text;
+        dr["EGM_CARACT_UNIDAD_LITOLOGICA"] = txtCaracUnidLitoSitMonitRuido.Text;
+        dr["EGM_CARACT_HIDRO_GEOLOGICAS"] = txtCaracHidroGeografia.Text;
+        dsGrilla.Tables[0].Rows.Add(dr);
+        Contexto.guardarTabla(dsGrilla, "EIH_SitMonitRuido_MEDIO_ABIOTICO");
+        this.txtCodigoMapaSitMonitRuido.Text = "";
+        this.txtUnidLitoAreaGeografia.Text = "";
+        this.txtRasgosEstrucSitMonitRuido.Text = "";
+        this.txtCaracUnidLitoSitMonitRuido.Text = "";
+        this.txtCaracHidroGeografia.Text = "";
+        cargarGrillaSitMonitRuido();
+    }
+
+    protected void grvSitMonitRuido_RowDeleting(object sender, GridViewDeleteEventArgs e)
+    {
+        eliminarRegistroSitMonitRuido(e.RowIndex);
+    }
+
+    protected void eliminarRegistroSitMonitRuido(int index)
+    {
+        cargarGrillaSitMonitRuido();
+        this.dsGrilla.Tables[0].Rows[index].Delete();
+        Contexto.guardarTabla(dsGrilla, "EIH_SitMonitRuido_MEDIO_ABIOTICO");
+        cargarGrillaSitMonitRuido();
+    }
